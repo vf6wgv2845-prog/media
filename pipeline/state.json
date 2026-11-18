@@ -16,30 +16,32 @@
  "series": {
   "theo": {
    "title": "Theo: 30 days until he sees his ex at the Christmas party",
-   "day": 1,
-   "last_post_date": "2026-11-17",
-   "last_media_id": "18117857639600392",
-   "image": "theo_scruffy.jpg",
-   "image_note": "Visual upgrades need Leonardo (only in live sessions with Boris). Cloud runs keep the current image and show progress through stats/story.",
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "17942848926393909",
+   "image": "theo_d02_clearskin.jpg",
+   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical.",
    "stats": {
     "Hair": 2,
-    "Skin": 3,
+    "Skin": 7,
     "Style": 1,
-    "Confidence": 2
+    "Confidence": 3
    },
-   "upgrades_so_far": [],
+   "upgrades_so_far": [
+    "Day 2: clear skin (3 votes for #2, unanimous)"
+   ],
    "open_vote": {
-    "question": "What should he fix first?",
+    "question": "What's next for Theo?",
     "options": [
      "Fix the hair",
-     "Clear the skin",
      "Fix the eyebrows",
      "New fit",
-     "Hit the gym"
+     "Hit the gym",
+     "DM Maya"
     ]
    },
    "cast": {
-    "Maya": "his ex, hosting/attending the Christmas party; new boyfriend is coming"
+    "Maya": "his ex; Day 2: viewed his selfie story twice. New boyfriend coming to the party."
    },
    "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
    "voice_live": "ElevenLabs Roger (live sessions only)",
@@ -67,28 +69,28 @@
     "S3: 60 days recruiting, audience picks school",
     "S4: college season, then the draft"
    ],
-   "day": 1,
-   "last_post_date": "2026-11-17",
-   "last_media_id": "18031176905701112",
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "18117406376026496",
    "image": "malik.jpg",
    "school": "Riverview High Eagles",
    "position": "guard",
    "age": 16,
    "stats": {
-    "Shooting": 4,
+    "Shooting": 5,
     "Handles": 5,
     "Defense": 3,
     "Basketball IQ": 6,
-    "Confidence": 2
+    "Confidence": 3
    },
    "open_vote": {
-    "question": "What does he work on first?",
+    "question": "Tyler's spot is open. What does Malik do?",
     "options": [
-     "Shooting",
-     "Handles",
-     "Defense",
-     "Get stronger",
-     "Watch film"
+     "Take it, no hesitation",
+     "Talk to Tyler first",
+     "Earn it in practice",
+     "Turn it down",
+     "Take it + call out Dez"
     ]
    },
    "cast": {
@@ -116,13 +118,17 @@
      "#basketballstory",
      "#hooplife"
     ]
-   }
+   },
+   "story_so_far": [
+    "Day 1: cut from varsity; Dez mocked him; Tyler made varsity",
+    "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside"
+   ]
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
-   "day": 1,
-   "last_post_date": "2026-11-17",
-   "last_media_id": "18287433169295397",
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "18170306005487278",
    "image": "rosie.jpg",
    "age": 19,
    "job": "line cook",
@@ -130,17 +136,17 @@
     "Knife skills": 6,
     "Flavor": 7,
     "Plating": 3,
-    "Speed": 5,
-    "Confidence": 3
+    "Speed": 4,
+    "Confidence": 2
    },
    "open_vote": {
-    "question": "Her first practice dish?",
+    "question": "Her next practice dish?",
     "options": [
-     "Fresh pasta",
      "Birria tacos",
      "Ramen",
      "Steak frites",
-     "Chocolate souffle"
+     "Chocolate souffle",
+     "Dumplings"
     ]
    },
    "cast": {
@@ -167,12 +173,27 @@
      "#recipeoftheday",
      "#cheapmeals"
     ]
-   }
+   },
+   "story_so_far": [
+    "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
+    "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)"
+   ]
   }
  },
  "extras": {
   "sports": "2-3x/week 'Who you got?' debate carousels (text/stat graphics only, NO photos of real players). Verify every stat with web search first.",
   "cooking": "Recipe posts presented as Rosie's dishes; AI photo noted in caption."
  },
- "hashtag_log": []
+ "hashtag_log": [
+  {
+   "date": "2026-11-17",
+   "note": "Day 1 posts had 6-7 tags (over limit). Day 1 reels after ~16h: Theo 263 views/4 likes/3 comments, skip 53%; Malik 278 views/2 likes/1 comment, skip 54%; Rosie 110 views, skip 58%. Carousels 0 reach. -> favour Reels; hooks must land in first second."
+  },
+  {
+   "date": "2026-11-18",
+   "theo": "#TheosGlowUp #glowup #glowupchallenge #skincare #3danimation",
+   "malik": "#MalikRowe #basketball #hoops #underdog #3danimation",
+   "rosie": "#RosiesKitchen #freshpasta #homemadepasta #cookoff #3danimation"
+  }
+ ]
 }
