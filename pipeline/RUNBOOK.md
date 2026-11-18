@@ -36,8 +36,20 @@ Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to
 
 ## 5. Publish
 Copy outputs into the repo (`malik/s1dNN.mp4`, `rosie/dNN.mp4`, `theo/dayNN.mp4` + `_cover.jpg`), commit, `git -c push.negotiate=true push origin HEAD`.
-Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook, the vote options numbered, "Follow so you don't miss Day N+2", 5-7 hashtags.
+Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook, the vote options numbered, "Follow so you don't miss Day N+2", and hashtags per section 5b.
 Also post one story per account (`create_story`, 1080x1920 JPEG made with PIL) reminding people to vote.
+
+## 5b. Captions + hashtags (for engagement)
+Instagram allows **max 5 hashtags per post** (since Dec 2025); posts over the limit may fail or get suppressed. Use exactly 5:
+1. The series' branded tag from state.json (e.g. #TheosGlowUp) - always.
+2-5. Four from that series' `hashtags.pool`, picked to fit THIS episode (e.g. a recipe day for Rosie -> #easyrecipes #dinnerideas; a game day for Malik -> #basketball #hoops). Never generic tags like #reels #explore #fyp #viral.
+Caption structure (Instagram works like search now, so words matter more than tags):
+- Line 1 = the hook in plain searchable words ("30-day glow up, Day 4: Theo finally fixes his skin").
+- A question that invites comments (the vote) with numbered options.
+- "Follow so you don't miss Day N+2."
+- Hashtags last.
+Debate/recipe extra posts: same 5-tag rule (e.g. #nbadebate #basketball #whoyougot + 2 topical; #easyrecipes #dinnerideas + dish tags).
+Each run: check last week's posts' reach/views (get_data media_reach/media_views) and append to `hashtag_log` in state.json which tags were used and how the post did; favour the tags that keep showing up on the best posts.
 
 ## 6. Engage
 Reply to up to 5 genuine new comments per account (`reply_to_comment`), short and in-character for the account. Never argue, never reply to spam/hate (hide it with `hide_comment` if it's abusive).
