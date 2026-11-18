@@ -1,0 +1,183 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "before_image": "theo_scruffy.jpg",
+ "cx": 0.0,
+ "voice": "am_michael",
+ "speed": 1.08,
+ "pill": "DAY 2 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "You voted 2.",
+  "Theo cleared his skin.",
+  "29 days until the party."
+ ],
+ "hook_emoji": "🧴",
+ "name_line": "Day 2: Skin.",
+ "sub_line": "You voted  •  3 votes, all for #2",
+ "stats": [
+  [
+   "Hair",
+   2
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Instagram",
+  "msg": "maya.r viewed your story",
+  "emoji": "👀",
+  "color": [
+   225,
+   48,
+   108
+  ],
+  "icon": "📸"
+ },
+ "notif_line": 1,
+ "conflict": [
+  "She noticed.",
+  [
+   "(she watched it",
+   "twice.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "29 days.",
+   "4 fixes left."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "New here? Day 1",
+   "is pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "✂️",
+   "Fix the hair"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🏋️",
+   "Hit the gym"
+  ],
+  [
+   "💬",
+   "DM Maya"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "You voted... and it was unanimous."
+   ],
+   [
+    0.2,
+    "Theo cleared his skin."
+   ],
+   [
+    0.1,
+    "Twenty-nine days until he sees his ex."
+   ]
+  ],
+  "s2": [
+   [
+    0.3,
+    "Day two. Skin."
+   ],
+   [
+    0.3,
+    "Hair? Still a two."
+   ],
+   [
+    0.1,
+    "Skin? Three... to seven."
+   ],
+   [
+    0.1,
+    "Style? Still a one."
+   ],
+   [
+    0.1,
+    "Confidence? Up to three."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "So he posted his first selfie in a year."
+   ],
+   [
+    0.3,
+    "Eleven minutes later..."
+   ],
+   [
+    0.3,
+    "Maya viewed his story."
+   ],
+   [
+    0.15,
+    "Twice."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Twenty-nine days. Four things left to fix."
+   ],
+   [
+    0.15,
+    "The top comment is tomorrow's fix."
+   ],
+   [
+    0.15,
+    "New here? Start from day one. It's pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's next for Theo?"
+   ],
+   [
+    0.25,
+    "Hair, eyebrows, a new fit, the gym... or does he DM Maya?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

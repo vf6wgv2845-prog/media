@@ -7,6 +7,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 from engine import Episode
 cfg = json.load(open(sys.argv[1])); out = sys.argv[2]
 cfg["image"] = os.path.join(HERE, "assets", cfg["image"])
+if cfg.get("before_image"): cfg["before_image"] = os.path.join(HERE, "assets", cfg["before_image"])
 for k in ("accent",): cfg[k] = tuple(cfg[k])
 if "color" in cfg["notif"]: cfg["notif"]["color"] = tuple(cfg["notif"]["color"])
 cfg["stats"] = [tuple(s) for s in cfg["stats"]]; cfg["options"] = [tuple(o) for o in cfg["options"]]

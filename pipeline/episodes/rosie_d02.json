@@ -1,0 +1,190 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.05,
+ "pill": "DAY 2 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Fresh pasta.",
+  "From scratch.",
+  "29 days to the cook-off."
+ ],
+ "hook_emoji": "🍝",
+ "name_line": "Day 2: Pasta.",
+ "sub_line": "Crowd's choice  •  First try",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   7
+  ],
+  [
+   "Plating",
+   3
+  ],
+  [
+   "Speed",
+   4
+  ],
+  [
+   "Confidence",
+   2
+  ]
+ ],
+ "notif": {
+  "from": "Julian Price",
+  "msg": "heard you made pasta lol. cute",
+  "emoji": "",
+  "color": [
+   60,
+   60,
+   70
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Batch 1: it tore.",
+  [
+   "(batch 2:",
+   "perfect.)"
+  ]
+ ],
+ "conflict_lines": [
+  0,
+  1
+ ],
+ "premise": [
+  [
+   "The fix?",
+   "Patience."
+  ],
+  "Rest the dough 30 minutes.",
+  [
+   "Full recipe in our",
+   "next post. Save it."
+  ]
+ ],
+ "vote_q": [
+  "Her next",
+  "practice dish?"
+ ],
+ "options": [
+  [
+   "🌮",
+   "Birria tacos"
+  ],
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ],
+  [
+   "🍫",
+   "Chocolate souffle"
+  ],
+  [
+   "🥟",
+   "Dumplings"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Fresh pasta. From scratch."
+   ],
+   [
+    0.15,
+    "Her first practice dish."
+   ],
+   [
+    0.1,
+    "Twenty-nine days to the cook-off."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Nobody voted, so it's the crowd's choice."
+   ],
+   [
+    0.25,
+    "Knife skills? Six."
+   ],
+   [
+    0.1,
+    "Flavor? Seven."
+   ],
+   [
+    0.1,
+    "Plating? Three."
+   ],
+   [
+    0.1,
+    "Speed? Down to four."
+   ],
+   [
+    0.1,
+    "Confidence? Down to two."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "Her first batch? Too dry. It tore."
+   ],
+   [
+    0.3,
+    "The second batch? Perfect."
+   ],
+   [
+    0.3,
+    "Then Julian texts."
+   ],
+   [
+    0.15,
+    "Of course he does."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "The fix? Patience."
+   ],
+   [
+    0.15,
+    "Rest the dough for thirty minutes."
+   ],
+   [
+    0.15,
+    "The full recipe is in our next post. Save it."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's her next practice dish?"
+   ],
+   [
+    0.25,
+    "Birria tacos, ramen, steak frites, chocolate souffle... or dumplings?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

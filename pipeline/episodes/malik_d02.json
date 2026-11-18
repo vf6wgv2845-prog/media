@@ -1,0 +1,190 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 2 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "500 shots",
+  "before school.",
+  "Day 2. Alone."
+ ],
+ "hook_emoji": "🎯",
+ "name_line": "Day 2: Shooting.",
+ "sub_line": "Crowd's choice  •  Riverview High",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   5
+  ],
+  [
+   "Defense",
+   3
+  ],
+  [
+   "Basketball IQ",
+   6
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Coach Reyes",
+  "msg": "my office after school. bring your shoes.",
+  "emoji": "",
+  "color": [
+   232,
+   120,
+   30
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 3,
+ "conflict": [
+  "Tyler's out.",
+  [
+   "(suspended.",
+   "off varsity for 2 weeks.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "Varsity wants",
+   "Malik."
+  ],
+  "Friday. Against Northside.",
+  [
+   "Dez will be there.",
+   "So will Tyler."
+  ]
+ ],
+ "vote_q": [
+  "Tyler's spot.",
+  "What does he do?"
+ ],
+ "options": [
+  [
+   "✅",
+   "Take it, no hesitation"
+  ],
+  [
+   "🤝",
+   "Talk to Tyler first"
+  ],
+  [
+   "💪",
+   "Earn it in practice"
+  ],
+  [
+   "🚫",
+   "Turn it down"
+  ],
+  [
+   "😤",
+   "Take it + call out Dez"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Five hundred shots before school."
+   ],
+   [
+    0.2,
+    "Day two."
+   ],
+   [
+    0.1,
+    "Alone."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Nobody voted yesterday, so he picked shooting."
+   ],
+   [
+    0.25,
+    "Shooting? Four... to five."
+   ],
+   [
+    0.1,
+    "Handles? Five."
+   ],
+   [
+    0.1,
+    "Defense? Three."
+   ],
+   [
+    0.1,
+    "Basketball I.Q.? Six."
+   ],
+   [
+    0.1,
+    "Confidence? Up to three."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "Then, third period..."
+   ],
+   [
+    0.3,
+    "Tyler gets into a fight in the cafeteria."
+   ],
+   [
+    0.3,
+    "Suspended. Off varsity for two weeks."
+   ],
+   [
+    0.25,
+    "And Coach Reyes needs a guard by Friday."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Varsity wants Malik. For Friday."
+   ],
+   [
+    0.15,
+    "Against Northside."
+   ],
+   [
+    0.15,
+    "Dez will be there. And so will Tyler."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "Tyler's spot is open. What does Malik do?"
+   ],
+   [
+    0.25,
+    "Take it, talk to Tyler first, earn it in practice, turn it down... or take it and call out Dez?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

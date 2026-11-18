@@ -14,8 +14,13 @@ class Episode:
         self.CW, self.CH = int(1280 * 1.12), int(1920 * 1.12)
         self.BIG = src.resize((self.CW, self.CH), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
         self.BLUR = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(28))).enhance(0.45)
-        self.DIM = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(3))).enhance(0.42)
+        self.DIM = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
         self.pill = pill(cfg["pill"], 40, (255, 255, 255), cfg["accent"])
+        self.BEFORE = None
+        if cfg.get("before_image"):
+            b = Image.open(cfg["before_image"]).convert("RGB")
+            self.BEFORE = b.resize((self.CW, self.CH), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
+            self.BEFORE_DIM = ImageEnhance.Brightness(self.BEFORE.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
 
     # ---------- audio ----------
     def voice(self):
@@ -102,7 +107,7 @@ class Episode:
         self.NOTIF = im
 
     def s1(self, t):
-        d = self.DUR["s1"]; im = self.bg(t, d, 0.93, 1.0, self.DIM); st = self.TM["s1"]
+        d = self.DUR["s1"]; im = self.bg(t, d, 0.93, 1.0, self.BEFORE_DIM if self.BEFORE is not None else self.DIM); st = self.TM["s1"]
         if self.c.get("snow"): snow(im, t, 150)
         center_paste(im, self.pill, 330)
         for i, (L, y) in enumerate(zip(self.L1, (700, 860, 970))): paste_anim(im, L, y, st[i] if i < len(st) else st[-1] + 0.8 * (i - len(st) + 1), t, pop=(i == 0))
@@ -112,7 +117,17 @@ class Episode:
         return im
 
     def s2(self, t):
-        d = self.DUR["s2"]; im = self.bg(t, d, 0.9, 0.97); self.shade(im, 0.5, 1.0, 0.42); st = self.TM["s2"]
+        d = self.DUR["s2"]; st = self.TM["s2"]; im = self.bg(t, d, 0.9, 0.97)
+        if self.BEFORE is not None:
+            wp = ease((t - 0.5) / 1.3)
+            if wp < 1:
+                bim = self.bg(t, d, 0.9, 0.97, self.BEFORE)
+                x = int(W * wp); 
+                if x < W: im.paste(bim.crop((x, 0, W, H)), (x, 0))
+                if 0 < wp < 1: ImageDraw.Draw(im).rectangle([x - 4, 0, x + 4, H], fill=(255, 255, 255, 255))
+            lab = pill("AFTER" if wp >= 0.5 else "BEFORE", 34, (255, 255, 255), (30, 30, 36) if wp < 0.5 else self.c["accent"])
+            if t < 3.2: center_paste(im, lab, 340, min(1, (3.2 - t) / 0.4))
+        self.shade(im, 0.5, 1.0, 0.42)
         center_paste(im, self.pill, 250)
         self.panel(im, (90, 950, 990, 1600), ease((t - st[0]) / .4))
         paste_anim(im, self.NAME, 1010, st[0], t, pop=True); paste_anim(im, self.SUB, 1120, st[0] + 0.4, t)
