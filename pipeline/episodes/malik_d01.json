@@ -1,0 +1,189 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 1 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He just got cut",
+  "from varsity.",
+  "Day 1: road to the league."
+ ],
+ "hook_emoji": "🏀",
+ "name_line": "Meet Malik Rowe.",
+ "sub_line": "16  •  Guard  •  Riverview High",
+ "stats": [
+  [
+   "Shooting",
+   4
+  ],
+  [
+   "Handles",
+   5
+  ],
+  [
+   "Defense",
+   3
+  ],
+  [
+   "Basketball IQ",
+   6
+  ],
+  [
+   "Confidence",
+   2
+  ]
+ ],
+ "notif": {
+  "from": "Dez Okafor",
+  "msg": "heard u got cut lol. see u never",
+  "emoji": "😂",
+  "color": [
+   88,
+   86,
+   214
+  ]
+ },
+ "notif_line": 1,
+ "conflict": [
+  "His rival.",
+  [
+   "(and his best friend Tyler",
+   "made varsity.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "YOU run",
+   "his career."
+  ],
+  "Top comment = his next move.",
+  [
+   "JV. Varsity. Recruiting.",
+   "Then the league."
+  ]
+ ],
+ "vote_q": [
+  "What does he",
+  "work on first?"
+ ],
+ "options": [
+  [
+   "🎯",
+   "Shooting"
+  ],
+  [
+   "⛹️",
+   "Handles"
+  ],
+  [
+   "🛡️",
+   "Defense"
+  ],
+  [
+   "🏋️",
+   "Get stronger"
+  ],
+  [
+   "📺",
+   "Watch film"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Malik Rowe just got cut from varsity."
+   ],
+   [
+    0.25,
+    "This is day one..."
+   ],
+   [
+    0.1,
+    "of his road to the league."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Meet Malik. Sixteen. Point guard. Riverview High."
+   ],
+   [
+    0.25,
+    "Shooting? Four out of ten."
+   ],
+   [
+    0.1,
+    "Handles? Five."
+   ],
+   [
+    0.1,
+    "Defense? Three."
+   ],
+   [
+    0.1,
+    "Basketball I.Q.? Six."
+   ],
+   [
+    0.1,
+    "Confidence? Two."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "That night, his phone lights up."
+   ],
+   [
+    0.3,
+    "Dez Okafor. His rival from Northside."
+   ],
+   [
+    0.35,
+    "And his best friend Tyler?"
+   ],
+   [
+    0.15,
+    "He made varsity."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "But you run his career."
+   ],
+   [
+    0.15,
+    "The top comment decides his next move."
+   ],
+   [
+    0.15,
+    "J.V. Varsity. Recruiting. And then... the league."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what does he work on first?"
+   ],
+   [
+    0.25,
+    "Shooting, handles, defense, getting stronger, or watching film?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

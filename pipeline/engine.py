@@ -1,0 +1,185 @@
+"""Generic episode renderer: hero image + 5 scenes (hook, stats, conflict, premise, vote), free Kokoro voice."""
+import sys, os, math, json, subprocess
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
+from common import *
+from PIL import ImageEnhance
+import soundfile as sf
+
+SR = 24000
+
+class Episode:
+    def __init__(self, cfg, outdir):
+        self.c = cfg; self.out = outdir; os.makedirs(outdir, exist_ok=True)
+        src = Image.open(cfg["image"]).convert("RGB")
+        self.CW, self.CH = int(1280 * 1.12), int(1920 * 1.12)
+        self.BIG = src.resize((self.CW, self.CH), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
+        self.BLUR = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(28))).enhance(0.45)
+        self.DIM = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(3))).enhance(0.42)
+        self.pill = pill(cfg["pill"], 40, (255, 255, 255), cfg["accent"])
+
+    # ---------- audio ----------
+    def voice(self):
+        from kokoro_onnx import Kokoro
+        k = Kokoro(os.environ.get('KOKORO_MODEL', '/tmp/tts/kokoro.onnx'), os.environ.get('KOKORO_VOICES', '/tmp/tts/voices.bin'))
+        self.TM, self.DUR = {}, {}
+        for sc, segs in self.c["script"].items():
+            parts, starts, t = [], [], 0.0
+            for gap, txt in segs:
+                a, sr = k.create(txt, voice=self.c["voice"], speed=self.c.get("speed", 1.08), lang='en-us')
+                nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 300): nz[-1] + 1200]
+                parts.append(np.zeros(int(gap * SR))); t += gap; starts.append(round(t, 3)); parts.append(a); t += len(a) / SR
+            tail = 2.0 if sc == "s5" else 0.45
+            parts.append(np.zeros(int(tail * SR))); t += tail
+            sf.write(f"{self.out}/vo_{sc}.wav", np.concatenate(parts).astype(np.float32), SR)
+            self.TM[sc] = starts; self.DUR[sc] = round(t * FPS) / FPS
+        json.dump({"TM": self.TM, "DUR": self.DUR}, open(f"{self.out}/timing.json", "w"))
+
+    def load_timing(self):
+        j = json.load(open(f"{self.out}/timing.json")); self.TM, self.DUR = j["TM"], j["DUR"]
+
+    def mix(self):
+        names = ["s1", "s2", "s3", "s4", "s5"]; total = sum(self.DUR[n] for n in names)
+        out = np.zeros(int(total * SR) + SR); off = 0.0; rng = np.random.default_rng(1)
+        for n in names:
+            vo, _ = sf.read(f"{self.out}/vo_{n}.wav"); s = int(off * SR); out[s:s + len(vo)] += vo
+            if off > 0:
+                L = int(0.35 * SR); tt = np.arange(L) / SR; nz = np.convolve(rng.standard_normal(L), np.ones(6) / 6, 'same')
+                a = max(0, s - int(0.15 * SR)); out[a:a + L] += 0.05 * nz * np.sin(np.pi * tt / 0.35) ** 2
+            if n == "s3":
+                t0 = self.TM["s3"][self.c["notif_line"]]
+                tt = np.arange(int(0.8 * SR)) / SR
+                for f, dl in [(1318.5, 0), (1760, 0.09)]:
+                    ss = s + int((t0 + dl) * SR); seg = 0.16 * np.sin(2 * np.pi * f * tt) * np.exp(-tt * 6); out[ss:ss + len(seg)] += seg
+            off += self.DUR[n]
+        out = out[:int(total * SR)]; out /= np.abs(out).max() * 1.05
+        sf.write(f"{self.out}/mix.wav", out.astype(np.float32), SR)
+
+    # ---------- visuals ----------
+    def bg(self, t, dur, z0, z1, src=None):
+        src = src or self.BIG; cx_off = self.c.get("cx", 0.0)
+        z = (z0 + (z1 - z0) * (t / dur)) * (1 + 0.006 * math.sin(t * 2.0))
+        vw = self.CW / (1.12 * z) * (1080 / 1280); vh = vw * 1920 / 1080
+        x0 = max(0, min(self.CW - vw, self.CW / 2 - vw / 2 + cx_off * self.CW))
+        y0 = max(0, min(self.CH - vh, self.CH * 0.5 - vh / 2 - (self.CH - vh) * 0.05))
+        return src.crop((int(x0), int(y0), int(x0 + vw), int(y0 + vh))).resize((W, H), Image.BILINEAR).convert("RGBA")
+
+    def shade(self, im, top, bottom, start):
+        y = np.linspace(0, 1, H)[:, None]
+        a = np.where(y > start, (y - start) / (1 - start) * bottom, 0) + np.where(y < 0.18, (0.18 - y) / 0.18 * top, 0)
+        ov = np.zeros((H, W, 4), np.uint8); ov[..., 3] = (np.clip(a, 0, 1) * 255).astype(np.uint8).repeat(W, 1)
+        im.alpha_composite(Image.fromarray(ov))
+
+    def panel(self, im, box, p):
+        if p <= 0: return
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(ov).rounded_rectangle(box, radius=48, fill=(10, 10, 16, int(165 * p)))
+        im.alpha_composite(ov.filter(ImageFilter.GaussianBlur(2)))
+
+    def build_layers(self):
+        c = self.c; gold = (255, 214, 102)
+        self.L1 = [text_layer([c["hook"][0]], 100), text_layer([c["hook"][1]], 82, "ExtraBold"), text_layer([(c["hook"][2], gold)], 82, "ExtraBold")]
+        self.NAME = text_layer([c["name_line"]], 100); self.SUB = text_layer([c["sub_line"]], 50, "Bold", color=(225, 225, 235))
+        self.L3a = text_layer([c["conflict"][0]], 84); self.L3b = text_layer(c["conflict"][1], 64, "ExtraBold", color=(255, 120, 120))
+        self.L4a = text_layer(c["premise"][0], 104); self.L4b = text_layer([(c["premise"][1], gold)], 56, "ExtraBold")
+        self.L4c = text_layer(c["premise"][2], 56, "Bold", color=(225, 225, 240))
+        self.L5a = text_layer(c["vote_q"], 92); self.L5b = text_layer(["Comment the number below"], 58, "ExtraBold", color=gold)
+        self.POINT = emoji("👇", 90)
+        def row(e, label):
+            w, h = 820, 128; im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+            d.rounded_rectangle([0, 0, w - 1, h - 1], radius=36, fill=(20, 20, 30, 150), outline=(255, 255, 255, 110), width=3)
+            em = emoji(e, 72); im.alpha_composite(em, (50, (h - em.height) // 2))
+            d.text((160, h // 2), label, font=F("ExtraBold", 48), fill=(255, 255, 255), anchor="lm"); return im
+        self.ROWS = [row(e, f"{i + 1}  {l}") for i, (e, l) in enumerate(c["options"])]
+        n = c["notif"]; w, h = 900, 200; im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+        d.rounded_rectangle([0, 0, w - 1, h - 1], radius=44, fill=(242, 242, 247, 245))
+        d.rounded_rectangle([30, 45, 140, 155], radius=26, fill=n.get("color", (52, 199, 89)))
+        b = emoji(n.get("icon", "💬"), 64); im.alpha_composite(b, (85 - b.width // 2, 100 - b.height // 2))
+        d.text((170, 62), n["from"], font=F("Bold", 42), fill=(20, 20, 24), anchor="lm")
+        d.text((860, 62), "now", font=F("Medium", 32), fill=(130, 130, 138), anchor="rm")
+        d.text((170, 128), n["msg"], font=F("Medium", 35), fill=(40, 40, 46), anchor="lm")
+        if n.get("emoji"):
+            sm = emoji(n["emoji"], 38); im.alpha_composite(sm, (170 + int(d.textlength(n["msg"], font=F("Medium", 35))) + 10, 110))
+        self.NOTIF = im
+
+    def s1(self, t):
+        d = self.DUR["s1"]; im = self.bg(t, d, 0.93, 1.0, self.DIM); st = self.TM["s1"]
+        if self.c.get("snow"): snow(im, t, 150)
+        center_paste(im, self.pill, 330)
+        for i, (L, y) in enumerate(zip(self.L1, (700, 860, 970))): paste_anim(im, L, y, st[i] if i < len(st) else st[-1] + 0.8 * (i - len(st) + 1), t, pop=(i == 0))
+        tp = st[-1] + 0.8 * max(0, 3 - len(st)) + 0.5
+        if t > tp:
+            e = emoji(self.c["hook_emoji"], 190); center_paste(im, e, 1260 - 30 * ease((t - tp) / .4), ease((t - tp) / .4))
+        return im
+
+    def s2(self, t):
+        d = self.DUR["s2"]; im = self.bg(t, d, 0.9, 0.97); self.shade(im, 0.5, 1.0, 0.42); st = self.TM["s2"]
+        center_paste(im, self.pill, 250)
+        self.panel(im, (90, 950, 990, 1600), ease((t - st[0]) / .4))
+        paste_anim(im, self.NAME, 1010, st[0], t, pop=True); paste_anim(im, self.SUB, 1120, st[0] + 0.4, t)
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dr = ImageDraw.Draw(ov); f = F("Bold", 40); fs = F("ExtraBold", 40)
+        for i, (lab, v) in enumerate(self.c["stats"]):
+            p = ease((t - st[min(i + 1, len(st) - 1)] - (0 if i + 1 < len(st) else 0.4 * (i + 2 - len(st)))) / .45)
+            if p <= 0: continue
+            y = 1240 + i * 70; a = int(255 * p)
+            dr.text((150, y), lab, font=f, fill=(255, 255, 255, a), anchor="lm")
+            x0, x1 = 470, 820
+            dr.rounded_rectangle([x0, y - 13, x1, y + 13], radius=13, fill=(255, 255, 255, int(55 * p)))
+            dr.rounded_rectangle([x0, y - 13, max(x0 + 26, x0 + (x1 - x0) * v / 10 * p), y + 13], radius=13, fill=self.c["accent"] + (a,))
+            dr.text((930, y), f"{v}/10", font=fs, fill=(255, 255, 255, a), anchor="rm")
+        im.alpha_composite(ov); return im
+
+    def s3(self, t):
+        d = self.DUR["s3"]; im = self.bg(t, d, 0.97, 1.08); self.shade(im, 0.6, 1.0, 0.42); st = self.TM["s3"]
+        tn = st[self.c["notif_line"]]
+        if t > tn:
+            p = back((t - tn) / .45); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * 500)))
+        self.panel(im, (80, 1085, 1000, 1430), ease((t - st[self.c["conflict_lines"][0]]) / .4))
+        paste_anim(im, self.L3a, 1150, st[self.c["conflict_lines"][0]], t, pop=True)
+        paste_anim(im, self.L3b, 1270, st[self.c["conflict_lines"][1]], t)
+        return im
+
+    def s4(self, t):
+        d = self.DUR["s4"]; im = self.bg(t, d, 1.10, 1.18, self.BLUR); st = self.TM["s4"]
+        if self.c.get("snow"): snow(im, t + 9, 110)
+        paste_anim(im, self.L4a, 520, st[0], t, pop=True)
+        paste_anim(im, self.L4b, 900, st[1], t); paste_anim(im, self.L4c, 1030, st[2], t)
+        return im
+
+    def s5(self, t):
+        d = self.DUR["s5"]; im = self.bg(t, d, 1.18, 1.24, self.BLUR); st = self.TM["s5"]
+        if self.c.get("snow"): snow(im, t + 14, 100)
+        center_paste(im, self.pill, 250); paste_anim(im, self.L5a, 330, st[0], t, pop=True)
+        opt_t = st[1]; span = (st[2] - st[1]) * 0.85
+        for i, r in enumerate(self.ROWS):
+            p = ease((t - opt_t - i * span / len(self.ROWS)) / .35)
+            if p <= 0: continue
+            a = np.array(r); a[..., 3] = (a[..., 3] * p).astype(np.uint8)
+            im.alpha_composite(Image.fromarray(a), (int((W - 820) // 2 - (1 - p) * 120), 590 + i * 152))
+        paste_anim(im, self.L5b, 1365, st[2], t); tp = st[2] + 0.3
+        if t > tp: center_paste(im, self.POINT, 1520 + math.sin((t - tp) * 6) * 14, ease((t - tp) / .3))
+        return im
+
+    def render(self, stills=False):
+        self.build_layers(); scenes = [("s1", self.s1), ("s2", self.s2), ("s3", self.s3), ("s4", self.s4), ("s5", self.s5)]
+        if stills:
+            fs = []
+            for n, fn in scenes: fs.append(fn(self.DUR[n] - 0.6).convert("RGB").resize((360, 640)))
+            c = Image.new("RGB", (1800, 640)); [c.paste(x, (i * 360, 0)) for i, x in enumerate(fs)]; c.save(f"{self.out}/contact.jpg", quality=85); return
+        for n, fn in scenes:
+            dur = self.DUR[n]; tmp = f"{self.out}/{n}.tmp.mp4"; N = int(round(dur * FPS))
+            p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+                                  "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
+            for i in range(N):
+                t = i / FPS; fr = fn(t).convert("RGB")
+                fo = min(1, (t + 1 / FPS) / 0.1, (dur - t) / 0.1)
+                if fo < 1 and n != "s1": fr = Image.blend(Image.new("RGB", (W, H)), fr, max(0, fo))
+                p.stdin.write(fr.tobytes())
+            p.stdin.close()
+            if p.wait() != 0: sys.exit("render failed " + n)
+            os.replace(tmp, f"{self.out}/{n}.mp4")
+        open(f"{self.out}/list.txt", "w").write("".join(f"file '{n}.mp4'\n" for n, _ in scenes))
+        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-i", f"{self.out}/list.txt", "-c", "copy", f"{self.out}/v.mp4"])
+        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{self.out}/v.mp4", "-i", f"{self.out}/mix.wav", "-map", "0:v", "-map", "1:a",
+                               "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-shortest", "-movflags", "+faststart", f"{self.out}/final.mp4"])
+        cov_t = self.DUR["s1"] + self.DUR["s2"] - 0.5
+        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(cov_t), "-i", f"{self.out}/final.mp4", "-frames:v", "1", "-q:v", "2", f"{self.out}/cover.jpg"])

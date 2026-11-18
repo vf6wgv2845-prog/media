@@ -1,0 +1,190 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.05,
+ "pill": "DAY 1 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "She has 30 days",
+  "to win the",
+  "city cook-off."
+ ],
+ "hook_emoji": "🏆",
+ "name_line": "Meet Rosie.",
+ "sub_line": "19  •  Line cook  •  Big dreams",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   7
+  ],
+  [
+   "Plating",
+   3
+  ],
+  [
+   "Speed",
+   5
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Chef Marco",
+  "msg": "you entered?? you can't even plate a salad",
+  "emoji": "",
+  "color": [
+   255,
+   149,
+   0
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 1,
+ "conflict": [
+  "Her boss.",
+  [
+   "(and the favorite to win?",
+   "Julian. Her old rival.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "YOU pick",
+   "what she cooks."
+  ],
+  "Top comment = tomorrow's dish.",
+  [
+   "A real recipe every day.",
+   "Day 30 = the cook-off."
+  ]
+ ],
+ "vote_q": [
+  "Her first",
+  "practice dish?"
+ ],
+ "options": [
+  [
+   "🍝",
+   "Fresh pasta"
+  ],
+  [
+   "🌮",
+   "Birria tacos"
+  ],
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ],
+  [
+   "🍫",
+   "Chocolate souffle"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Rosie has thirty days..."
+   ],
+   [
+    0.15,
+    "to win the city cook-off."
+   ],
+   [
+    0.0,
+    ""
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Meet Rosie. Nineteen. Line cook. Big dreams."
+   ],
+   [
+    0.25,
+    "Knife skills? Six out of ten."
+   ],
+   [
+    0.1,
+    "Flavor? Seven."
+   ],
+   [
+    0.1,
+    "Plating? Three."
+   ],
+   [
+    0.1,
+    "Speed? Five."
+   ],
+   [
+    0.1,
+    "Confidence? Three."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "Her boss found out she signed up."
+   ],
+   [
+    0.3,
+    "Chef Marco laughed in her face."
+   ],
+   [
+    0.35,
+    "And the favorite to win?"
+   ],
+   [
+    0.15,
+    "Julian. Her old culinary school rival."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "But you pick what she cooks."
+   ],
+   [
+    0.15,
+    "The top comment is tomorrow's practice dish."
+   ],
+   [
+    0.15,
+    "A real recipe, every single day."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's her first practice dish?"
+   ],
+   [
+    0.25,
+    "Fresh pasta, birria tacos, ramen, steak frites, or chocolate souffle?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}
