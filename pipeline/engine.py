@@ -12,15 +12,22 @@ class Episode:
         self.c = cfg; self.out = outdir; os.makedirs(outdir, exist_ok=True)
         src = Image.open(cfg["image"]).convert("RGB")
         self.CW, self.CH = int(1280 * 1.12), int(1920 * 1.12)
-        self.BIG = src.resize((self.CW, self.CH), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
+        self.BIG = self.cover(src)
         self.BLUR = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(28))).enhance(0.45)
         self.DIM = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
         self.pill = pill(cfg["pill"], 40, (255, 255, 255), cfg["accent"])
         self.BEFORE = None
         if cfg.get("before_image"):
             b = Image.open(cfg["before_image"]).convert("RGB")
-            self.BEFORE = b.resize((self.CW, self.CH), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
+            self.BEFORE = self.cover(b)
             self.BEFORE_DIM = ImageEnhance.Brightness(self.BEFORE.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
+
+    def cover(self, src):
+        """Scale to fill CWxCH keeping aspect ratio (crop the overflow, biased to keep the top)."""
+        k = max(self.CW / src.width, self.CH / src.height)
+        r = src.resize((int(src.width * k) + 1, int(src.height * k) + 1), Image.LANCZOS)
+        x = (r.width - self.CW) // 2; y = int((r.height - self.CH) * 0.3)
+        return r.crop((x, y, x + self.CW, y + self.CH)).filter(ImageFilter.UnsharpMask(2, 60, 2))
 
     # ---------- audio ----------
     def voice(self):
@@ -87,14 +94,14 @@ class Episode:
         self.L3a = text_layer([c["conflict"][0]], 84); self.L3b = text_layer(c["conflict"][1], 64, "ExtraBold", color=(255, 120, 120))
         self.L4a = text_layer(c["premise"][0], 104); self.L4b = text_layer([(c["premise"][1], gold)], 56, "ExtraBold")
         self.L4c = text_layer(c["premise"][2], 56, "Bold", color=(225, 225, 240))
-        self.L5a = text_layer(c["vote_q"], 92); self.L5b = text_layer(["Comment the number below"], 58, "ExtraBold", color=gold)
+        self.L5a = text_layer(c["vote_q"], 92); self.L5b = text_layer([c.get("cta", "Comment the number below")], 58, "ExtraBold", color=gold)
         self.POINT = emoji("👇", 90)
         def row(e, label):
             w, h = 820, 128; im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
             d.rounded_rectangle([0, 0, w - 1, h - 1], radius=36, fill=(20, 20, 30, 150), outline=(255, 255, 255, 110), width=3)
             em = emoji(e, 72); im.alpha_composite(em, (50, (h - em.height) // 2))
             d.text((160, h // 2), label, font=F("ExtraBold", 48), fill=(255, 255, 255), anchor="lm"); return im
-        self.ROWS = [row(e, f"{i + 1}  {l}") for i, (e, l) in enumerate(c["options"])]
+        self.ROWS = [row(e, f"{i + 1}  {l}" if c.get("numbered", True) else l) for i, (e, l) in enumerate(c["options"])]
         n = c["notif"]; w, h = 900, 200; im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
         d.rounded_rectangle([0, 0, w - 1, h - 1], radius=44, fill=(242, 242, 247, 245))
         d.rounded_rectangle([30, 45, 140, 155], radius=26, fill=n.get("color", (52, 199, 89)))
