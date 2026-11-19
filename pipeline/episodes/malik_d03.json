@@ -1,0 +1,190 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 3 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He took the spot.",
+  "No hesitation.",
+  "Day 3: varsity."
+ ],
+ "hook_emoji": "🔥",
+ "name_line": "Day 3: Varsity.",
+ "sub_line": "You voted 1  •  idea from the comments",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   6
+  ],
+  [
+   "Defense",
+   4
+  ],
+  [
+   "Basketball IQ",
+   6
+  ],
+  [
+   "Confidence",
+   5
+  ]
+ ],
+ "notif": {
+  "from": "Tyler",
+  "msg": "so you just took my spot. cool.",
+  "emoji": "",
+  "color": [
+   88,
+   86,
+   214
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Tyler's mad.",
+  [
+   "(and a Florida State",
+   "scout comes Friday.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "Friday.",
+   "Northside."
+  ],
+  "Dez. Tyler. A scout.",
+  [
+   "Dream school:",
+   "Florida State."
+  ]
+ ],
+ "vote_q": [
+  "Game day.",
+  "What's the plan?"
+ ],
+ "options": [
+  [
+   "🎯",
+   "Shoot first"
+  ],
+  [
+   "🤝",
+   "Pass first"
+  ],
+  [
+   "🛡️",
+   "Lock down Dez"
+  ],
+  [
+   "💬",
+   "Talk to Tyler first"
+  ],
+  [
+   "🎧",
+   "Ignore everyone, hoop"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "He took the spot."
+   ],
+   [
+    0.15,
+    "No hesitation."
+   ],
+   [
+    0.1,
+    "Day three. Varsity."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "You voted one. And you said: train harder than ever."
+   ],
+   [
+    0.25,
+    "Shooting? Five."
+   ],
+   [
+    0.1,
+    "Handles? Up to six."
+   ],
+   [
+    0.1,
+    "Defense? Up to four."
+   ],
+   [
+    0.1,
+    "Basketball I.Q.? Six."
+   ],
+   [
+    0.1,
+    "Confidence? Up to five."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "First varsity practice. He outworked everyone."
+   ],
+   [
+    0.3,
+    "Then Tyler texted."
+   ],
+   [
+    0.3,
+    "So you just took my spot. Cool."
+   ],
+   [
+    0.2,
+    "And Coach says a Florida State scout is coming Friday."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Friday. Northside."
+   ],
+   [
+    0.15,
+    "Dez on the court. Tyler in the stands. A scout watching."
+   ],
+   [
+    0.15,
+    "His dream school? Florida State."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "Game day. What's the plan?"
+   ],
+   [
+    0.25,
+    "Shoot first, pass first, lock down Dez, talk to Tyler... or ignore everyone and just hoop?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

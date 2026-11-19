@@ -1,0 +1,189 @@
+{
+ "image": "theo_gaming.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.08,
+ "pill": "DAY 3 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "0 votes for GTA.",
+  "He logged off.",
+  "Day 3: the gym."
+ ],
+ "hook_emoji": "🏋️",
+ "name_line": "Day 3: Gym.",
+ "sub_line": "You voted  •  gym beat hair (tiebreak)",
+ "stats": [
+  [
+   "Hair",
+   2
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   3
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Maya",
+  "msg": "wait... was that you at the gym?",
+  "emoji": "👀",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Maya texted.",
+  [
+   "(first time in",
+   "4 months.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "28 days.",
+   "He's not done."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "New here? Day 1",
+   "is pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "✂️",
+   "Fix the hair"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🏋️",
+   "Gym again"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Six hours of GTA... and nobody voted for it."
+   ],
+   [
+    0.2,
+    "So he logged off."
+   ],
+   [
+    0.1,
+    "Day three. The gym."
+   ]
+  ],
+  "s2": [
+   [
+    0.3,
+    "Gym and hair tied. The earliest vote broke it. Gym."
+   ],
+   [
+    0.25,
+    "Hair? Still two."
+   ],
+   [
+    0.1,
+    "Skin? Seven."
+   ],
+   [
+    0.1,
+    "Style? One."
+   ],
+   [
+    0.1,
+    "Fitness? One... to three."
+   ],
+   [
+    0.1,
+    "Confidence? Up to four."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "He could barely lift the bar."
+   ],
+   [
+    0.3,
+    "But he didn't quit."
+   ],
+   [
+    0.3,
+    "Then his phone buzzed."
+   ],
+   [
+    0.15,
+    "Maya. First text in four months."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Twenty-eight days left. He's not done."
+   ],
+   [
+    0.15,
+    "The top comment is tomorrow's fix."
+   ],
+   [
+    0.15,
+    "New here? Day one is pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's next for Theo?"
+   ],
+   [
+    0.25,
+    "Hair, eyebrows, a new fit, the gym again... or does he reply to Maya?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}

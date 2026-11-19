@@ -1,0 +1,180 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.05,
+ "pill": "BOSS FIGHT  •  DAY 1",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "The Landfill King",
+  "has 5,000 HP.",
+  "Zero hits so far."
+ ],
+ "hook_emoji": "🧟",
+ "name_line": "The Horde Is Here.",
+ "sub_line": "Boss: the Landfill King  •  5,000 HP",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Alert",
+  "msg": "the horde has reached your street",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": [
+  "They feed on litter.",
+  [
+   "(every can left behind",
+   "makes them stronger.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "Be the",
+   "first hit."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "The Landfill King has five thousand H.P."
+   ],
+   [
+    0.25,
+    "The horde is moving."
+   ],
+   [
+    0.1,
+    "And nobody has hit him yet."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Day one of the boss fight."
+   ],
+   [
+    0.25,
+    "Boss health? Full."
+   ],
+   [
+    0.1,
+    "Horde strength? Max."
+   ],
+   [
+    0.1,
+    "Streets cleaned? Zero."
+   ],
+   [
+    0.1,
+    "Cleaners? Zero. That's where you come in."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "Alert. The horde has reached your street."
+   ],
+   [
+    0.3,
+    "They feed on litter."
+   ],
+   [
+    0.3,
+    "Every can left on the ground makes them stronger."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Be the first hit."
+   ],
+   [
+    0.15,
+    "One piece is one damage. One pound is ten."
+   ],
+   [
+    0.15,
+    "Gloves on. Never touch needles or glass."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "Here's how to fight back."
+   ],
+   [
+    0.25,
+    "Grab gloves and a bag. Pick up ten pieces. Bin it. Comment your haul and your city. Tag a friend."
+   ],
+   [
+    0.25,
+    "Comment your haul below."
+   ]
+  ]
+ }
+}

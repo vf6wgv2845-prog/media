@@ -1,0 +1,190 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.05,
+ "pill": "DAY 3 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Birria tacos.",
+  "From scratch.",
+  "28 days to the cook-off."
+ ],
+ "hook_emoji": "🌮",
+ "name_line": "Day 3: Birria.",
+ "sub_line": "Crowd's choice  •  3-hour braise",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   3
+  ],
+  [
+   "Speed",
+   4
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Chef Marco",
+  "msg": "who made the consomme?",
+  "emoji": "",
+  "color": [
+   255,
+   149,
+   0
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Marco tasted it.",
+  [
+   "(he didn't say a word.",
+   "he took a second bowl.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "3 hours.",
+   "Worth it."
+  ],
+  "Full recipe in our next post.",
+  [
+   "Save it for",
+   "the weekend."
+  ]
+ ],
+ "vote_q": [
+  "Her next",
+  "practice dish?"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ],
+  [
+   "🍫",
+   "Chocolate souffle"
+  ],
+  [
+   "🥟",
+   "Dumplings"
+  ],
+  [
+   "🍗",
+   "Fried chicken"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Birria tacos. From scratch."
+   ],
+   [
+    0.15,
+    "A three-hour braise."
+   ],
+   [
+    0.1,
+    "Twenty-eight days to the cook-off."
+   ]
+  ],
+  "s2": [
+   [
+    0.25,
+    "Nobody voted, so it's the crowd's choice."
+   ],
+   [
+    0.25,
+    "Knife skills? Six."
+   ],
+   [
+    0.1,
+    "Flavor? Up to eight."
+   ],
+   [
+    0.1,
+    "Plating? Three."
+   ],
+   [
+    0.1,
+    "Speed? Four."
+   ],
+   [
+    0.1,
+    "Confidence? Up to four."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "Chilies toasted. Beef braised for three hours."
+   ],
+   [
+    0.3,
+    "Then Chef Marco walked in."
+   ],
+   [
+    0.3,
+    "He tasted the consomme."
+   ],
+   [
+    0.15,
+    "Didn't say a word. Took a second bowl."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Three hours. Worth it."
+   ],
+   [
+    0.15,
+    "The full recipe is in our next post."
+   ],
+   [
+    0.15,
+    "Save it for the weekend."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's her next practice dish?"
+   ],
+   [
+    0.25,
+    "Ramen, steak frites, chocolate souffle, dumplings... or fried chicken?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ]
+ }
+}
