@@ -1,0 +1,377 @@
+{
+ "image": "theo_gaming.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.08,
+ "pill": "DAY N / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "0 votes for GTA.",
+  "He logged off.",
+  "Day 3: the gym."
+ ],
+ "hook_emoji": "💪",
+ "name_line": "Day 3: Gym.",
+ "sub_line": "You voted  •  gym beat hair (tiebreak)",
+ "stats": [
+  [
+   "Hair",
+   2
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   3
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Maya",
+  "msg": "wait... was that you at the gym?",
+  "emoji": "👀",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Maya texted.",
+  [
+   "(first time in",
+   "4 months.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "28 days.",
+   "He's not done."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "New here? Day 1",
+   "is pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "✂️",
+   "Fix the hair"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🏋️",
+   "Gym again"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.2,
+    "Six hours of GTA... and nobody voted for it."
+   ],
+   [
+    0.2,
+    "So he logged off."
+   ],
+   [
+    0.1,
+    "Day three. The gym."
+   ]
+  ],
+  "s2": [
+   [
+    0.3,
+    "Gym and hair tied. The earliest vote broke it. Gym."
+   ],
+   [
+    0.25,
+    "Hair? Still two."
+   ],
+   [
+    0.1,
+    "Skin? Seven."
+   ],
+   [
+    0.1,
+    "Style? One."
+   ],
+   [
+    0.1,
+    "Fitness? One... to three."
+   ],
+   [
+    0.1,
+    "Confidence? Up to four."
+   ]
+  ],
+  "s3": [
+   [
+    0.25,
+    "He could barely lift the bar."
+   ],
+   [
+    0.3,
+    "But he didn't quit."
+   ],
+   [
+    0.3,
+    "Then his phone buzzed."
+   ],
+   [
+    0.15,
+    "Maya. First text in four months."
+   ]
+  ],
+  "s4": [
+   [
+    0.25,
+    "Twenty-eight days left. He's not done."
+   ],
+   [
+    0.15,
+    "The top comment is tomorrow's fix."
+   ],
+   [
+    0.15,
+    "New here? Day one is pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.2,
+    "So what's next for Theo?"
+   ],
+   [
+    0.25,
+    "Hair, eyebrows, a new fit, the gym again... or does he reply to Maya?"
+   ],
+   [
+    0.25,
+    "Comment the number."
+   ]
+  ],
+  "sb": [
+   [
+    0.2,
+    "Last episode..."
+   ],
+   [
+    0.15,
+    "six comments."
+   ],
+   [
+    0.1,
+    "two likes."
+   ],
+   [
+    0.1,
+    "zero shares."
+   ],
+   [
+    0.1,
+    "three hundred views."
+   ],
+   [
+    0.2,
+    "That's eleven more aura."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "40%",
+    "from": "34%",
+    "at": [
+     "s2",
+     0
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "21/100",
+    "from": "10/100",
+    "at": [
+     "sb",
+     -1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "sb",
+   "s3",
+   "s4"
+  ],
+  "y": 1500,
+  "keywords": [
+   "maya",
+   "aura",
+   "gym",
+   "hair"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "<top commenter's handle>",
+   "text": "<their comment, verbatim>",
+   "likes": 0,
+   "y": 520,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "ONE FIX / DAY",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "CLANK",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 600,
+   "angle": -6
+  },
+  {
+   "scene": "s2",
+   "line": 1,
+   "text": "GLOW-UP +6%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -4
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "kind": "calendar",
+   "text": "27",
+   "y": 620,
+   "hold": 2.6,
+   "delay": 0.9,
+   "x": 800
+  }
+ ],
+ "scoreboard": {
+  "title": "LAST EPISODE",
+  "label": "AURA",
+  "from": 10,
+  "to": 21,
+  "max": 100,
+  "rows": [
+   [
+    "COMMENTS",
+    "+1 each",
+    "6",
+    6
+   ],
+   [
+    "LIKES",
+    "+1 each",
+    "2",
+    2
+   ],
+   [
+    "SHARES",
+    "+5 each",
+    "0",
+    0
+   ],
+   [
+    "VIEWS",
+    "+1 per 100",
+    "318",
+    3
+   ]
+  ]
+ },
+ "cover_title": [
+  "DAY 4",
+  "THE GYM"
+ ]
+}

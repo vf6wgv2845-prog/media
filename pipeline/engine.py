@@ -2,12 +2,13 @@
 import sys, os, math, json, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 from common import *
+from extras import Extras, SFX
 from PIL import ImageEnhance
 import soundfile as sf
 
 SR = 24000
 
-class Episode:
+class Episode(Extras):
     def __init__(self, cfg, outdir):
         self.c = cfg; self.out = outdir; os.makedirs(outdir, exist_ok=True)
         src = Image.open(cfg["image"]).convert("RGB")
@@ -17,6 +18,8 @@ class Episode:
         self.DIM = ImageEnhance.Brightness(self.BIG.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
         self.pill = pill(cfg["pill"], 40, (255, 255, 255), cfg["accent"])
         self.BEFORE = None
+        self.order = cfg.get("order") or (["s1", "s2", "sb", "s3", "s4", "s5"] if cfg.get("scoreboard") else ["s1", "s2", "s3", "s4", "s5"])
+        if cfg.get("hud"): self.pill = Image.new("RGBA", (1, 1), (0, 0, 0, 0))  # the HUD replaces the day pill
         if cfg.get("before_image"):
             b = Image.open(cfg["before_image"]).convert("RGB")
             self.BEFORE = self.cover(b)
@@ -33,24 +36,25 @@ class Episode:
     def voice(self):
         from kokoro_onnx import Kokoro
         k = Kokoro(os.environ.get('KOKORO_MODEL', '/tmp/tts/kokoro.onnx'), os.environ.get('KOKORO_VOICES', '/tmp/tts/voices.bin'))
-        self.TM, self.DUR = {}, {}
+        self.TM, self.DUR, self.TE = {}, {}, {}
         for sc, segs in self.c["script"].items():
-            parts, starts, t = [], [], 0.0
+            parts, starts, ends, t = [], [], [], 0.0
             for gap, txt in segs:
                 a, sr = k.create(txt, voice=self.c["voice"], speed=self.c.get("speed", 1.08), lang='en-us')
                 nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 300): nz[-1] + 1200]
-                parts.append(np.zeros(int(gap * SR))); t += gap; starts.append(round(t, 3)); parts.append(a); t += len(a) / SR
+                parts.append(np.zeros(int(gap * SR))); t += gap; starts.append(round(t, 3)); parts.append(a); t += len(a) / SR; ends.append(round(t, 3))
             tail = 2.0 if sc == "s5" else 0.45
             parts.append(np.zeros(int(tail * SR))); t += tail
             sf.write(f"{self.out}/vo_{sc}.wav", np.concatenate(parts).astype(np.float32), SR)
-            self.TM[sc] = starts; self.DUR[sc] = round(t * FPS) / FPS
-        json.dump({"TM": self.TM, "DUR": self.DUR}, open(f"{self.out}/timing.json", "w"))
+            self.TM[sc] = starts; self.TE[sc] = ends; self.DUR[sc] = round(t * FPS) / FPS
+        json.dump({"TM": self.TM, "DUR": self.DUR, "TE": self.TE}, open(f"{self.out}/timing.json", "w"))
 
     def load_timing(self):
         j = json.load(open(f"{self.out}/timing.json")); self.TM, self.DUR = j["TM"], j["DUR"]
+        self.TE = j.get("TE") or {k: [b - 0.2 for b in v[1:]] + [self.DUR[k] - 0.5] for k, v in self.TM.items()}
 
     def mix(self):
-        names = ["s1", "s2", "s3", "s4", "s5"]; total = sum(self.DUR[n] for n in names)
+        names = self.order; total = sum(self.DUR[n] for n in names)
         out = np.zeros(int(total * SR) + SR); off = 0.0; rng = np.random.default_rng(1)
         for n in names:
             vo, _ = sf.read(f"{self.out}/vo_{n}.wav"); s = int(off * SR); out[s:s + len(vo)] += vo
@@ -62,6 +66,8 @@ class Episode:
                 tt = np.arange(int(0.8 * SR)) / SR
                 for f, dl in [(1318.5, 0), (1760, 0.09)]:
                     ss = s + int((t0 + dl) * SR); seg = 0.16 * np.sin(2 * np.pi * f * tt) * np.exp(-tt * 6); out[ss:ss + len(seg)] += seg
+            for kind, t0 in self.sfx_times(n):
+                ss = s + int(t0 * SR); seg = SFX[kind]; out[ss:ss + len(seg)] += seg[:max(0, len(out) - ss)]
             off += self.DUR[n]
         out = out[:int(total * SR)]; out /= np.abs(out).max() * 1.05
         sf.write(f"{self.out}/mix.wav", out.astype(np.float32), SR)
@@ -154,7 +160,7 @@ class Episode:
         d = self.DUR["s3"]; im = self.bg(t, d, 0.97, 1.08); self.shade(im, 0.6, 1.0, 0.42); st = self.TM["s3"]
         tn = st[self.c["notif_line"]]
         if t > tn:
-            p = back((t - tn) / .45); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * 500)))
+            p = back((t - tn) / .45); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * (690 if self.c.get('hud') else 500))))
         self.panel(im, (80, 1085, 1000, 1430), ease((t - st[self.c["conflict_lines"][0]]) / .4))
         paste_anim(im, self.L3a, 1150, st[self.c["conflict_lines"][0]], t, pop=True)
         paste_anim(im, self.L3b, 1270, st[self.c["conflict_lines"][1]], t)
@@ -182,11 +188,18 @@ class Episode:
         return im
 
     def render(self, stills=False):
-        self.build_layers(); scenes = [("s1", self.s1), ("s2", self.s2), ("s3", self.s3), ("s4", self.s4), ("s5", self.s5)]
+        self.build_layers(); self.build_extras()
+        scenes = [(n, (lambda f, n: (lambda t: self.overlay(n, t, f(t))))(getattr(self, n), n)) for n in self.order]
         if stills:
-            fs = []
-            for n, fn in scenes: fs.append(fn(self.DUR[n] - 0.6).convert("RGB").resize((360, 640)))
-            c = Image.new("RGB", (1800, 640)); [c.paste(x, (i * 360, 0)) for i, x in enumerate(fs)]; c.save(f"{self.out}/contact.jpg", quality=85); return
+            pts = [(n, self.DUR[n] - 0.6) for n in self.order]
+            for n in self.order:
+                pts += [(n, t0 + 0.5) for _, t0 in self.sfx_times(n)]
+                pts += [(n, (a + b) / 2) for a, b, _ in self.CAP.get(n, [])[:1]]
+            pts.sort(key=lambda x: (self.order.index(x[0]), x[1]))
+            fs = [dict(scenes)[n](min(t, self.DUR[n] - 0.05)).convert("RGB").resize((360, 640)) for n, t in pts]
+            cols = 6; rows = (len(fs) + cols - 1) // cols
+            c = Image.new("RGB", (360 * cols, 640 * rows)); [c.paste(x, ((i % cols) * 360, (i // cols) * 640)) for i, x in enumerate(fs)]
+            c.save(f"{self.out}/contact.jpg", quality=85); return
         for n, fn in scenes:
             dur = self.DUR[n]; tmp = f"{self.out}/{n}.tmp.mp4"; N = int(round(dur * FPS))
             p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
@@ -203,5 +216,6 @@ class Episode:
         subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-i", f"{self.out}/list.txt", "-c", "copy", f"{self.out}/v.mp4"])
         subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{self.out}/v.mp4", "-i", f"{self.out}/mix.wav", "-map", "0:v", "-map", "1:a",
                                "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-shortest", "-movflags", "+faststart", f"{self.out}/final.mp4"])
-        cov_t = self.DUR["s1"] + self.DUR["s2"] - 0.5
+        cov_t = self.DUR[self.order[0]] + self.DUR[self.order[1]] - 0.5
         subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(cov_t), "-i", f"{self.out}/final.mp4", "-frames:v", "1", "-q:v", "2", f"{self.out}/cover.jpg"])
+        self.make_cover()

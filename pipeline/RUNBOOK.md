@@ -34,24 +34,29 @@ Every episode from Day 2 on opens s1 with a 1-line recap so a brand-new viewer g
 Rules: wins AND losses for Malik; Rosie's chosen dish must come with a **real, accurate recipe** (also post a 3-4 slide recipe carousel like `cook/c001_*.jpg`, or put it in the caption). Theo in cloud runs: the image can't change without Leonardo, so show the fix through stats + narration ("Day 2: the hair. Full reveal soon") and flag in the report that Boris should do a live session for the visual upgrade.
 Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to `pipeline/assets`, `voice` = the series' `voice_cloud`, pill e.g. "SEASON 1  •  DAY 2 / 30").
 
-## 3b. Format lessons from @dalesglowup (studied Nov 19; copy the mechanics, never their jokes/characters)
-Reference Reel: 1,338 comments, 1,356 reposts, 4,689 saves; previous ep 13.7K likes, 1.5K shares, 390 reposts. Why it works:
-1. **Always-on HUD**: 3 big tiles top-left on every frame (DAYS LEFT / GLOW-UP % / AURA x/100). Viewers read progress instantly. For Theo: DAYS LEFT, GLOW-UP %, one engagement score.
-2. **Engagement becomes the score, shown openly**: a "LAST EPISODE" board converts real shares/reposts/comments/likes into points (e.g. +1 per 1,000 shares, +1 per 100 reposts, +1 per 10K likes) -> total ticks up. Reposts are weighted highest, and that's what they get most of. Use real numbers from get_data only.
-3. **Top commenter becomes a character**: the most-liked comment shown as a card (handle + like count), then that person appears in the episode ("Dr. Prince" the dentist). Do this for Theo: show the winning vote comment as a card and make its author a cameo (only with a public handle, nothing mean about them).
-4. **One fix per day** stated as a rule: makes each vote matter and creates stakes.
-5. **Absurd escalation + callback**: the fix goes wrong in funny ways (hammer, rubber bands, "industrial" braces), then a callback gag (magnetic braces -> stuck at a fridge store). Then the meter payoff badge (GLOW-UP +10%).
-6. **Ending = sweet beat undercut by a gag** (crush smiles back -> he burps in her face). Leaves him short of the goal and feeds the next episode.
-7. **Style**: word-by-word bold captions, low-centre, keywords coloured; tilted sticker/SFX labels for each beat (CLANK, BUURP); close-up inserts (mouth, etc.).
-8. Caption opens with the recap of last episode's result ("Last episode gave Dale five more aura...").
-Engine gaps (need make_episode.py work before they're possible): HUD overlay, word-by-word captions, sticker labels, comment-card scene. Until then: put the score in the stats scene, the top comment in the s3 notification card, and the rule + recap in s1.
+## 3b. Retention format (learned from @dalesglowup: 12 posts -> 58K followers, Reels at 2.5M / 1.2M / 706K views). REQUIRED for Theo from Day 4; use for Malik/Rosie too when it fits.
+Copy the mechanics, never their jokes, names or characters. Start every Theo episode from `pipeline/episodes/_template_v2.json` (all features below already wired; see the docstring at the top of `pipeline/extras.py`).
+1. **HUD on every frame** (`hud`): DAYS LEFT / GLOW-UP % / AURA x/100, top-left. GLOW-UP = average of the stats as %; tiles with `from` + `at` pop to the new value at that moment (GLOW-UP at `["s2",0]`, AURA at `["sb",-1]`).
+2. **Aura = real engagement, shown openly** (`scoreboard` scene `sb`, auto-inserted after s2): run `python3 -I pipeline/score.py theo views=.. likes=.. comments=.. shares=.. saves=..` with the previous episode Reel's real numbers (get_data `media_views, media_like_count, media_comments_count, media_shares, media_saved`; reposts are not readable on this connection). It prints the `hud` AURA tile, the `scoreboard` block and the `sb` voice lines. After posting, run it again with `--save`. Never invent numbers. Say the rates out loud sometimes ("shares are worth 5") so viewers know sharing helps him.
+3. **Open on the audience** (`comments`): first 2-3 seconds = the winning vote's real comment as a card (handle, text verbatim, real like count); stack 2-3 cards if several people asked for the same thing. Only public handles, nothing mean about them.
+4. **Commenters become characters**: if a commenter offers ("can I be his barber?"), make them that role in the episode by handle ("Barber @handle") and tag them in the caption. Add to s5/caption: "Want to be in the next episode? Say what job you'd do." This is the #1 comment driver.
+5. **Rules + countdown**: say "one fix per day" (sticker) and show the flip-calendar `{"kind":"calendar","text":"<days left>","x":800,"y":620}` early in s1 (after the comment card has gone, never overlapping it).
+6. **The fix goes wrong first, then works**: 2-3 escalating absurd attempts (stickers as sound effects: CLANK, OW!, RIIIP; scene labels: LAST NIGHT, FLASHBACK), a callback gag, then a payoff badge ("GLOW-UP +6%").
+7. **Maya is woven into the fixes** (she works where he goes for the fix, she sees him at the worst moment). Ending = a sweet beat undercut by a gag -> he stays short of the goal -> tomorrow's vote.
+8. **Word-by-word captions** (`captions`): voice lines shown 2-3 words at a time, keywords coloured (put names, stats and numbers in `keywords`). Keep on-screen text panels short so they don't fight the captions.
+9. **Designed cover** (`cover_title`: ["DAY N", "<the fix in 2-3 words>"]): grid tiles must read like episode titles.
+10. **Caption line 1** = "<N> days left. You voted <fix>. <teaser of what went wrong>..." (cut off by "..." on purpose).
+11. **Length**: aim 30-40 s. Cut lines rather than speeding the voice; the hook must land in the first 2 seconds.
+12. Check the contact sheet (stills mode now shows extra frames at every sticker/comment) for overlaps before the full render.
+**Visual gap (tell Boris, don't fake it)**: the reference draws a new scene every episode (bridal shop, wax room, surgery) and the character visibly changes. Cloud runs only have the images in `pipeline/assets`. Reuse the best matching one and lean on stickers/captions; when Boris does a live session, ask him for new scene images (same character, same style) and add them to assets with a clear name (e.g. `theo_barber.jpg`).
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 
 ## 5. Publish
 Copy outputs into the repo (`malik/s1dNN.mp4`, `rosie/dNN.mp4`, `theo/dayNN.mp4` + `_cover.jpg`), commit, `git -c push.negotiate=true push origin HEAD`.
-Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook, the vote options numbered, "Follow so you don't miss Day N+2", and hashtags per section 5b.
+Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook (3b.10), the vote options numbered, the cameo ask (3b.4), "Follow so you don't miss Day N+2", and hashtags per section 5b. Tag any commenter who appears in the episode.
+After posting: `python3 -I pipeline/score.py <series> ... --save` so the next episode's AURA starts from the right number.
 Also post one story per account (`create_story`, 1080x1920 JPEG made with PIL): an updated **Progress Tracker** card (same layout as `stories/2026-11-19_*_tracker.jpg`: character circle, title, Day N/30, stat bars, a short day-by-day log of what the votes decided, 'Vote on the newest Reel'). (No highlights: Boris decided not to use them.)
 
 ## 5b. Captions + hashtags (for engagement)

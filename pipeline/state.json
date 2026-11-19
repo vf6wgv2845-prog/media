@@ -64,6 +64,39 @@
      "#beforeandafter",
      "#storytime"
     ]
+   },
+   "aura": {
+    "value": 10,
+    "max": 100,
+    "rules": {
+     "comments": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "likes": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "shares": [
+      5,
+      1,
+      "+5 each"
+     ],
+     "saves": [
+      3,
+      1,
+      "+3 each"
+     ],
+     "views": [
+      1,
+      100,
+      "+1 per 100"
+     ]
+    },
+    "note": "Aura = real engagement on the previous episode's Reel only (get_data media_views, media_like_count, media_comments_count, media_shares, media_saved; reposts are NOT readable with Instagram Login). Started at 10 on Day 4. Glow-up % = average of stats. Shown in the HUD every frame.",
+    "log": []
    }
   },
   "malik": {
