@@ -40,7 +40,7 @@ Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to
 ## 5. Publish
 Copy outputs into the repo (`malik/s1dNN.mp4`, `rosie/dNN.mp4`, `theo/dayNN.mp4` + `_cover.jpg`), commit, `git -c push.negotiate=true push origin HEAD`.
 Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook, the vote options numbered, "Follow so you don't miss Day N+2", and hashtags per section 5b.
-Also post one story per account (`create_story`, 1080x1920 JPEG made with PIL): an updated **Progress Tracker** card (same layout as `stories/2026-11-19_*_tracker.jpg`: character circle, title, Day N/30, stat bars, a short day-by-day log of what the votes decided, 'Vote on the newest Reel'). Boris adds these to each account's 'Progress' highlight.
+Also post one story per account (`create_story`, 1080x1920 JPEG made with PIL): an updated **Progress Tracker** card (same layout as `stories/2026-11-19_*_tracker.jpg`: character circle, title, Day N/30, stat bars, a short day-by-day log of what the votes decided, 'Vote on the newest Reel'). (No highlights: Boris decided not to use them.)
 
 ## 5b. Captions + hashtags (for engagement)
 Instagram allows **max 5 hashtags per post** (since Dec 2025); posts over the limit may fail or get suppressed. Use exactly 5:
