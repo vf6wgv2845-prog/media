@@ -22,6 +22,7 @@ If a series already got its episode today (Boris did it live), skip that series'
 - Also read non-vote comments: if many viewers ask for something (a character, a twist), work it into the story. That is also "what the audience wants".
 
 ## 3. Write the next episode (Day N+1)
+Check `state.json` `trends` for current trending topics (e.g. GTA 6) to weave in lightly.
 Copy the shape of `pipeline/episodes/<series>_d01.json`. 5 scenes:
 - s1 hook: "Day N+1: you voted ___" style, punchy, 3 short lines.
 - s2 stats: apply the winning choice -> raise the matching stat(s) by 1-3 (realistic; confidence moves too). Show updated stats.
