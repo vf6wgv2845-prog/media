@@ -20,19 +20,21 @@
  "series": {
   "theo": {
    "title": "Theo: 30 days until he sees his ex at the Christmas party",
-   "day": 2,
-   "last_post_date": "2026-11-18",
-   "last_media_id": "17942848926393909",
-   "image": "theo_d02_clearskin.jpg",
-   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical.",
+   "day": 3,
+   "last_post_date": "2026-11-19",
+   "last_media_id": "18171274432428879",
+   "image": "theo_gaming.jpg",
+   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical. Leonardo reference image for consistency: the original scruffy Theo generation (search 'scruffy and neglected' in Your Generations). theo_gaming.jpg = him gaming (Day 3).",
    "stats": {
     "Hair": 2,
     "Skin": 7,
     "Style": 1,
-    "Confidence": 3
+    "Fitness": 3,
+    "Confidence": 4
    },
    "upgrades_so_far": [
-    "Day 2: clear skin (3 votes for #2, unanimous)"
+    "Day 2: clear skin (3 votes for #2, unanimous)",
+    "Day 3: gym (tie 1-1 gym vs hair, earliest vote = gym; 0 votes for GTA option 6, he logged off). Votes counted one per user."
    ],
    "open_vote": {
     "question": "What's next for Theo?",
@@ -40,18 +42,12 @@
      "Fix the hair",
      "Fix the eyebrows",
      "New fit",
-     "Hit the gym",
-     "DM Maya",
-     "Skip the glow-up and play GTA 6 all day"
-    ],
-    "note": "Option 6 added the evening of Nov 18 via a story + our own comment on the Day 2 Reel (comment 18136439947741546; don't count it as a vote). If 6 wins: Theo loses a day / a stat drops, Maya sees him gaming online, etc. Make it funny, with consequences. Votes also count on the GTA 6 special Reel (media 17919716262259665).",
-    "also_count_votes_on": [
-     "17919716262259665",
-     "18103829084427365"
+     "Gym again",
+     "Reply to Maya"
     ]
    },
    "cast": {
-    "Maya": "his ex; Day 2: viewed his selfie story twice. New boyfriend coming to the party."
+    "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party."
    },
    "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
    "voice_live": "ElevenLabs Roger (live sessions only)",
@@ -79,28 +75,28 @@
     "S3: 60 days recruiting, audience picks school",
     "S4: college season, then the draft"
    ],
-   "day": 2,
-   "last_post_date": "2026-11-18",
-   "last_media_id": "18117406376026496",
+   "day": 3,
+   "last_post_date": "2026-11-19",
+   "last_media_id": "18354060469268846",
    "image": "malik.jpg",
    "school": "Riverview High Eagles",
    "position": "guard",
    "age": 16,
    "stats": {
     "Shooting": 5,
-    "Handles": 5,
-    "Defense": 3,
+    "Handles": 6,
+    "Defense": 4,
     "Basketball IQ": 6,
-    "Confidence": 3
+    "Confidence": 5
    },
    "open_vote": {
-    "question": "Tyler's spot is open. What does Malik do?",
+    "question": "Game day. What's the plan?",
     "options": [
-     "Take it, no hesitation",
+     "Shoot first",
+     "Pass first",
+     "Lock down Dez",
      "Talk to Tyler first",
-     "Earn it in practice",
-     "Turn it down",
-     "Take it + call out Dez"
+     "Ignore everyone, hoop"
     ]
    },
    "cast": {
@@ -131,32 +127,33 @@
    },
    "story_so_far": [
     "Day 1: cut from varsity; Dez mocked him; Tyler made varsity",
-    "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside"
+    "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside",
+    "Day 3 (vote 1 by ky_go2krazzyyy + their idea 'train harder than ever, scholarship to Florida State'): took Tyler's spot; first varsity practice; Tyler texted 'so you just took my spot. cool.'; Florida State scout coming to Friday's game vs Northside; dream school = Florida State."
    ]
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
-   "day": 2,
-   "last_post_date": "2026-11-18",
-   "last_media_id": "18170306005487278",
+   "day": 3,
+   "last_post_date": "2026-11-19",
+   "last_media_id": "17912716422585393",
    "image": "rosie.jpg",
    "age": 19,
    "job": "line cook",
    "stats": {
     "Knife skills": 6,
-    "Flavor": 7,
+    "Flavor": 8,
     "Plating": 3,
     "Speed": 4,
-    "Confidence": 2
+    "Confidence": 4
    },
    "open_vote": {
     "question": "Her next practice dish?",
     "options": [
-     "Birria tacos",
      "Ramen",
      "Steak frites",
      "Chocolate souffle",
-     "Dumplings"
+     "Dumplings",
+     "Fried chicken"
     ]
    },
    "cast": {
@@ -186,7 +183,8 @@
    },
    "story_so_far": [
     "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
-    "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)"
+    "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)",
+    "Day 3 (no votes -> birria tacos): 3-hour braise; Chef Marco tasted the consomme, said nothing, took a second bowl; recipe carousel cook/c003."
    ]
   },
   "horde": {
@@ -194,9 +192,10 @@
    "type": "community_game",
    "day": 1,
    "last_post_date": "2026-11-19",
-   "last_media_id": "18086748809339674",
+   "last_media_id": "18360182398220303",
    "count_comments_on": [
-    "18086748809339674"
+    "18086748809339674",
+    "18360182398220303"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -227,7 +226,8 @@
    "verification": "Comments count for the game. Anything over 50 lbs or 300 pieces in one comment: reply asking for photo proof (tag us in a story) and don't count it until proven. Keep 'community-reported' totals separate from 'verified' (photo-tagged) totals; always label them that way.",
    "safety": "Never encourage touching needles, broken glass or hazardous waste; under-18s with an adult. Repeat in captions often.",
    "log": [
-    "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety)."
+    "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety).",
+    "Nov 19 evening: battle Day 1 Reel posted; 0 hauls so far; promised a shoutout to the first person to land a hit."
    ]
   }
  },
@@ -255,5 +255,6 @@
  ],
  "trends": {
   "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it."
- }
+ },
+ "schedule": "Daily run at 5:45 PM ET (changed from 6:35 on Nov 19). Voting rule: one vote per user (their latest), likes on a vote comment add +1."
 }

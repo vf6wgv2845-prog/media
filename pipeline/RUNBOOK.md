@@ -17,7 +17,7 @@ If a series already got its episode today (Boris did it live), skip that series'
 
 ## 2. Count the votes (for each series)
 `get_data` fields `comment_text, comment_like_count, comment_timestamp, comment_username, media_id` (date range covering the last episode) and filter to the series' `last_media_id`.
-- Each comment naming a number 1-5 (or the option name) = 1 vote; each like on that comment = +1. Ignore the account's own comments.
+- Each comment naming a number (or the option name) = 1 vote; each like on that comment = +1. One vote per user (use their latest comment). Ignore the account's own comments.
 - Most votes wins. Tie -> earliest comment among the tied options. Zero votes -> pick the option that makes the best story and say "the crowd's choice" (it's still honest: nobody voted). Note the counts.
 - Also read non-vote comments: if many viewers ask for something (a character, a twist), work it into the story. That is also "what the audience wants".
 
