@@ -34,6 +34,18 @@ Every episode from Day 2 on opens s1 with a 1-line recap so a brand-new viewer g
 Rules: wins AND losses for Malik; Rosie's chosen dish must come with a **real, accurate recipe** (also post a 3-4 slide recipe carousel like `cook/c001_*.jpg`, or put it in the caption). Theo in cloud runs: the image can't change without Leonardo, so show the fix through stats + narration ("Day 2: the hair. Full reveal soon") and flag in the report that Boris should do a live session for the visual upgrade.
 Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to `pipeline/assets`, `voice` = the series' `voice_cloud`, pill e.g. "SEASON 1  •  DAY 2 / 30").
 
+## 3b. Format lessons from @dalesglowup (studied Nov 19; copy the mechanics, never their jokes/characters)
+Reference Reel: 1,338 comments, 1,356 reposts, 4,689 saves; previous ep 13.7K likes, 1.5K shares, 390 reposts. Why it works:
+1. **Always-on HUD**: 3 big tiles top-left on every frame (DAYS LEFT / GLOW-UP % / AURA x/100). Viewers read progress instantly. For Theo: DAYS LEFT, GLOW-UP %, one engagement score.
+2. **Engagement becomes the score, shown openly**: a "LAST EPISODE" board converts real shares/reposts/comments/likes into points (e.g. +1 per 1,000 shares, +1 per 100 reposts, +1 per 10K likes) -> total ticks up. Reposts are weighted highest, and that's what they get most of. Use real numbers from get_data only.
+3. **Top commenter becomes a character**: the most-liked comment shown as a card (handle + like count), then that person appears in the episode ("Dr. Prince" the dentist). Do this for Theo: show the winning vote comment as a card and make its author a cameo (only with a public handle, nothing mean about them).
+4. **One fix per day** stated as a rule: makes each vote matter and creates stakes.
+5. **Absurd escalation + callback**: the fix goes wrong in funny ways (hammer, rubber bands, "industrial" braces), then a callback gag (magnetic braces -> stuck at a fridge store). Then the meter payoff badge (GLOW-UP +10%).
+6. **Ending = sweet beat undercut by a gag** (crush smiles back -> he burps in her face). Leaves him short of the goal and feeds the next episode.
+7. **Style**: word-by-word bold captions, low-centre, keywords coloured; tilted sticker/SFX labels for each beat (CLANK, BUURP); close-up inserts (mouth, etc.).
+8. Caption opens with the recap of last episode's result ("Last episode gave Dale five more aura...").
+Engine gaps (need make_episode.py work before they're possible): HUD overlay, word-by-word captions, sticker labels, comment-card scene. Until then: put the score in the stats scene, the top comment in the s3 notification card, and the rule + recap in s1.
+
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 
