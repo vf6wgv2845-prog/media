@@ -11,6 +11,10 @@
   "rosie": {
    "handle": "whatfordinnerfr",
    "ig_account": "17841466134167305"
+  },
+  "horde": {
+   "handle": "thetrashhorde",
+   "ig_account": "17841451573084295"
   }
  },
  "series": {
@@ -182,6 +186,47 @@
    "story_so_far": [
     "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
     "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)"
+   ]
+  },
+  "horde": {
+   "title": "The Trash Horde: real litter pickup damages a zombie horde",
+   "type": "community_game",
+   "day": 1,
+   "last_post_date": "2026-11-19",
+   "last_media_id": "18086748809339674",
+   "count_comments_on": [
+    "18086748809339674"
+   ],
+   "image": "trash_horde.jpg",
+   "accent": [
+    140,
+    255,
+    90
+   ],
+   "voice_cloud": "am_fenrir",
+   "scoring": {
+    "per_piece": 1,
+    "per_lb": 10
+   },
+   "boss": {
+    "name": "The Landfill King",
+    "hp_max": 5000,
+    "hp": 5000,
+    "deadline": "2026-11-22 (Sunday)",
+    "if_not_beaten": "the horde 'spreads' to a new city on the map; next boss gets harder"
+   },
+   "totals": {
+    "pieces": 0,
+    "lbs": 0,
+    "damage": 0,
+    "cleaners": 0
+   },
+   "leaderboard_cities": {},
+   "top_cleaners": {},
+   "verification": "Comments count for the game. Anything over 50 lbs or 300 pieces in one comment: reply asking for photo proof (tag us in a story) and don't count it until proven. Keep 'community-reported' totals separate from 'verified' (photo-tagged) totals; always label them that way.",
+   "safety": "Never encourage touching needles, broken glass or hazardous waste; under-18s with an adult. Repeat in captions often.",
+   "log": [
+    "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety)."
    ]
   }
  },
