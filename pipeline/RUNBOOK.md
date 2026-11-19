@@ -34,7 +34,13 @@ Every episode from Day 2 on opens s1 with a 1-line recap so a brand-new viewer g
 Rules: wins AND losses for Malik; Rosie's chosen dish must come with a **real, accurate recipe** (also post a 3-4 slide recipe carousel like `cook/c001_*.jpg`, or put it in the caption). Theo in cloud runs: the image can't change without Leonardo, so show the fix through stats + narration ("Day 2: the hair. Full reveal soon") and flag in the report that Boris should do a live session for the visual upgrade.
 Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to `pipeline/assets`, `voice` = the series' `voice_cloud`, pill e.g. "SEASON 1  •  DAY 2 / 30").
 
-## 3b. Retention format (learned from @dalesglowup: 12 posts -> 58K followers, Reels at 2.5M / 1.2M / 706K views). REQUIRED for Theo from Day 4; use for Malik/Rosie too when it fits.
+## 3b. Retention format (learned from @dalesglowup: 12 posts -> 58K followers, Reels at 2.5M / 1.2M / 706K views)
+**Boris's standing rule: this format is REQUIRED for EVERYTHING posted on ALL FOUR accounts: every Reel, every story, every carousel/extra post. No exceptions, no "old style" posts.**
+Per-series scoreboard (in `state.json` `series.<x>.format` / `aura`; `score.py <series>` prints the tiles):
+- Theo: DAYS LEFT / GLOW-UP % / AURA x/100 (calendar = days to the party).
+- Malik: DAY n/30 / OVR (stats avg x10) / HYPE x/100. Calendar = days to the next big game. Commenter cameos as coach, trainer, scout, rival's cousin...
+- Rosie: DAYS LEFT / SKILL % / BUZZ x/100. Calendar = days to the cook-off. Commenter cameos as taste-tester, judge, sous-chef...
+- Horde: BOSS HP / DAMAGE / CLEANERS (from real hauls only; no aura). Comment cards = real haul comments; top cleaners become characters ("Captain @handle"). Calendar = days until the boss deadline.
 Copy the mechanics, never their jokes, names or characters. Start every Theo episode from `pipeline/episodes/_template_v2.json` (all features below already wired; see the docstring at the top of `pipeline/extras.py`).
 1. **HUD on every frame** (`hud`): DAYS LEFT / GLOW-UP % / AURA x/100, top-left. GLOW-UP = average of the stats as %; tiles with `from` + `at` pop to the new value at that moment (GLOW-UP at `["s2",0]`, AURA at `["sb",-1]`).
 2. **Aura = real engagement, shown openly** (`scoreboard` scene `sb`, auto-inserted after s2): run `python3 -I pipeline/score.py theo views=.. likes=.. comments=.. shares=.. saves=..` with the previous episode Reel's real numbers (get_data `media_views, media_like_count, media_comments_count, media_shares, media_saved`; reposts are not readable on this connection). It prints the `hud` AURA tile, the `scoreboard` block and the `sb` voice lines. After posting, run it again with `--save`. Never invent numbers. Say the rates out loud sometimes ("shares are worth 5") so viewers know sharing helps him.
@@ -57,7 +63,7 @@ Copy the mechanics, never their jokes, names or characters. Start every Theo epi
 Copy outputs into the repo (`malik/s1dNN.mp4`, `rosie/dNN.mp4`, `theo/dayNN.mp4` + `_cover.jpg`), commit, `git -c push.negotiate=true push origin HEAD`.
 Post with `execute_action` `create_video_post`: `video_url` = `https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>`, `cover_url`, `share_to_feed: true`, a caption with the hook (3b.10), the vote options numbered, the cameo ask (3b.4), "Follow so you don't miss Day N+2", and hashtags per section 5b. Tag any commenter who appears in the episode.
 After posting: `python3 -I pipeline/score.py <series> ... --save` so the next episode's AURA starts from the right number.
-Also post one story per account (`create_story`, 1080x1920 JPEG made with PIL): an updated **Progress Tracker** card (same layout as `stories/2026-11-19_*_tracker.jpg`: character circle, title, Day N/30, stat bars, a short day-by-day log of what the votes decided, 'Vote on the newest Reel'). (No highlights: Boris decided not to use them.)
+Also post one story per account (`create_story`). **Every story is made with `python3 -I pipeline/story_card.py spec.json`** (see its docstring): HUD tiles identical to that day's Reel, a sticker headline, and then either (a) tracker: stat bars + day log, or (b) teaser: flip-calendar + one REAL comment card + the vote question; always a CTA sticker ("VOTE ON THE NEWEST REEL"). Extra/midday stories use the same tool. (No highlights: Boris decided not to use them.)
 
 ## 5b. Captions + hashtags (for engagement)
 Instagram allows **max 5 hashtags per post** (since Dec 2025); posts over the limit may fail or get suppressed. Use exactly 5:
@@ -68,6 +74,7 @@ Caption structure (Instagram works like search now, so words matter more than ta
 - A question that invites comments (the vote) with numbered options.
 - "Follow so you don't miss Day N+2."
 - Hashtags last.
+Carousels and extra posts (recipes, debates, recaps): slide 1 is a `story_card.py` image (HUD + sticker headline, e.g. "DAY 4 RECIPE" / "BIRRIA TACOS"; it's 9:16, so for 4:5 feed slides crop it to 1080x1350 keeping the top) and the caption follows 3b.10. Debate posts end with a comment question + the cameo ask.
 Debate/recipe extra posts: same 5-tag rule (e.g. #nbadebate #basketball #whoyougot + 2 topical; #easyrecipes #dinnerideas + dish tags).
 Each run: check last week's posts' reach/views (get_data media_reach/media_views) and append to `hashtag_log` in state.json which tags were used and how the post did; favour the tags that keep showing up on the best posts.
 
@@ -75,7 +82,7 @@ Each run: check last week's posts' reach/views (get_data media_reach/media_views
 Different from the 3 story series: no vote options. Each run:
 1. Read all comments on the posts in `series.horde.count_comments_on` + the latest daily post. Parse each haul: pieces and/or lbs and a city (e.g. "14 pieces, Boston", "3 lbs cleveland", "2 bags"). A "bag" with no weight = 3 lbs. Ignore our own comments and anything that isn't a haul. Each comment counts once (track comment ids in state).
 2. Damage = pieces*1 + lbs*10. Apply the verification rule in state (big claims need photo proof first). Update totals, boss HP, city leaderboard, top cleaners.
-3. Post a daily battle Reel with make_episode.py (image `trash_horde.jpg` or a newer boss image, `numbered: false`, custom `cta` like "Comment your haul + city"): s1 = today's damage + boss HP left, s2 = stats as % bars (Boss HP, Streets cleaned, etc.), s3 = notification-style event (e.g. "Boston just dealt 120 damage"), s4 = leaderboard/top cleaners shoutout, s5 = 5 'how to' rows (gloves, bag, bin it, comment haul+city, tag a friend). If zero hauls yet, make the horde advance and rally people to make the first hit.
+3. Post a daily battle Reel with make_episode.py in the 3b format (HUD from `score.py horde`, real haul comment cards, calendar to the boss deadline, stickers like "-140 HP", designed cover) (image `trash_horde.jpg` or a newer boss image, `numbered: false`, custom `cta` like "Comment your haul + city"): s1 = today's damage + boss HP left, s2 = stats as % bars (Boss HP, Streets cleaned, etc.), s3 = notification-style event (e.g. "Boston just dealt 120 damage"), s4 = leaderboard/top cleaners shoutout, s5 = 5 'how to' rows (gloves, bag, bin it, comment haul+city, tag a friend). If zero hauls yet, make the horde advance and rally people to make the first hit.
 4. Reply to every haul comment ("💥 140 damage! Boston leads.") and shout out top cleaners by @ in the caption.
 5. Sunday: boss result Reel (beaten or the horde spreads), then introduce next week's boss (new zombie type, HP based on last week's total).
 6. Report totals honestly as community-reported vs verified. Hashtags: #TrashHorde + 4 from #litterpicking #cleanup #environment #pickuplitter #plasticfree #cleanupchallenge.
