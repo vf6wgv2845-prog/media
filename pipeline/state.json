@@ -1,259 +1,259 @@
 {
-  "accounts": {
-    "theo": {
-      "handle": "youdecidewhatsnext",
-      "ig_account": "17841469930455212"
-    },
-    "malik": {
-      "handle": "thes.portsdesk",
-      "ig_account": "17841421046278483"
-    },
-    "rosie": {
-      "handle": "whatfordinnerfr",
-      "ig_account": "17841466134167305"
-    },
-    "horde": {
-      "handle": "thetrashhorde",
-      "ig_account": "17841451573084295"
-    }
+ "accounts": {
+  "theo": {
+   "handle": "youdecidewhatsnext",
+   "ig_account": "17841469930455212"
   },
-  "series": {
-    "theo": {
-      "title": "Theo: 30 days until he sees his ex at the Christmas party",
-      "day": 2,
-      "last_post_date": "2026-11-18",
-      "last_media_id": "17942848926393909",
-      "image": "theo_d02_clearskin.jpg",
-      "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical.",
-      "stats": {
-        "Hair": 2,
-        "Skin": 7,
-        "Style": 1,
-        "Confidence": 3
-      },
-      "upgrades_so_far": [
-        "Day 2: clear skin (3 votes for #2, unanimous)"
-      ],
-      "open_vote": {
-        "question": "What's next for Theo?",
-        "options": [
-          "Fix the hair",
-          "Fix the eyebrows",
-          "New fit",
-          "Hit the gym",
-          "DM Maya",
-          "Skip the glow-up and play GTA 6 all day"
-        ],
-        "note": "Option 6 added the evening of Nov 18 via a story + our own comment on the Day 2 Reel (comment 18136439947741546; don't count it as a vote). If 6 wins: Theo loses a day / a stat drops, Maya sees him gaming online, etc. Make it funny, with consequences. Votes also count on the GTA 6 special Reel (media 17919716262259665).",
-        "also_count_votes_on": [
-          "17919716262259665",
-          "18103829084427365"
-        ]
-      },
-      "cast": {
-        "Maya": "his ex; Day 2: viewed his selfie story twice. New boyfriend coming to the party."
-      },
-      "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
-      "voice_live": "ElevenLabs Roger (live sessions only)",
-      "voice_cloud": "am_michael",
-      "hashtags": {
-        "branded": "#TheosGlowUp",
-        "pool": [
-          "#glowup",
-          "#glowupchallenge",
-          "#30daychallenge",
-          "#3danimation",
-          "#youdecide",
-          "#transformation",
-          "#beforeandafter",
-          "#storytime"
-        ]
-      }
-    },
-    "malik": {
-      "title": "Malik Rowe: from cut to the league",
-      "season": 1,
-      "season_plan": [
-        "S1: 30 days JV -> earn varsity call-up",
-        "S2: 30 days varsity, rivalry + playoff run",
-        "S3: 60 days recruiting, audience picks school",
-        "S4: college season, then the draft"
-      ],
-      "day": 2,
-      "last_post_date": "2026-11-18",
-      "last_media_id": "18117406376026496",
-      "image": "malik.jpg",
-      "school": "Riverview High Eagles",
-      "position": "guard",
-      "age": 16,
-      "stats": {
-        "Shooting": 5,
-        "Handles": 5,
-        "Defense": 3,
-        "Basketball IQ": 6,
-        "Confidence": 3
-      },
-      "open_vote": {
-        "question": "Tyler's spot is open. What does Malik do?",
-        "options": [
-          "Take it, no hesitation",
-          "Talk to Tyler first",
-          "Earn it in practice",
-          "Turn it down",
-          "Take it + call out Dez"
-        ]
-      },
-      "cast": {
-        "Tyler": "best friend, made varsity (loyalty tension as Malik rises)",
-        "Dez Okafor": "rival from Northside, trash-talker",
-        "Jada": "his ex; introduce later, shows up in the stands at a big tournament",
-        "Coach Reyes": "JV coach (introduce when needed)"
-      },
-      "rules": "Not every game is a win. Mix wins, losses, setbacks. Audience choices change stats and outcomes.",
-      "voice_cloud": "am_michael",
-      "accent": [
-        232,
-        120,
-        30
-      ],
-      "hashtags": {
-        "branded": "#MalikRowe",
-        "pool": [
-          "#basketball",
-          "#hoops",
-          "#roadtothenba",
-          "#underdog",
-          "#3danimation",
-          "#youdecide",
-          "#basketballstory",
-          "#hooplife"
-        ]
-      },
-      "story_so_far": [
-        "Day 1: cut from varsity; Dez mocked him; Tyler made varsity",
-        "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside"
-      ]
-    },
-    "rosie": {
-      "title": "Rosie's 30 days to the city cook-off",
-      "day": 2,
-      "last_post_date": "2026-11-18",
-      "last_media_id": "18170306005487278",
-      "image": "rosie.jpg",
-      "age": 19,
-      "job": "line cook",
-      "stats": {
-        "Knife skills": 6,
-        "Flavor": 7,
-        "Plating": 3,
-        "Speed": 4,
-        "Confidence": 2
-      },
-      "open_vote": {
-        "question": "Her next practice dish?",
-        "options": [
-          "Birria tacos",
-          "Ramen",
-          "Steak frites",
-          "Chocolate souffle",
-          "Dumplings"
-        ]
-      },
-      "cast": {
-        "Chef Marco": "her boss, doubts her",
-        "Julian Price": "old culinary school rival, favorite to win",
-        "Mentor": "introduce later: a tough retired chef"
-      },
-      "rules": "Every practice dish comes with a REAL, accurate recipe (post it as a carousel or in the caption). Day 30 = the cook-off; later seasons go regional then a TV-style final.",
-      "voice_cloud": "af_heart",
-      "accent": [
-        214,
-        64,
-        46
-      ],
-      "hashtags": {
-        "branded": "#RosiesKitchen",
-        "pool": [
-          "#cookoff",
-          "#easyrecipes",
-          "#dinnerideas",
-          "#3danimation",
-          "#youdecide",
-          "#homecooking",
-          "#recipeoftheday",
-          "#cheapmeals"
-        ]
-      },
-      "story_so_far": [
-        "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
-        "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)"
-      ]
-    },
-    "horde": {
-      "title": "The Trash Horde: real litter pickup damages a zombie horde",
-      "type": "community_game",
-      "day": 1,
-      "last_post_date": "2026-11-19",
-      "last_media_id": "18086748809339674",
-      "count_comments_on": [
-        "18086748809339674"
-      ],
-      "image": "trash_horde.jpg",
-      "accent": [
-        140,
-        255,
-        90
-      ],
-      "voice_cloud": "am_fenrir",
-      "scoring": {
-        "per_piece": 1,
-        "per_lb": 10
-      },
-      "boss": {
-        "name": "The Landfill King",
-        "hp_max": 5000,
-        "hp": 5000,
-        "deadline": "2026-11-22 (Sunday)",
-        "if_not_beaten": "the horde 'spreads' to a new city on the map; next boss gets harder"
-      },
-      "totals": {
-        "pieces": 0,
-        "lbs": 0,
-        "damage": 0,
-        "cleaners": 0
-      },
-      "leaderboard_cities": {},
-      "top_cleaners": {},
-      "verification": "Comments count for the game. Anything over 50 lbs or 300 pieces in one comment: reply asking for photo proof (tag us in a story) and don't count it until proven. Keep 'community-reported' totals separate from 'verified' (photo-tagged) totals; always label them that way.",
-      "safety": "Never encourage touching needles, broken glass or hazardous waste; under-18s with an adult. Repeat in captions often.",
-      "log": [
-        "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety)."
-      ]
-    }
+  "malik": {
+   "handle": "thes.portsdesk",
+   "ig_account": "17841421046278483"
   },
-  "extras": {
-    "sports": "2-3x/week 'Who you got?' debate carousels (text/stat graphics only, NO photos of real players). Verify every stat with web search first.",
-    "cooking": "Recipe posts presented as Rosie's dishes; AI photo noted in caption."
+  "rosie": {
+   "handle": "whatfordinnerfr",
+   "ig_account": "17841466134167305"
   },
-  "hashtag_log": [
-    {
-      "date": "2026-11-17",
-      "note": "Day 1 posts had 6-7 tags (over limit). Day 1 reels after ~16h: Theo 263 views/4 likes/3 comments, skip 53%; Malik 278 views/2 likes/1 comment, skip 54%; Rosie 110 views, skip 58%. Carousels 0 reach. -> favour Reels; hooks must land in first second."
-    },
-    {
-      "date": "2026-11-18",
-      "theo": "#TheosGlowUp #glowup #glowupchallenge #skincare #3danimation",
-      "malik": "#MalikRowe #basketball #hoops #underdog #3danimation",
-      "rosie": "#RosiesKitchen #freshpasta #homemadepasta #cookoff #3danimation"
-    },
-    {
-      "date": "2026-11-18",
-      "run": "evening scheduled run 23:40 UTC: Day 2 already posted for all 3 (22:49-22:52 UTC), episodes skipped.",
-      "stats": "Day 2 reels ~50 min in: Theo 146 views/77 reach/0 likes/1 comment; Malik 0 views (insights lag); Rosie 13 views/3 reach. Day 1 reels: Theo 268 views/4 likes/6 comments; Malik 281/2/2; Rosie 110/0/0. Carousels still 0 reach.",
-      "votes_so_far": "Theo D2: 1 vote #4 Gym (noahissobased). Malik D2: 0. Rosie D2: 0."
-    }
-  ],
-  "trends": {
-    "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it."
+  "horde": {
+   "handle": "thetrashhorde",
+   "ig_account": "17841451573084295"
   }
+ },
+ "series": {
+  "theo": {
+   "title": "Theo: 30 days until he sees his ex at the Christmas party",
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "17942848926393909",
+   "image": "theo_d02_clearskin.jpg",
+   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical.",
+   "stats": {
+    "Hair": 2,
+    "Skin": 7,
+    "Style": 1,
+    "Confidence": 3
+   },
+   "upgrades_so_far": [
+    "Day 2: clear skin (3 votes for #2, unanimous)"
+   ],
+   "open_vote": {
+    "question": "What's next for Theo?",
+    "options": [
+     "Fix the hair",
+     "Fix the eyebrows",
+     "New fit",
+     "Hit the gym",
+     "DM Maya",
+     "Skip the glow-up and play GTA 6 all day"
+    ],
+    "note": "Option 6 added the evening of Nov 18 via a story + our own comment on the Day 2 Reel (comment 18136439947741546; don't count it as a vote). If 6 wins: Theo loses a day / a stat drops, Maya sees him gaming online, etc. Make it funny, with consequences. Votes also count on the GTA 6 special Reel (media 17919716262259665).",
+    "also_count_votes_on": [
+     "17919716262259665",
+     "18103829084427365"
+    ]
+   },
+   "cast": {
+    "Maya": "his ex; Day 2: viewed his selfie story twice. New boyfriend coming to the party."
+   },
+   "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
+   "voice_live": "ElevenLabs Roger (live sessions only)",
+   "voice_cloud": "am_michael",
+   "hashtags": {
+    "branded": "#TheosGlowUp",
+    "pool": [
+     "#glowup",
+     "#glowupchallenge",
+     "#30daychallenge",
+     "#3danimation",
+     "#youdecide",
+     "#transformation",
+     "#beforeandafter",
+     "#storytime"
+    ]
+   }
+  },
+  "malik": {
+   "title": "Malik Rowe: from cut to the league",
+   "season": 1,
+   "season_plan": [
+    "S1: 30 days JV -> earn varsity call-up",
+    "S2: 30 days varsity, rivalry + playoff run",
+    "S3: 60 days recruiting, audience picks school",
+    "S4: college season, then the draft"
+   ],
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "18117406376026496",
+   "image": "malik.jpg",
+   "school": "Riverview High Eagles",
+   "position": "guard",
+   "age": 16,
+   "stats": {
+    "Shooting": 5,
+    "Handles": 5,
+    "Defense": 3,
+    "Basketball IQ": 6,
+    "Confidence": 3
+   },
+   "open_vote": {
+    "question": "Tyler's spot is open. What does Malik do?",
+    "options": [
+     "Take it, no hesitation",
+     "Talk to Tyler first",
+     "Earn it in practice",
+     "Turn it down",
+     "Take it + call out Dez"
+    ]
+   },
+   "cast": {
+    "Tyler": "best friend, made varsity (loyalty tension as Malik rises)",
+    "Dez Okafor": "rival from Northside, trash-talker",
+    "Jada": "his ex; introduce later, shows up in the stands at a big tournament",
+    "Coach Reyes": "JV coach (introduce when needed)"
+   },
+   "rules": "Not every game is a win. Mix wins, losses, setbacks. Audience choices change stats and outcomes.",
+   "voice_cloud": "am_michael",
+   "accent": [
+    232,
+    120,
+    30
+   ],
+   "hashtags": {
+    "branded": "#MalikRowe",
+    "pool": [
+     "#basketball",
+     "#hoops",
+     "#roadtothenba",
+     "#underdog",
+     "#3danimation",
+     "#youdecide",
+     "#basketballstory",
+     "#hooplife"
+    ]
+   },
+   "story_so_far": [
+    "Day 1: cut from varsity; Dez mocked him; Tyler made varsity",
+    "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside"
+   ]
+  },
+  "rosie": {
+   "title": "Rosie's 30 days to the city cook-off",
+   "day": 2,
+   "last_post_date": "2026-11-18",
+   "last_media_id": "18170306005487278",
+   "image": "rosie.jpg",
+   "age": 19,
+   "job": "line cook",
+   "stats": {
+    "Knife skills": 6,
+    "Flavor": 7,
+    "Plating": 3,
+    "Speed": 4,
+    "Confidence": 2
+   },
+   "open_vote": {
+    "question": "Her next practice dish?",
+    "options": [
+     "Birria tacos",
+     "Ramen",
+     "Steak frites",
+     "Chocolate souffle",
+     "Dumplings"
+    ]
+   },
+   "cast": {
+    "Chef Marco": "her boss, doubts her",
+    "Julian Price": "old culinary school rival, favorite to win",
+    "Mentor": "introduce later: a tough retired chef"
+   },
+   "rules": "Every practice dish comes with a REAL, accurate recipe (post it as a carousel or in the caption). Day 30 = the cook-off; later seasons go regional then a TV-style final.",
+   "voice_cloud": "af_heart",
+   "accent": [
+    214,
+    64,
+    46
+   ],
+   "hashtags": {
+    "branded": "#RosiesKitchen",
+    "pool": [
+     "#cookoff",
+     "#easyrecipes",
+     "#dinnerideas",
+     "#3danimation",
+     "#youdecide",
+     "#homecooking",
+     "#recipeoftheday",
+     "#cheapmeals"
+    ]
+   },
+   "story_so_far": [
+    "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
+    "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)"
+   ]
+  },
+  "horde": {
+   "title": "The Trash Horde: real litter pickup damages a zombie horde",
+   "type": "community_game",
+   "day": 1,
+   "last_post_date": "2026-11-19",
+   "last_media_id": "18086748809339674",
+   "count_comments_on": [
+    "18086748809339674"
+   ],
+   "image": "trash_horde.jpg",
+   "accent": [
+    140,
+    255,
+    90
+   ],
+   "voice_cloud": "am_fenrir",
+   "scoring": {
+    "per_piece": 1,
+    "per_lb": 10
+   },
+   "boss": {
+    "name": "The Landfill King",
+    "hp_max": 5000,
+    "hp": 5000,
+    "deadline": "2026-11-22 (Sunday)",
+    "if_not_beaten": "the horde 'spreads' to a new city on the map; next boss gets harder"
+   },
+   "totals": {
+    "pieces": 0,
+    "lbs": 0,
+    "damage": 0,
+    "cleaners": 0
+   },
+   "leaderboard_cities": {},
+   "top_cleaners": {},
+   "verification": "Comments count for the game. Anything over 50 lbs or 300 pieces in one comment: reply asking for photo proof (tag us in a story) and don't count it until proven. Keep 'community-reported' totals separate from 'verified' (photo-tagged) totals; always label them that way.",
+   "safety": "Never encourage touching needles, broken glass or hazardous waste; under-18s with an adult. Repeat in captions often.",
+   "log": [
+    "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety)."
+   ]
+  }
+ },
+ "extras": {
+  "sports": "2-3x/week 'Who you got?' debate carousels (text/stat graphics only, NO photos of real players). Verify every stat with web search first.",
+  "cooking": "Recipe posts presented as Rosie's dishes; AI photo noted in caption."
+ },
+ "hashtag_log": [
+  {
+   "date": "2026-11-17",
+   "note": "Day 1 posts had 6-7 tags (over limit). Day 1 reels after ~16h: Theo 263 views/4 likes/3 comments, skip 53%; Malik 278 views/2 likes/1 comment, skip 54%; Rosie 110 views, skip 58%. Carousels 0 reach. -> favour Reels; hooks must land in first second."
+  },
+  {
+   "date": "2026-11-18",
+   "theo": "#TheosGlowUp #glowup #glowupchallenge #skincare #3danimation",
+   "malik": "#MalikRowe #basketball #hoops #underdog #3danimation",
+   "rosie": "#RosiesKitchen #freshpasta #homemadepasta #cookoff #3danimation"
+  },
+  {
+   "date": "2026-11-18",
+   "run": "evening scheduled run 23:40 UTC: Day 2 already posted for all 3 (22:49-22:52 UTC), episodes skipped.",
+   "stats": "Day 2 reels ~50 min in: Theo 146 views/77 reach/0 likes/1 comment; Malik 0 views (insights lag); Rosie 13 views/3 reach. Day 1 reels: Theo 268 views/4 likes/6 comments; Malik 281/2/2; Rosie 110/0/0. Carousels still 0 reach.",
+   "votes_so_far": "Theo D2: 1 vote #4 Gym (noahissobased). Malik D2: 0. Rosie D2: 0."
+  }
+ ],
+ "trends": {
+  "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it."
+ }
 }
