@@ -29,12 +29,13 @@
     "Hair": 2,
     "Skin": 7,
     "Style": 1,
-    "Fitness": 3,
-    "Confidence": 4
+    "Fitness": 4,
+    "Confidence": 5
    },
    "upgrades_so_far": [
     "Day 2: clear skin (3 votes for #2, unanimous)",
-    "Day 3: gym (tie 1-1 gym vs hair, earliest vote = gym; 0 votes for GTA option 6, he logged off). Votes counted one per user."
+    "Day 3: gym (tie 1-1 gym vs hair, earliest vote = gym; 0 votes for GTA option 6, he logged off). Votes counted one per user.",
+    "Nov 20 morning BONUS (not an episode): 6 AM before school, signed up at Ironworks Gym (membership card), first bench press ever, just the bar 45 lb x8 reps, racked it barely. Fitness 4, Confidence 5. 27 days left."
    ],
    "open_vote": {
     "question": "What's next for Theo?",
@@ -44,7 +45,11 @@
      "New fit",
      "Gym again",
      "Reply to Maya"
-    ]
+    ],
+    "also_count_votes_on": [
+     "17957029749337139"
+    ],
+    "note": "Day 3 vote (options 1-5). Also count votes left on the Nov 20 morning gym bonus Reel (17957029749337139)."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party."
@@ -120,7 +125,14 @@
       95
      ]
     ]
-   }
+   },
+   "bonus_posts": [
+    {
+     "date": "2026-11-20",
+     "media_id": "17957029749337139",
+     "note": "Morning bonus. This is NOT Day 4 - still post the Day 4 episode at the 5:45 PM run today."
+    }
+   ]
   },
   "malik": {
    "title": "Malik Rowe: from cut to the league",

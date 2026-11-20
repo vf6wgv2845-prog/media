@@ -13,7 +13,7 @@ Owner: Boris. He has given standing permission to post on these three accounts.
 
 ## 1. Check what's already posted today
 `get_data` (connector `instagram`, fields `account_name, media_id, media_type, timestamp, media_caption`, date_preset `last_3dT`).
-If a series already got its episode today (Boris did it live), skip that series' episode.
+If a series already got its *episode* today (Boris did it live), skip that series' episode. Bonus/special posts listed in `bonus_posts` (or GTA/morning specials) do NOT count as the episode: still post the next Day.
 
 ## 2. Count the votes (for each series)
 `get_data` fields `comment_text, comment_like_count, comment_timestamp, comment_username, media_id` (date range covering the last episode) and filter to the series' `last_media_id`.
