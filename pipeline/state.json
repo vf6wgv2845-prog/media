@@ -20,39 +20,38 @@
  "series": {
   "theo": {
    "title": "Theo: 30 days until he sees his ex at the Christmas party",
-   "day": 3,
-   "last_post_date": "2026-11-19",
-   "last_media_id": "18171274432428879",
-   "image": "theo_gaming.jpg",
+   "day": 4,
+   "last_post_date": "2026-11-20",
+   "last_media_id": "18102169760644140",
+   "image": "theo_d02_clearskin.jpg",
    "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical. Leonardo reference image for consistency: the original scruffy Theo generation (search 'scruffy and neglected' in Your Generations). theo_gaming.jpg = him gaming (Day 3).",
    "stats": {
-    "Hair": 2,
+    "Hair": 4,
     "Skin": 7,
     "Style": 1,
     "Fitness": 4,
-    "Confidence": 5
+    "Confidence": 6
    },
    "upgrades_so_far": [
     "Day 2: clear skin (3 votes for #2, unanimous)",
     "Day 3: gym (tie 1-1 gym vs hair, earliest vote = gym; 0 votes for GTA option 6, he logged off). Votes counted one per user.",
-    "Nov 20 morning BONUS (not an episode): 6 AM before school, signed up at Ironworks Gym (membership card), first bench press ever, just the bar 45 lb x8 reps, racked it barely. Fitness 4, Confidence 5. 27 days left."
+    "Nov 20 morning BONUS (not an episode): 6 AM before school, signed up at Ironworks Gym (membership card), first bench press ever, just the bar 45 lb x8 reps, racked it barely. Fitness 4, Confidence 5. 27 days left.",
+    "Day 4 (Nov 20 evening): hair. Vote: 1-1 tie (ivannn_720 'Fix the hair' on Day 3 Reel 00:26 UTC vs 5sta.r.angel '4 gym again' on morning bonus 19:48 UTC), earliest = hair. DIY clippers -> bald patch -> beanie -> real barber fade. Image unchanged in cloud ('full hair reveal soon'). Maya texted 'nice hair. you still haven't answered me'; he started typing, phone died at 1%."
    ],
    "open_vote": {
     "question": "What's next for Theo?",
     "options": [
-     "Fix the hair",
      "Fix the eyebrows",
      "New fit",
      "Gym again",
-     "Reply to Maya"
+     "Reply to Maya",
+     "Fix the smile"
     ],
-    "also_count_votes_on": [
-     "17957029749337139"
-    ],
-    "note": "Day 3 vote (options 1-5). Also count votes left on the Nov 20 morning gym bonus Reel (17957029749337139)."
+    "note": "Day 4 vote (options 1-5) on 18102169760644140."
    },
    "cast": {
-    "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party."
+    "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
+    "ivannn_720": "viewer who has asked for the hair fix since Day 1; tagged in Day 4."
    },
    "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
    "voice_live": "ElevenLabs Roger (live sessions only)",
@@ -71,7 +70,7 @@
     ]
    },
    "aura": {
-    "value": 10,
+    "value": 13,
     "max": 100,
     "rules": {
      "comments": [
@@ -101,7 +100,9 @@
      ]
     },
     "note": "Aura = real engagement on the previous episode's Reel only (get_data media_views, media_like_count, media_comments_count, media_shares, media_saved; reposts are NOT readable with Instagram Login). Started at 10 on Day 4. Glow-up % = average of stats. Shown in the HUD every frame.",
-    "log": [],
+    "log": [
+     "2026-11-20: +3 from comments=1, likes=1, shares=0, saves=0, views=186"
+    ],
     "label": "AURA"
    },
    "format": {
@@ -143,9 +144,9 @@
     "S3: 60 days recruiting, audience picks school",
     "S4: college season, then the draft"
    ],
-   "day": 3,
-   "last_post_date": "2026-11-19",
-   "last_media_id": "18354060469268846",
+   "day": 4,
+   "last_post_date": "2026-11-20",
+   "last_media_id": "18151703362567500",
    "image": "malik.jpg",
    "school": "Riverview High Eagles",
    "position": "guard",
@@ -153,18 +154,18 @@
    "stats": {
     "Shooting": 5,
     "Handles": 6,
-    "Defense": 4,
-    "Basketball IQ": 6,
+    "Defense": 6,
+    "Basketball IQ": 7,
     "Confidence": 5
    },
    "open_vote": {
-    "question": "Game day. What's the plan?",
+    "question": "What does Malik do next?",
     "options": [
-     "Shoot first",
-     "Pass first",
-     "Lock down Dez",
-     "Talk to Tyler first",
-     "Ignore everyone, hoop"
+     "Film with Coach Reyes",
+     "Make up with Tyler",
+     "1v1 Dez rematch",
+     "500 shots again",
+     "Email the FSU scout"
     ]
    },
    "cast": {
@@ -196,7 +197,8 @@
    "story_so_far": [
     "Day 1: cut from varsity; Dez mocked him; Tyler made varsity",
     "Day 2 (no votes -> shooting; viewer @ky_go2krazzyyy's idea used): 500 shots before school; Tyler suspended 2 weeks after a cafeteria fight; Coach Reyes needs a guard for Friday vs Northside",
-    "Day 3 (vote 1 by ky_go2krazzyyy + their idea 'train harder than ever, scholarship to Florida State'): took Tyler's spot; first varsity practice; Tyler texted 'so you just took my spot. cool.'; Florida State scout coming to Friday's game vs Northside; dream school = Florida State."
+    "Day 3 (vote 1 by ky_go2krazzyyy + their idea 'train harder than ever, scholarship to Florida State'): took Tyler's spot; first varsity practice; Tyler texted 'so you just took my spot. cool.'; Florida State scout coming to Friday's game vs Northside; dream school = Florida State.",
+    "Day 4 (0 votes -> we picked #3 lock down Dez): varsity debut vs Northside; Dez scored 9 in Q1 then 0; Eagles lost 56-58, Malik's last shot rimmed out; Tyler texted 'you guarded him like i taught you'; FSU scout wrote something down (loose end). Holiday tournament in 14 days (Dec 4)."
    ],
    "format": {
     "tile1": "DAY",
@@ -221,7 +223,7 @@
     ]
    },
    "aura": {
-    "value": 10,
+    "value": 13,
     "max": 100,
     "label": "HYPE",
     "rules": {
@@ -251,24 +253,26 @@
       "+1 per 100"
      ]
     },
-    "log": [],
+    "log": [
+     "2026-11-20: +3 from comments=0, likes=2, shares=0, saves=0, views=193"
+    ],
     "note": "Same rules as Theo's aura: real engagement on the previous episode Reel only. Started at 10 on the first episode that uses the format."
    }
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
-   "day": 3,
-   "last_post_date": "2026-11-19",
-   "last_media_id": "17912716422585393",
+   "day": 4,
+   "last_post_date": "2026-11-20",
+   "last_media_id": "18035593631883831",
    "image": "rosie.jpg",
    "age": 19,
    "job": "line cook",
    "stats": {
     "Knife skills": 6,
     "Flavor": 8,
-    "Plating": 3,
-    "Speed": 4,
-    "Confidence": 4
+    "Plating": 5,
+    "Speed": 5,
+    "Confidence": 5
    },
    "open_vote": {
     "question": "Her next practice dish?",
@@ -276,8 +280,8 @@
      "Ramen",
      "Steak frites",
      "Chocolate souffle",
-     "Dumplings",
-     "Fried chicken"
+     "Fried chicken",
+     "Smash burgers"
     ]
    },
    "cast": {
@@ -308,7 +312,8 @@
    "story_so_far": [
     "Day 1: signed up for the city cook-off; Chef Marco mocked her; Julian Price is the favorite",
     "Day 2 (no votes -> fresh pasta): batch 1 tore (no rest), batch 2 perfect; Julian texted 'cute'; real recipe carousel posted (cook/c002)",
-    "Day 3 (no votes -> birria tacos): 3-hour braise; Chef Marco tasted the consomme, said nothing, took a second bowl; recipe carousel cook/c003."
+    "Day 3 (no votes -> birria tacos): 3-hour braise; Chef Marco tasted the consomme, said nothing, took a second bowl; recipe carousel cook/c003.",
+    "Day 4 (0 votes -> we picked #4 dumplings): batch 1 overfilled and burst, batch 2 golden potstickers; Chef Marco texted 'make 50 more. staff meal. tonight.' Full pork & cabbage potsticker recipe in the Reel caption (no carousel)."
    ],
    "format": {
     "tile1": "DAYS LEFT",
@@ -333,7 +338,7 @@
     ]
    },
    "aura": {
-    "value": 10,
+    "value": 11,
     "max": 100,
     "label": "BUZZ",
     "rules": {
@@ -363,19 +368,22 @@
       "+1 per 100"
      ]
     },
-    "log": [],
+    "log": [
+     "2026-11-20: +1 from comments=0, likes=0, shares=0, saves=0, views=112"
+    ],
     "note": "Same rules as Theo's aura: real engagement on the previous episode Reel only. Started at 10 on the first episode that uses the format."
    }
   },
   "horde": {
    "title": "The Trash Horde: real litter pickup damages a zombie horde",
    "type": "community_game",
-   "day": 1,
-   "last_post_date": "2026-11-19",
-   "last_media_id": "18360182398220303",
+   "day": 2,
+   "last_post_date": "2026-11-20",
+   "last_media_id": "18115430510175423",
    "count_comments_on": [
     "18086748809339674",
-    "18360182398220303"
+    "18360182398220303",
+    "18115430510175423"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -407,7 +415,8 @@
    "safety": "Never encourage touching needles, broken glass or hazardous waste; under-18s with an adult. Repeat in captions often.",
    "log": [
     "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety).",
-    "Nov 19 evening: battle Day 1 Reel posted; 0 hauls so far; promised a shoutout to the first person to land a hit."
+    "Nov 19 evening: battle Day 1 Reel posted; 0 hauls so far; promised a shoutout to the first person to land a hit.",
+    "Day 2 (Nov 20): 0 haul comments on launch carousel + Day 1 Reel. Battle Day 2 Reel posted (0 hits, 2 days left, first hit = shoutout). Totals unchanged: 5,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0)."
    ],
    "format": {
     "tiles": [
@@ -416,7 +425,8 @@
      "CLEANERS"
     ],
     "note": "No aura: the community damage IS the score. HUD values come from boss/totals in state; scoreboard scene = today's damage by city/cleaner, from real haul comments only."
-   }
+   },
+   "counted_comment_ids": []
   }
  },
  "extras": {
@@ -439,6 +449,15 @@
    "run": "evening scheduled run 23:40 UTC: Day 2 already posted for all 3 (22:49-22:52 UTC), episodes skipped.",
    "stats": "Day 2 reels ~50 min in: Theo 146 views/77 reach/0 likes/1 comment; Malik 0 views (insights lag); Rosie 13 views/3 reach. Day 1 reels: Theo 268 views/4 likes/6 comments; Malik 281/2/2; Rosie 110/0/0. Carousels still 0 reach.",
    "votes_so_far": "Theo D2: 1 vote #4 Gym (noahissobased). Malik D2: 0. Rosie D2: 0."
+  },
+  {
+   "date": "2026-11-20",
+   "theo": "#TheosGlowUp #glowup #glowupchallenge #30daychallenge #transformation",
+   "malik": "#MalikRowe #basketball #hoops #basketballstory #underdog",
+   "rosie": "#RosiesKitchen #dumplings #easyrecipes #dinnerideas #homecooking",
+   "horde": "#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge",
+   "stats": "Day 3 reels ~24h: Theo 186 views/1 like/1 comment; Malik 193/2/0; Rosie 112/0/0; Horde Day 1 156/3/0. Theo morning bonus 177 views/1 like/1 comment/2 shares (first shares ever). Carousels still 0 reach. Day 2 reels: Theo 356 views, Malik 8 (stuck), Rosie 117.",
+   "votes": "Theo D3: hair 1 (ivannn_720) vs gym 1 (5sta.r.angel, on bonus) -> hair by earliest. Malik D3: 0. Rosie D3: 0. Horde: 0 hauls."
   }
  ],
  "trends": {
