@@ -1,0 +1,423 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.2,
+ "pill": "SEASON 1  •  DAY 4 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Day 4:",
+  "dumplings.",
+  "Pleat or fail."
+ ],
+ "hook_emoji": "🥟",
+ "name_line": "Day 4: Dumplings.",
+ "sub_line": "No votes came in  •  we picked #4",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   5
+  ],
+  [
+   "Speed",
+   5
+  ],
+  [
+   "Confidence",
+   5
+  ]
+ ],
+ "notif": {
+  "from": "Chef Marco",
+  "msg": "make 50 more. staff meal. tonight.",
+  "emoji": "",
+  "color": [
+   255,
+   149,
+   0
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Chef Marco texted.",
+  [
+   "(he has never asked",
+   "her for anything.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "50 more dumplings."
+  ],
+  "Real recipe in the caption.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Her next",
+  "practice dish?"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ],
+  [
+   "🍫",
+   "Chocolate souffle"
+  ],
+  [
+   "🍗",
+   "Fried chicken"
+  ],
+  [
+   "🍔",
+   "Smash burgers"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Twenty-seven days to the cook-off. Pasta, then birria."
+   ],
+   [
+    0.1,
+    "Today: the dish that exposes sloppy hands."
+   ],
+   [
+    0.1,
+    "Day four. Dumplings."
+   ]
+  ],
+  "s2": [
+   [
+    0.15,
+    "No votes came in, so we picked: dumplings."
+   ],
+   [
+    0.05,
+    "Knife skills, six."
+   ],
+   [
+    0.05,
+    "Flavor, eight."
+   ],
+   [
+    0.05,
+    "Plating, three to five."
+   ],
+   [
+    0.05,
+    "Speed, five."
+   ],
+   [
+    0.05,
+    "Confidence, five."
+   ]
+  ],
+  "sb": [
+   [
+    0.1,
+    "Last episode:"
+   ],
+   [
+    0.05,
+    "zero comments,"
+   ],
+   [
+    0.05,
+    "zero likes,"
+   ],
+   [
+    0.05,
+    "zero shares. Shares are worth five."
+   ],
+   [
+    0.05,
+    "zero saves,"
+   ],
+   [
+    0.05,
+    "112 views."
+   ],
+   [
+    0.1,
+    "Plus one buzz."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Batch one: overfilled. They burst in the pan."
+   ],
+   [
+    0.1,
+    "Batch two: smaller spoon, tight pleats, golden bottoms."
+   ],
+   [
+    0.1,
+    "Then her phone buzzed."
+   ],
+   [
+    0.1,
+    "Chef Marco. Make fifty more. Staff meal. Tonight."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "Fifty dumplings. One hour. Her hands already cramp."
+   ],
+   [
+    0.1,
+    "The real recipe is in the caption."
+   ],
+   [
+    0.1,
+    "Day one is pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Her next practice dish?"
+   ],
+   [
+    0.1,
+    "Ramen, steak frites, souffle, fried chicken, or smash burgers?"
+   ],
+   [
+    0.1,
+    "Comment the number. Want a cameo as her taste-tester? Say so."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "58%",
+    "from": "50%",
+    "at": [
+     "s2",
+     0
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "11/100",
+    "from": "10/100",
+    "at": [
+     "sb",
+     -1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3",
+   "s4"
+  ],
+  "y": 1500,
+  "keywords": [
+   "marco",
+   "fifty",
+   "burst",
+   "golden",
+   "recipe"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "27",
+   "y": 1400,
+   "hold": 6
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "ONE DISH / DAY",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2
+  },
+  {
+   "scene": "s2",
+   "line": 3,
+   "text": "PLATING +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BATCH 1",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 520,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "POP!",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 760,
+   "angle": -6,
+   "delay": 0.8,
+   "hold": 1.1
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "SIZZLE",
+   "bg": [
+    245,
+    170,
+    60
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 620,
+   "angle": 5,
+   "hold": 1.4
+  },
+  {
+   "scene": "s4",
+   "line": 0,
+   "text": "50 IN 60 MIN",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4
+  }
+ ],
+ "scoreboard": {
+  "title": "LAST EPISODE",
+  "label": "BUZZ",
+  "from": 10,
+  "to": 11,
+  "max": 100,
+  "rows": [
+   [
+    "COMMENTS",
+    "+1 each",
+    "0",
+    0
+   ],
+   [
+    "LIKES",
+    "+1 each",
+    "0",
+    0
+   ],
+   [
+    "SHARES",
+    "+5 each",
+    "0",
+    0
+   ],
+   [
+    "SAVES",
+    "+3 each",
+    "0",
+    0
+   ],
+   [
+    "VIEWS",
+    "+1 per 100",
+    "112",
+    1
+   ]
+  ]
+ },
+ "cover_title": [
+  "DAY 4",
+  "DUMPLINGS"
+ ]
+}

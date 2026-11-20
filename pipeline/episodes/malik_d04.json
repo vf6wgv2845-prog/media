@@ -1,0 +1,420 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.2,
+ "pill": "SEASON 1  •  DAY 4 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "Game day.",
+  "Varsity debut.",
+  "Guard Dez."
+ ],
+ "hook_emoji": "🏀",
+ "name_line": "Day 4: Guard Dez.",
+ "sub_line": "No votes came in  •  we picked #3",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   6
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   7
+  ],
+  [
+   "Confidence",
+   5
+  ]
+ ],
+ "notif": {
+  "from": "Tyler",
+  "msg": "you guarded him like i taught you",
+  "emoji": "",
+  "color": [
+   88,
+   86,
+   214
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Tyler texted.",
+  [
+   "(first word since",
+   "the spot.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "Lost by 2.",
+   "Dez held to 9."
+  ],
+  "The FSU scout wrote something down.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What does Malik",
+  "do next?"
+ ],
+ "options": [
+  [
+   "🎥",
+   "Film with Coach Reyes"
+  ],
+  [
+   "🤝",
+   "Make up with Tyler"
+  ],
+  [
+   "⚔️",
+   "1v1 Dez rematch"
+  ],
+  [
+   "🎯",
+   "500 shots again"
+  ],
+  [
+   "📧",
+   "Email the FSU scout"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Cut three days ago. Now he's starting."
+   ],
+   [
+    0.1,
+    "Northside. A Florida State scout watching."
+   ],
+   [
+    0.1,
+    "Day four. Guard Dez."
+   ]
+  ],
+  "s2": [
+   [
+    0.15,
+    "No votes came in, so we picked: lock down Dez."
+   ],
+   [
+    0.05,
+    "Shooting, five."
+   ],
+   [
+    0.05,
+    "Handles, six."
+   ],
+   [
+    0.05,
+    "Defense, four to six."
+   ],
+   [
+    0.05,
+    "I.Q., seven."
+   ],
+   [
+    0.05,
+    "Confidence, five."
+   ]
+  ],
+  "sb": [
+   [
+    0.1,
+    "Last episode:"
+   ],
+   [
+    0.05,
+    "zero comments,"
+   ],
+   [
+    0.05,
+    "two likes,"
+   ],
+   [
+    0.05,
+    "zero shares. Shares are worth five."
+   ],
+   [
+    0.05,
+    "zero saves,"
+   ],
+   [
+    0.05,
+    "193 views."
+   ],
+   [
+    0.1,
+    "Plus three hype."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "First quarter, Dez crossed him. Nine points."
+   ],
+   [
+    0.1,
+    "Then Malik locked in. Dez scored zero after that."
+   ],
+   [
+    0.1,
+    "Then his phone buzzed."
+   ],
+   [
+    0.1,
+    "Tyler. You guarded him like I taught you."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "Down two. Last shot... rimmed out."
+   ],
+   [
+    0.1,
+    "But the scout wrote something down."
+   ],
+   [
+    0.1,
+    "Day one is pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "What does Malik do next?"
+   ],
+   [
+    0.1,
+    "Film, Tyler, Dez rematch, shots, or email the scout?"
+   ],
+   [
+    0.1,
+    "Comment the number. Want a cameo? Say what job you'd do."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "4/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "58",
+    "from": "52",
+    "at": [
+     "s2",
+     0
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "13/100",
+    "from": "10/100",
+    "at": [
+     "sb",
+     -1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3",
+   "s4"
+  ],
+  "y": 1500,
+  "keywords": [
+   "dez",
+   "tyler",
+   "scout",
+   "nine",
+   "zero",
+   "two"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "label": "TOURNEY IN",
+   "text": "14",
+   "y": 1400,
+   "hold": 6
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "GAME DAY",
+   "bg": [
+    232,
+    120,
+    30
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2
+  },
+  {
+   "scene": "s2",
+   "line": 3,
+   "text": "DEFENSE +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "Q1",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 520,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "CROSSED",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 760,
+   "angle": -6,
+   "delay": 0.7,
+   "hold": 1.1
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "LOCKED UP",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": 5,
+   "hold": 1.4
+  },
+  {
+   "scene": "s4",
+   "line": 0,
+   "text": "L  56-58",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4
+  }
+ ],
+ "scoreboard": {
+  "title": "LAST EPISODE",
+  "label": "HYPE",
+  "from": 10,
+  "to": 13,
+  "max": 100,
+  "rows": [
+   [
+    "COMMENTS",
+    "+1 each",
+    "0",
+    0
+   ],
+   [
+    "LIKES",
+    "+1 each",
+    "2",
+    2
+   ],
+   [
+    "SHARES",
+    "+5 each",
+    "0",
+    0
+   ],
+   [
+    "SAVES",
+    "+3 each",
+    "0",
+    0
+   ],
+   [
+    "VIEWS",
+    "+1 per 100",
+    "193",
+    1
+   ]
+  ]
+ },
+ "cover_title": [
+  "DAY 4",
+  "GUARD DEZ"
+ ]
+}

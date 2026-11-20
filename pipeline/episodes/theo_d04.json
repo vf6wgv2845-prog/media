@@ -1,0 +1,434 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 4 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "You voted.",
+  "Day 4:",
+  "the hair."
+ ],
+ "hook_emoji": "✂️",
+ "name_line": "Day 4: Hair.",
+ "sub_line": "You voted  •  hair won the tiebreak",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   4
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Maya",
+  "msg": "nice hair. you still haven't answered me",
+  "emoji": "👀",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": [
+  "Maya noticed.",
+  [
+   "(he still hasn't",
+   "replied.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🏋️",
+   "Gym again"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.15,
+    "Twenty-seven days till his ex. Skin fixed, gym started."
+   ],
+   [
+    0.15,
+    "You kept asking for one thing."
+   ],
+   [
+    0.1,
+    "Day four. The hair."
+   ]
+  ],
+  "s2": [
+   [
+    0.2,
+    "Hair and gym tied. Earliest vote: hair."
+   ],
+   [
+    0.05,
+    "Hair, two to four."
+   ],
+   [
+    0.05,
+    "Skin, seven."
+   ],
+   [
+    0.05,
+    "Style, one."
+   ],
+   [
+    0.05,
+    "Fitness, four."
+   ],
+   [
+    0.05,
+    "Confidence, six."
+   ]
+  ],
+  "sb": [
+   [
+    0.1,
+    "Last episode:"
+   ],
+   [
+    0.05,
+    "one comment,"
+   ],
+   [
+    0.05,
+    "one like,"
+   ],
+   [
+    0.05,
+    "zero shares. Those are worth five."
+   ],
+   [
+    0.05,
+    "zero saves,"
+   ],
+   [
+    0.05,
+    "186 views."
+   ],
+   [
+    0.1,
+    "Plus three aura."
+   ]
+  ],
+  "s3": [
+   [
+    0.15,
+    "Last night: DIY clippers."
+   ],
+   [
+    0.15,
+    "Bald patch. Beanie. Then a real barber."
+   ],
+   [
+    0.15,
+    "Then his phone buzzed."
+   ],
+   [
+    0.1,
+    "Maya. Nice hair. You still haven't answered me."
+   ]
+  ],
+  "s4": [
+   [
+    0.15,
+    "He started typing. Phone died. Full reveal soon."
+   ],
+   [
+    0.1,
+    "Top comment is tomorrow's fix."
+   ],
+   [
+    0.1,
+    "Start from day one, it's pinned."
+   ]
+  ],
+  "s5": [
+   [
+    0.15,
+    "What's next for Theo?"
+   ],
+   [
+    0.1,
+    "Brows, fit, gym, Maya... or the smile?"
+   ],
+   [
+    0.1,
+    "Comment the number. Want a cameo? Say what job you'd do."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "44%",
+    "from": "38%",
+    "at": [
+     "s2",
+     0
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "13/100",
+    "from": "10/100",
+    "at": [
+     "sb",
+     -1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3",
+   "s4"
+  ],
+  "y": 1500,
+  "keywords": [
+   "maya",
+   "aura",
+   "hair",
+   "barber",
+   "clippers",
+   "beanie",
+   "five"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "ivannn_720",
+   "text": "Fix the hair",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.4
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "27",
+   "y": 1400,
+   "hold": 6
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "ONE FIX / DAY",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.5
+  },
+  {
+   "scene": "s2",
+   "line": 1,
+   "text": "GLOW-UP +6%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "LAST NIGHT",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 520,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BZZZT",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 760,
+   "angle": -6,
+   "delay": 0.7,
+   "hold": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "OOPS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 620,
+   "angle": 5,
+   "hold": 1.2
+  },
+  {
+   "scene": "s4",
+   "line": 0,
+   "text": "1% BATTERY",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4
+  }
+ ],
+ "scoreboard": {
+  "title": "LAST EPISODE",
+  "label": "AURA",
+  "from": 10,
+  "to": 13,
+  "max": 100,
+  "rows": [
+   [
+    "COMMENTS",
+    "+1 each",
+    "1",
+    1
+   ],
+   [
+    "LIKES",
+    "+1 each",
+    "1",
+    1
+   ],
+   [
+    "SHARES",
+    "+5 each",
+    "0",
+    0
+   ],
+   [
+    "SAVES",
+    "+3 each",
+    "0",
+    0
+   ],
+   [
+    "VIEWS",
+    "+1 per 100",
+    "186",
+    1
+   ]
+  ]
+ },
+ "cover_title": [
+  "DAY 4",
+  "THE HAIR"
+ ]
+}

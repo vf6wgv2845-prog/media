@@ -1,0 +1,318 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.12,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "Still zero hits.",
+  "The horde moved",
+  "one street closer."
+ ],
+ "hook_emoji": "🧟",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Alert",
+  "msg": "the Landfill King is getting comfortable",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": [
+  "Nobody has hit him.",
+  [
+   "(the first hit gets",
+   "a shoutout here.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Day two. Still zero hits."
+   ],
+   [
+    0.1,
+    "The horde moved one street closer."
+   ],
+   [
+    0.1,
+    "The Landfill King is laughing."
+   ]
+  ],
+  "s2": [
+   [
+    0.15,
+    "Battle report."
+   ],
+   [
+    0.05,
+    "Boss health? Full. Five thousand."
+   ],
+   [
+    0.05,
+    "Horde strength? Max."
+   ],
+   [
+    0.05,
+    "Streets cleaned? Zero."
+   ],
+   [
+    0.05,
+    "Cleaners? Zero. Yet."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Alert. The Landfill King is getting comfortable."
+   ],
+   [
+    0.1,
+    "Nobody has hit him yet."
+   ],
+   [
+    0.1,
+    "The first person to land a hit gets a shoutout right here."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "Two days until Sunday. Or the horde spreads."
+   ],
+   [
+    0.1,
+    "One piece is one damage. One pound is ten."
+   ],
+   [
+    0.1,
+    "Gloves on. Never touch needles or glass. Under eighteen, go with an adult."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Here's how to land the first hit."
+   ],
+   [
+    0.1,
+    "Gloves and a bag. Ten pieces. Bin it. Comment your haul and city. Tag a friend."
+   ],
+   [
+    0.1,
+    "Comment your haul below."
+   ]
+  ]
+ },
+ "pill": "BOSS FIGHT  •  DAY 2",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "5,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3",
+   "s4"
+  ],
+  "y": 1500,
+  "keywords": [
+   "first",
+   "hit",
+   "shoutout",
+   "sunday",
+   "gloves",
+   "horde"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "label": "BOSS ENDS",
+   "text": "2",
+   "y": 1400,
+   "hold": 6
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "0 HITS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2
+  },
+  {
+   "scene": "s2",
+   "line": 1,
+   "text": "5,000 HP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 620,
+   "angle": -4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "GRRR",
+   "bg": [
+    110,
+    60,
+    200
+   ],
+   "y": 760,
+   "angle": -6,
+   "delay": 0.4,
+   "hold": 1.2
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FIRST HIT = SHOUTOUT",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 900,
+   "angle": 4,
+   "size": 70,
+   "hold": 2.0
+  },
+  {
+   "scene": "s4",
+   "line": 0,
+   "text": "SUNDAY",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -4
+  }
+ ],
+ "cover_title": [
+  "DAY 2",
+  "0 HITS"
+ ]
+}
