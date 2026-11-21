@@ -96,6 +96,11 @@ Different from the 3 story series: no vote options. Each run:
 ## 6. Engage
 Reply to up to 5 genuine new comments per account (`reply_to_comment`), short and in-character for the account. Never argue, never reply to spam/hate (hide it with `hide_comment` if it's abusive).
 
+
+## 6b. Learning loop (Boris, Nov 20: more accounts is fine as long as every one gets full attention, and lessons from every account improve all of them)
+Each run, before writing episodes, pull every Reel from the last 7 days on ALL accounts (views, reach, likes, comments, shares, saves; plus skip rate/avg watch time if the connector gives them) and add one line per post to `state.json` `learning_log`: account, day, hook line 1, cover title, length, and the numbers at ~24h.
+Then write 1-3 short `lessons` (state.json) comparing posts across accounts: which hooks, covers, lengths, vote options, cameo asks and posting times did better, and what flopped. Apply the current lessons to EVERY account's next episode, and say in the report which lesson you applied. Never copy another account's story, only what worked mechanically.
+
 ## 7. Save state + report
 Update `state.json` (day, last_post_date, last_media_id, stats, open_vote, any new cast/threads) and commit.
 Then message Boris: what posted on each account, the vote counts that decided each episode, current views/likes/comments per account, and anything that needs him (e.g. Theo visual upgrade, Windsor trial ending).
