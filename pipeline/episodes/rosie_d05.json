@@ -1,0 +1,288 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 5 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Her souffle",
+  "collapsed in front",
+  "of the whole kitchen."
+ ],
+ "hook_emoji": "🍫",
+ "name_line": "Day 5: Chocolate souffle.",
+ "sub_line": "No votes came in  •  we picked #3",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   6
+  ],
+  [
+   "Speed",
+   5
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Julian Price",
+  "msg": "souffle? bold. mine never fall.",
+  "emoji": "",
+  "color": [
+   90,
+   90,
+   200
+  ],
+  "icon": "🔪"
+ },
+ "notif_line": 3,
+ "conflict": [
+  "Dessert round confirmed.",
+  [
+   "(the cook-off",
+   "has one now.)"
+  ]
+ ],
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Her next",
+  "practice dish?"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ],
+  [
+   "🍗",
+   "Fried chicken"
+  ],
+  [
+   "🍔",
+   "Smash burgers"
+  ],
+  [
+   "🍰",
+   "Another dessert"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her souffle collapsed in front of the whole kitchen."
+   ],
+   [
+    0.1,
+    "Day five. No votes came in, so we picked: chocolate souffle."
+   ],
+   [
+    0.1,
+    "Stay to the end. You pick her next dish."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "She opened the oven early. Flat in ten seconds."
+   ],
+   [
+    0.1,
+    "Batch two: stiff whites, gentle fold, door shut. It rose."
+   ],
+   [
+    0.1,
+    "Plating, six. Then the cook-off posted the rules."
+   ],
+   [
+    0.1,
+    "A dessert round. And Julian texted: mine never fall."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Twenty-six days. Her next practice dish?"
+   ],
+   [
+    0.1,
+    "Ramen, steak frites, fried chicken, smash burgers, or another dessert."
+   ],
+   [
+    0.1,
+    "Real recipe in the caption. Comment the number."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "62%",
+    "from": "58%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "11/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "julian",
+   "dessert",
+   "souffle",
+   "rose",
+   "flat",
+   "six"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU PICK NEXT",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 80
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "PFFFT",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 620,
+   "angle": -6,
+   "hold": 1.3,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "IT ROSE",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 620,
+   "angle": 4,
+   "hold": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "PLATING +1",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -3,
+   "hold": 1.3
+  }
+ ],
+ "cover_title": [
+  "DAY 5",
+  "SOUFFLE"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

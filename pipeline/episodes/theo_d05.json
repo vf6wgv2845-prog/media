@@ -1,0 +1,318 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 5 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "He dropped",
+  "the bar on",
+  "his own chest."
+ ],
+ "hook_emoji": "🏋️",
+ "name_line": "Day 5: Gym again.",
+ "sub_line": "You voted  •  gym 3, new fit 1",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   6
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Maya",
+  "msg": "you go to ironworks now?? jake goes there",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 3,
+ "conflict": [
+  "Jake lifts here.",
+  [
+   "(Maya's new",
+   "boyfriend.)"
+  ]
+ ],
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He dropped the bar on his own chest."
+   ],
+   [
+    0.1,
+    "Day five of thirty. You voted: gym again."
+   ],
+   [
+    0.1,
+    "Stay to the end. You pick tomorrow's fix."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Rep one: the bar wins. CLANK."
+   ],
+   [
+    0.1,
+    "Then he tried again. Sixty-five pounds. Five reps."
+   ],
+   [
+    0.1,
+    "Fitness, six. Then his phone buzzed."
+   ],
+   [
+    0.1,
+    "Maya. You go to Ironworks now? Jake goes there."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Jake is on the next bench. Tomorrow's fix?"
+   ],
+   [
+    0.1,
+    "New fit, brows, reply to Maya, gym, or the smile."
+   ],
+   [
+    0.1,
+    "Fifty followers unlocks his pro haircut reveal."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "50%",
+    "from": "44%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "37/100",
+    "from": "13/100",
+    "at": [
+     "s3",
+     0
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "maya",
+   "jake",
+   "ironworks",
+   "sixty-five",
+   "five",
+   "six",
+   "clank"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "5sta.r.angel",
+   "text": "3 gym we got to get him looking amazing",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.4
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU PICK TOMORROW",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 80
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "AURA +24",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": -4,
+   "hold": 1.1,
+   "size": 90
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "CLANK",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 760,
+   "angle": -6,
+   "hold": 1.0,
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "delay": 1.1
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "65 LB x5",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 620,
+   "angle": 4,
+   "hold": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "GLOW-UP +6%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 620,
+   "angle": -3,
+   "hold": 1.3
+  }
+ ],
+ "cover_title": [
+  "DAY 5",
+  "THE BAR WON"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

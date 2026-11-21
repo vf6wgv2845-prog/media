@@ -1,0 +1,295 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 5 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He beat Dez",
+  "11-9. Then Dez",
+  "said her name."
+ ],
+ "hook_emoji": "🏀",
+ "name_line": "Day 5: Dez rematch.",
+ "sub_line": "No votes came in  •  we picked #3",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   7
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Dez Okafor",
+  "msg": "run it back at the tourney. jada's coming",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 3,
+ "conflict": [
+  "Jada's coming.",
+  [
+   "(his ex. front row.)"
+  ]
+ ],
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What does Malik",
+  "do next?"
+ ],
+ "options": [
+  [
+   "🤝",
+   "Make up with Tyler"
+  ],
+  [
+   "🎥",
+   "Film with Coach Reyes"
+  ],
+  [
+   "📧",
+   "Email the FSU scout"
+  ],
+  [
+   "🎯",
+   "500 shots again"
+  ],
+  [
+   "📱",
+   "Text Jada first"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He beat Dez eleven to nine. Then Dez said her name."
+   ],
+   [
+    0.1,
+    "Day five. No votes came in, so we picked: the Dez rematch."
+   ],
+   [
+    0.1,
+    "Stay to the end. Vote, or we pick again."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Park court. First to eleven. Down five to one."
+   ],
+   [
+    0.1,
+    "Then the crossover Dez used on him Friday. Right back at him."
+   ],
+   [
+    0.1,
+    "Eleven to nine. Malik wins."
+   ],
+   [
+    0.1,
+    "Dez walked off. Then texted: run it back at the tourney. Jada's coming."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "His ex, front row, in thirteen days. What's next?"
+   ],
+   [
+    0.1,
+    "Tyler, film, the scout, shots, or text Jada first."
+   ],
+   [
+    0.1,
+    "Comment the number. Want a cameo? Say your job."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "5/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "64",
+    "from": "58",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "15/100",
+    "from": "13/100",
+    "at": [
+     "s3",
+     0
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "dez",
+   "jada",
+   "eleven",
+   "nine",
+   "malik",
+   "crossover"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "13",
+   "y": 1400,
+   "hold": 4,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU PICK NEXT",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 80
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "1-5",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 620,
+   "angle": -4,
+   "hold": 1.3,
+   "size": 110
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "CROSSED HIM",
+   "bg": [
+    255,
+    150,
+    60
+   ],
+   "y": 620,
+   "angle": 4,
+   "hold": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "W 11-9",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 620,
+   "angle": -3,
+   "hold": 1.5,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 120
+  }
+ ],
+ "cover_title": [
+  "DAY 5",
+  "W 11-9"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

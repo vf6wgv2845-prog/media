@@ -1,0 +1,269 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "1 day left.",
+  "5,000 HP.",
+  "Zero hits."
+ ],
+ "hook_emoji": "🧟",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Alert",
+  "msg": "tomorrow the horde spreads to a new city",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": [
+  "Last chance.",
+  [
+   "(first hit gets a",
+   "shoutout + a title)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "One day left. Five thousand H.P. Zero hits."
+   ],
+   [
+    0.1,
+    "Tomorrow, the horde spreads to a new city."
+   ],
+   [
+    0.1,
+    "Unless one person lands the first hit today."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Alert. The Landfill King is still at full health."
+   ],
+   [
+    0.1,
+    "One piece of litter is one damage. One pound is ten."
+   ],
+   [
+    0.1,
+    "The first hit gets a shoutout here and the title Captain."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Land the first hit today."
+   ],
+   [
+    0.1,
+    "Gloves, a bag, ten pieces, bin it, comment your haul and city."
+   ],
+   [
+    0.1,
+    "Gloves on. Never touch needles or broken glass. Under eighteen, go with an adult."
+   ]
+  ]
+ },
+ "pill": "BOSS FIGHT  •  DAY 3",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "5,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "first",
+   "hit",
+   "captain",
+   "one",
+   "ten",
+   "damage"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "label": "BOSS ENDS",
+   "text": "1",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "0 HITS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.2,
+   "size": 100
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "5,000 HP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 900,
+   "angle": -4,
+   "hold": 1.6,
+   "size": 90
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FIRST HIT = CAPTAIN",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "y": 900,
+   "angle": 3,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 70
+  }
+ ],
+ "cover_title": [
+  "1 DAY LEFT",
+  "0 HITS"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
