@@ -70,7 +70,8 @@
      "Reply to Maya",
      "Fix the smile"
     ],
-    "note": "Day 4 vote (options 1-5) on 18102169760644140."
+    "note": "Day 4 vote (options 1-5) on 18102169760644140.",
+    "interim_count_nov20_night": "Gym 2 (5sta.r.angel '3 gym...', ivannn_720 'hit the gym'), New fit 1 (ej123445 'Style please'). Recount at the run."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
@@ -406,7 +407,8 @@
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
-    "18115430510175423"
+    "18115430510175423",
+    "18375579412209802"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -439,7 +441,8 @@
    "log": [
     "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety).",
     "Nov 19 evening: battle Day 1 Reel posted; 0 hauls so far; promised a shoutout to the first person to land a hit.",
-    "Day 2 (Nov 20): 0 haul comments on launch carousel + Day 1 Reel. Battle Day 2 Reel posted (0 hits, 2 days left, first hit = shoutout). Totals unchanged: 5,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0)."
+    "Day 2 (Nov 20): 0 haul comments on launch carousel + Day 1 Reel. Battle Day 2 Reel posted (0 hits, 2 days left, first hit = shoutout). Totals unchanged: 5,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0).",
+    "Nov 20 ~7:15 PM ET: fact Reel #1 posted (152 pieces per person, KAB 2020) 18375579412209802 - first v3-structure Reel (27 s)."
    ],
    "format": {
     "tiles": [
@@ -757,6 +760,22 @@
    "fact": "Nearly 350 million plastic bags and 394.7 million fast-food cups littered; 90% of residents say litter is a problem in their state",
    "source": "KAB 2020 study",
    "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  }
+ ],
+ "post_queue": [
+  {
+   "account": "horde",
+   "when": "Nov 21 main run, FIRST thing",
+   "video": "horde/queue/fact02.mp4",
+   "cover": "horde/queue/fact02_cover.jpg",
+   "caption": "The #1 most littered item in America is tiny. You walk past it every day... 🚬\n\nCigarette butts: 19.6% of all US litter, the single most littered item (Keep America Beautiful 2020 National Litter Study). Each one you bin = 1 damage on the Landfill King.\n\nGloves on (or a litter picker), never touch needles or broken glass, under 18 go with an adult. Comment your haul + city 👇\nSource: kab.org litter study (2020).\n\n#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge"
+  },
+  {
+   "account": "horde",
+   "when": "Nov 21 main run, LAST thing (after the battle Reel? no: battle Reel goes last; post this one in the middle, >=15 min from the others)",
+   "video": "horde/queue/fact03.mp4",
+   "cover": "horde/queue/fact03_cover.jpg",
+   "caption": "US roadside litter dropped 54% since 2009. Not by magic. People picked it up. 📉\n\nKeep America Beautiful counted about 51 billion pieces on US roadways in 2009 and 23.7 billion in 2020. Cleanups work. Let's push it lower: every piece = 1 damage on the Landfill King, 1 lb = 10.\n\nGloves on, no needles or glass, under 18 go with an adult. Comment your haul + city 👇\nSource: kab.org litter study (2020).\n\n#TrashHorde #cleanup #environment #litterpicking #pickuplitter"
   }
  ]
 }
