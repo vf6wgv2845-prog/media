@@ -458,16 +458,16 @@
    "type": "community_game",
    "day": 3,
    "last_post_date": "2026-11-21",
-   "last_media_id": "18457242124124843",
+   "last_media_id": "18383516947300254",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
     "18115430510175423",
     "18375579412209802",
     "18079312298733937",
-    "18079312298733937",
     "18116548631136157",
-    "18457242124124843"
+    "18457242124124843",
+    "18383516947300254"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -503,7 +503,8 @@
     "Day 2 (Nov 20): 0 haul comments on launch carousel + Day 1 Reel. Battle Day 2 Reel posted (0 hits, 2 days left, first hit = shoutout). Totals unchanged: 5,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0).",
     "Nov 20 ~7:15 PM ET: fact Reel #1 posted (152 pieces per person, KAB 2020) 18375579412209802 - first v3-structure Reel (27 s).",
     "Nov 21 7:4x AM ET (extras): 0 comments on any Horde post (launch carousel, Day 1/2 battle, fact #1) -> still 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted queued fact Reel #2 (cigarette butts 19.6%, KAB 2020) 18079312298733937.",
-    "Nov 21 ~12:10 PM ET: fact #3 (roadway litter -54%) 18116548631136157. Battle Day 3 (1 day left, 0 hits) posted ~12:30 PM ET. Weekend: Boris asked to post everything early."
+    "Nov 21 ~12:10 PM ET: fact #3 (roadway litter -54%) 18116548631136157. Battle Day 3 (1 day left, 0 hits) posted ~12:30 PM ET. Weekend: Boris asked to post everything early.",
+    "Nov 21 ~1:45 PM ET (extras midday): 0 comments on any Horde post -> 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted new format: 60-second challenge Reel #1 (25 s, vote screen ~12 s, low-barrier ask 'or just comment your city') 18383516947300254. Horde Reels today: 4 (fact #2, fact #3, battle D3, challenge #1)."
    ],
    "format": {
     "tiles": [
@@ -795,7 +796,8 @@
   "Nov 20: only Theo has followers (21). Stories/images/carousels reach ~nobody yet; growth = Reels to non-followers.",
   "Nov 20 analysis: viewers leave during the stats panel/scoreboard at 9-17 s; the vote (29-39 s) is almost never seen. Use template v3 (20-28 s, vote by 18 s).",
   "Nov 20 analysis: hooks that start with 'Day N: you voted' lose ~50-70% in 3 s. Open on the most dramatic beat.",
-  "Nov 21 AM extras: Horde fact #1 (v3, 27 s) 114 views / 0 engagement after ~10 h vs battle Reels 108-156 views: same reach, no comments either way. Kept fact format this slot; Horde still needs its first comment of any kind (try a 1-word comment ask, e.g. 'comment your city' with no haul needed, in the midday run). Theo bonus: kept the single-moment format (best % watched + only shares), 27 s, vote by 18 s."
+  "Nov 21 AM extras: Horde fact #1 (v3, 27 s) 114 views / 0 engagement after ~10 h vs battle Reels 108-156 views: same reach, no comments either way. Kept fact format this slot; Horde still needs its first comment of any kind (try a 1-word comment ask, e.g. 'comment your city' with no haul needed, in the midday run). Theo bonus: kept the single-moment format (best % watched + only shares), 27 s, vote by 18 s.",
+  "Nov 21 midday extras: Horde fact #3 had only 3 views ~30 min after posting while battle D3 (posted 13 min later) had 85 and fact #2 181 -> possibly two Horde Reels 13 min apart split/suppressed distribution; keep 60+ min between Horde Reels. Still 0 comments of any kind on 7 Horde posts; tested the lowest-barrier ask yet ('just comment your city', no cleanup needed) in a new 60-second-challenge format. Compare its comments/views vs fact and battle Reels next run."
  ],
  "facts": [
   {
