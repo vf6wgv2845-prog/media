@@ -519,8 +519,8 @@
   "jess": {
    "status": "waiting_for_setup",
    "setup_needed": [
-    "Hero image in pipeline/assets/jess.jpg (live session, Leonardo, same 3D style as Theo)",
-    "Then set status live and post Day 1 from _template_v2.json"
+    "Hero image pipeline/assets/jess.jpg (Boris, Leonardo; prompt in state.series.jess.image_prompt)",
+    "Day 1 config ready: pipeline/episodes/jess_d01.json - render + post as soon as the image exists"
    ],
    "title": "Jess: 30 days until her ex is the best man at her sister's wedding",
    "day": 0,
@@ -621,41 +621,36 @@
      ]
     ]
    },
-   "bonus_posts": []
+   "bonus_posts": [],
+   "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered"
   },
   "danny": {
    "status": "waiting_for_setup",
    "setup_needed": [
-    "Hero image in pipeline/assets/danny.jpg (live session, Leonardo, same 3D style as Theo)",
-    "Then set status live and post Day 1 from _template_v2.json"
+    "Hero image pipeline/assets/danny.jpg (Boris, Leonardo; prompt in state.series.danny.image_prompt)",
+    "Day 1 config ready: pipeline/episodes/danny_d01.json - render + post as soon as the image exists"
    ],
-   "title": "Danny: 30 days until the 10-year reunion where his old bully will be",
+   "title": "Danny: he told the reunion group chat he's a rich, ripped, engaged CEO. 30 days to make the lies true.",
    "day": 0,
    "last_post_date": null,
    "last_media_id": null,
    "image": "danny.jpg",
    "stats": {
-    "Hair": 3,
-    "Skin": 5,
-    "Style": 1,
-    "Fitness": 2,
-    "Confidence": 2
+    "Body": 2,
+    "Money": 1,
+    "Style": 2,
+    "Lies": 9,
+    "Confidence": 3
    },
    "upgrades_so_far": [],
    "open_vote": {
-    "question": "What should Danny fix first?",
-    "options": [
-     "Hair",
-     "Gym",
-     "New fit",
-     "Skin",
-     "Move out of Mom's"
-    ]
+    "question": "Which lie becomes true first?",
+    "type": "top_comment"
    },
    "cast": {
-    "Brock": "his high-school bully, now a realtor with his face on bus benches; RSVP'd yes",
-    "Nina": "his high-school crush; RSVP'd 'maybe'",
-    "Mom": "lives with her; thinks he's perfect"
+    "Brock": "high-school bully, now a realtor; doubts him in the group chat",
+    "Mom": "he lives with her",
+    "Kayla": "classmate, two kids and a dog"
    },
    "deadline": "Day 30 = the 10-year reunion",
    "voice_cloud": "am_adam",
@@ -708,7 +703,7 @@
    },
    "format": {
     "tile1": "DAYS LEFT",
-    "tile2": "GLOW-UP",
+    "tile2": "LIES TRUE",
     "tile2_kind": "percent",
     "colors": [
      [
@@ -729,7 +724,8 @@
     ]
    },
    "bonus_posts": [],
-   "premise_warning": "Too close to @30daystofix ('30 days to the reunion' + prom-queen ex). Change the premise/handle before Day 1."
+   "premise_note": "Changed Nov 21 to the 'lie becomes true' angle so it isn't a copy of @30daystofix (reunion + prom-queen ex). Different from Jess (rom-com wedding) and Theo (party, ex).",
+   "image_prompt": "3D animated movie style (same style as Theo), 28-year-old man, slightly chubby, patchy beard, wrinkled polo shirt with a phone-repair kiosk name tag, standing in his childhood bedroom with old posters and a twin bed, holding his phone with a nervous guilty grin, vertical 9:16, full upper body, centered"
   },
   "history": {
    "status": "live",

@@ -1,0 +1,308 @@
+{
+ "image": "jess.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 1 / 30",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Her ex is the",
+  "best man at her",
+  "sister's wedding."
+ ],
+ "hook_emoji": "💍",
+ "name_line": "Day 5: Gym again.",
+ "sub_line": "You voted  •  gym 3, new fit 1",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   4
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   3
+  ],
+  [
+   "Confidence",
+   2
+  ]
+ ],
+ "notif": {
+  "from": "Chloe (sister)",
+  "msg": "ryan is best man. please don't make it weird",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 0,
+ "conflict": [
+  "30 days.",
+  [
+   "(and she still has",
+   "his hoodie.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.05,
+    "Her ex is the best man at her sister's wedding."
+   ],
+   [
+    0.1,
+    "The wedding is in thirty days."
+   ],
+   [
+    0.1,
+    "Stay to the end. You decide what she fixes first."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Her sister texted: Ryan is best man. Please don't make it weird."
+   ],
+   [
+    0.1,
+    "Jess has worn his hoodie for eleven days straight."
+   ],
+   [
+    0.1,
+    "Her bridesmaid dress doesn't zip. Her bangs were a breakup decision."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Ryan texted."
+   ],
+   [
+    0.1,
+    "Hey. Heard we're walking down the aisle together. Ha."
+   ],
+   [
+    0.2,
+    "She typed: ha. Deleted it. Typed: ha. Sent it."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you."
+   ],
+   [
+    0.1,
+    "The top comment picks what Jess fixes first."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "28%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "10/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3",
+   "sc"
+  ],
+  "y": 1500,
+  "keywords": [
+   "ryan",
+   "hoodie",
+   "eleven",
+   "dress",
+   "bangs",
+   "ha"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "30",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU DECIDE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 80
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "HOODIE: DAY 11",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 620,
+   "angle": -5,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "ZIPPER: NO",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 620,
+   "angle": 4,
+   "hold": 1.4
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "SENT. NO TAKEBACKS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 300,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 70
+  }
+ ],
+ "cover_title": [
+  "DAY 1",
+  "SHE STILL HAS HIS HOODIE"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex",
+  "msgs": [
+   [
+    "them",
+    "hey"
+   ],
+   [
+    "them",
+    "heard we're walking down the aisle together. ha"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "what should Jess fix first?"
+ }
+}

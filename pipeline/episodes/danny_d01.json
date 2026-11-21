@@ -1,0 +1,334 @@
+{
+ "image": "danny.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 1 / 30",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "He told the",
+  "reunion group chat",
+  "he's rich and ripped."
+ ],
+ "hook_emoji": "😬",
+ "name_line": "Day 5: Gym again.",
+ "sub_line": "You voted  •  gym 3, new fit 1",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   1
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   9
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Class of 2016",
+  "msg": "Brock: can't wait to see the CEO 😂",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 0,
+ "conflict": [
+  "30 days.",
+  [
+   "(he lives with",
+   "his mom.)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "What's next",
+  "for Theo?"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.05,
+    "He told his reunion group chat he's rich, ripped, and engaged."
+   ],
+   [
+    0.1,
+    "The reunion is in thirty days."
+   ],
+   [
+    0.1,
+    "Stay to the end. You decide which lie he makes true first."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "It started with one message."
+   ],
+   [
+    0.1,
+    "Brock asked what everyone's up to."
+   ],
+   [
+    0.2,
+    "Danny typed: CEO. Engaged. Gym every day. And hit send."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Danny is not a CEO. He works at a phone repair kiosk."
+   ],
+   [
+    0.1,
+    "His gym membership card is a library card."
+   ],
+   [
+    0.1,
+    "And his fiance is a cardboard cutout he hasn't bought yet."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you."
+   ],
+   [
+    0.1,
+    "The top comment picks which lie Danny makes true first."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "0/3",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "10/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "sc",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "ceo",
+   "engaged",
+   "gym",
+   "kiosk",
+   "library",
+   "cardboard",
+   "brock"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "30",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU DECIDE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 80
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "SENT TO 48 PEOPLE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 300,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 70
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "CEO: OF A KIOSK",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 620,
+   "angle": -5,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "size": 70
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "GYM CARD: LIBRARY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 620,
+   "angle": 4,
+   "hold": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "size": 70
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FIANCÉE: CARDBOARD",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 620,
+   "angle": -3,
+   "hold": 1.6,
+   "size": 70
+  }
+ ],
+ "cover_title": [
+  "DAY 1",
+  "HE LIED TO 48 PEOPLE"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Class of 2016",
+  "sub": "reunion group chat · 48 members",
+  "msgs": [
+   [
+    "them",
+    "Brock: so what's everyone up to these days?"
+   ],
+   [
+    "them",
+    "Kayla: two kids and a dog lol"
+   ],
+   [
+    "me",
+    "CEO. engaged. gym every day."
+   ],
+   [
+    "them",
+    "Brock: no way 😂 can't wait to see that"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which lie becomes true first?"
+ }
+}
