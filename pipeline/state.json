@@ -728,7 +728,8 @@
      ]
     ]
    },
-   "bonus_posts": []
+   "bonus_posts": [],
+   "premise_warning": "Too close to @30daystofix ('30 days to the reunion' + prom-queen ex). Change the premise/handle before Day 1."
   },
   "history": {
    "status": "waiting_for_setup",
@@ -797,7 +798,8 @@
   "Nov 20 analysis: viewers leave during the stats panel/scoreboard at 9-17 s; the vote (29-39 s) is almost never seen. Use template v3 (20-28 s, vote by 18 s).",
   "Nov 20 analysis: hooks that start with 'Day N: you voted' lose ~50-70% in 3 s. Open on the most dramatic beat.",
   "Nov 21 AM extras: Horde fact #1 (v3, 27 s) 114 views / 0 engagement after ~10 h vs battle Reels 108-156 views: same reach, no comments either way. Kept fact format this slot; Horde still needs its first comment of any kind (try a 1-word comment ask, e.g. 'comment your city' with no haul needed, in the midday run). Theo bonus: kept the single-moment format (best % watched + only shares), 27 s, vote by 18 s.",
-  "Nov 21 midday extras: Horde fact #3 had only 3 views ~30 min after posting while battle D3 (posted 13 min later) had 85 and fact #2 181 -> possibly two Horde Reels 13 min apart split/suppressed distribution; keep 60+ min between Horde Reels. Still 0 comments of any kind on 7 Horde posts; tested the lowest-barrier ask yet ('just comment your city', no cleanup needed) in a new 60-second-challenge format. Compare its comments/views vs fact and battle Reels next run."
+  "Nov 21 midday extras: Horde fact #3 had only 3 views ~30 min after posting while battle D3 (posted 13 min later) had 85 and fact #2 181 -> possibly two Horde Reels 13 min apart split/suppressed distribution; keep 60+ min between Horde Reels. Still 0 comments of any kind on 7 Horde posts; tested the lowest-barrier ask yet ('just comment your city', no cleanup needed) in a new 60-second-challenge format. Compare its comments/views vs fact and battle Reels next run.",
+  "Nov 21: @30daystofix (2-10M views) = PREVIOUSLY montage hook, a joke sticker every 1.5-2 s, live text-chat scenes, a new scene + visibly changed character every day, result-titled covers, 88 s long. Template v4 + scenes2.py added. Visible character change needs live sessions (Leonardo)."
  ],
  "facts": [
   {

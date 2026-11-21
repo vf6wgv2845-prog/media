@@ -63,6 +63,9 @@ Copy the mechanics, never their jokes, names or characters. Start every episode 
 **Visual gap (tell Boris, don't fake it)**: the reference draws a new scene every episode (bridal shop, wax room, surgery) and the character visibly changes. Cloud runs only have the images in `pipeline/assets`. Reuse the best matching one and lean on stickers/captions; when Boris does a live session, ask him for new scene images (same character, same style) and add them to assets with a clear name (e.g. `theo_barber.jpg`).
 
 
+## 3c0. Nov 21: reference account @30daystofix (2-10M views/Reel) -> template v4
+Read pipeline/ANALYSIS_30daystofix_2026-11-21.md. Start episodes from `_template_v4.json` (sm montage -> s1 -> s3 -> sc chat -> s5): PREVIOUSLY montage in the first 2-3 s, a joke status sticker every 1.5-2 s, a text-chat scene when the ex/rival is in the episode, covers titled with the funny RESULT ('DAY 5' / 'THE BAR WON'). Copy mechanics only, never their character, names or jokes. Go longer than ~30 s only when the pacing supports it, and check avg watch time.
+
 ## 3c. What the Nov 20 analysis found (read before writing ANY episode) - full notes: pipeline/ANALYSIS_2026-11-20.md
 - 46-72% of viewers leave in the first 3 seconds on every Reel. Hooks that opened with "Day N: you voted..." or a plain statement lost the most. Open on the most dramatic/absurd beat of the episode (the fail, the twist, the text), as a full sentence, in under 2 s, with motion (sticker/comment card) on frame 1.
 - The viewers who stay leave after ~9-17 s, almost always DURING the stats panel (s2) or the aura scoreboard (sb). The vote screen started at 29-39 s, so almost nobody ever saw the vote options: that's why votes are near zero. => v3 structure, vote by ~18 s, say "stay to the end, you pick tomorrow" in s1.

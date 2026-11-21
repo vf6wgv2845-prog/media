@@ -3,12 +3,13 @@ import sys, os, math, json, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 from common import *
 from extras import Extras, SFX
+from scenes2 import Scenes2
 from PIL import ImageEnhance
 import soundfile as sf
 
 SR = 24000
 
-class Episode(Extras):
+class Episode(Scenes2, Extras):
     def __init__(self, cfg, outdir):
         self.c = cfg; self.out = outdir; os.makedirs(outdir, exist_ok=True)
         src = Image.open(cfg["image"]).convert("RGB")
