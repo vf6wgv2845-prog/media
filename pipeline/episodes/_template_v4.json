@@ -168,6 +168,20 @@
     0.2,
     "He typed: cool. Cool?"
    ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you."
+   ],
+   [
+    0.1,
+    "The top comment picks what Theo fixes next."
+   ],
+   [
+    0.2,
+    "And for the first time, he didn't reply to Maya right away."
+   ]
   ]
  },
  "hud": {
@@ -339,7 +353,7 @@
   "s1",
   "s3",
   "sc",
-  "s5"
+  "sv"
  ],
  "montage": [
   {
@@ -390,5 +404,9 @@
    ]
   ]
  },
- "_v4_notes": "TEMPLATE v4 (Nov 21, learned from @30daystofix: 2-10M views/Reel, 88 s episodes). Order sm -> s1 -> s3 -> sc -> s5. sm = 2-3 s PREVIOUSLY montage (DAY 1 ... NOW flashes, ~0.5 s each, joke status tags like 'SKIN: FIXED', voice = days left + the goal). s1 = DAY N + 'you voted X' + the most absurd beat. s3 = the fix going wrong then working, a joke status sticker every ~1.5-2 s ('CHEETOS: NOTIFIED' style - write our own jokes). sc = a live text chat with the ex/rival (typed reply). s5 vote. Length can grow to 45-60 s ONLY if every 1.5-2 s something new happens on screen."
+ "_v4_notes": "TEMPLATE v4 (Nov 21, learned from @30daystofix: 2-10M views/Reel, 88 s episodes). Order sm -> s1 -> s3 -> sc -> s5. sm = 2-3 s PREVIOUSLY montage (DAY 1 ... NOW flashes, ~0.5 s each, joke status tags like 'SKIN: FIXED', voice = days left + the goal). s1 = DAY N + 'you voted X' + the most absurd beat. s3 = the fix going wrong then working, a joke status sticker every ~1.5-2 s ('CHEETOS: NOTIFIED' style - write our own jokes). sc = a live text chat with the ex/rival (typed reply). s5 vote. Length can grow to 45-60 s ONLY if every 1.5-2 s something new happens on screen. Ending = sv (NOW IT'S ON YOU / TOP COMMENT DECIDES, open ideas instead of 5 numbered options) + one heart line. Script style: short deadpan sentences, 2-3 s each, every line a beat; rule of three escalating fails with a callback gag (their coach: sunglasses -> a second pair -> takes both off); a real-world test; payoff with the ex in a chat; a small emotional last line.",
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "what should Theo fix next?"
+ }
 }

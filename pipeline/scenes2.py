@@ -89,3 +89,34 @@ class Scenes2:
             im.alpha_composite(bb, (int(x), int(y)))
         dd.text((px0 + 60, py1 - 75), typing + "|" if typing else "iMessage", font=F("Medium", 34), fill=(30, 30, 34) if typing else (160, 160, 168), anchor="lm")
         return im
+
+class _VoteMixin:
+    pass
+
+def _sv(self, t):
+    """'sv' = open vote, learned from @30daystofix: NOW IT'S ON YOU + an empty comment card '???' + TOP COMMENT DECIDES.
+    cfg "open_vote": {"title": "NOW IT'S ON YOU", "hint": "what should Theo fix next?", "examples": ["new fit", "reply to maya"]}  (examples optional, small)
+    script "sv": e.g. ["Now it's on you.", "The top comment picks what Theo fixes next.", "<a heart line>"]"""
+    d = self.DUR["sv"]; ov = self.c.get("open_vote", {}); st = self.TM.get("sv", [0.0])
+    im = Image.new("RGBA", (W, H), (34, 16, 66, 255)); dr = ImageDraw.Draw(im)
+    for k in range(18):  # sunburst
+        a0 = k * 20 + t * 6; import math as _m
+        p1 = (W / 2 + 1600 * _m.cos(_m.radians(a0)), 900 + 1600 * _m.sin(_m.radians(a0)))
+        p2 = (W / 2 + 1600 * _m.cos(_m.radians(a0 + 9)), 900 + 1600 * _m.sin(_m.radians(a0 + 9)))
+        dr.polygon([(W / 2, 900), p1, p2], fill=(48, 24, 92, 255))
+    hero = self.bg(t, d, 1.0, 1.02); hero = hero.resize((W // 2, H // 2)); m = Image.new("L", hero.size, 0)
+    ImageDraw.Draw(m).ellipse([60, 60, hero.width - 60, hero.height - 60], fill=255); m = m.filter(ImageFilter.GaussianBlur(30))
+    im.paste(hero, (W // 4, 1060), m)
+    ttl = Image.new("RGBA", (W, 160), (0, 0, 0, 0)); ImageDraw.Draw(ttl).text((W // 2, 80), ov.get("title", "NOW IT'S ON YOU"), font=F("Black", 96), fill=(255, 255, 255), anchor="mm", stroke_width=8, stroke_fill=(12, 12, 14))
+    center_paste(im, ttl, 450, min(1, t / 0.3))
+    if t > st[min(1, len(st) - 1)] - 0.2:
+        p = back(min(1, (t - st[min(1, len(st) - 1)] + 0.2) / 0.35))
+        card = self.comment_img({"user": "you", "text": "???", "likes": 0}); card = card.resize((max(1, int(card.width * (0.6 + 0.4 * p))), max(1, int(card.height * (0.6 + 0.4 * p)))))
+        center_paste(im, card, 680)
+        stk = self.sticker_img({"text": "TOP COMMENT DECIDES", "bg": [245, 214, 80], "fg": [15, 15, 15], "size": 64, "angle": -2}); center_paste(im, stk, 880)
+    if ov.get("hint"):
+        h = Image.new("RGBA", (W, 90), (0, 0, 0, 0)); ImageDraw.Draw(h).text((W // 2, 45), ov["hint"], font=F("ExtraBold", 52), fill=(255, 214, 102), anchor="mm", stroke_width=5, stroke_fill=(12, 12, 14))
+        center_paste(im, h, 1000, min(1, max(0, (t - 0.8) / 0.3)))
+    return im
+
+Scenes2.sv = _sv
