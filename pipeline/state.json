@@ -71,7 +71,8 @@
      "Fix the smile"
     ],
     "note": "Day 4 vote (options 1-5) on 18102169760644140.",
-    "interim_count_nov20_night": "Gym 2 (5sta.r.angel '3 gym...', ivannn_720 'hit the gym'), New fit 1 (ej123445 'Style please'). Recount at the run."
+    "interim_count_nov20_night": "Gym 2 (5sta.r.angel '3 gym...', ivannn_720 'hit the gym'), New fit 1 (ej123445 'Style please'). Recount at the run.",
+    "interim_count_nov21_morning": "Gym 3 (5sta.r.angel, ivannn_720, celestial_dragon._ 'Gym' 09:58 UTC), New fit 1 (ej123445). Also count comments on bonus 18030095285870304."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
@@ -156,6 +157,12 @@
      "date": "2026-11-20",
      "media_id": "17957029749337139",
      "note": "Morning bonus. This is NOT Day 4 - still post the Day 4 episode at the 5:45 PM run today."
+    },
+    {
+     "date": "2026-11-21",
+     "media_id": "18030095285870304",
+     "video": "theo/bonus_1121.mp4",
+     "note": "Saturday 7 AM bonus: beanie off, Mom text 'who are you?? where is my son', 41 selfies deleted. NOT Day 5. Caption says votes here count too: count comments on this Reel AND 18102169760644140 for the Day 4 vote."
     }
    ]
   },
@@ -408,7 +415,8 @@
     "18086748809339674",
     "18360182398220303",
     "18115430510175423",
-    "18375579412209802"
+    "18375579412209802",
+    "18079312298733937"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -442,7 +450,8 @@
     "Day 1 (Nov 19): launch carousel posted (how to play, damage, boss, safety).",
     "Nov 19 evening: battle Day 1 Reel posted; 0 hauls so far; promised a shoutout to the first person to land a hit.",
     "Day 2 (Nov 20): 0 haul comments on launch carousel + Day 1 Reel. Battle Day 2 Reel posted (0 hits, 2 days left, first hit = shoutout). Totals unchanged: 5,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0).",
-    "Nov 20 ~7:15 PM ET: fact Reel #1 posted (152 pieces per person, KAB 2020) 18375579412209802 - first v3-structure Reel (27 s)."
+    "Nov 20 ~7:15 PM ET: fact Reel #1 posted (152 pieces per person, KAB 2020) 18375579412209802 - first v3-structure Reel (27 s).",
+    "Nov 21 7:4x AM ET (extras): 0 comments on any Horde post (launch carousel, Day 1/2 battle, fact #1) -> still 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted queued fact Reel #2 (cigarette butts 19.6%, KAB 2020) 18079312298733937."
    ],
    "format": {
     "tiles": [
@@ -733,7 +742,8 @@
   "Nov 20 (1h data): new retention format lowered skip rate on every account that used it (Theo 55.8%->45.6%, Malik 66.3%->48.8%, Horde 58%->53.1%). Keep it everywhere.",
   "Nov 20: only Theo has followers (21). Stories/images/carousels reach ~nobody yet; growth = Reels to non-followers.",
   "Nov 20 analysis: viewers leave during the stats panel/scoreboard at 9-17 s; the vote (29-39 s) is almost never seen. Use template v3 (20-28 s, vote by 18 s).",
-  "Nov 20 analysis: hooks that start with 'Day N: you voted' lose ~50-70% in 3 s. Open on the most dramatic beat."
+  "Nov 20 analysis: hooks that start with 'Day N: you voted' lose ~50-70% in 3 s. Open on the most dramatic beat.",
+  "Nov 21 AM extras: Horde fact #1 (v3, 27 s) 114 views / 0 engagement after ~10 h vs battle Reels 108-156 views: same reach, no comments either way. Kept fact format this slot; Horde still needs its first comment of any kind (try a 1-word comment ask, e.g. 'comment your city' with no haul needed, in the midday run). Theo bonus: kept the single-moment format (best % watched + only shares), 27 s, vote by 18 s."
  ],
  "facts": [
   {
@@ -763,13 +773,6 @@
   }
  ],
  "post_queue": [
-  {
-   "account": "horde",
-   "when": "Nov 21 morning extras run (7:37 AM ET)",
-   "video": "horde/queue/fact02.mp4",
-   "cover": "horde/queue/fact02_cover.jpg",
-   "caption": "The #1 most littered item in America is tiny. You walk past it every day... 🚬\n\nCigarette butts: 19.6% of all US litter, the single most littered item (Keep America Beautiful 2020 National Litter Study). Each one you bin = 1 damage on the Landfill King.\n\nGloves on (or a litter picker), never touch needles or broken glass, under 18 go with an adult. Comment your haul + city 👇\nSource: kab.org litter study (2020).\n\n#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge"
-  },
   {
    "account": "horde",
    "when": "Nov 21 midday extras run (1:37 PM ET)",
