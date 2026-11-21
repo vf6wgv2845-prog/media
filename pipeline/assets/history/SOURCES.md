@@ -1,0 +1,11 @@
+# History images: public domain, Art Institute of Chicago (api.artic.edu, is_public_domain=true)
+- durer_couple_1514.jpg: Albrecht Dürer, Peasant Couple Dancing, 1514 (AIC 4097)
+- hollar_strasbourg_cathedral_1645.jpg: Wenceslaus Hollar, Strasbourg Cathedral, 1645 (AIC 28698)
+- beham_couple_1524.jpg: Barthel Beham, Peasant Couple Dancing, 1524 (AIC 106687)
+- doetecum_kermis_1559.jpg: Johannes van Doetecum after Bruegel, The Kermis of Saint George, c. 1559 (AIC 20373)
+- holbein_physician.jpg: Hans Holbein the Younger, The Physician (Dance of Death) (AIC 30498)
+- vanleyden_musicians_1524.jpg: Lucas van Leyden, The Musicians, 1524 (AIC 50264)
+- holbein_dance_of_death.jpg: Hans Holbein the Younger, Dance of Death, plate 39 (AIC 132184)
+- beham_village_fair_1535.jpg: Hans Sebald Beham, The Large Village Fair, 1535 (AIC 27884)
+- burgkmair_death_1510.jpg: Hans Burgkmair, Lovers Surprised by Death, 1510 (AIC 147064)
+Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud; use AIC IIIF (https://www.artic.edu/iiif/2/<image_id>/full/843,/0/default.jpg) or Cleveland Open Access.

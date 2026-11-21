@@ -1,0 +1,621 @@
+{
+ "image": "history/durer_couple_1514.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.18,
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "p1": [
+   [
+    0.05,
+    "In 1518, a city caught a dancing plague."
+   ],
+   [
+    0.1,
+    "And the doctors' cure was... more dancing."
+   ]
+  ],
+  "p2": [
+   [
+    0.1,
+    "Strasbourg. July fourteenth."
+   ],
+   [
+    0.1,
+    "A woman named Frau Troffea starts dancing in the street. No music."
+   ]
+  ],
+  "p3": [
+   [
+    0.1,
+    "She dances for days."
+   ],
+   [
+    0.1,
+    "Within a week, more than thirty people have joined her."
+   ]
+  ],
+  "p4": [
+   [
+    0.1,
+    "Within a month, one chronicle says: four hundred."
+   ]
+  ],
+  "p5": [
+   [
+    0.1,
+    "The city's doctors blame overheated blood."
+   ],
+   [
+    0.1,
+    "Their prescription? Dance it out."
+   ]
+  ],
+  "p6": [
+   [
+    0.1,
+    "So the city turns guild halls into dance floors,"
+   ],
+   [
+    0.05,
+    "builds stages,"
+   ],
+   [
+    0.05,
+    "and hires musicians."
+   ]
+  ],
+  "p7": [
+   [
+    0.1,
+    "It backfires."
+   ],
+   [
+    0.1,
+    "Some accounts say dancers collapsed and died."
+   ]
+  ],
+  "p8": [
+   [
+    0.1,
+    "So the city bans music and dancing,"
+   ],
+   [
+    0.1,
+    "and sends the dancers to a shrine of Saint Vitus. In red shoes."
+   ]
+  ],
+  "p9": [
+   [
+    0.1,
+    "Nobody knows exactly why."
+   ],
+   [
+    0.1,
+    "The leading theory: mass panic, after years of famine."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you."
+   ],
+   [
+    0.1,
+    "The top comment picks our next true story."
+   ]
+  ]
+ },
+ "pill": "THAT REALLY HAPPENED",
+ "order": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "sv"
+ ],
+ "notif": {
+  "from": "x",
+  "msg": "x",
+  "emoji": "",
+  "color": [
+   0,
+   0,
+   0
+  ]
+ },
+ "panels": {
+  "p1": {
+   "image": "history/durer_couple_1514.jpg",
+   "credit": "Albrecht Dürer, Peasant Couple Dancing, 1514",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p2": {
+   "image": "history/hollar_strasbourg_cathedral_1645.jpg",
+   "credit": "Strasbourg Cathedral, Wenceslaus Hollar, 1645",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.05,
+    1.2
+   ]
+  },
+  "p3": {
+   "image": "history/beham_couple_1524.jpg",
+   "credit": "Barthel Beham, 1524",
+   "focus": [
+    0.45,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p4": {
+   "image": "history/doetecum_kermis_1559.jpg",
+   "credit": "Johannes van Doetecum after Bruegel, c. 1559",
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "zoom": [
+    1.0,
+    1.25
+   ]
+  },
+  "p5": {
+   "image": "history/holbein_physician.jpg",
+   "credit": "Hans Holbein the Younger, The Physician",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p6": {
+   "image": "history/vanleyden_musicians_1524.jpg",
+   "credit": "Lucas van Leyden, The Musicians, 1524",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p7": {
+   "image": "history/holbein_dance_of_death.jpg",
+   "credit": "Hans Holbein the Younger, Dance of Death",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p8": {
+   "image": "history/beham_village_fair_1535.jpg",
+   "credit": "Hans Sebald Beham, The Large Village Fair, 1535",
+   "focus": [
+    0.35,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p9": {
+   "image": "history/burgkmair_death_1510.jpg",
+   "credit": "Hans Burgkmair, 1510",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  }
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which true story next?"
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1518",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "DANCERS",
+    "value": "400",
+    "from": "1",
+    "at": [
+     "p4",
+     0
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "y": 1560,
+  "keywords": [
+   "1518",
+   "dancing",
+   "plague",
+   "cure",
+   "thirty",
+   "four",
+   "hundred",
+   "doctors",
+   "blood",
+   "dance",
+   "backfires",
+   "died",
+   "banned",
+   "red",
+   "shoes",
+   "nobody",
+   "panic"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "p1",
+   "line": 0,
+   "text": "1518",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "p1",
+   "line": 1,
+   "text": "CURE: MORE DANCING",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 80,
+   "hold": 2.4
+  },
+  {
+   "scene": "p2",
+   "line": 1,
+   "text": "NO MUSIC",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 1280,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2
+  },
+  {
+   "scene": "p3",
+   "line": 1,
+   "text": "30+ DANCERS",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.2
+  },
+  {
+   "scene": "p4",
+   "line": 0,
+   "text": "400",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 130,
+   "hold": 2.4
+  },
+  {
+   "scene": "p5",
+   "line": 0,
+   "text": "DIAGNOSIS: HOT BLOOD",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 72,
+   "hold": 2.0
+  },
+  {
+   "scene": "p5",
+   "line": 1,
+   "text": "DANCE IT OUT",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 1.8
+  },
+  {
+   "scene": "p6",
+   "line": 1,
+   "text": "STAGE: BUILT",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.4
+  },
+  {
+   "scene": "p6",
+   "line": 2,
+   "text": "BAND: HIRED",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "p7",
+   "line": 0,
+   "text": "IT BACKFIRED",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "p8",
+   "line": 0,
+   "text": "MUSIC: BANNED",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "p8",
+   "line": 1,
+   "text": "RED SHOES",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "p9",
+   "line": 0,
+   "text": "STILL A MYSTERY",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 80,
+   "hold": 2.2
+  }
+ ],
+ "cover_title": [
+  "1518",
+  "THE DANCING PLAGUE"
+ ]
+}

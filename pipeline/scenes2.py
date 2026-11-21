@@ -120,3 +120,44 @@ def _sv(self, t):
     return im
 
 Scenes2.sv = _sv
+
+
+# ---------- history panels: p1..p12 ----------
+def _panel_scene(name):
+    def fn(self, t):
+        """'pN' panel scene for the history account: a real public-domain artwork, slow zoom toward a focus point,
+        blurred dark backdrop, small credit line under the image.
+        cfg "panels": {"p1": {"image": "history/durer_couple_1514.jpg", "credit": "Albrecht Dürer, 1514",
+                              "focus": [0.5, 0.4], "zoom": [1.0, 1.18]}}"""
+        d = self.DUR[name]; P = self.c.get("panels", {}).get(name, {})
+        cache = self.__dict__.setdefault("_PANEL", {})
+        if name not in cache:
+            src = Image.open(os.path.join(HERE, "assets", P["image"])).convert("RGB")
+            back_im = src.resize((W, int(src.height * W / src.width))) if src.width / src.height < W / H else src.resize((int(src.width * H / src.height), H))
+            back_im = back_im.crop(((back_im.width - W) // 2, (back_im.height - H) // 2, (back_im.width - W) // 2 + W, (back_im.height - H) // 2 + H))
+            back_im = ImageEnhance.Brightness(back_im.filter(ImageFilter.GaussianBlur(30))).enhance(0.35)
+            cache[name] = (src, back_im.convert("RGBA"))
+        src, back_im = cache[name]
+        im = back_im.copy()
+        box_w, box_h = 1000, 1060; top = 300
+        z0, z1 = P.get("zoom", [1.0, 1.15]); z = z0 + (z1 - z0) * min(1, t / max(d, 0.1))
+        fx, fy = P.get("focus", [0.5, 0.5])
+        k = max(box_w / src.width, box_h / src.height) if P.get("fill", True) else min(box_w / src.width, box_h / src.height)
+        cw, ch = box_w / (k * z), box_h / (k * z)
+        cw, ch = min(cw, src.width), min(ch, src.height)
+        x0 = min(max(0, fx * src.width - cw / 2), src.width - cw); y0 = min(max(0, fy * src.height - ch / 2), src.height - ch)
+        crop = src.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch)))
+        tw, th = int(min(box_w, crop.width * k * z)), int(min(box_h, crop.height * k * z))
+        crop = crop.resize((tw, th), Image.LANCZOS).convert("RGBA")
+        fr = Image.new("RGBA", (tw + 24, th + 24), (236, 222, 190, 255)); fr.alpha_composite(crop, (12, 12))
+        x = (W - fr.width) // 2; y = top + (box_h - fr.height) // 2
+        sh = Image.new("RGBA", (fr.width + 40, fr.height + 40), (0, 0, 0, 0)); ImageDraw.Draw(sh).rectangle([20, 26, fr.width + 20, fr.height + 26], fill=(0, 0, 0, 150))
+        im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)), (x - 20, y - 20)); im.alpha_composite(fr, (x, y))
+        if P.get("credit"):
+            ImageDraw.Draw(im).text((W // 2, y + fr.height + 34), P["credit"], font=F("Medium", 30), fill=(220, 210, 190), anchor="mm")
+        if t < 0.08: im = Image.blend(Image.new("RGBA", (W, H), (255, 255, 255, 255)), im, t / 0.08)
+        return im
+    return fn
+
+for _i in range(1, 13):
+    setattr(Scenes2, f"p{_i}", _panel_scene(f"p{_i}"))
