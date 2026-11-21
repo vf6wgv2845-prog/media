@@ -1,0 +1,300 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  SATURDAY NIGHT",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "He can't lift",
+  "his arms to",
+  "text Maya back."
+ ],
+ "hook_emoji": "😩",
+ "name_line": "Saturday, 10 PM.",
+ "sub_line": "Progress check  •  Day 6 drops tomorrow",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   6
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Instagram",
+  "msg": "jake requested to follow you",
+  "emoji": "👀",
+  "color": [
+   225,
+   48,
+   108
+  ]
+ },
+ "notif_line": 3,
+ "conflict": [
+  "Jake. Maya's Jake.",
+  [
+   "(Accept?",
+   "Ignore?)"
+  ]
+ ],
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "26 days.",
+   "Fitness: sore."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He can't lift his arms to text Maya back."
+   ],
+   [
+    0.1,
+    "Saturday night. The gym caught up with him."
+   ],
+   [
+    0.1,
+    "Stay to the end. You pick tomorrow's fix."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Sixty-five pounds this morning. Now he can't lift a fork."
+   ],
+   [
+    0.1,
+    "Mom had to cut his pizza."
+   ],
+   [
+    0.1,
+    "He tried to type with one finger. Gave up."
+   ],
+   [
+    0.1,
+    "Then his phone lit up. Jake wants to follow him."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Accept or ignore? Day six drops tomorrow."
+   ],
+   [
+    0.1,
+    "Gym day three is leading. Fit, brows, Maya, or the smile?"
+   ],
+   [
+    0.1,
+    "Comment the number. Fifty followers unlocks his haircut reveal."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "50%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "37/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "fork",
+   "pizza",
+   "mom",
+   "jake",
+   "maya",
+   "sixty-five"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s5",
+   "line": 1,
+   "user": "5sta.r.angel",
+   "text": "go back to the gym let’s make that 6/10 a 10/10",
+   "likes": 0,
+   "y": 1640,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU PICK TOMORROW",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "ARMS: OFFLINE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 880,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "MOM: CUTTING",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 880,
+   "angle": -6,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "TYPING... NOT",
+   "bg": [
+    214,
+    48,
+    64
+   ],
+   "y": 880,
+   "angle": 5,
+   "hold": 1.4
+  }
+ ],
+ "cover_title": [
+  "10 PM",
+  "JAKE?!"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
