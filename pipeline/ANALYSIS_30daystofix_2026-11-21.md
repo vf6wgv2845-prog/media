@@ -20,3 +20,19 @@ Their numbers: every Reel 1.9M-10.4M views (Day 1 "30 days to the reunion" 10.4M
 
 ## Caution
 Their premise is "30 days to the high school reunion" with an ex who was prom queen. Our Danny page ("30 days to the reunion", @30daystothereunion) is too close to it: change Danny's premise before launch.
+
+## Full Day 21 breakdown (~100 s, 12 clips, narration transcribed)
+| Time | Beat | On screen |
+|---|---|---|
+| 0-3 s | "Only 10 days left until James' high school reunion." | PREVIOUSLY montage Day 1 -> 5 -> 11 -> 17 -> NOW |
+| 3-7 s | "57,000 of you asked for better communication skills." | Top comment card "better communication skills button", sticker SOCIAL SKILLS: 0% |
+| 7-12 s | "His idea of small talk is..." | Store scene, cashier, SMALL TALK sign |
+| 12-30 s | "The coach wears sunglasses indoors. One look at James, and he puts on a second pair." Lesson 1 eye contact: stares at the guy next to him 0:05 -> 0:23 -> 0:48 -> 1:00, "he changed seats, then classes" | RIZZ CLASS whiteboard, PAIR #2, timer stickers, HE CHANGED CLASSES |
+| 30-40 s | "Lesson 2 is compliments. Nobody will partner with James so he gets the mannequin. He tells her she has nice joints. Her arm falls off." | PARTNER: MANNEQUIN, speech bubble |
+| 40-48 s | "Lesson 3 is the pickup line." "Are you a Wi-Fi signal..." "The coach takes off both pairs to stare at him." | speech bubble, BOTH PAIRS OFF (callback) |
+| 48-62 s | "The final exam is a real person. In the laundry room, James asks the neighbor from 4B how she's doing, then actually listens. She talks for 40 minutes about her cat. She moves her laundry one machine closer." | FINAL EXAM: A REAL PERSON, 40 MINUTES, 1 MACHINE CLOSER |
+| 62-75 s | "Sarah texts, how was your day? James sends, good, I love hearing about your days. Sarah sends three paragraphs. James reads every word twice." | phone chat typed live, 3 PARAGRAPHS |
+| 75-80 s | (certificate) | RIZZ 101 - JAMES - ATTENDED stamp |
+| 80-88 s | "Now it's on you. The top comment picks what James fixes next. And for the first time, he's actually listening." | NOW IT'S ON YOU, blank comment card ???, TOP COMMENT DECIDES |
+
+Takeaways: a sitcom structure (ask -> 3 escalating fails with a callback -> real test -> payoff with the ex -> stamp gag -> hand it back), 2-3 s per line, each line a punchline, an emotional last line, and an OPEN top-comment vote that turns comments into pitches (4,300 comments on Day 16).
