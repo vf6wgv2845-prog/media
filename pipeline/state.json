@@ -732,14 +732,10 @@
    "premise_warning": "Too close to @30daystofix ('30 days to the reunion' + prom-queen ex). Change the premise/handle before Day 1."
   },
   "history": {
-   "status": "waiting_for_setup",
+   "status": "live",
    "title": "That Really Happened: narrated true history stories",
    "type": "history_storytime",
-   "setup_needed": [
-    "Agree the format with Boris (e.g. multi-part series, audience votes the next story)",
-    "Images: public-domain archival images/paintings/maps only (Wikimedia Commons etc.), saved in pipeline/assets/history/ with source + license noted; no AI photos of real people",
-    "Every fact verified by web search before posting"
-   ],
+   "setup_needed": [],
    "voice_cloud": "bm_george",
    "hashtags": {
     "branded": "#ThatReallyHappened",
@@ -751,6 +747,22 @@
      "#historytok",
      "#didyouknow"
     ]
+   },
+   "day": 1,
+   "last_post_date": "2026-11-21",
+   "last_media_id": "18579519052072093",
+   "episodes": [
+    {
+     "n": 1,
+     "title": "The Dancing Plague of 1518",
+     "media_id": "18579519052072093",
+     "config": "pipeline/episodes/history_e01.json"
+    }
+   ],
+   "format": "Panel scenes p1..pN (pipeline/scenes2.py): one real public-domain artwork per beat, slow zoom, joke/fact stickers, word captions, HUD (YEAR + a counter), open vote 'top comment picks our next true story'. Facts double-checked (2 sources), uncertain claims labelled ('one chronicle says', 'some accounts'). Sources + art credits in the caption. Images: AIC open access (see assets/history/SOURCES.md).",
+   "open_vote": {
+    "question": "Which true story next?",
+    "type": "top_comment"
    }
   }
  },
