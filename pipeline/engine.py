@@ -21,10 +21,31 @@ class Episode(Scenes2, Extras):
         self.BEFORE = None
         self.order = cfg.get("order") or (["s1", "s2", "sb", "s3", "s4", "s5"] if cfg.get("scoreboard") else ["s1", "s2", "s3", "s4", "s5"])
         if cfg.get("hud"): self.pill = Image.new("RGBA", (1, 1), (0, 0, 0, 0))  # the HUD replaces the day pill
+        self._prep_beats()
         if cfg.get("before_image"):
             b = Image.open(cfg["before_image"]).convert("RGB")
             self.BEFORE = self.cover(b)
             self.BEFORE_DIM = ImageEnhance.Brightness(self.BEFORE.filter(ImageFilter.GaussianBlur(3))).enhance(0.55)
+
+    def _prep_beats(self):
+        """cfg "beats": [{"scene": "s3", "line": 1, "image": "jess_dress.jpg"}, ...] = swap the background picture at that line
+        (paths relative to pipeline/assets). Nov 21 evening fix: one static picture for 30 s is where viewers left (~9-11 s)."""
+        base = (self.BIG, self.BLUR, self.DIM); self._BEATS = []
+        for b in self.c.get("beats", []):
+            path = b["image"] if os.path.isabs(b["image"]) else os.path.join(os.path.dirname(self.c["image"]), b["image"])
+            big = self.cover(Image.open(path).convert("RGB"))
+            self._BEATS.append((b["scene"], b.get("line", 0), b.get("delay", 0.0), (big, ImageEnhance.Brightness(big.filter(ImageFilter.GaussianBlur(28))).enhance(0.45),
+                                                                    ImageEnhance.Brightness(big.filter(ImageFilter.GaussianBlur(3))).enhance(0.55))))
+        self._BASE = base
+
+    def _set_beat(self, n, t):
+        if not self._BEATS: return
+        cur = self._BASE; i = self.order.index(n)
+        for sc, ln, dl, imgs in self._BEATS:
+            if sc not in self.order: continue
+            j = self.order.index(sc)
+            if j < i or (j == i and t >= self.line_t(sc, ln) + dl): cur = imgs
+        self.BIG, self.BLUR, self.DIM = cur
 
     def cover(self, src):
         """Scale to fill CWxCH keeping aspect ratio (crop the overflow, biased to keep the top)."""
@@ -98,7 +119,7 @@ class Episode(Scenes2, Extras):
         c = self.c; gold = (255, 214, 102)
         self.L1 = [text_layer([c["hook"][0]], 100), text_layer([c["hook"][1]], 82, "ExtraBold"), text_layer([(c["hook"][2], gold)], 82, "ExtraBold")]
         self.NAME = text_layer([c["name_line"]], 100); self.SUB = text_layer([c["sub_line"]], 50, "Bold", color=(225, 225, 235))
-        self.L3a = text_layer([c["conflict"][0]], 84); self.L3b = text_layer(c["conflict"][1], 64, "ExtraBold", color=(255, 120, 120))
+        if c.get("conflict") and any(c["conflict"]): self.L3a = text_layer([c["conflict"][0]], 84); self.L3b = text_layer(c["conflict"][1], 64, "ExtraBold", color=(255, 120, 120))
         self.L4a = text_layer(c["premise"][0], 104); self.L4b = text_layer([(c["premise"][1], gold)], 56, "ExtraBold")
         self.L4c = text_layer(c["premise"][2], 56, "Bold", color=(225, 225, 240))
         self.L5a = text_layer(c["vote_q"], 92); self.L5b = text_layer([c.get("cta", "Comment the number below")], 58, "ExtraBold", color=gold)
@@ -124,8 +145,13 @@ class Episode(Scenes2, Extras):
         d = self.DUR["s1"]; im = self.bg(t, d, 0.93, 1.0, self.BEFORE_DIM if self.BEFORE is not None else self.DIM); st = self.TM["s1"]
         if self.c.get("snow"): snow(im, t, 150)
         center_paste(im, self.pill, 330)
-        for i, (L, y) in enumerate(zip(self.L1, (700, 860, 970))): paste_anim(im, L, y, st[i] if i < len(st) else st[-1] + 0.8 * (i - len(st) + 1), t, pop=(i == 0))
-        tp = st[-1] + 0.8 * max(0, 3 - len(st)) + 0.5
+        # Nov 21 evening fix: the 3 hook text lines used to wait for voice lines 2 and 3, so the hook's punchline was not on screen until ~3-4 s.
+        # Now all 3 pop in during the first voice line (0.1 / 0.45 / 0.8 s). "hook_slow": true restores the old behaviour.
+        slow = self.c.get("hook_slow")
+        for i, (L, y) in enumerate(zip(self.L1, (700, 860, 970))):
+            t0 = (st[i] if i < len(st) else st[-1] + 0.8 * (i - len(st) + 1)) if slow else st[0] + 0.35 * i
+            paste_anim(im, L, y, t0, t, pop=(i == 0))
+        tp = (st[-1] + 0.8 * max(0, 3 - len(st)) + 0.5) if slow else st[0] + 1.3
         if t > tp:
             e = emoji(self.c["hook_emoji"], 190); center_paste(im, e, 1260 - 30 * ease((t - tp) / .4), ease((t - tp) / .4))
         return im
@@ -162,9 +188,10 @@ class Episode(Scenes2, Extras):
         tn = st[self.c["notif_line"]]
         if t > tn:
             p = back((t - tn) / .45); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * (690 if self.c.get('hud') else 500))))
-        self.panel(im, (80, 1085, 1000, 1430), ease((t - st[self.c["conflict_lines"][0]]) / .4))
-        paste_anim(im, self.L3a, 1150, st[self.c["conflict_lines"][0]], t, pop=True)
-        paste_anim(im, self.L3b, 1270, st[self.c["conflict_lines"][1]], t)
+        if self.c.get("conflict") and any(self.c["conflict"]):  # "conflict": null -> no text panel (it fought the word captions, Nov 21)
+            self.panel(im, (80, 1085, 1000, 1430), ease((t - st[self.c["conflict_lines"][0]]) / .4))
+            paste_anim(im, self.L3a, 1150, st[self.c["conflict_lines"][0]], t, pop=True)
+            paste_anim(im, self.L3b, 1270, st[self.c["conflict_lines"][1]], t)
         return im
 
     def s4(self, t):
@@ -190,12 +217,13 @@ class Episode(Scenes2, Extras):
 
     def render(self, stills=False):
         self.build_layers(); self.build_extras()
-        scenes = [(n, (lambda f, n: (lambda t: self.overlay(n, t, f(t))))(getattr(self, n), n)) for n in self.order]
+        scenes = [(n, (lambda f, n: (lambda t: (self._set_beat(n, t), self.overlay(n, t, f(t)))[1]))(getattr(self, n), n)) for n in self.order]
         if stills:
             pts = [(n, self.DUR[n] - 0.6) for n in self.order]
             for n in self.order:
                 pts += [(n, t0 + 0.5) for _, t0 in self.sfx_times(n)]
                 pts += [(n, (a + b) / 2) for a, b, _ in self.CAP.get(n, [])[:1]]
+                pts += [(n, self.line_t(sc, ln) + dl + 0.4) for sc, ln, dl, _ in getattr(self, "_BEATS", []) if sc == n]
             pts.sort(key=lambda x: (self.order.index(x[0]), x[1]))
             fs = [dict(scenes)[n](min(t, self.DUR[n] - 0.05)).convert("RGB").resize((360, 640)) for n, t in pts]
             cols = 6; rows = (len(fs) + cols - 1) // cols

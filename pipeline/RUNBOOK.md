@@ -63,6 +63,17 @@ Copy the mechanics, never their jokes, names or characters. Start every episode 
 **Visual gap (tell Boris, don't fake it)**: the reference draws a new scene every episode (bridal shop, wax room, surgery) and the character visibly changes. Cloud runs only have the images in `pipeline/assets`. Reuse the best matching one and lean on stickers/captions; when Boris does a live session, ask him for new scene images (same character, same style) and add them to assets with a clear name (e.g. `theo_barber.jpg`).
 
 
+## 3c1. Nov 21 evening: why viewers leave at ~9-11 s, and the fixes (Boris: Jess, Theo and Danny are the priority)
+**Priority (Boris, Nov 21):** Jess, Theo and Danny (the glow-up pages) get the most care and are written and checked first each run. Malik, Rosie, Horde and History still get full runs.
+Data: Jess D1 14.7% skip / 9.5 s avg, Danny D1 30% / 8.7 s, Theo D5 42% / 7.1 s. People who get past 3 s stay on average ~11 s (estimate (avg - skip*1.5)/(1-skip)), then leave. Timings show what plays at 2-11 s in all three:
+- **Bug (fixed in engine.py):** the 3 on-screen hook lines waited for voice lines 2 and 3, so the punchline ("sister's wedding.") wasn't on screen until ~3-4 s. They now all pop in within 0.8 s (`hook_slow: true` = old behaviour).
+- **2-7 s was admin:** "The wedding is in thirty days." + "Stay to the end, you decide..." (4-5 s with no new info). Now: NO voice line for the countdown (the calendar sticker says it) and no "stay to the end" voice line (a "YOU DECIDE" sticker says it). Voice line 2 must be a NEW, funnier fact (e.g. "And she's still wearing his hoodie.").
+- **7-11 s repeated the hook:** Jess s3 opened "Her sister texted: Ryan is best man"; Danny's chat opened "It started with one message. Brock asked..."; Theo "Day five of thirty. You voted gym." Never restate the hook or the vote; every line after the hook is a new escalation. The notification card must carry new info too.
+- **One static picture for 30 s:** new `beats` key swaps the background image at any line: `"beats": [{"scene": "s3", "line": 1, "image": "jess_dress_nozip.jpg"}]`. For Jess/Danny render 2-4 toon.py looks per episode (expression, outfit, sweat, tired) so the picture changes every ~3 s. Theo: reuse his existing images (scruffy, gaming, clear skin) as beats until a live session adds more.
+- **Put the strongest beat (the ex/rival text chat) at ~8-10 s**, exactly where people were leaving, not at 17 s; keep one open loop for the end ("He's typing again").
+- `"conflict": null` turns off the s3 text panel; it fought the word-by-word captions (and repeated "30 days" a third time).
+- Target 20-24 s. Example re-cut: `pipeline/episodes/_example_v5_jess_d01.json` (20.7 s, chat at 9 s, 3 picture changes). Check the contact sheet: hook fully visible by frame 1, stickers on the body (y ~1250), not over the face or the notification.
+
 ## 3c0. Nov 21: reference account @30daystofix (2-10M views/Reel) -> template v4
 Read pipeline/ANALYSIS_30daystofix_2026-11-21.md. Start episodes from `_template_v4.json` (sm montage -> s1 -> s3 -> sc chat -> s5): PREVIOUSLY montage in the first 2-3 s, a joke status sticker every 1.5-2 s, a text-chat scene when the ex/rival is in the episode, covers titled with the funny RESULT ('DAY 5' / 'THE BAR WON'). Copy mechanics only, never their character, names or jokes. Go longer than ~30 s only when the pacing supports it, and check avg watch time.
 

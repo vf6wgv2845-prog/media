@@ -984,7 +984,8 @@
   "Nov 21: Horde fact #3 posted 13 min before battle Day 3 got 3 views (the battle got 94, other Horde Reels 115-181). Same-account Reels need at least ~2 h spacing; 15 min is not enough.",
   "Nov 21: Jess + Danny launched with original flat-vector characters (toon.py). Unlike Theo's fixed 3D image, these can change every day - use it (the reference account's biggest edge).",
   "Nov 21 evening: the toon.py flat-vector characters + v4 hook crushed the 3D accounts on first-hour retention: Jess D1 14.7% skip / 9.5 s avg / 713 views / 2 comments + 2 saves in ~1 h; Danny D1 30.1% / 8.7 s. Theo 41-42%, Malik 52%, Rosie 56%, Horde 49-67%. Bring Jess's hook shape (concrete absurd situation + the ex's text, 'still wearing his hoodie') to every account; consider redrawing Malik/Rosie with toon.py at a live session.",
-  "Nov 21: History E1 had 0 views ~1.2 h after posting (new account, 0 followers). If still under 20 views at 3 h, treat as processing/suppression per RUNBOOK 3c; don't repost."
+  "Nov 21: History E1 had 0 views ~1.2 h after posting (new account, 0 followers). If still under 20 views at 3 h, treat as processing/suppression per RUNBOOK 3c; don't repost.",
+  "Nov 21 evening (Boris asked to fix the ~7-11 s drop on Jess/Danny/Theo): stayers leave ~11 s. Causes: hook text not fully on screen until 3-4 s (engine bug, fixed), 4-5 s of admin voice lines after the hook (countdown + 'stay to the end'), the next line restating the hook, one static picture. Fixes in RUNBOOK 3c1: hook text in 0.8 s, line 2 = new joke, no repeats, 'beats' picture swaps every ~3 s, the chat beat at ~8-10 s, 20-24 s total. Priority accounts: Jess, Theo, Danny."
  ],
  "facts": [
   {
@@ -1038,5 +1039,17 @@
   "posted_as_stories": "2026-11-21 ~12:45 PM ET (all cards)",
   "posted_per_day_nov21": "~1:00-1:30 PM ET: all Day 1-5 cards + Reels as stories on Theo/Malik/Rosie, Horde Day 1-3 (launch slides, battles, facts) + rules cards."
  },
- "voting_rule_v2": "From Nov 22: episodes end with the open vote (scene sv: 'NOW IT'S ON YOU / TOP COMMENT DECIDES'). Counting: group comments by the idea they ask for; each user = 1 vote (latest), each like on a comment = +1; the idea with the most wins (tie -> earliest comment). Open the next episode with the winning comment as a card + how many asked. Numbered replies ('3') still count for the matching idea from the previous episode."
+ "voting_rule_v2": "From Nov 22: episodes end with the open vote (scene sv: 'NOW IT'S ON YOU / TOP COMMENT DECIDES'). Counting: group comments by the idea they ask for; each user = 1 vote (latest), each like on a comment = +1; the idea with the most wins (tie -> earliest comment). Open the next episode with the winning comment as a card + how many asked. Numbered replies ('3') still count for the matching idea from the previous episode.",
+ "priority_accounts": {
+  "note": "Boris, Nov 21: Jess, Theo and Danny get the most care (written/checked first); the others still get full runs.",
+  "order": [
+   "jess",
+   "theo",
+   "danny",
+   "malik",
+   "rosie",
+   "horde",
+   "history"
+  ]
+ }
 }
