@@ -45,7 +45,9 @@ def day_cover(out, img, cx, cy, side, ring, num):
     S2=1080; src=Image.open(A+img).convert("RGB"); h=side//2
     c=src.crop((cx-h,cy-h,cx+h,cy+h)).resize((S2,S2),Image.LANCZOS).convert("RGBA"); d=ImageDraw.Draw(c)
     d.ellipse([18,18,S2-18,S2-18],outline=tuple(ring)+(255,),width=36)
-    d.text((S2//2,800),num,font=F("Black",330),fill=(255,214,102),anchor="mm",stroke_width=22,stroke_fill=(12,12,14))
+    sh=Image.new("RGBA",(S2,S2),(0,0,0,0)); ImageDraw.Draw(sh).rectangle([0,560,S2,S2],fill=(0,0,0,90)); c.alpha_composite(sh); d=ImageDraw.Draw(c); d.ellipse([18,18,S2-18,S2-18],outline=tuple(ring)+(255,),width=36)
+    d.text((S2//2,640),"DAY",font=F("Black",150),fill=(255,255,255),anchor="mm",stroke_width=14,stroke_fill=(12,12,14))
+    d.text((S2//2,840),str(num).replace("D","").replace("AY","").strip(),font=F("Black",260),fill=(255,214,102),anchor="mm",stroke_width=18,stroke_fill=(12,12,14))
     c.convert("RGB").save(out,quality=93)
 # Cover crops used so far (image, cx, cy, side, ring): theo theo_d02_clearskin.jpg 430,440,560 (255,214,102);
 # malik malik.jpg 402,320,560 (232,120,30); rosie rosie.jpg 402,390,560 (214,64,46); horde trash_horde.jpg 512,380,520 (140,255,90)
