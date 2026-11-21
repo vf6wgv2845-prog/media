@@ -2,31 +2,66 @@
  "accounts": {
   "theo": {
    "handle": "youdecidewhatsnext",
-   "ig_account": "17841469930455212"
+   "ig_account": "17841469930455212",
+   "profile": {
+    "name": "Theo's 30-Day Glow Up",
+    "bio": "30 days until he sees his ex at the Christmas party 🎄\nYou vote 1 fix a day in the comments 🗳️\nNew episode daily · Start at Day 1 📌",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "malik": {
    "handle": "thes.portsdesk",
-   "ig_account": "17841421046278483"
+   "ig_account": "17841421046278483",
+   "profile": {
+    "name": "Malik Rowe · Road to the NBA",
+    "bio": "Cut from varsity. Now YOU run his career 🏀\nComment to vote his next move\nJV → varsity → college → the league · Day 1 📌",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "rosie": {
    "handle": "whatfordinnerfr",
-   "ig_account": "17841466134167305"
+   "ig_account": "17841466134167305",
+   "profile": {
+    "name": "Rosie · 30 Days to Cook-off",
+    "bio": "19-year-old line cook vs the city cook-off 🏆\nYou pick what she cooks 🗳️\nReal recipe in every post 📖 · Day 1 📌",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "horde": {
    "handle": "thetrashhorde",
-   "ig_account": "17841451573084295"
+   "ig_account": "17841451573084295",
+   "profile": {
+    "name": "The Trash Horde · Litter Game",
+    "bio": "Pick up litter IRL = damage the zombie horde 🧟\n1 piece = 1 dmg · 1 lb = 10 dmg\nComment your haul + city 👇 Gloves on 🧤",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "jess": {
    "handle": "30da.ystothewedding",
-   "ig_account": "17841442735015958"
+   "ig_account": "17841442735015958",
+   "profile": {
+    "name": "Jess · 30 Days to the Wedding",
+    "bio": "Her ex is the best man at her sister's wedding 💍\nYou vote 1 glow-up fix a day 🗳️\nNew episode daily · Day 1 📌",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "danny": {
    "handle": "30daystothereunion",
-   "ig_account": "17841464934053013"
+   "ig_account": "17841464934053013",
+   "profile": {
+    "name": "Danny · 30 Days to Reunion",
+    "bio": "10-year reunion in 30 days. His bully RSVP'd yes 😬\nYou vote 1 fix a day 🗳️\nNew episode daily · Day 1 📌",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "history": {
    "handle": "thatreallyhappened.history",
-   "ig_account": "17841455002578933"
+   "ig_account": "17841455002578933",
+   "profile": {
+    "name": "That Really Happened",
+    "bio": "True stories from history you weren't taught 📜\nFact-checked, sources in every caption\nComment which story we tell next 👇",
+    "note": "Boris sets these in the app (Windsor can't edit profiles)."
+   }
   },
   "theo_tiktok": {
    "handle": "youdecidewhatsnext",
@@ -790,5 +825,27 @@
   }
  ],
  "post_queue": [],
- "weekend_note_nov21": "Boris asked (Nov 21) to post all of today's content early because it's the weekend. Theo D5, Malik D5, Rosie D5, Horde fact #3 + battle D3 and all 4 stories posted ~12:10-12:35 PM ET. The 5:45 PM run must NOT post new Day episodes today; it can do the Theo night progress check (v3, new beat) and replies/report. The 1:37 PM extras run can add 1 more Horde Reel (5/day test)."
+ "weekend_note_nov21": "Boris asked (Nov 21) to post all of today's content early because it's the weekend. Theo D5, Malik D5, Rosie D5, Horde fact #3 + battle D3 and all 4 stories posted ~12:10-12:35 PM ET. The 5:45 PM run must NOT post new Day episodes today; it can do the Theo night progress check (v3, new beat) and replies/report. The 1:37 PM extras run can add 1 more Horde Reel (5/day test).",
+ "highlights": {
+  "decision": "Nov 21: Boris wants highlights now (reverses the earlier no-highlights call). Claude posts the cards as stories; Boris adds them to highlights in the app and sets the covers from highlights/<acc>/cover_*.jpg.",
+  "theo": {
+   "DAYS": "highlights/theo/day01-05.jpg (+ one new card per day)",
+   "HOW IT WORKS": "highlights/theo/how_it_works.jpg"
+  },
+  "malik": {
+   "SEASON 1": "highlights/malik/day01-05.jpg",
+   "HOW IT WORKS": "highlights/malik/how_it_works.jpg"
+  },
+  "rosie": {
+   "DAYS": "highlights/rosie/day01-05.jpg",
+   "HOW IT WORKS": "highlights/rosie/how_it_works.jpg"
+  },
+  "horde": {
+   "HOW TO PLAY": "how_to_play.jpg",
+   "SAFETY": "safety.jpg",
+   "BOSS": "boss.jpg",
+   "FACTS": "fact01-03.jpg (+ each new fact)"
+  },
+  "posted_as_stories": "2026-11-21 ~12:45 PM ET (all cards)"
+ }
 }
