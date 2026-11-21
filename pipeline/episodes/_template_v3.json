@@ -259,7 +259,6 @@
  },
  "captions": {
   "scenes": [
-   "s1",
    "s3"
   ],
   "y": 1500,
@@ -368,5 +367,5 @@
   "s3",
   "s5"
  ],
- "_v3_notes": "TEMPLATE v3 (Nov 20 analysis): ~25 s, order s1->s3->s5. s1 opens on the most dramatic/absurd beat of the episode (never 'You voted'), then 1-line recap, then 'stay to the end, you pick tomorrow'. No stats panel (s2) or scoreboard scene (sb): viewers left during them. Stats/aura live in the HUD + stickers. Vote screen must start by ~18 s."
+ "_v3_notes": "TEMPLATE v3 (Nov 20 analysis): ~25 s, order s1->s3->s5. s1 opens on the most dramatic/absurd beat of the episode (never 'You voted'), then 1-line recap, then 'stay to the end, you pick tomorrow'. No stats panel (s2) or scoreboard scene (sb): viewers left during them. Stats/aura live in the HUD + stickers. Vote screen must start by ~18 s. Captions only in s3 (s1 already shows the hook text; captions there collide with the calendar)."
 }
