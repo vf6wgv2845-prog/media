@@ -722,10 +722,12 @@
  "trends": {
   "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it."
  },
- "schedule": "Daily run at 5:45 PM ET (changed from 6:35 on Nov 19). Voting rule: one vote per user (their latest), likes on a vote comment add +1.",
+ "schedule": "Main run 5:45 PM ET (all episodes + stories). Extras runs 7:37 AM ET (Theo bonus + Horde) and 1:37 PM ET (Horde). See RUNBOOK 5d.",
  "learning_log": [],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
-  "Nov 20: votes are near zero on every account (Theo 2, Malik 0, Rosie 0, Horde 0 hauls). Test stronger, easier vote asks (fewer options, a clear 'comment 1 or 2' A/B) and see which account's wording gets more comments."
+  "Nov 20: votes are near zero on every account (Theo 2, Malik 0, Rosie 0, Horde 0 hauls). Test stronger, easier vote asks (fewer options, a clear 'comment 1 or 2' A/B) and see which account's wording gets more comments.",
+  "Nov 20 (1h data): new retention format lowered skip rate on every account that used it (Theo 55.8%->45.6%, Malik 66.3%->48.8%, Horde 58%->53.1%). Keep it everywhere.",
+  "Nov 20: only Theo has followers (21). Stories/images/carousels reach ~nobody yet; growth = Reels to non-followers."
  ]
 }

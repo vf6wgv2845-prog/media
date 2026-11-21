@@ -93,6 +93,22 @@ Different from the 3 story series: no vote options. Each run:
 5. Sunday: boss result Reel (beaten or the horde spreads), then introduce next week's boss (new zombie type, HP based on last week's total).
 6. Report totals honestly as community-reported vs verified. Hashtags: #TrashHorde + 4 from #litterpicking #cleanup #environment #pickuplitter #plasticfree #cleanupchallenge.
 
+
+## 5d. Posting plan (Boris, Nov 20: Claude decides when/what to post, driven by the data; Windsor trial ends ~Dec 17)
+Data on Nov 20: Theo 21 followers, every other account 0. Stories and feed images only reach followers, and carousels have shown 0 reach every time, so with 0 followers growth comes from **Reels reaching non-followers**. Extra posts must be extra Reels, each with a NEW story beat (never a repost or recap-only).
+Proof it works: Theo Day 4 (new format) = best skip rate yet 45.6%, 9.4 s avg watch, 7 likes + 3 comments in the first hour; Theo's 6 AM bonus Reel = 10.3 s avg watch + the first 2 shares.
+Daily slots (ET):
+- **7:37 AM extras run**: Theo morning bonus Reel (a small real-life moment between episodes: alarm, gym, school hallway, a text from Maya); Trash Horde morning Reel.
+- **1:37 PM extras run**: Trash Horde midday Reel.
+- **5:45 PM main run**: every series' episode + one story per account (stories stay: they cost nothing and keep the few followers hooked).
+Trash Horde gets the most volume (3 Reels/day) because it's the game account and needs players. Formats to rotate in the extra slots (all 3b format, real numbers only):
+ a) "60-second challenge": what you can pick up in 60 s (tips, safety, comment your haul + city);
+ b) one verified litter fact (web-search it first, cite the source in the caption, e.g. how long a can/cigarette butt lasts);
+ c) "the horde advances": map/boss HP update, a countdown to Sunday, rally the first hit;
+ d) as soon as real hauls arrive: every haul becomes its own shout-out Reel/story ("Captain @handle hit for 40").
+ Never fake a cleanup, a haul, a photo or a city. Stories and carousels for the Horde come back once it has followers (re-check followers_count each run).
+Each extras run: check the last 48 h of skip rate / avg watch / likes / comments / shares per account and pick the format and hook style that's winning (log the choice in `lessons`). If an extra slot's Reels keep underperforming the evening ones for 3 days, drop or move that slot and say so in the report.
+
 ## 6. Engage
 Reply to up to 5 genuine new comments per account (`reply_to_comment`), short and in-character for the account. Never argue, never reply to spam/hate (hide it with `hide_comment` if it's abusive).
 
