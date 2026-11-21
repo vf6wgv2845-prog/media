@@ -1,0 +1,290 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  SATURDAY BONUS",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "His mom walked",
+  "past his room...",
+  "then walked back."
+ ],
+ "hook_emoji": "😳",
+ "name_line": "Saturday, 7 AM.",
+ "sub_line": "Bonus moment  •  Day 5 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   4
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "who are you?? where is my son",
+  "emoji": "😭",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 1,
+ "conflict": [
+  "Mom: speechless.",
+  [
+   "(41 selfies.",
+   "0 posted.)"
+  ]
+ ],
+ "conflict_lines": [
+  2,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Hair: fixed-ish."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🏋️",
+   "Gym again"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His mom walked past his room... then walked back."
+   ],
+   [
+    0.1,
+    "Saturday morning. First day without the beanie."
+   ],
+   [
+    0.1,
+    "Stay to the end. You pick tonight's fix."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The beanie never came off. Until today."
+   ],
+   [
+    0.1,
+    "Then Mom texted from the hallway."
+   ],
+   [
+    0.1,
+    "He tried a mirror selfie. Forty-one takes."
+   ],
+   [
+    0.1,
+    "Deleted all forty-one. Full reveal soon."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Day five drops tonight."
+   ],
+   [
+    0.1,
+    "Gym is winning. Brows, fit, gym, Maya, or the smile?"
+   ],
+   [
+    0.1,
+    "Comment the number. Shares give him five aura."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "44%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "13/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "beanie",
+   "mom",
+   "selfie",
+   "forty-one",
+   "barber",
+   "reveal"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOU PICK TONIGHT",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BEANIE: OFF",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 880,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "TAKE 41",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 880,
+   "angle": -6,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "DELETED",
+   "bg": [
+    214,
+    48,
+    64
+   ],
+   "y": 880,
+   "angle": 5,
+   "hold": 1.4
+  }
+ ],
+ "cover_title": [
+  "7:00 AM",
+  "BEANIE OFF"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
