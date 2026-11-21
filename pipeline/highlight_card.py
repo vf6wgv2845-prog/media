@@ -40,7 +40,20 @@ def card(out,img,big,small,rows,cta,col=(236,110,160),days=None,cx=0.5,top=0.0):
     s2=x.sticker_img({"text":cta,"bg":[102,200,92],"size":54,"angle":-2}); center_paste(im,s2,1800)
     im.convert("RGB").save(out,quality=92)
 
+def day_cover(out, img, cx, cy, side, ring, num):
+    """Round highlight cover: character crop + coloured ring + big day number (e.g. 'D6')."""
+    S2=1080; src=Image.open(A+img).convert("RGB"); h=side//2
+    c=src.crop((cx-h,cy-h,cx+h,cy+h)).resize((S2,S2),Image.LANCZOS).convert("RGBA"); d=ImageDraw.Draw(c)
+    d.ellipse([18,18,S2-18,S2-18],outline=tuple(ring)+(255,),width=36)
+    d.text((S2//2,800),num,font=F("Black",330),fill=(255,214,102),anchor="mm",stroke_width=22,stroke_fill=(12,12,14))
+    c.convert("RGB").save(out,quality=93)
+# Cover crops used so far (image, cx, cy, side, ring): theo theo_d02_clearskin.jpg 430,440,560 (255,214,102);
+# malik malik.jpg 402,320,560 (232,120,30); rosie rosie.jpg 402,390,560 (214,64,46); horde trash_horde.jpg 512,380,520 (140,255,90)
+
 if __name__=="__main__":
     s=json.load(open(sys.argv[1]))
+    if "cover" in s:
+        c=s["cover"]; day_cover(c["out"],c["image"],c["cx"],c["cy"],c["side"],c["ring"],c["num"]); print(c["out"])
+        if "big" not in s: sys.exit()
     card(s["out"],s["image"],s["big"],s["small"],[tuple(r) for r in s["rows"]],s["cta"],tuple(s.get("color",[236,110,160])),s.get("days"),s.get("cx",0.5))
     print(s["out"])

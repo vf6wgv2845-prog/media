@@ -827,7 +827,7 @@
  "post_queue": [],
  "weekend_note_nov21": "Boris asked (Nov 21) to post all of today's content early because it's the weekend. Theo D5, Malik D5, Rosie D5, Horde fact #3 + battle D3 and all 4 stories posted ~12:10-12:35 PM ET. The 5:45 PM run must NOT post new Day episodes today; it can do the Theo night progress check (v3, new beat) and replies/report. The 1:37 PM extras run can add 1 more Horde Reel (5/day test).",
  "highlights": {
-  "decision": "Nov 21: Boris wants highlights now (reverses the earlier no-highlights call). Claude posts the cards as stories; Boris adds them to highlights in the app and sets the covers from highlights/<acc>/cover_*.jpg.",
+  "decision": "Nov 21: one highlight per DAY per account (DAY 1, DAY 2, ...) + HOW IT WORKS (Horde: DAY 1-3 + HOW TO PLAY, SAFETY, BOSS). Claude posts the stories (day card, bonus Reels, episode Reel) and makes covers; Boris creates the highlights in the app.",
   "theo": {
    "DAYS": "highlights/theo/day01-05.jpg (+ one new card per day)",
    "HOW IT WORKS": "highlights/theo/how_it_works.jpg"
@@ -846,6 +846,7 @@
    "BOSS": "boss.jpg",
    "FACTS": "fact01-03.jpg (+ each new fact)"
   },
-  "posted_as_stories": "2026-11-21 ~12:45 PM ET (all cards)"
+  "posted_as_stories": "2026-11-21 ~12:45 PM ET (all cards)",
+  "posted_per_day_nov21": "~1:00-1:30 PM ET: all Day 1-5 cards + Reels as stories on Theo/Malik/Rosie, Horde Day 1-3 (launch slides, battles, facts) + rules cards."
  }
 }
