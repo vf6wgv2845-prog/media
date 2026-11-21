@@ -1,7 +1,13 @@
-# Daily run: Boris's 3 Instagram story accounts
+# Daily run: Boris's Instagram story accounts (6)
 
-Owner: Boris. He has given standing permission to post on these three accounts.
+Owner: Boris. He has given standing permission to post on all accounts in `state.json` `accounts`: Theo, Malik, Rosie, Trash Horde, and (once set up) the two new Theo-style glow-up pages Jess and Danny.
 **Golden rule: the audience decides.** Every episode must follow the winning vote from the previous episode's comments. Never ignore, override or "improve on" a vote.
+
+## 0a. New glow-up pages (Jess, Danny): same format as Theo
+Boris asked (Nov 20) for two more pages run exactly like Theo: 30-day countdown, one fix per day by vote, DAYS LEFT / GLOW-UP / AURA HUD, everything in 3b. Their series have `status: waiting_for_setup` until all of `setup_needed` is done.
+- Each run: if a series is `waiting_for_setup`, check get_connectors for its account and pipeline/assets for its image. If anything is missing, skip it and list what's missing in the report. Never post a new page with someone else's image.
+- When both exist: set `status: live`, fill `accounts.<key>`, and post Day 1 (hook = the deadline + the ex/bully, stats, first vote from `open_vote`) built from `_template_v2.json` (no scoreboard scene on Day 1: aura starts at 10). Day 1 Reel gets pinned by Boris.
+- After that they follow every Theo rule (Day 7 boost episode, visual gap note, live sessions for new looks).
 
 ## 0. Setup (each run starts fresh)
 1. Attach the repo: `add_repo` owner `vf6wgv2845-prog`, repo `media`, access `push`; clone to `/home/claude/media`.
@@ -35,7 +41,7 @@ Rules: wins AND losses for Malik; Rosie's chosen dish must come with a **real, a
 Save the config as `pipeline/episodes/<series>_dNN.json` (image path relative to `pipeline/assets`, `voice` = the series' `voice_cloud`, pill e.g. "SEASON 1  •  DAY 2 / 30").
 
 ## 3b. Retention format (learned from @dalesglowup: 12 posts -> 58K followers, Reels at 2.5M / 1.2M / 706K views)
-**Boris's standing rule: this format is REQUIRED for EVERYTHING posted on ALL FOUR accounts: every Reel, every story, every carousel/extra post. No exceptions, no "old style" posts.**
+**Boris's standing rule: this format is REQUIRED for EVERYTHING posted on ALL accounts: every Reel, every story, every carousel/extra post. No exceptions, no "old style" posts.**
 Per-series scoreboard (in `state.json` `series.<x>.format` / `aura`; `score.py <series>` prints the tiles):
 - Theo: DAYS LEFT / GLOW-UP % / AURA x/100 (calendar = days to the party).
 - Malik: DAY n/30 / OVR (stats avg x10) / HYPE x/100. Calendar = days to the next big game. Commenter cameos as coach, trainer, scout, rival's cousin...

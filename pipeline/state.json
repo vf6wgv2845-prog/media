@@ -15,6 +15,14 @@
   "horde": {
    "handle": "thetrashhorde",
    "ig_account": "17841451573084295"
+  },
+  "jess": {
+   "handle": null,
+   "ig_account": null
+  },
+  "danny": {
+   "handle": null,
+   "ig_account": null
   }
  },
  "series": {
@@ -427,6 +435,224 @@
     "note": "No aura: the community damage IS the score. HUD values come from boss/totals in state; scoreboard scene = today's damage by city/cleaner, from real haul comments only."
    },
    "counted_comment_ids": []
+  },
+  "jess": {
+   "status": "waiting_for_setup",
+   "setup_needed": [
+    "Boris creates the Instagram account (Business/Creator) and tells Claude the handle",
+    "Connect it to Windsor (Instagram Login link from get_connector_connect_info) so it appears in get_connectors; then fill accounts.<key>.ig_account",
+    "Hero image in pipeline/assets/jess.jpg (live session, Leonardo, same 3D style as Theo; plus 'after' images later)",
+    "Then set day=0, start date, and post Day 1 from _template_v2.json"
+   ],
+   "title": "Jess: 30 days until her ex is the best man at her sister's wedding",
+   "day": 0,
+   "last_post_date": null,
+   "last_media_id": null,
+   "image": "jess.jpg",
+   "stats": {
+    "Hair": 3,
+    "Skin": 4,
+    "Style": 2,
+    "Fitness": 3,
+    "Confidence": 2
+   },
+   "upgrades_so_far": [],
+   "open_vote": {
+    "question": "What should Jess fix first?",
+    "options": [
+     "Hair",
+     "Skin",
+     "New fit",
+     "Gym",
+     "Unfollow Ryan"
+    ]
+   },
+   "cast": {
+    "Ryan": "her ex; dumped her by text; he's the best man at her sister Chloe's wedding (Day 30)",
+    "Chloe": "her older sister, the bride; loving but bossy",
+    "Ryan's new girlfriend": "introduce later; influencer type"
+   },
+   "deadline": "Day 30 = Chloe's wedding",
+   "voice_cloud": "af_bella",
+   "hashtags": {
+    "branded": "#JessGlowUp",
+    "pool": [
+     "#glowup",
+     "#glowupchallenge",
+     "#30daychallenge",
+     "#3danimation",
+     "#youdecide",
+     "#transformation",
+     "#beforeandafter",
+     "#storytime"
+    ]
+   },
+   "aura": {
+    "value": 10,
+    "max": 100,
+    "rules": {
+     "comments": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "likes": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "shares": [
+      5,
+      1,
+      "+5 each"
+     ],
+     "saves": [
+      3,
+      1,
+      "+3 each"
+     ],
+     "views": [
+      1,
+      100,
+      "+1 per 100"
+     ]
+    },
+    "note": "Aura = real engagement on the previous episode's Reel only (get_data media_views, media_like_count, media_comments_count, media_shares, media_saved; reposts are NOT readable with Instagram Login). Started at 10 on Day 4. Glow-up % = average of stats. Shown in the HUD every frame.",
+    "log": [],
+    "label": "AURA"
+   },
+   "format": {
+    "tile1": "DAYS LEFT",
+    "tile2": "GLOW-UP",
+    "tile2_kind": "percent",
+    "colors": [
+     [
+      255,
+      214,
+      102
+     ],
+     [
+      120,
+      225,
+      120
+     ],
+     [
+      235,
+      80,
+      95
+     ]
+    ]
+   },
+   "bonus_posts": []
+  },
+  "danny": {
+   "status": "waiting_for_setup",
+   "setup_needed": [
+    "Boris creates the Instagram account (Business/Creator) and tells Claude the handle",
+    "Connect it to Windsor (Instagram Login link from get_connector_connect_info) so it appears in get_connectors; then fill accounts.<key>.ig_account",
+    "Hero image in pipeline/assets/danny.jpg (live session, Leonardo, same 3D style as Theo; plus 'after' images later)",
+    "Then set day=0, start date, and post Day 1 from _template_v2.json"
+   ],
+   "title": "Danny: 30 days until the 10-year reunion where his old bully will be",
+   "day": 0,
+   "last_post_date": null,
+   "last_media_id": null,
+   "image": "danny.jpg",
+   "stats": {
+    "Hair": 3,
+    "Skin": 5,
+    "Style": 1,
+    "Fitness": 2,
+    "Confidence": 2
+   },
+   "upgrades_so_far": [],
+   "open_vote": {
+    "question": "What should Danny fix first?",
+    "options": [
+     "Hair",
+     "Gym",
+     "New fit",
+     "Skin",
+     "Move out of Mom's"
+    ]
+   },
+   "cast": {
+    "Brock": "his high-school bully, now a realtor with his face on bus benches; RSVP'd yes",
+    "Nina": "his high-school crush; RSVP'd 'maybe'",
+    "Mom": "lives with her; thinks he's perfect"
+   },
+   "deadline": "Day 30 = the 10-year reunion",
+   "voice_cloud": "am_adam",
+   "hashtags": {
+    "branded": "#DannysComeback",
+    "pool": [
+     "#glowup",
+     "#glowupchallenge",
+     "#30daychallenge",
+     "#3danimation",
+     "#youdecide",
+     "#transformation",
+     "#beforeandafter",
+     "#storytime"
+    ]
+   },
+   "aura": {
+    "value": 10,
+    "max": 100,
+    "rules": {
+     "comments": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "likes": [
+      1,
+      1,
+      "+1 each"
+     ],
+     "shares": [
+      5,
+      1,
+      "+5 each"
+     ],
+     "saves": [
+      3,
+      1,
+      "+3 each"
+     ],
+     "views": [
+      1,
+      100,
+      "+1 per 100"
+     ]
+    },
+    "note": "Aura = real engagement on the previous episode's Reel only (get_data media_views, media_like_count, media_comments_count, media_shares, media_saved; reposts are NOT readable with Instagram Login). Started at 10 on Day 4. Glow-up % = average of stats. Shown in the HUD every frame.",
+    "log": [],
+    "label": "AURA"
+   },
+   "format": {
+    "tile1": "DAYS LEFT",
+    "tile2": "GLOW-UP",
+    "tile2_kind": "percent",
+    "colors": [
+     [
+      255,
+      214,
+      102
+     ],
+     [
+      120,
+      225,
+      120
+     ],
+     [
+      235,
+      80,
+      95
+     ]
+    ]
+   },
+   "bonus_posts": []
   }
  },
  "extras": {
