@@ -41,7 +41,7 @@
  ],
  "notif": {
   "from": "Class of 2016",
-  "msg": "Brock: can't wait to see the CEO 😂",
+  "msg": "Brock: can't wait to see the CEO lol",
   "emoji": "",
   "color": [
    90,
@@ -149,6 +149,10 @@
    [
     0.1,
     "The top comment picks which lie Danny makes true first."
+   ],
+   [
+    0.2,
+    "And Brock just liked his message."
    ]
   ]
  },
@@ -185,7 +189,6 @@
  },
  "captions": {
   "scenes": [
-   "sc",
    "s3"
   ],
   "y": 1500,
@@ -237,7 +240,7 @@
     80,
     95
    ],
-   "y": 300,
+   "y": 1790,
    "angle": -3,
    "hold": 1.8,
    "size": 70
@@ -251,7 +254,7 @@
     195,
     205
    ],
-   "y": 620,
+   "y": 900,
    "angle": -5,
    "hold": 1.6,
    "fg": [
@@ -270,7 +273,7 @@
     214,
     102
    ],
-   "y": 620,
+   "y": 900,
    "angle": 4,
    "hold": 1.4,
    "fg": [
@@ -289,7 +292,7 @@
     80,
     95
    ],
-   "y": 620,
+   "y": 900,
    "angle": -3,
    "hold": 1.6,
    "size": 70
@@ -323,7 +326,7 @@
    ],
    [
     "them",
-    "Brock: no way 😂 can't wait to see that"
+    "Brock: no way lol. can't wait to see that"
    ]
   ]
  },

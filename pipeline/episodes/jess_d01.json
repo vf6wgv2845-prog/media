@@ -149,6 +149,10 @@
    [
     0.1,
     "The top comment picks what Jess fixes first."
+   ],
+   [
+    0.2,
+    "And Ryan? He's typing again."
    ]
   ]
  },
@@ -185,8 +189,7 @@
  },
  "captions": {
   "scenes": [
-   "s3",
-   "sc"
+   "s3"
   ],
   "y": 1500,
   "keywords": [
@@ -236,7 +239,7 @@
     195,
     205
    ],
-   "y": 620,
+   "y": 900,
    "angle": -5,
    "hold": 1.6,
    "fg": [
@@ -254,7 +257,7 @@
     80,
     95
    ],
-   "y": 620,
+   "y": 900,
    "angle": 4,
    "hold": 1.4
   },
@@ -267,7 +270,7 @@
     80,
     95
    ],
-   "y": 300,
+   "y": 1790,
    "angle": -3,
    "hold": 1.8,
    "size": 70
@@ -275,7 +278,7 @@
  ],
  "cover_title": [
   "DAY 1",
-  "SHE STILL HAS HIS HOODIE"
+  "HER EX IS BEST MAN"
  ],
  "order": [
   "s1",
