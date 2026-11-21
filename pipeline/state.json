@@ -17,12 +17,27 @@
    "ig_account": "17841451573084295"
   },
   "jess": {
-   "handle": null,
-   "ig_account": null
+   "handle": "30da.ystothewedding",
+   "ig_account": "17841442735015958"
   },
   "danny": {
-   "handle": null,
-   "ig_account": null
+   "handle": "30daystothereunion",
+   "ig_account": "17841464934053013"
+  },
+  "history": {
+   "handle": "thatreallyhappened.history",
+   "ig_account": "17841455002578933"
+  },
+  "theo_tiktok": {
+   "handle": "youdecidewhatsnext",
+   "windsor_connector": "tiktok_organic",
+   "account": "_000xuuv_cO2O5Y3v5mc7RJhM7VQmmWZeQ0T",
+   "note": "Windsor has NO write actions for TikTok: read-only. Boris uploads manually; give him the caption in the report."
+  },
+  "theo_youtube": {
+   "windsor_connector": "youtube",
+   "account": "109991",
+   "note": "Windsor can't upload to YouTube (comments/titles/playlists only). Boris uploads Shorts manually; give him title + description in the report."
   }
  },
  "series": {
@@ -439,10 +454,8 @@
   "jess": {
    "status": "waiting_for_setup",
    "setup_needed": [
-    "Boris creates the Instagram account (Business/Creator) and tells Claude the handle",
-    "Connect it to Windsor (Instagram Login link from get_connector_connect_info) so it appears in get_connectors; then fill accounts.<key>.ig_account",
-    "Hero image in pipeline/assets/jess.jpg (live session, Leonardo, same 3D style as Theo; plus 'after' images later)",
-    "Then set day=0, start date, and post Day 1 from _template_v2.json"
+    "Hero image in pipeline/assets/jess.jpg (live session, Leonardo, same 3D style as Theo)",
+    "Then set status live and post Day 1 from _template_v2.json"
    ],
    "title": "Jess: 30 days until her ex is the best man at her sister's wedding",
    "day": 0,
@@ -548,10 +561,8 @@
   "danny": {
    "status": "waiting_for_setup",
    "setup_needed": [
-    "Boris creates the Instagram account (Business/Creator) and tells Claude the handle",
-    "Connect it to Windsor (Instagram Login link from get_connector_connect_info) so it appears in get_connectors; then fill accounts.<key>.ig_account",
-    "Hero image in pipeline/assets/danny.jpg (live session, Leonardo, same 3D style as Theo; plus 'after' images later)",
-    "Then set day=0, start date, and post Day 1 from _template_v2.json"
+    "Hero image in pipeline/assets/danny.jpg (live session, Leonardo, same 3D style as Theo)",
+    "Then set status live and post Day 1 from _template_v2.json"
    ],
    "title": "Danny: 30 days until the 10-year reunion where his old bully will be",
    "day": 0,
@@ -653,6 +664,28 @@
     ]
    },
    "bonus_posts": []
+  },
+  "history": {
+   "status": "waiting_for_setup",
+   "title": "That Really Happened: narrated true history stories",
+   "type": "history_storytime",
+   "setup_needed": [
+    "Agree the format with Boris (e.g. multi-part series, audience votes the next story)",
+    "Images: public-domain archival images/paintings/maps only (Wikimedia Commons etc.), saved in pipeline/assets/history/ with source + license noted; no AI photos of real people",
+    "Every fact verified by web search before posting"
+   ],
+   "voice_cloud": "bm_george",
+   "hashtags": {
+    "branded": "#ThatReallyHappened",
+    "pool": [
+     "#history",
+     "#historyfacts",
+     "#storytime",
+     "#truestory",
+     "#historytok",
+     "#didyouknow"
+    ]
+   }
   }
  },
  "extras": {
