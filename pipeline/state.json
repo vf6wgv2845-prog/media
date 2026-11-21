@@ -728,6 +728,35 @@
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
   "Nov 20: votes are near zero on every account (Theo 2, Malik 0, Rosie 0, Horde 0 hauls). Test stronger, easier vote asks (fewer options, a clear 'comment 1 or 2' A/B) and see which account's wording gets more comments.",
   "Nov 20 (1h data): new retention format lowered skip rate on every account that used it (Theo 55.8%->45.6%, Malik 66.3%->48.8%, Horde 58%->53.1%). Keep it everywhere.",
-  "Nov 20: only Theo has followers (21). Stories/images/carousels reach ~nobody yet; growth = Reels to non-followers."
+  "Nov 20: only Theo has followers (21). Stories/images/carousels reach ~nobody yet; growth = Reels to non-followers.",
+  "Nov 20 analysis: viewers leave during the stats panel/scoreboard at 9-17 s; the vote (29-39 s) is almost never seen. Use template v3 (20-28 s, vote by 18 s).",
+  "Nov 20 analysis: hooks that start with 'Day N: you voted' lose ~50-70% in 3 s. Open on the most dramatic beat."
+ ],
+ "facts": [
+  {
+   "fact": "~50 billion pieces of litter on US roadways (23.7B) and waterways (25.9B); 152 per US resident",
+   "source": "Keep America Beautiful 2020 National Litter Study",
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  },
+  {
+   "fact": "Cigarette butts are the single most littered item in the US: 19.6% of all litter",
+   "source": "KAB 2020 study",
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  },
+  {
+   "fact": "Plastic = 38.6% of all litter (roadways + waterways)",
+   "source": "KAB 2020 study",
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  },
+  {
+   "fact": "US roadway litter down 54% since 2009 (51.2B -> 23.7B pieces)",
+   "source": "KAB 2020 study",
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  },
+  {
+   "fact": "Nearly 350 million plastic bags and 394.7 million fast-food cups littered; 90% of residents say litter is a problem in their state",
+   "source": "KAB 2020 study",
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+  }
  ]
 }

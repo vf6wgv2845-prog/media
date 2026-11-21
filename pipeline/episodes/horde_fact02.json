@@ -1,0 +1,263 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "The #1 most",
+  "littered item",
+  "is tiny."
+ ],
+ "hook_emoji": "🚬",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "KAB 2020 study: butts = 19.6% of US litter",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": [
+  "Cigarette butts.",
+  [
+   "(1 in 5 pieces",
+   "of all litter)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "The most littered thing in America is tiny."
+   ],
+   [
+    0.1,
+    "You walk past it every day."
+   ],
+   [
+    0.1,
+    "Guess."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Cigarette butts."
+   ],
+   [
+    0.1,
+    "Nearly one in five pieces of litter in the U.S."
+   ],
+   [
+    0.1,
+    "They count as one damage each. Grab them with gloves."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Land the first hit on the Landfill King."
+   ],
+   [
+    0.1,
+    "Gloves, a bag, ten pieces, bin it, comment your haul and city."
+   ],
+   [
+    0.1,
+    "Gloves on. Never touch needles or broken glass. Under eighteen, go with an adult."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  FACT CHECK",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "5,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "cigarette",
+   "butts",
+   "one",
+   "five",
+   "gloves"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "GUESS",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1300,
+   "angle": -4,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "#1",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 900,
+   "angle": 4,
+   "size": 130,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "19.6%",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 900,
+   "angle": -3,
+   "hold": 2.0
+  }
+ ],
+ "cover_title": [
+  "#1 LITTER",
+  "GUESS?"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

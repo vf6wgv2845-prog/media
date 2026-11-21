@@ -1,0 +1,264 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "KAB 2020 study: ~50 billion pieces of US litter",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "A hundred and fifty-two pieces of litter."
+   ],
+   [
+    0.1,
+    "That's your share. For every person in America."
+   ],
+   [
+    0.1,
+    "Can you pick up yours?"
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Keep America Beautiful counted it in 2020."
+   ],
+   [
+    0.1,
+    "Almost fifty billion pieces on U.S. roads and waterways."
+   ],
+   [
+    0.1,
+    "Divide it up and it's a hundred fifty-two each."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Land the first hit on the Landfill King."
+   ],
+   [
+    0.1,
+    "Gloves, a bag, ten pieces, bin it, comment your haul and city."
+   ],
+   [
+    0.1,
+    "Gloves on. Never touch needles or broken glass. Under eighteen, go with an adult."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  FACT CHECK",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "5,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "litter",
+   "share",
+   "152",
+   "fifty",
+   "billion"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "152",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 500,
+   "angle": -4,
+   "size": 130,
+   "hold": 2.4
+  },
+  {
+   "scene": "s1",
+   "line": 2,
+   "text": "YOUR SHARE",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1300,
+   "angle": 3,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "= 152 EACH",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 900,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2
+  }
+ ],
+ "cover_title": [
+  "152",
+  "YOUR SHARE"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

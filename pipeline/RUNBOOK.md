@@ -47,7 +47,7 @@ Per-series scoreboard (in `state.json` `series.<x>.format` / `aura`; `score.py <
 - Malik: DAY n/30 / OVR (stats avg x10) / HYPE x/100. Calendar = days to the next big game. Commenter cameos as coach, trainer, scout, rival's cousin...
 - Rosie: DAYS LEFT / SKILL % / BUZZ x/100. Calendar = days to the cook-off. Commenter cameos as taste-tester, judge, sous-chef...
 - Horde: BOSS HP / DAMAGE / CLEANERS (from real hauls only; no aura). Comment cards = real haul comments; top cleaners become characters ("Captain @handle"). Calendar = days until the boss deadline.
-Copy the mechanics, never their jokes, names or characters. Start every Theo episode from `pipeline/episodes/_template_v2.json` (all features below already wired; see the docstring at the top of `pipeline/extras.py`).
+Copy the mechanics, never their jokes, names or characters. Start every episode (all story series) from `pipeline/episodes/_template_v3.json` (v2 only as a reference) (all features below already wired; see the docstring at the top of `pipeline/extras.py`).
 1. **HUD on every frame** (`hud`): DAYS LEFT / GLOW-UP % / AURA x/100, top-left. GLOW-UP = average of the stats as %; tiles with `from` + `at` pop to the new value at that moment (GLOW-UP at `["s2",0]`, AURA at `["sb",-1]`).
 2. **Aura = real engagement, shown openly** (`scoreboard` scene `sb`, auto-inserted after s2): run `python3 -I pipeline/score.py theo views=.. likes=.. comments=.. shares=.. saves=..` with the previous episode Reel's real numbers (get_data `media_views, media_like_count, media_comments_count, media_shares, media_saved`; reposts are not readable on this connection). It prints the `hud` AURA tile, the `scoreboard` block and the `sb` voice lines. After posting, run it again with `--save`. Never invent numbers. Say the rates out loud sometimes ("shares are worth 5") so viewers know sharing helps him.
 3. **Open on the audience** (`comments`): first 2-3 seconds = the winning vote's real comment as a card (handle, text verbatim, real like count); stack 2-3 cards if several people asked for the same thing. Only public handles, nothing mean about them.
@@ -58,9 +58,23 @@ Copy the mechanics, never their jokes, names or characters. Start every Theo epi
 8. **Word-by-word captions** (`captions`): voice lines shown 2-3 words at a time, keywords coloured (put names, stats and numbers in `keywords`). Keep on-screen text panels short so they don't fight the captions.
 9. **Designed cover** (`cover_title`: ["DAY N", "<the fix in 2-3 words>"]): grid tiles must read like episode titles.
 10. **Caption line 1** = "<N> days left. You voted <fix>. <teaser of what went wrong>..." (cut off by "..." on purpose).
-11. **Length**: aim 30-40 s. Cut lines rather than speeding the voice; the hook must land in the first 2 seconds.
+11. **Length**: aim 20-28 s (v3, Nov 20 analysis). Cut lines rather than speeding the voice; the hook must land in the first 2 seconds. Start from `pipeline/episodes/_template_v3.json` (order s1 -> s3 -> s5, no stats panel, no scoreboard scene; HUD + stickers carry the numbers). The vote screen must start by ~18 s.
 12. Check the contact sheet (stills mode now shows extra frames at every sticker/comment) for overlaps before the full render.
 **Visual gap (tell Boris, don't fake it)**: the reference draws a new scene every episode (bridal shop, wax room, surgery) and the character visibly changes. Cloud runs only have the images in `pipeline/assets`. Reuse the best matching one and lean on stickers/captions; when Boris does a live session, ask him for new scene images (same character, same style) and add them to assets with a clear name (e.g. `theo_barber.jpg`).
+
+
+## 3c. What the Nov 20 analysis found (read before writing ANY episode) - full notes: pipeline/ANALYSIS_2026-11-20.md
+- 46-72% of viewers leave in the first 3 seconds on every Reel. Hooks that opened with "Day N: you voted..." or a plain statement lost the most. Open on the most dramatic/absurd beat of the episode (the fail, the twist, the text), as a full sentence, in under 2 s, with motion (sticker/comment card) on frame 1.
+- The viewers who stay leave after ~9-17 s, almost always DURING the stats panel (s2) or the aura scoreboard (sb). The vote screen started at 29-39 s, so almost nobody ever saw the vote options: that's why votes are near zero. => v3 structure, vote by ~18 s, say "stay to the end, you pick tomorrow" in s1.
+- Best % watched: the short single-moment Theo bonus (33 s, 31% watched, first shares). Single clear moment > packed episode.
+- Rosie: worst hooks (72% skip on Day 3) and 0 comments ever: her hooks must be the kitchen disaster first ("Her dumplings exploded in the pan").
+- Two Reels got almost no distribution (Malik Day 2: 8 views; Rosie Day 4: 0 views after 1 h). If a Reel is still under 20 views after 3 h, note it in the report (possible processing/suppression) and don't repost it.
+- Windsor gives skip rate (first 3 s) and average watch time only, no per-second retention curve; estimate the drop point from avg watch time vs scene timings (timing.json) and log it.
+
+## 5e. Daily content plan (Boris + Claude, Nov 20)
+Story series (Theo, Jess, Danny, Malik, Rosie): 1 main Day-N episode (5:45 PM run). Theo also gets (a) a morning bonus moment (new beat) and (b) a night "progress check" Reel ending on a cliffhanger, plus 2-3 stories; every ~4 days a "Days 1-N in 40 seconds" catch-up to pin. Follower ladder (shown in captions/HUD, never "like for X"): 50 followers = pro haircut reveal, 100 = Maya sees him in person, 250 = new outfit, 500 = ?, 1K = ? (audience picks the rewards).
+Trash Horde: test 5 Reels/day for 5 days (Nov 21-25), each a different format (verified fact, 60-second challenge, boss update, "how long does it last" quiz, haul shout-outs). Keep 5 if per-post views hold, else drop to 3. Facts only from sources logged in state.json `facts` (verified by web search).
+Until the extra time slots exist as scheduled tasks, the 5:45 PM run posts: Horde queue item first (from state.json `post_queue`), then all episodes + stories, then the Horde battle Reel last (natural ~20-30 min spacing). Never post two Reels on one account within 15 minutes.
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
