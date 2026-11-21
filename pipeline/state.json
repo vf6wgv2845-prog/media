@@ -517,15 +517,12 @@
    "counted_comment_ids": []
   },
   "jess": {
-   "status": "waiting_for_setup",
-   "setup_needed": [
-    "Hero image pipeline/assets/jess.jpg (Boris, Leonardo; prompt in state.series.jess.image_prompt)",
-    "Day 1 config ready: pipeline/episodes/jess_d01.json - render + post as soon as the image exists"
-   ],
+   "status": "live",
+   "setup_needed": [],
    "title": "Jess: 30 days until her ex is the best man at her sister's wedding",
-   "day": 0,
-   "last_post_date": null,
-   "last_media_id": null,
+   "day": 1,
+   "last_post_date": "2026-11-21",
+   "last_media_id": "18110531750209093",
    "image": "jess.jpg",
    "stats": {
     "Hair": 3,
@@ -543,7 +540,8 @@
      "New fit",
      "Gym",
      "Unfollow Ryan"
-    ]
+    ],
+    "type": "top_comment"
    },
    "cast": {
     "Ryan": "her ex; dumped her by text; he's the best man at her sister Chloe's wedding (Day 30)",
@@ -622,18 +620,16 @@
     ]
    },
    "bonus_posts": [],
-   "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered"
+   "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered",
+   "art": "Original flat-vector character drawn with pipeline/toon.py (SVG -> Chromium). Change the look day by day via toon.py 'look' params (hair_style, top, spots, beard, mouth, makeup, earrings...) so the glow-up is VISIBLE; render a new pipeline/assets/<name>_dNN.jpg each episode."
   },
   "danny": {
-   "status": "waiting_for_setup",
-   "setup_needed": [
-    "Hero image pipeline/assets/danny.jpg (Boris, Leonardo; prompt in state.series.danny.image_prompt)",
-    "Day 1 config ready: pipeline/episodes/danny_d01.json - render + post as soon as the image exists"
-   ],
+   "status": "live",
+   "setup_needed": [],
    "title": "Danny: he told the reunion group chat he's a rich, ripped, engaged CEO. 30 days to make the lies true.",
-   "day": 0,
-   "last_post_date": null,
-   "last_media_id": null,
+   "day": 1,
+   "last_post_date": "2026-11-21",
+   "last_media_id": "17906827311655904",
    "image": "danny.jpg",
    "stats": {
     "Body": 2,
@@ -725,7 +721,8 @@
    },
    "bonus_posts": [],
    "premise_note": "Changed Nov 21 to the 'lie becomes true' angle so it isn't a copy of @30daystofix (reunion + prom-queen ex). Different from Jess (rom-com wedding) and Theo (party, ex).",
-   "image_prompt": "3D animated movie style (same style as Theo), 28-year-old man, slightly chubby, patchy beard, wrinkled polo shirt with a phone-repair kiosk name tag, standing in his childhood bedroom with old posters and a twin bed, holding his phone with a nervous guilty grin, vertical 9:16, full upper body, centered"
+   "image_prompt": "3D animated movie style (same style as Theo), 28-year-old man, slightly chubby, patchy beard, wrinkled polo shirt with a phone-repair kiosk name tag, standing in his childhood bedroom with old posters and a twin bed, holding his phone with a nervous guilty grin, vertical 9:16, full upper body, centered",
+   "art": "Original flat-vector character drawn with pipeline/toon.py (SVG -> Chromium). Change the look day by day via toon.py 'look' params (hair_style, top, spots, beard, mouth, makeup, earrings...) so the glow-up is VISIBLE; render a new pipeline/assets/<name>_dNN.jpg each episode."
   },
   "history": {
    "status": "live",
@@ -809,7 +806,8 @@
   "Nov 21 midday extras: Horde fact #3 had only 3 views ~30 min after posting while battle D3 (posted 13 min later) had 85 and fact #2 181 -> possibly two Horde Reels 13 min apart split/suppressed distribution; keep 60+ min between Horde Reels. Still 0 comments of any kind on 7 Horde posts; tested the lowest-barrier ask yet ('just comment your city', no cleanup needed) in a new 60-second-challenge format. Compare its comments/views vs fact and battle Reels next run.",
   "Nov 21: @30daystofix (2-10M views) = PREVIOUSLY montage hook, a joke sticker every 1.5-2 s, live text-chat scenes, a new scene + visibly changed character every day, result-titled covers, 88 s long. Template v4 + scenes2.py added. Visible character change needs live sessions (Leonardo).",
   "Nov 21 (full Day 21 of @30daystofix, ~100 s, transcribed): opens with the audience ask ('57,000 of you asked for better communication skills') + top comment card; then 3 escalating lessons each ending in a fail gag ('Nobody will partner with James so he gets the mannequin. He tells her she has nice joints. Her arm falls off.'), a running callback (coach's sunglasses: 1 pair -> 2 pairs -> takes both off), a real-world test (neighbor talks 40 min, moves her laundry 1 machine closer), payoff in a chat with the ex (she sends 3 paragraphs, 'he reads every word twice'), a stamp gag (certificate: ATTENDED), and ends 'Now it's on you. The top comment picks what James fixes next.' + a heart line. Voting = open TOP COMMENT, not numbered options.",
-  "Nov 21: Horde fact #3 posted 13 min before battle Day 3 got 3 views (the battle got 94, other Horde Reels 115-181). Same-account Reels need at least ~2 h spacing; 15 min is not enough."
+  "Nov 21: Horde fact #3 posted 13 min before battle Day 3 got 3 views (the battle got 94, other Horde Reels 115-181). Same-account Reels need at least ~2 h spacing; 15 min is not enough.",
+  "Nov 21: Jess + Danny launched with original flat-vector characters (toon.py). Unlike Theo's fixed 3D image, these can change every day - use it (the reference account's biggest edge)."
  ],
  "facts": [
   {
