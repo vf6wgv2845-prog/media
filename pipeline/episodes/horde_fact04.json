@@ -1,0 +1,292 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment I'M IN or your haul",
+ "hook": [
+  "395 million",
+  "fast-food cups.",
+  "Littered."
+ ],
+ "hook_emoji": "🥤",
+ "name_line": "Boss deadline: today.",
+ "sub_line": "Landfill King  •  5,000 HP  •  0 hits",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "Deadline tonight. Still 0 hits.",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "Today.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "Land the",
+  "first hit"
+ ],
+ "options": [
+  [
+   "🥤",
+   "Grab one cup"
+  ],
+  [
+   "🗑️",
+   "Bin it"
+  ],
+  [
+   "💬",
+   "Comment: pieces + city"
+  ],
+  [
+   "🧤",
+   "Or just comment I'M IN"
+  ],
+  [
+   "🧑‍🤝‍🧑",
+   "Tag a friend"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Three hundred ninety-five million fast-food cups. Littered."
+   ],
+   [
+    0.1,
+    "More cups than people in America."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Plus three hundred fifty million plastic bags."
+   ],
+   [
+    0.1,
+    "Keep America Beautiful counted them."
+   ],
+   [
+    0.1,
+    "Today is the boss's last day. Zero hits."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "One cup in the bin is one damage."
+   ],
+   [
+    0.1,
+    "Comment your pieces and city. Or just: I'm in."
+   ],
+   [
+    0.1,
+    "Gloves on. No needles or glass."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  FACT #4",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "5,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "million",
+   "cups",
+   "bags",
+   "people",
+   "landfill",
+   "king",
+   "zero",
+   "five"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "395,000,000",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 110,
+   "hold": 2.4
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "CUPS > PEOPLE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 1250,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "+350M BAGS",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 1250,
+   "angle": -5,
+   "size": 90,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "kind": "calendar",
+   "text": "0",
+   "x": 820,
+   "y": 1230,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 0.6,
+   "text": "0 HITS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 430,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "395M CUPS",
+  "LITTERED"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
