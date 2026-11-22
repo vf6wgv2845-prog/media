@@ -9,3 +9,13 @@
 - beham_village_fair_1535.jpg: Hans Sebald Beham, The Large Village Fair, 1535 (AIC 27884)
 - burgkmair_death_1510.jpg: Hans Burgkmair, Lovers Surprised by Death, 1510 (AIC 147064)
 Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud; use AIC IIIF (https://www.artic.edu/iiif/2/<image_id>/full/843,/0/default.jpg) or Cleveland Open Access.
+## E2 Tulip mania (Nov 22)
+- brueghel_bouquet_1610.jpg: Jan Brueghel the Elder, Bouquet of Flowers in an Earthenware Vase, c. 1610 (AIC 64029)
+- ottoman_tankard_tulips.jpg: Tankard (Hanap) with Tulips, Hyacinths, Roses, Ottoman, late 16th c. (AIC 69109)
+- vanderspelt_flowers_1658.jpg: Adriaen van der Spelt, Trompe-l'Oeil Still Life with a Flower Garland and a Curtain, 1658 (AIC 66042)
+- rembrandt_tribute_money_1634.jpg: Rembrandt van Rijn, The Tribute Money, c. 1634 (AIC 29277)
+- claesz_still_life_1625.jpg: Pieter Claesz, Still Life, c. 1625 (AIC 21682)
+- visscher_haarlem_1610.jpg: Claes Jansz. Visscher, Het Huis te Cleef near Haarlem, 1610/20 (AIC 268464)
+- ruischer_haarlem_gate.jpg: Johannes Ruischer, Haarlem Gate at Amsterdam, c. 1650-70 (AIC 83912)
+- saenredam_fool_1595.jpg: Jan Saenredam, Fool Holding a Staff (Tis om te lachen), c. 1595 (AIC 261875)
+- liss_lovers_fool_1625.jpg: Johann Liss, Interior with Two Pairs of Lovers and a Fool, 1625/29 (AIC 36263)

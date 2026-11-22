@@ -1,0 +1,364 @@
+{
+ "image": "jess_hoodie_tired.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 2 / 30",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Her facialist is",
+  "her ex's new",
+  "girlfriend."
+ ],
+ "hook_emoji": "😳",
+ "name_line": "Day 2: Facial.",
+ "sub_line": "You voted  •  facial",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   3
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Sienna",
+  "msg": "omg wait. you're ryan's jess??",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her facialist is her ex's new girlfriend."
+   ],
+   [
+    0.1,
+    "She found out with a mask glued to her face."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt one: a drugstore sheet mask. It slid into her mouth."
+   ],
+   [
+    0.1,
+    "Attempt two: a real spa. She came out red as a stop sign."
+   ],
+   [
+    0.1,
+    "Two hours later, the eye bags were gone."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then the facialist texted."
+   ],
+   [
+    0.1,
+    "Omg. You're Ryan's Jess?"
+   ],
+   [
+    0.1,
+    "She typed ha. Again."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. The top comment picks tomorrow's fix."
+   ],
+   [
+    0.1,
+    "And Sienna just followed her."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "29",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "36%",
+    "from": "28%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "72/100",
+    "from": "10/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "mask",
+   "mouth",
+   "spa",
+   "red",
+   "stop",
+   "sign",
+   "eye",
+   "bags",
+   "gone",
+   "two"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "bajaj_rhea",
+   "text": "Maybe get a facial to fix eyebags or dress better",
+   "likes": 1,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.5,
+   "user": "lucyjtaylor73",
+   "text": "Treat herself with a hair appointment or get a facial",
+   "likes": 1,
+   "y": 1650,
+   "hold": 1.7
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "29",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SPOILER: SHE'S NICE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 70,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*SLURP*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "RED: 2 HOURS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "SKIN +3",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.6,
+   "size": 110
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA (AGAIN)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 70
+  }
+ ],
+ "cover_title": [
+  "DAY 2",
+  "HER FACIALIST = HIS GF"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Sienna",
+  "sub": "the facialist",
+  "msgs": [
+   [
+    "them",
+    "omg wait. you're ryan's jess??"
+   ],
+   [
+    "them",
+    "ur skin is gonna GLOW for the wedding!!"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "hair next? or something else?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_d02_red.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_d02_glow.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_d02_side.jpg"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 6 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He said sorry",
+  "with a pizza.",
+  "It spelled SORY."
+ ],
+ "hook_emoji": "🍕",
+ "name_line": "Day 6: Make up with Tyler.",
+ "sub_line": "No votes  •  we picked #1",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   7
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Tyler",
+  "msg": "we good. but i want my spot back",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He said sorry to his best friend with a pizza."
+   ],
+   [
+    0.1,
+    "The pepperoni spelled sorry. With one R."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Tyler opened the door, saw the pizza, and closed the door."
+   ],
+   [
+    0.1,
+    "Malik texted from the porch: one on one. If I win, we're good."
+   ],
+   [
+    0.1,
+    "Tyler won eleven to seven. In slippers."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Tyler texted."
+   ],
+   [
+    0.1,
+    "You still can't go left. But we good."
+   ],
+   [
+    0.1,
+    "But when the suspension ends, I want my spot back."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Top comment decides."
+   ],
+   [
+    0.1,
+    "Tyler wants his spot. And the tourney is in twelve days."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "6/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "66",
+    "from": "64",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "17/100",
+    "from": "15/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "tyler",
+   "pizza",
+   "eleven",
+   "seven",
+   "slippers",
+   "porch"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.4,
+   "kind": "calendar",
+   "text": "12",
+   "y": 1400,
+   "hold": 2.2,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SORY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 120,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*DOOR SLAM*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "1v1 FOR PEACE",
+   "bg": [
+    255,
+    150,
+    60
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6,
+   "size": 90,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "L 7-11",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.6,
+   "size": 120
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "PLOT TWIST",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 80
+  }
+ ],
+ "cover_title": [
+  "DAY 6",
+  "THE SORY PIZZA"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tyler",
+  "sub": "best friend",
+  "msgs": [
+   [
+    "them",
+    "you still can't go left lol"
+   ],
+   [
+    "me",
+    "so we good?"
+   ],
+   [
+    "them",
+    "we good. but when the suspension's over i want my spot back"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "what does Malik do next?"
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "image": "danny.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 2 / 30",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "He became a CEO.",
+  "His only employee",
+  "is his mom."
+ ],
+ "hook_emoji": "💼",
+ "name_line": "Day 2: CEO.",
+ "sub_line": "You voted  •  CEO",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Class of 2016",
+  "msg": "Brock: so what's the company called?",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He became a CEO. His only employee is his mom."
+   ],
+   [
+    0.1,
+    "She's already asking for a raise."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Step one: he renamed his phone kiosk Danny Tech Solutions."
+   ],
+   [
+    0.1,
+    "Step two: business cards. Title, CEO. Font, Comic Sans."
+   ],
+   [
+    0.1,
+    "Revenue: fourteen dollars. The cards cost ninety."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Brock asked in the group chat."
+   ],
+   [
+    0.1,
+    "What's the company called? Danny Tech. Global."
+   ],
+   [
+    0.1,
+    "Kayla: wait, the kiosk at the mall? He fixed my phone today."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Ripped, engaged, or more money?"
+   ],
+   [
+    0.1,
+    "The top comment decides. And Brock is typing."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "29",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "0.5/3",
+    "from": "0/3",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "31/100",
+    "from": "10/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "ceo",
+   "kiosk",
+   "danny",
+   "tech",
+   "comic",
+   "sans",
+   "fourteen",
+   "ninety"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "jagongetemm",
+   "text": "ceo cs when u get money u unlock more things to do and buy",
+   "likes": 2,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.5,
+   "user": "sisilia_ammar13",
+   "text": "Definitely become ceo",
+   "likes": 1,
+   "y": 1650,
+   "hold": 1.7
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "29",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "EMPLOYEES: 1 (MOM)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 70,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.8
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "HQ: A KIOSK",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6,
+   "size": 80,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "COMIC SANS",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6,
+   "size": 90
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "PROFIT: -$76",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.6,
+   "size": 90
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "BUSTED?",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 80
+  }
+ ],
+ "cover_title": [
+  "DAY 2",
+  "CEO OF A KIOSK"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Class of 2016",
+  "sub": "reunion group chat · 48 members",
+  "msgs": [
+   [
+    "them",
+    "Brock: so danny what's the company called?"
+   ],
+   [
+    "me",
+    "Danny Tech Solutions. global."
+   ],
+   [
+    "them",
+    "Kayla: wait the kiosk at the mall?? he fixed my phone today lol"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "ripped, engaged or more money?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_d02_ceo.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_d02_shock.jpg"
+  }
+ ]
+}

@@ -1,0 +1,600 @@
+{
+ "image": "history/brueghel_bouquet_1610.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.18,
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "p1": [
+   [
+    0.05,
+    "In 1637, a single tulip bulb could cost as much as a house."
+   ],
+   [
+    0.1,
+    "Then, in one week, nobody wanted them."
+   ]
+  ],
+  "p2": [
+   [
+    0.1,
+    "Tulips came to Europe from the Ottoman Empire."
+   ],
+   [
+    0.1,
+    "In the Dutch Republic, rare striped ones became the ultimate flex."
+   ]
+  ],
+  "p3": [
+   [
+    0.1,
+    "The most famous, the Semper Augustus, reportedly sold for ten thousand guilders."
+   ],
+   [
+    0.1,
+    "Its stripes? A virus."
+   ]
+  ],
+  "p4": [
+   [
+    0.1,
+    "A skilled craftsman earned about three hundred guilders a year."
+   ]
+  ],
+  "p5": [
+   [
+    0.1,
+    "Most bulbs were still in the ground."
+   ],
+   [
+    0.1,
+    "People traded paper promises to buy them later."
+   ]
+  ],
+  "p6": [
+   [
+    0.1,
+    "February third, 1637. A tulip sale in Haarlem."
+   ],
+   [
+    0.1,
+    "Nobody wants to buy."
+   ]
+  ],
+  "p7": [
+   [
+    0.1,
+    "Within a week, the market collapsed."
+   ],
+   [
+    0.1,
+    "Buyers just refused to pay."
+   ]
+  ],
+  "p8": [
+   [
+    0.1,
+    "The famous part? Ruined families, people in the canals."
+   ],
+   [
+    0.1,
+    "Historians say: mostly a myth."
+   ]
+  ],
+  "p9": [
+   [
+    0.1,
+    "Historian Anne Goldgar found a few hundred buyers,"
+   ],
+   [
+    0.05,
+    "and almost no bankruptcies."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you."
+   ],
+   [
+    0.1,
+    "The top comment picks our next true story."
+   ]
+  ]
+ },
+ "pill": "THAT REALLY HAPPENED",
+ "order": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "sv"
+ ],
+ "notif": {
+  "from": "x",
+  "msg": "x",
+  "emoji": "",
+  "color": [
+   0,
+   0,
+   0
+  ]
+ },
+ "panels": {
+  "p1": {
+   "image": "history/brueghel_bouquet_1610.jpg",
+   "credit": "Jan Brueghel the Elder, Bouquet of Flowers, c. 1610",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p2": {
+   "image": "history/ottoman_tankard_tulips.jpg",
+   "credit": "Ottoman tankard with tulips, late 16th c.",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p3": {
+   "image": "history/vanderspelt_flowers_1658.jpg",
+   "credit": "Adriaen van der Spelt, 1658",
+   "focus": [
+    0.35,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p4": {
+   "image": "history/rembrandt_tribute_money_1634.jpg",
+   "credit": "Rembrandt, The Tribute Money, c. 1634",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p5": {
+   "image": "history/claesz_still_life_1625.jpg",
+   "credit": "Pieter Claesz (Haarlem), Still Life, c. 1625",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p6": {
+   "image": "history/visscher_haarlem_1610.jpg",
+   "credit": "Claes Jansz. Visscher, near Haarlem, 1610/20",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.2
+   ]
+  },
+  "p7": {
+   "image": "history/ruischer_haarlem_gate.jpg",
+   "credit": "Johannes Ruischer, Haarlem Gate, c. 1650-70",
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p8": {
+   "image": "history/saenredam_fool_1595.jpg",
+   "credit": "Jan Saenredam, 'Tis om te lachen', c. 1595",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p9": {
+   "image": "history/liss_lovers_fool_1625.jpg",
+   "credit": "Johann Liss, 1625/29",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  }
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which true story next?"
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1637",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "BULB PRICE",
+    "value": "CRASH",
+    "from": "10,000",
+    "at": [
+     "p7",
+     0
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "y": 1560,
+  "keywords": [
+   "1637",
+   "tulip",
+   "house",
+   "week",
+   "ottoman",
+   "semper",
+   "augustus",
+   "ten",
+   "thousand",
+   "virus",
+   "three",
+   "hundred",
+   "paper",
+   "haarlem",
+   "nobody",
+   "collapsed",
+   "myth",
+   "goldgar",
+   "bankruptcies"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "p1",
+   "line": 0,
+   "text": "1637",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 110,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p1",
+   "line": 1,
+   "text": "PRICE: HOUSE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 80,
+   "hold": 2.2
+  },
+  {
+   "scene": "p2",
+   "line": 1,
+   "text": "STATUS SYMBOL",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "y": 1280,
+   "angle": -3,
+   "size": 80,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p3",
+   "line": 0,
+   "text": "10,000 GUILDERS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 80,
+   "hold": 2.4
+  },
+  {
+   "scene": "p3",
+   "line": 1,
+   "text": "IT WAS A VIRUS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 80,
+   "hold": 1.6,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p4",
+   "line": 0,
+   "text": "300 / YEAR",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "y": 1280,
+   "angle": -3,
+   "size": 100,
+   "hold": 2.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p5",
+   "line": 1,
+   "text": "PAPER TULIPS",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p6",
+   "line": 1,
+   "text": "0 BIDS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "p7",
+   "line": 0,
+   "text": "CRASH",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 120,
+   "hold": 1.8
+  },
+  {
+   "scene": "p7",
+   "line": 1,
+   "text": "\"NOT PAYING\"",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 1.8,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p8",
+   "line": 1,
+   "text": "MOSTLY MYTH",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "y": 1280,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p9",
+   "line": 1,
+   "text": "~0 BANKRUPT",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "1637",
+  "A FLOWER = A HOUSE"
+ ]
+}

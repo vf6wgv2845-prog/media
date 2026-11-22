@@ -1,0 +1,339 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "DAY 6 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Her fried chicken:",
+  "golden outside,",
+  "raw inside."
+ ],
+ "hook_emoji": "🍗",
+ "name_line": "Day 6: Fried chicken.",
+ "sub_line": "No votes  •  we picked #3",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   6
+  ],
+  [
+   "Speed",
+   6
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Unknown number",
+  "msg": "your chicken was raw at the bone.",
+  "emoji": "",
+  "color": [
+   90,
+   90,
+   200
+  ],
+  "icon": "📞"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her fried chicken was golden outside and raw inside."
+   ],
+   [
+    0.1,
+    "Chef Marco cut one open in front of everyone."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Batch one: oil at four hundred. Burnt outside, raw at the bone."
+   ],
+   [
+    0.1,
+    "Batch two: a thermometer. Three twenty five. Fourteen minutes."
+   ],
+   [
+    0.1,
+    "One sixty five inside. Crunchy. Juicy. Done."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "That night, an unknown number texted."
+   ],
+   [
+    0.1,
+    "Your oil was too hot. I judged the cook-off for twelve years."
+   ],
+   [
+    0.1,
+    "Sunday, six AM. Marco gave me your number."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. The top comment picks her next dish."
+   ],
+   [
+    0.1,
+    "Real recipe in the caption."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "64%",
+    "from": "62%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "12/100",
+    "from": "11/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "four",
+   "hundred",
+   "raw",
+   "thermometer",
+   "twenty",
+   "five",
+   "sixty",
+   "fourteen",
+   "crunchy"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.4,
+   "kind": "calendar",
+   "text": "25",
+   "y": 1400,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "RAW",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 130
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "400°F = NO",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "325°F",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6,
+   "size": 110,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "165°F INSIDE",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.6,
+   "size": 100,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "MARCO?!",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 90
+  }
+ ],
+ "cover_title": [
+  "DAY 6",
+  "RAW AT THE BONE"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Unknown number",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "i judged the city cook-off for 12 years. your oil was too hot."
+   ],
+   [
+    "me",
+    "who is this??"
+   ],
+   [
+    "them",
+    "dee. sunday 6am. bring a thermometer. marco gave me your number."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "her next practice dish?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "food_chicken_hero.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "rosie.jpg"
+  }
+ ]
+}
