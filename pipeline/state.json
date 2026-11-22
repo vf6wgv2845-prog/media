@@ -481,7 +481,7 @@
    "type": "community_game",
    "day": 4,
    "last_post_date": "2026-11-22",
-   "last_media_id": "18063847979802361",
+   "last_media_id": "18118044971139337",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
@@ -492,7 +492,8 @@
     "18457242124124843",
     "18383516947300254",
     "18151043005493983",
-    "18063847979802361"
+    "18063847979802361",
+    "18118044971139337"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -534,7 +535,8 @@
     "Nov 21 ~1:45 PM ET (extras midday): 0 comments on any Horde post -> 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted new format: 60-second challenge Reel #1 (25 s, vote screen ~12 s, low-barrier ask 'or just comment your city') 18383516947300254. Horde Reels today: 4 (fact #2, fact #3, battle D3, challenge #1).",
     "2026-11-21 5:45 PM run: still 0 comments of any kind on all 8 counted Horde posts; boss 5000/5000 HP, deadline Sunday Nov 22 -> Sunday run posts the 'horde spreads' result + next boss.",
     "Nov 22 ~7:55 AM ET (extras): read all comments on all 8 counted Horde posts -> still 0 comments of any kind, 0 hauls; totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted fact #4 (395M fast-food cups + ~350M plastic bags, KAB 2020; 20 s; deadline-day framing; new lowest-barrier ask 'comment I'M IN') 18151043005493983. 5:45 PM run posts the Sunday boss result (horde spreads) + next boss.",
-    "Nov 22 ~12:52 PM ET (main run): read all comments on all 9 counted Horde posts -> still 0 comments, 0 hauls. Landfill King survived (5,000 HP); week-1 boss result Reel posted 18063847979802361 (horde spreads + new boss Butt Goblin 2,000 HP, deadline Sun Nov 29, +100 HP/day with no hits). Totals: community-reported 0 / verified 0. NEXT Horde Reel not before ~2:52 PM ET (2 h spacing)."
+    "Nov 22 ~12:52 PM ET (main run): read all comments on all 9 counted Horde posts -> still 0 comments, 0 hauls. Landfill King survived (5,000 HP); week-1 boss result Reel posted 18063847979802361 (horde spreads + new boss Butt Goblin 2,000 HP, deadline Sun Nov 29, +100 HP/day with no hits). Totals: community-reported 0 / verified 0. NEXT Horde Reel not before ~2:52 PM ET (2 h spacing).",
+    "Nov 22 ~2:54 PM ET (extras midday): read all comments on all 10 counted Horde posts -> still 0 comments of any kind, 0 hauls; totals unchanged (Butt Goblin 2,000/2,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Waited for 2 h spacing after the 12:52 boss Reel, then posted fact #5 (cigarette filters are plastic -> thousands of microplastics; #1 ICC item 25+ yrs, 2.4M in 2017; NOAA; ties into the Butt Goblin; 25 s, vote screen ~16.5 s, ask 'comment I'M IN') 18118044971139337. Only 1 midday Reel: a 2nd would need 2 h spacing (~4:54 PM) and collide with the evening battle Reel. Next Horde Reel not before ~4:54 PM ET."
    ],
    "format": {
     "tiles": [
@@ -1163,7 +1165,8 @@
   "Nov 22 AM extras: Horde still 0 comments after 8 Reels (~1,000 views total). Testing an even lower-barrier comment ask: 'comment I'M IN' (no cleanup, no city). Fact Reels keep the best Horde reach (fact #2 182 views, #1 115) vs battle 107-110 and challenge 135, so the morning slot stays a fact. Theo bonus: single moment + 3c1 rules (hook in 0.8 s, line 2 new joke, Mom chat at ~12 s) + open vote sv, 24 s.",
   "Nov 22 main run: toon accounts keep winning at ~20h: Jess D1 1,594 views / 3 shares / 4 saves / 4 real comments (best post on any account ever), Danny D1 799 views / 12.1 s avg watch (best avg watch). Theo Sunday bonus 747 views in 5 h (best Theo reach) after the 3c1 fixes. 3D Malik/Rosie stuck at ~120 views, 0 comments, 50%+ skip. Applied to every episode today: 3c1 hook (text in 0.8 s, line 2 = new joke), a chat with the ex/rival at ~10-13 s, toon beats every ~3 s for Jess/Danny, 24-28 s.",
   "Nov 22: comment cards stacked at y 760 covered the hook text; second card goes at y ~1650. Emoji inside chat/notif text render as boxes (✨, 🥰, 😂): keep chat text emoji-free. Stickers at y 900 cover toon faces: use y ~1250.",
-  "Nov 22: History E1 got 5 views in 20 h (new account, 0 followers) but 13.2 s avg watch. E2 posted at 59 s; if it also stalls under 20 views, try a 25-30 s cut."
+  "Nov 22: History E1 got 5 views in 20 h (new account, 0 followers) but 13.2 s avg watch. E2 posted at 59 s; if it also stalls under 20 views, try a 25-30 s cut.",
+  "Nov 22 midday extras: Horde still 0 comments after 10 Reels. Fact #5 ties the fact to the current boss (Butt Goblin = cigarette butts) so the fact and the game read as one story; compare its 24h reach vs facts #1-#4 (115-182 views). Weekend early main runs squeeze the extras slot: with the 2 h spacing rule only 1 midday Horde Reel fits, so the 5/day test is effectively 3-4/day on weekends."
  ],
  "facts": [
   {
@@ -1195,6 +1198,11 @@
    "fact": "Tulip mania: Alkmaar auction 5 Feb 1637; Haarlem sale failed 3 Feb 1637; collapse by end of first week of Feb; Semper Augustus reportedly f10,000; skilled craftsman ~f300/yr; Goldgar: ~285 Haarlem buyers, almost no bankruptcies, canal suicides 'more fiction than fact'",
    "source": "History Today (Goldgar 2007/2018); History.com (Roos); Wikipedia Tulip mania",
    "url": "https://www.historytoday.com/node/54516"
+  },
+  {
+   "fact": "Most cigarette filters are cellulose acetate (plastic-like); UV breaks one filter into thousands of tiny microplastics; butts = #1 item at the International Coastal Cleanup for 25+ years; 2,412,151 collected worldwide in 2017",
+   "source": "NOAA Ocean Service 'most common ocean litter' (updated 09/23/26) + NOAA Marine Debris Program blog (2018-09-10)",
+   "url": "https://oceanservice.noaa.gov/facts/most-common-ocean-litter.html"
   }
  ],
  "post_queue": [],
