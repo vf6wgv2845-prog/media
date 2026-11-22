@@ -106,7 +106,7 @@
      "Gym, day 3",
      "Fix the smile"
     ],
-    "note": "Day 6 vote: count comments on Day 5 (18081517895475587) AND the night check (17919153924550498). Standing at 5:55 PM ET Nov 21: Gym, day 3 = 1 (5sta.r.angel '18128773579988007'). From Nov 22 voting_rule_v2 applies (top comment) - numbered replies still count."
+    "note": "Day 6 vote: count comments on Day 5 (18081517895475587) AND the night check (17919153924550498). Standing at 5:55 PM ET Nov 21: Gym, day 3 = 1 (5sta.r.angel '18128773579988007'). From Nov 22 voting_rule_v2 applies (top comment) - numbered replies still count. | Nov 22 7:50 AM ET standing (1 vote per user, latest): New fit 1 (ivannn_720, 23:59 UTC on night check + 00:02 on Day 5), Gym day 3 1 (5sta.r.angel 19:33 UTC Nov 21). Tie -> earliest = gym unless more votes arrive. Both replied."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
@@ -206,6 +206,13 @@
      "video": "theo/night_1121.mp4",
      "config": "pipeline/episodes/theo_night_1121.json",
      "note": "Saturday night progress check (~5:51 PM ET): arms too sore to text Maya back, Mom cut his pizza, then Jake (Maya's boyfriend) requested to follow him (accept/ignore = open thread for Day 6). NOT an episode. Also posted as a story (18006710099990955). Day 6 votes count on this Reel AND Day 5 (18081517895475587)."
+    },
+    {
+     "date": "2026-11-22",
+     "media_id": "18117753839035893",
+     "video": "theo/bonus_1122.mp4",
+     "config": "pipeline/episodes/theo_bonus_1122.json",
+     "note": "Sunday ~7:55 AM ET morning bonus: stuck 40 min in his 8th-grade 'party shirt' (arms sore), Mom's photo went to the family group chat ('aunt linda says hi'). Ends on open vote sv (new fit vs gym day 3), Jake request still pending. NOT Day 6. Day 6 vote: count this Reel too, plus Day 5 (18081517895475587) and night check (17919153924550498)."
     }
    ],
    "follower_ladder": {
@@ -464,8 +471,8 @@
    "title": "The Trash Horde: real litter pickup damages a zombie horde",
    "type": "community_game",
    "day": 3,
-   "last_post_date": "2026-11-21",
-   "last_media_id": "18383516947300254",
+   "last_post_date": "2026-11-22",
+   "last_media_id": "18151043005493983",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
@@ -474,7 +481,8 @@
     "18079312298733937",
     "18116548631136157",
     "18457242124124843",
-    "18383516947300254"
+    "18383516947300254",
+    "18151043005493983"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -512,7 +520,8 @@
     "Nov 21 7:4x AM ET (extras): 0 comments on any Horde post (launch carousel, Day 1/2 battle, fact #1) -> still 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted queued fact Reel #2 (cigarette butts 19.6%, KAB 2020) 18079312298733937.",
     "Nov 21 ~12:10 PM ET: fact #3 (roadway litter -54%) 18116548631136157. Battle Day 3 (1 day left, 0 hits) posted ~12:30 PM ET. Weekend: Boris asked to post everything early.",
     "Nov 21 ~1:45 PM ET (extras midday): 0 comments on any Horde post -> 0 hauls, totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted new format: 60-second challenge Reel #1 (25 s, vote screen ~12 s, low-barrier ask 'or just comment your city') 18383516947300254. Horde Reels today: 4 (fact #2, fact #3, battle D3, challenge #1).",
-    "2026-11-21 5:45 PM run: still 0 comments of any kind on all 8 counted Horde posts; boss 5000/5000 HP, deadline Sunday Nov 22 -> Sunday run posts the 'horde spreads' result + next boss."
+    "2026-11-21 5:45 PM run: still 0 comments of any kind on all 8 counted Horde posts; boss 5000/5000 HP, deadline Sunday Nov 22 -> Sunday run posts the 'horde spreads' result + next boss.",
+    "Nov 22 ~7:55 AM ET (extras): read all comments on all 8 counted Horde posts -> still 0 comments of any kind, 0 hauls; totals unchanged (5,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted fact #4 (395M fast-food cups + ~350M plastic bags, KAB 2020; 20 s; deadline-day framing; new lowest-barrier ask 'comment I'M IN') 18151043005493983. 5:45 PM run posts the Sunday boss result (horde spreads) + next boss."
    ],
    "format": {
     "tiles": [
@@ -985,7 +994,8 @@
   "Nov 21: Jess + Danny launched with original flat-vector characters (toon.py). Unlike Theo's fixed 3D image, these can change every day - use it (the reference account's biggest edge).",
   "Nov 21 evening: the toon.py flat-vector characters + v4 hook crushed the 3D accounts on first-hour retention: Jess D1 14.7% skip / 9.5 s avg / 713 views / 2 comments + 2 saves in ~1 h; Danny D1 30.1% / 8.7 s. Theo 41-42%, Malik 52%, Rosie 56%, Horde 49-67%. Bring Jess's hook shape (concrete absurd situation + the ex's text, 'still wearing his hoodie') to every account; consider redrawing Malik/Rosie with toon.py at a live session.",
   "Nov 21: History E1 had 0 views ~1.2 h after posting (new account, 0 followers). If still under 20 views at 3 h, treat as processing/suppression per RUNBOOK 3c; don't repost.",
-  "Nov 21 evening (Boris asked to fix the ~7-11 s drop on Jess/Danny/Theo): stayers leave ~11 s. Causes: hook text not fully on screen until 3-4 s (engine bug, fixed), 4-5 s of admin voice lines after the hook (countdown + 'stay to the end'), the next line restating the hook, one static picture. Fixes in RUNBOOK 3c1: hook text in 0.8 s, line 2 = new joke, no repeats, 'beats' picture swaps every ~3 s, the chat beat at ~8-10 s, 20-24 s total. Priority accounts: Jess, Theo, Danny."
+  "Nov 21 evening (Boris asked to fix the ~7-11 s drop on Jess/Danny/Theo): stayers leave ~11 s. Causes: hook text not fully on screen until 3-4 s (engine bug, fixed), 4-5 s of admin voice lines after the hook (countdown + 'stay to the end'), the next line restating the hook, one static picture. Fixes in RUNBOOK 3c1: hook text in 0.8 s, line 2 = new joke, no repeats, 'beats' picture swaps every ~3 s, the chat beat at ~8-10 s, 20-24 s total. Priority accounts: Jess, Theo, Danny.",
+  "Nov 22 AM extras: Horde still 0 comments after 8 Reels (~1,000 views total). Testing an even lower-barrier comment ask: 'comment I'M IN' (no cleanup, no city). Fact Reels keep the best Horde reach (fact #2 182 views, #1 115) vs battle 107-110 and challenge 135, so the morning slot stays a fact. Theo bonus: single moment + 3c1 rules (hook in 0.8 s, line 2 new joke, Mom chat at ~12 s) + open vote sv, 24 s."
  ],
  "facts": [
   {
