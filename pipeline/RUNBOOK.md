@@ -92,6 +92,22 @@ Story series (Theo, Jess, Danny, Malik, Rosie): 1 main Day-N episode (5:45 PM ru
 Trash Horde: test 5 Reels/day for 5 days (Nov 21-25), each a different format (verified fact, 60-second challenge, boss update, "how long does it last" quiz, haul shout-outs). Keep 5 if per-post views hold, else drop to 3. Facts only from sources logged in state.json `facts` (verified by web search).
 Extras scheduled task (created Nov 20) runs at 7:37 AM and 1:37 PM ET: Theo bonus (morning) + Horde Reels (both). The 5:45 PM run posts the episodes + stories and the Horde battle Reel (plus the Theo night progress check when it fits, 15+ min after Theo's episode). Horde total target during the test: morning 1, midday 2, evening 2. Never post two Reels on one account within 2 hours (Nov 21: a Reel posted 13 min before another got 3 views).
 
+## 5f. Nov 22 night: Boris's posting plan (replaces the slot plan in 5d/5e where they differ)
+Boris (Nov 22, ~6 PM ET): **every account posts at least 2 Reels a day, 1 story a day on every account, and the IntelliStudy promo account (@intellistuddy) posts 3 times a day.** He wants really good videos, especially IntelliStudy, Theo and Jess.
+- 5:45 PM main run: every story series' Day episode + 1 story per account (story_card.py) + Horde battle Reel.
+- 7:37 AM extras: second Reel for Theo, Jess and Danny (a "bonus moment": one absurd beat between episodes that keeps the open vote alive and never decides it) + a Horde Reel.
+- 1:37 PM extras: second Reel for Malik, Rosie and History (Malik/Rosie: a single-moment bonus beat; History: a short 25-35 s true story, sources in caption) + a Horde Reel.
+- Theo and Jess get the most care: write and check them first, render 2-4 toon looks for Jess per Reel, use every 3c1 rule, inspect every contact sheet frame.
+- Never two Reels on one account within 2 hours (if a slot can't fit the spacing, post later in the same run rather than skip).
+- @intellistuddy: see 5g.
+
+## 5g. IntelliStudy (@intellistuddy, Windsor account 17841453485592778): 3 posts/day (8:13 AM, 3:13 PM, 8:13 PM ET task)
+Boris's app: IntelliStudy (formerly StudyFlow), an AI study web app at intelli-study.com (old: quick-learn.base44.app). Goal: thousands of real users. He wants REAL-looking videos, not AI-looking.
+- Make videos from REAL screen recordings of the live app (Playwright, 1080x1920 mobile viewport, record_video): paste real notes (e.g. a short IGCSE/biology/history paragraph), generate flashcards/quizzes, flip cards. Never fake app features: only show what the site actually does that day; if a feature errors, don't show it.
+- Edit with ffmpeg/PIL: big hook text in the first 0.8 s, word captions, zoom-ins on the key moment, 15-30 s, Kokoro voice optional (a natural voice like af_heart; or text-only with a beat). Formats to rotate: before/after comparison ("making flashcards by hand: 45 min vs IntelliStudy: 10 s"), one-feature demo per post (different app section each time), "POV: exam tomorrow", study tip + the app, student-reaction style text posts.
+- Caption: hook line, what it does, "link in bio" / intelli-study.com, 5 hashtags (#studytok #studyhacks #igcse #revision #studentlife or fitting ones). Honest claims only (no fake user counts, reviews or testimonials).
+- 1 story/day (the day's best clip or a story_card-style card with the link). Reply to every genuine comment. Log every post + its numbers in state.json `intellistudy.log` and lessons; keep files in `intellistudy/`.
+
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 
