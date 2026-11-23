@@ -109,6 +109,13 @@ Boris's app: IntelliStudy (formerly StudyFlow), an AI study web app at intelli-s
 - Caption: hook line, what it does, "link in bio" / intelli-study.com, 5 hashtags (#studytok #studyhacks #igcse #revision #studentlife or fitting ones). Honest claims only (no fake user counts, reviews or testimonials).
 - 1 story/day (the day's best clip or a story_card-style card with the link). Reply to every genuine comment. Log every post + its numbers in state.json `intellistudy.log` and lessons; keep files in `intellistudy/`.
 
+## 5h. Nov 23: Jess is the model account (Boris: "it's doing great")
+Data Nov 23 PM: every Jess Reel 1,400-1,700 views (D1 1,683, D2 1,425, Mon bonus 1,481 in 6 h / 19 likes = most-liked post on any account). Theo/Danny normal Reels 85-250. Jess has 3 of the top 4 posts.
+- **Don't change what works on Jess**: same premise, same toon style, 3-4 toon looks per Reel, 3c1 pacing, single-moment bonus in the morning.
+- **Only fix comments on Jess** (2 and 0 comments on her last two despite 1,400+ views): end on a 2-choice question that's answerable in one tap ("1 or 2?"), say it in the voice AND show it as the cover-style sticker; put the leading real comment card on screen by ~10 s, not only on the vote screen; pin-able caption line 1 ends with the question. Keep the full option list in the caption for the episode.
+- **Copy Jess's mechanics to Danny and Theo** (never her story): a premise a stranger gets in one line in the first 2 s, 3-4 picture changes per Reel (Danny: new toon.py looks every Reel; Theo: rotate existing images as beats until a live session adds new ones), and the same 2-choice comment ask.
+- Track each run in learning_log: Jess views vs comments, and whether the 2-choice ask lifts comments; if comments stay under 3 for 2 more days, try the commenter-cameo ask in the voice line instead.
+
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 
