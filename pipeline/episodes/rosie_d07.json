@@ -1,0 +1,320 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "DAY 7  •  24 DAYS LEFT",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "She smashed it",
+  "so hard the",
+  "spatula snapped."
+ ],
+ "hook_emoji": "🍔",
+ "name_line": "Day 7: Smash burgers.",
+ "sub_line": "Our pick  •  smash burgers",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   6
+  ],
+  [
+   "Speed",
+   8
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Julian",
+  "msg": "burgers? at a cook-off? cute.",
+  "emoji": "",
+  "color": [
+   214,
+   64,
+   46
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Next dish?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "She smashed a burger so hard the spatula snapped."
+   ],
+   [
+    0.1,
+    "Day seven. No votes, so we picked smash burgers."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Batch one: cold pan. The burgers steamed. Grey."
+   ],
+   [
+    0.1,
+    "Batch two: she pressed them again. Beef crackers."
+   ],
+   [
+    0.1,
+    "Batch three: screaming hot pan. Smash once. Never press twice."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Julian texted."
+   ],
+   [
+    0.1,
+    "Burgers? At a cook-off? Cute."
+   ],
+   [
+    0.1,
+    "Ten minutes later: save me two."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Ramen, or steak frites?"
+   ],
+   [
+    0.1,
+    "Comment one or two. Recipe's in the caption."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "24",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "70%",
+    "from": "64%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "13/100",
+    "from": "12/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "cold",
+   "grey",
+   "crackers",
+   "hot",
+   "once",
+   "twice",
+   "steamed"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "24",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "*SNAP*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.8,
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "GREY",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 120,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "BEEF CRACKER",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "SMASH ONCE",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "SAVE ME TWO",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 85,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "DAY 7",
+  "SPATULA DOWN"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Julian",
+  "sub": "culinary school rival",
+  "msgs": [
+   [
+    "them",
+    "burgers? at a cook-off? cute."
+   ],
+   [
+    "me",
+    "come try one"
+   ],
+   [
+    "them",
+    "save me two"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = RAMEN   2 = STEAK FRITES"
+ }
+}

@@ -751,7 +751,7 @@
     ]
    },
    "aura": {
-    "value": 31,
+    "value": 40,
     "max": 100,
     "rules": {
      "comments": [
@@ -782,7 +782,8 @@
     },
     "note": "Aura = real engagement on the previous episode's Reel only (get_data media_views, media_like_count, media_comments_count, media_shares, media_saved; reposts are NOT readable with Instagram Login). Started at 10 on Day 4. Glow-up % = average of stats. Shown in the HUD every frame.",
     "log": [
-     "2026-11-21: +21 from comments=2, likes=6, shares=0, saves=2, views=799"
+     "2026-11-21: +21 from comments=2, likes=6, shares=0, saves=2, views=799",
+     "2026-11-22: +9 from comments=4, likes=1, shares=0, saves=1, views=139"
     ],
     "label": "AURA"
    },

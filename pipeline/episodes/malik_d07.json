@@ -1,0 +1,317 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 7 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "40 film pauses.",
+  "Every single one:",
+  "Malik."
+ ],
+ "hook_emoji": "🎥",
+ "name_line": "Day 7: Film.",
+ "sub_line": "Our pick  •  film with Coach Reyes",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Coach Reyes",
+  "msg": "you start the tourney if you go left.",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "📧",
+   "Email the FSU scout"
+  ],
+  [
+   "💬",
+   "Text Jada first"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Coach paused the game film forty times. Every pause was Malik."
+   ],
+   [
+    0.1,
+    "Day seven. No votes, so we picked film with Coach."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Clip one: he lost a shoe on defense. Dez scored."
+   ],
+   [
+    0.1,
+    "Clip two: thirty two minutes. He went left zero times."
+   ],
+   [
+    0.1,
+    "Clip three: the last shot. Tyler was wide open."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Coach texted."
+   ],
+   [
+    0.1,
+    "You start the tourney if you go left."
+   ],
+   [
+    0.1,
+    "If not, Tyler starts."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Email the scout, or text Jada?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "7/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "70",
+    "from": "66",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "25/100",
+    "from": "17/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "shoe",
+   "dez",
+   "left",
+   "zero",
+   "tyler",
+   "open",
+   "thirty",
+   "two"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "11",
+   "y": 1400,
+   "hold": 2.0,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "0 VOTES = OUR PICK",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "SHOE: GONE",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "LEFT: 0 TIMES",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "IQ +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 120,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "TYLER STARTS?!",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "DAY 7",
+  "TYLER WAS OPEN"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Coach Reyes",
+  "sub": "JV coach",
+  "msgs": [
+   [
+    "them",
+    "you start the tourney if you go left."
+   ],
+   [
+    "me",
+    "and if i don't"
+   ],
+   [
+    "them",
+    "then tyler starts."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = EMAIL THE SCOUT   2 = TEXT JADA"
+ }
+}
