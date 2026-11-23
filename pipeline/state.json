@@ -1249,5 +1249,19 @@
    "history"
   ]
  },
- "weekend_note_nov22": "Sunday Nov 22: the scheduled main run fired ~12:30 PM ET and posted ALL episodes (Jess D2, Theo D6, Danny D2, Malik D6, Rosie D6, History E2) + Horde week-1 boss result + stories/highlight cards ~12:47-1:00 PM ET. A later run today must NOT post new Day episodes. 1:37 PM extras: Horde Reel only if 2 h after 12:52 PM ET (i.e. after ~2:52 PM ET), otherwise skip/delay; Theo night progress check OK after ~2:50 PM ET. | 5:45 PM run (fired ~5:46 PM ET): skipped all Day episodes (already posted); posted Theo Sunday night check 18034086566684122 (+ as story) and Horde Butt Goblin Day 1 battle 18345069586256051; replied to 5sta.r.angel x2 (Theo) and nihtyyyy (Danny)."
+ "weekend_note_nov22": "Sunday Nov 22: the scheduled main run fired ~12:30 PM ET and posted ALL episodes (Jess D2, Theo D6, Danny D2, Malik D6, Rosie D6, History E2) + Horde week-1 boss result + stories/highlight cards ~12:47-1:00 PM ET. A later run today must NOT post new Day episodes. 1:37 PM extras: Horde Reel only if 2 h after 12:52 PM ET (i.e. after ~2:52 PM ET), otherwise skip/delay; Theo night progress check OK after ~2:50 PM ET. | 5:45 PM run (fired ~5:46 PM ET): skipped all Day episodes (already posted); posted Theo Sunday night check 18034086566684122 (+ as story) and Horde Butt Goblin Day 1 battle 18345069586256051; replied to 5sta.r.angel x2 (Theo) and nihtyyyy (Danny).",
+ "intellistudy": {
+  "account": "intellistuddy",
+  "ig_account": "17841453485592778",
+  "site": "https://intelli-study.com",
+  "plan": "3 Reels/day + 1 story/day (Boris, Nov 22 night). See RUNBOOK 5g.",
+  "features_seen_nov23": "Landing page 'Try it now - no account needed' demo: paste a paragraph -> 3 AI flashcards in ~2 s (button 'Make my flashcards', link 'Use a sample paragraph'). Site also advertises: PDF/photo upload, quizzes from notes, spaced repetition, calendar + analytics, 20 AI requests/day free; Pro $9/mo or $59/yr (200 AI/day, exam planner, weak spots, mock tests).",
+  "tools": "intellistudy/cap.py (Playwright screenshot capture at 390x760 dsf3) + intellistudy/build.py (PIL+ffmpeg composite, Kokoro af_heart voice).",
+  "log": [
+   "Nov 23 ~7:45 AM ET: Reel r001 18618003577064117 'still making flashcards by hand?' real capture of my chemistry notes -> 3 cards in 2.2 s (real measured), 15.3 s; also posted as story 18111297698368633. Earlier: Nov 22 12:37 PM ET Reel 18019531103956034 (not made by these runs): 113 views, 80% skip, 2.0 s avg watch."
+  ],
+  "lessons": [
+   "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1."
+  ]
+ }
 }
