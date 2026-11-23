@@ -1,0 +1,370 @@
+{
+ "image": "jess_d03_poster.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 3 / 30",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "She joined a gym.",
+  "Her ex is Member",
+  "of the Month."
+ ],
+ "hook_emoji": "🏋️",
+ "name_line": "Day 3: Diet + gym.",
+ "sub_line": "You voted  •  diet + gym",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Ryan",
+  "msg": "u go to my gym now?",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "28 days.",
+   "Fitness: 5/10."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "💇‍♀️",
+   "Hair"
+  ],
+  [
+   "👗",
+   "The dress"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "She joined a gym. Her ex is Member of the Month."
+   ],
+   [
+    0.1,
+    "Day three. You voted diet and gym."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt one: twenty one salads for the week. By Tuesday, soup."
+   ],
+   [
+    0.1,
+    "Attempt two: spin class. She couldn't unclip. Ten bonus minutes."
+   ],
+   [
+    0.1,
+    "Then a real plan. Walk, lift, sleep, real food."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Her first post on her empty profile: a gym selfie."
+   ],
+   [
+    0.1,
+    "Ryan viewed it in thirty seconds."
+   ],
+   [
+    0.1,
+    "She typed ha. Deleted it. Sent it."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Fitting is Friday. Hair, or the dress?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "28",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "42%",
+    "from": "36%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "from": "72/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "twenty",
+   "one",
+   "salads",
+   "soup",
+   "spin",
+   "unclip",
+   "ten",
+   "walk",
+   "lift",
+   "sleep",
+   "food"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "lucyjtaylor73",
+   "text": "start a diet and get a gym membership",
+   "likes": 1,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.5,
+   "user": "a.cxxpss",
+   "text": "Diet",
+   "likes": 1,
+   "y": 1650,
+   "hold": 1.7
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "finn1gann",
+   "text": "fix her hair first, make her look cleaner",
+   "likes": 0,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "28",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "DIET + GYM: 4 VOTES",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "SALAD SOUP",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "CLIPPED IN",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 100,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FITNESS +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA (SENT)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "DAY 3",
+  "SHE JOINED HIS GYM"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "u go to my gym now?"
+   ],
+   [
+    "them",
+    "nice form btw"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = HAIR   2 = THE DRESS"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_d03_soup.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_d03_spin.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_d03_gym.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_d03_gym.jpg"
+  }
+ ]
+}

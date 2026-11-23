@@ -133,7 +133,7 @@
     ]
    },
    "aura": {
-    "value": 44,
+    "value": 50,
     "max": 100,
     "rules": {
      "comments": [
@@ -166,7 +166,8 @@
     "log": [
      "2026-11-20: +3 from comments=1, likes=1, shares=0, saves=0, views=186",
      "2026-11-21: +24 from comments=4, likes=15, shares=0, saves=0, views=503",
-     "2026-11-21: +7 from comments=4, likes=2, shares=0, saves=0, views=160"
+     "2026-11-21: +7 from comments=4, likes=2, shares=0, saves=0, views=160",
+     "2026-11-22: +6 from comments=2, likes=2, shares=0, saves=0, views=248"
     ],
     "label": "AURA"
    },
