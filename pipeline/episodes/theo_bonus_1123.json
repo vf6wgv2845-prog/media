@@ -1,0 +1,358 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  MONDAY MORNING",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "His ex typed",
+  "for 9 hours.",
+  "Then she sent this."
+ ],
+ "hook_emoji": "📱",
+ "name_line": "Monday, 7 AM.",
+ "sub_line": "Bonus  •  Day 7 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   1
+  ],
+  [
+   "Fitness",
+   7
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "page 3 made me cry",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His ex typed for nine hours. Then she sent one text."
+   ],
+   [
+    0.1,
+    "He read it forty times before breakfast."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "So you're friends with Jake now?"
+   ],
+   [
+    0.1,
+    "He says you're coming to my party."
+   ],
+   [
+    0.1,
+    "He never said that."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "He wrote a reply in his Notes app. Three pages."
+   ],
+   [
+    0.1,
+    "Mom found it on the toaster. She read it out loud at breakfast."
+   ],
+   [
+    0.1,
+    "Page two was about her dog."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. The party is formal. He owns one hoodie."
+   ],
+   [
+    0.1,
+    "New fit, or send the three pages? Top comment picks Day 7 tonight."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "24",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "54%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "44/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "notes",
+   "three",
+   "pages",
+   "mom",
+   "toaster",
+   "breakfast",
+   "dog",
+   "two"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "5sta.r.angel",
+   "text": "new fit",
+   "likes": 0,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "24",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "READ: 40 TIMES",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HE NEVER SAID THAT",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "NOTES APP: 3 PAGES",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 75,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "*READ ALOUD*",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "PAGE 2: THE DOG",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 85,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "MONDAY",
+  "MOM READ IT OUT LOUD"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "so you're friends with jake now??"
+   ],
+   [
+    "them",
+    "he says you're coming to my party"
+   ],
+   [
+    "me",
+    "..."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "new fit or send the 3 pages?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_gaming.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "theo_d02_clearskin.jpg"
+  }
+ ]
+}

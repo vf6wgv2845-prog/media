@@ -1,0 +1,288 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment I'M IN or your haul",
+ "hook": [
+  "1 cigarette butt.",
+  "1 liter of water.",
+  "Half the fish died."
+ ],
+ "hook_emoji": "🐟",
+ "name_line": "The Butt Goblin grew overnight.",
+ "sub_line": "2,100 HP  •  6 days  •  0 hits",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "Butt Goblin: +100 HP overnight. 0 hits.",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "7 days.",
+   "2,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "Land the",
+  "first hit"
+ ],
+ "options": [
+  [
+   "🚬",
+   "Spot one butt"
+  ],
+  [
+   "🧤",
+   "Gloves or a picker"
+  ],
+  [
+   "🗑️",
+   "Bin it"
+  ],
+  [
+   "💬",
+   "Comment: pieces + city"
+  ],
+  [
+   "🙋",
+   "Or just comment I'M IN"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "One smoked cigarette butt in a liter of water. Half the fish in it died."
+   ],
+   [
+    0.1,
+    "That's a real lab test. Four days. San Diego State."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "And overnight, the Butt Goblin got stronger."
+   ],
+   [
+    0.1,
+    "Zero hits yesterday. Plus one hundred HP. Now two thousand one hundred."
+   ],
+   [
+    0.1,
+    "Six days left. Still nobody has hit him."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Every butt you bin is one damage."
+   ],
+   [
+    0.1,
+    "Comment your pieces and city. Or just: I'm in."
+   ],
+   [
+    0.1,
+    "Gloves or a picker. No needles or glass."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  FACT #6",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "2,100",
+    "from": "2,000",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "half",
+   "fish",
+   "died",
+   "four",
+   "days",
+   "goblin",
+   "stronger",
+   "hundred",
+   "six",
+   "zero"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "1 BUTT / 1 LITER",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 95,
+   "hold": 2.4,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "96-HOUR LAB TEST",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "y": 1250,
+   "angle": 3,
+   "size": 80,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*GROWS*",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "+100 HP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": 4,
+   "size": 120,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "kind": "calendar",
+   "text": "6",
+   "x": 820,
+   "y": 1230,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "1 BUTT",
+  "HALF THE FISH"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}

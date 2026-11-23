@@ -1,0 +1,338 @@
+{
+ "image": "danny_b1123_hide.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 2 / 30  •  BONUS",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "His bully came",
+  "to the kiosk.",
+  "In person."
+ ],
+ "hook_emoji": "😬",
+ "name_line": "Monday, the mall.",
+ "sub_line": "Bonus  •  Day 3 drops tonight",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "the CEO owes me $90 for the cards",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His high school bully walked up to his kiosk. In person."
+   ],
+   [
+    0.1,
+    "Danny hid under the counter. He's the CEO."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Mom told Brock the CEO was in a meeting."
+   ],
+   [
+    0.1,
+    "Brock said: tell the CEO his own screen protector is on upside down."
+   ],
+   [
+    0.1,
+    "It was."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ten minutes later, the group chat."
+   ],
+   [
+    0.1,
+    "Brock posted a photo of the kiosk. Found Danny Tech Solutions HQ."
+   ],
+   [
+    0.1,
+    "Kayla: leave him alone, he fixed my phone in ten minutes."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Even our comments think it won't work."
+   ],
+   [
+    0.1,
+    "Ripped, engaged, or more money? The top comment picks Day 3 tonight."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "28",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "0.5/3",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "31/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "mom",
+   "ceo",
+   "meeting",
+   "brock",
+   "upside",
+   "down"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.2,
+   "user": "nihtyyyy",
+   "text": "Stop bro it ain't gonna work",
+   "likes": 0,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "28",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "CEO: UNDER DESK",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "\"IN A MEETING\"",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "UPSIDE DOWN",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "IT WAS.",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "KAYLA: DEFENDER",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "MONDAY",
+  "BROCK FOUND THE KIOSK"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Class of 2016",
+  "sub": "reunion group chat · 48 members",
+  "msgs": [
+   [
+    "them",
+    "Brock: found Danny Tech Solutions HQ lol"
+   ],
+   [
+    "them",
+    "Kayla: leave him alone he fixed my phone in 10 min"
+   ],
+   [
+    "them",
+    "Brock: see u at the reunion CEO. bring the fiancee"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "ripped, engaged or more money?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "danny_b1123_sad.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "image": "danny_b1123_grin.jpg"
+  }
+ ]
+}

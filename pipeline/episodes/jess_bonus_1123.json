@@ -1,0 +1,325 @@
+{
+ "image": "jess_b1123_panic.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 2 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Her ex's girlfriend",
+  "liked a photo",
+  "from 2019."
+ ],
+ "hook_emoji": "😳",
+ "name_line": "Monday morning.",
+ "sub_line": "Bonus  •  Day 3 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   3
+  ],
+  [
+   "Confidence",
+   3
+  ]
+ ],
+ "notif": {
+  "from": "Chloe",
+  "msg": "why is your insta empty",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her ex's new girlfriend liked a photo from 2019."
+   ],
+   [
+    0.1,
+    "Ryan is in it. Shirtless. On a boat."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "She tried to archive that one photo. She archived all three hundred."
+   ],
+   [
+    0.1,
+    "Her profile is now a bio and nothing else."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then her sister texted."
+   ],
+   [
+    0.1,
+    "Why is your Insta empty? Also the dress fitting moved to Friday. It better zip."
+   ],
+   [
+    0.1,
+    "She typed ha. Of course."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Diet and gym are leading. Hair is right behind."
+   ],
+   [
+    0.1,
+    "Now it's on you. The top comment picks Day 3 tonight."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "28",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "36%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "72/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "archive",
+   "three",
+   "hundred",
+   "photo",
+   "bio",
+   "nothing"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "lucyjtaylor73",
+   "text": "start a diet and get a gym membership",
+   "likes": 1,
+   "y": 1650,
+   "hold": 3.2
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "28",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "HE'S SHIRTLESS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "ARCHIVED: 300",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "POSTS: 0",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA (AGAIN)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "MONDAY",
+  "SHE ARCHIVED EVERYTHING"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Chloe",
+  "sub": "sister · the bride",
+  "msgs": [
+   [
+    "them",
+    "why is your insta empty"
+   ],
+   [
+    "them",
+    "also dress fitting moved to FRIDAY. it better zip"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "diet + gym? hair? something else?"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_b1123_empty.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "image": "jess_b1123_dress.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1123_dress.jpg"
+  }
+ ]
+}
