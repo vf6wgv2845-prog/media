@@ -78,17 +78,17 @@
  "series": {
   "theo": {
    "title": "Theo: 30 days until he sees his ex at the Christmas party",
-   "day": 6,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "17928835500205400",
+   "day": 7,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "18361184245168851",
    "image": "theo_d02_clearskin.jpg",
    "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical. Leonardo reference image for consistency: the original scruffy Theo generation (search 'scruffy and neglected' in Your Generations). theo_gaming.jpg = him gaming (Day 3).",
    "stats": {
     "Hair": 4,
     "Skin": 7,
-    "Style": 1,
+    "Style": 4,
     "Fitness": 7,
-    "Confidence": 8
+    "Confidence": 9
    },
    "upgrades_so_far": [
     "Day 2: clear skin (3 votes for #2, unanimous)",
@@ -97,24 +97,28 @@
     "Day 4 (Nov 20 evening): hair. Vote: 1-1 tie (ivannn_720 'Fix the hair' on Day 3 Reel 00:26 UTC vs 5sta.r.angel '4 gym again' on morning bonus 19:48 UTC), earliest = hair. DIY clippers -> bald patch -> beanie -> real barber fade. Image unchanged in cloud ('full hair reveal soon'). Maya texted 'nice hair. you still haven't answered me'; he started typing, phone died at 1%.",
     "Day 5 (Nov 21, posted ~12:15 PM ET, weekend early): gym again. Vote: Gym 3 (5sta.r.angel, ivannn_720, celestial_dragon._), New fit 1 (ej123445). Dropped the bar on rep 1, then 65 lb x5. Maya: 'you go to ironworks now?? jake goes there' (Jake = Maya's new boyfriend, lifts at Ironworks).",
     "Day 6 (Nov 22, ~12:48 PM ET): gym day 3. Vote (1 per user, latest, Day 5 + night check + Sun bonus): Gym day 3 1 (5sta.r.angel 19:33 UTC Nov 21), New fit 1 (ivannn_720 23:59 UTC) -> tie, earliest = gym. Jake spotted him ('all you, champ'), forgot clips, 75 lb x5 alone. Maya: 'jake says you're actually kinda strong ??' + 'are you ever going to answer me'; he typed 'i', arms gave out, phone on his face.",
-    "Nov 22 ~5:53 PM ET Sunday NIGHT CHECK (not an episode) 18034086566684122: arms dead, phone fell on his face and accepted Jake's follow; tried to undo, liked Jake's gym selfie from 23 weeks ago; Jake DM: 'yo champ / saw the like lol / maya's party is formal btw. no gym shirts'; Theo: 'ok'; Maya is typing... (open loop). Also posted as a story 18116243771176803."
+    "Nov 22 ~5:53 PM ET Sunday NIGHT CHECK (not an episode) 18034086566684122: arms dead, phone fell on his face and accepted Jake's follow; tried to undo, liked Jake's gym selfie from 23 weeks ago; Jake DM: 'yo champ / saw the like lol / maya's party is formal btw. no gym shirts'; Theo: 'ok'; Maya is typing... (open loop). Also posted as a story 18116243771176803.",
+    "Day 7 (Nov 23, ~5:50 PM ET, Boris boost episode): new fit. Vote: New fit 2 (5sta.r.angel latest 'new fit' night check 01:17 UTC; ivannn_720 'new fit' Mon bonus 13:16 UTC), 0 other options. Dad's 1998 suit (shoulders walked in first), thrift suit = waiter uniform ($2 tip), real tailor = Maya's mom. Maya: 'my mom says you came in for a SUIT?? who's it for' -> she's typing. Style 1->4, Confidence 9. 2-choice ask (5h)."
    ],
    "open_vote": {
-    "question": "New fit or answer Maya?",
-    "type": "top_comment",
+    "question": "1 or 2?",
+    "type": "two_choice",
     "options": [
-     "New fit",
-     "Reply to Maya",
-     "Fix the eyebrows",
-     "Fix the smile",
-     "Gym again"
+     "Answer Maya",
+     "Fix the eyebrows"
     ],
-    "note": "Day 7 (Boris boost episode!) vote: count Day 6 (17928835500205400) + Sun bonus 18117753839035893 + Sun night check 18034086566684122, 1 per user (latest). Tally at Nov 22 ~6 PM ET: New fit 1 (5sta.r.angel, D6 + bonus 18:06 UTC). ivannn_720's 'new fit' (Nov 22 00:02 UTC) was before Day 6 and counted for Day 6. Open threads for Day 7: Maya is typing; Jake said party is formal. | Nov 23 AM: tally unchanged, New fit 1 (5sta.r.angel, latest 'new fit' on night check 01:17 UTC Nov 23). Also count comments on Mon bonus 18421319248083034."
+    "also_ok": [
+     "Fix the smile",
+     "Gym again",
+     "something else (count by idea)"
+    ],
+    "note": "Day 8 vote: count comments on Day 7 (18361184245168851), 1/user latest + likes. '1'=Answer Maya, '2'=eyebrows."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
     "ivannn_720": "viewer who has asked for the hair fix since Day 1; tagged in Day 4.",
-    "Jake": "Maya's new boyfriend; lifts at Ironworks Gym (Day 5). Nov 21 night: requested to follow Theo (unanswered). Day 6: spotted Theo at Ironworks, calls everyone 'champ', 6'3\". Nov 22 night: Theo accidentally accepted his follow + liked his 23-week-old gym selfie; Jake DM'd 'maya's party is formal btw. no gym shirts'."
+    "Jake": "Maya's new boyfriend; lifts at Ironworks Gym (Day 5). Nov 21 night: requested to follow Theo (unanswered). Day 6: spotted Theo at Ironworks, calls everyone 'champ', 6'3\". Nov 22 night: Theo accidentally accepted his follow + liked his 23-week-old gym selfie; Jake DM'd 'maya's party is formal btw. no gym shirts'.",
+    "Maya's mom": "tailor; fitted Theo's suit Day 7, told Maya"
    },
    "deadline": "Day 30 = the Christmas party (around Dec 16-17)",
    "voice_live": "ElevenLabs Roger (live sessions only)",
@@ -245,9 +249,9 @@
     "S3: 60 days recruiting, audience picks school",
     "S4: college season, then the draft"
    ],
-   "day": 6,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "18113410244229916",
+   "day": 7,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "18065019035539474",
    "image": "malik.jpg",
    "school": "Riverview High Eagles",
    "position": "guard",
@@ -256,18 +260,19 @@
     "Shooting": 5,
     "Handles": 7,
     "Defense": 6,
-    "Basketball IQ": 7,
+    "Basketball IQ": 9,
     "Confidence": 8
    },
    "open_vote": {
-    "question": "What does Malik do next?",
-    "type": "top_comment",
+    "question": "1 or 2?",
+    "type": "two_choice",
     "options": [
-     "Film with Coach Reyes",
      "Email the FSU scout",
-     "Text Jada first",
-     "500 shots again",
-     "Something else"
+     "Text Jada first"
+    ],
+    "also_ok": [
+     "500 shots",
+     "something else"
     ]
    },
    "cast": {
@@ -302,7 +307,8 @@
     "Day 3 (vote 1 by ky_go2krazzyyy + their idea 'train harder than ever, scholarship to Florida State'): took Tyler's spot; first varsity practice; Tyler texted 'so you just took my spot. cool.'; Florida State scout coming to Friday's game vs Northside; dream school = Florida State.",
     "Day 4 (0 votes -> we picked #3 lock down Dez): varsity debut vs Northside; Dez scored 9 in Q1 then 0; Eagles lost 56-58, Malik's last shot rimmed out; Tyler texted 'you guarded him like i taught you'; FSU scout wrote something down (loose end). Holiday tournament in 14 days (Dec 4).",
     "Day 5 (0 votes -> we picked #3 Dez rematch): park 1v1, down 5-1, won 11-9 with Dez's own crossover; Dez texted 'run it back at the tourney. jada's coming' (Jada = ex, front row, tourney in 13 days).",
-    "Day 6 (0 votes -> we picked #1 make up with Tyler): 'SORY' pepperoni pizza, Tyler shut the door, porch 1v1 for peace, L 7-11 (Tyler in slippers); 'we good. but when the suspension's over i want my spot back.' Tourney in 12 days (Dec 4), Jada coming."
+    "Day 6 (0 votes -> we picked #1 make up with Tyler): 'SORY' pepperoni pizza, Tyler shut the door, porch 1v1 for peace, L 7-11 (Tyler in slippers); 'we good. but when the suspension's over i want my spot back.' Tourney in 12 days (Dec 4), Jada coming.",
+    "Day 7 (0 votes -> we picked film with Coach Reyes): 40 pauses; lost a shoe on D (Dez scored), went left 0 times in 32 min, last shot vs Northside Tyler was wide open. Coach: 'you start the tourney if you go left' / 'then tyler starts.' IQ 7->9. Tourney in 11 days."
    ],
    "format": {
     "tile1": "DAY",
@@ -377,9 +383,9 @@
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
-   "day": 6,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "18120455447002082",
+   "day": 7,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "18130821860482376",
    "image": "rosie.jpg",
    "age": 19,
    "job": "line cook",
@@ -387,18 +393,19 @@
     "Knife skills": 6,
     "Flavor": 8,
     "Plating": 6,
-    "Speed": 6,
-    "Confidence": 6
+    "Speed": 8,
+    "Confidence": 7
    },
    "open_vote": {
-    "question": "Her next practice dish?",
-    "type": "top_comment",
+    "question": "1 or 2?",
+    "type": "two_choice",
     "options": [
      "Ramen",
-     "Steak frites",
-     "Smash burgers",
+     "Steak frites"
+    ],
+    "also_ok": [
      "Another dessert",
-     "Something else"
+     "something else"
     ]
    },
    "cast": {
@@ -432,7 +439,8 @@
     "Day 3 (no votes -> birria tacos): 3-hour braise; Chef Marco tasted the consomme, said nothing, took a second bowl; recipe carousel cook/c003.",
     "Day 4 (0 votes -> we picked #4 dumplings): batch 1 overfilled and burst, batch 2 golden potstickers; Chef Marco texted 'make 50 more. staff meal. tonight.' Full pork & cabbage potsticker recipe in the Reel caption (no carousel).",
     "Day 5 (0 votes -> we picked #3 chocolate souffle): opened oven early, collapsed; batch 2 rose; cook-off announced a dessert round; Julian: 'souffle? bold. mine never fall.' Recipe in caption. NOTE: Day 4 Reel got ~1 view (not distributed).",
-    "Day 6 (0 votes -> we picked #3 fried chicken): batch 1 oil 400F burnt/raw at bone, Marco cut it open; batch 2 thermometer 325F, 165F inside. Mentor introduced: Dee, judged the city cook-off 12 years, 'sunday 6am. bring a thermometer. marco gave me your number.' Recipe in caption (buttermilk fried chicken)."
+    "Day 6 (0 votes -> we picked #3 fried chicken): batch 1 oil 400F burnt/raw at bone, Marco cut it open; batch 2 thermometer 325F, 165F inside. Mentor introduced: Dee, judged the city cook-off 12 years, 'sunday 6am. bring a thermometer. marco gave me your number.' Recipe in caption (buttermilk fried chicken).",
+    "Day 7 (0 votes -> we picked smash burgers): spatula snapped, cold pan = grey steamed, pressed twice = beef crackers, hot cast iron smash once = lacy crust. Julian: 'burgers? at a cook-off? cute.' -> 'save me two'. Full smash burger recipe in caption (USDA 160F). Dee's Sunday 6 AM lesson still open."
    ],
    "format": {
     "tile1": "DAYS LEFT",
@@ -508,9 +516,9 @@
   "horde": {
    "title": "The Trash Horde: real litter pickup damages a zombie horde",
    "type": "community_game",
-   "day": 4,
+   "day": 5,
    "last_post_date": "2026-11-23",
-   "last_media_id": "17990987547075998",
+   "last_media_id": "18110820866250746",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
@@ -525,7 +533,8 @@
     "18118044971139337",
     "18345069586256051",
     "18107608181567119",
-    "17990987547075998"
+    "17990987547075998",
+    "18110820866250746"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -574,7 +583,8 @@
     "Nov 22 ~2:54 PM ET (extras midday): read all comments on all 10 counted Horde posts -> still 0 comments of any kind, 0 hauls; totals unchanged (Butt Goblin 2,000/2,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Waited for 2 h spacing after the 12:52 boss Reel, then posted fact #5 (cigarette filters are plastic -> thousands of microplastics; #1 ICC item 25+ yrs, 2.4M in 2017; NOAA; ties into the Butt Goblin; 25 s, vote screen ~16.5 s, ask 'comment I'M IN') 18118044971139337. Only 1 midday Reel: a 2nd would need 2 h spacing (~4:54 PM) and collide with the evening battle Reel. Next Horde Reel not before ~4:54 PM ET.",
     "Nov 22 ~5:54 PM ET (evening run): read all comments on all 11 counted Horde posts -> still 0 comments of any kind, 0 hauls. Totals unchanged: Butt Goblin 2,000/2,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0). Posted Butt Goblin Day 1 battle Reel 18345069586256051 (hook 'At midnight, he gets stronger.', +100 HP at midnight if no hits, NOAA filter fact, 20.8 s). Regen applies from Nov 23: if still 0 hits at the next run, boss HP = 2,100.",
     "Nov 23 ~7:50 AM ET (extras): 0 comments on all 12 counted Horde posts (media_comments_count 0 everywhere) -> 0 hauls; totals 0 dmg, 0 cleaners (community-reported and verified both 0). Boss regen applied: 2,000 -> 2,100 HP (0 hits Nov 22). Posted fact #6 (1 smoked butt per liter killed half the test fish in 96 h, Slaughter et al. 2011) + 'horde advances' (+100 HP) 18107608181567119.",
-    "Nov 23 ~1:52 PM ET (extras midday): read comments on all 13 counted Horde posts -> 0 comments of any kind (media_comments_count 0 everywhere; comment query Nov 20-23 empty) -> 0 hauls; totals unchanged (Butt Goblin 2,100/2,100 HP after this morning's regen, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted fact #7 ('450 years?' -> NOAA: no reliable data, plastic could stay indefinitely; 26.3 s) 17990987547075998. Next Horde Reel not before ~3:52 PM ET. If still 0 hits by midnight: +100 -> 2,200."
+    "Nov 23 ~1:52 PM ET (extras midday): read comments on all 13 counted Horde posts -> 0 comments of any kind (media_comments_count 0 everywhere; comment query Nov 20-23 empty) -> 0 hauls; totals unchanged (Butt Goblin 2,100/2,100 HP after this morning's regen, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted fact #7 ('450 years?' -> NOAA: no reliable data, plastic could stay indefinitely; 26.3 s) 17990987547075998. Next Horde Reel not before ~3:52 PM ET. If still 0 hits by midnight: +100 -> 2,200.",
+    "Nov 23 ~6:07 PM ET (main run): all 14 counted Horde posts have 0 comments (media_comments_count 0; comment query Nov 20-23 empty) -> 0 hauls, totals unchanged (2,100/2,100 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 2 battle 18110820866250746 ('2,100 HP. Zero hits.', bus stop = 10 dmg, 21.9 s) + story video + teaser story. At midnight if still 0 hits: +100 -> 2,200 (next run applies)."
    ],
    "format": {
     "tiles": [
@@ -597,24 +607,29 @@
    "status": "live",
    "setup_needed": [],
    "title": "Jess: 30 days until her ex is the best man at her sister's wedding",
-   "day": 2,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "17982285914922550",
+   "day": 3,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "17990474928106209",
    "image": "jess.jpg",
    "stats": {
     "Hair": 3,
     "Skin": 7,
     "Style": 2,
-    "Fitness": 3,
-    "Confidence": 3
+    "Fitness": 5,
+    "Confidence": 4
    },
    "upgrades_so_far": [
-    "Day 2 (Nov 22, ~12:47 PM ET): facial. Vote (top_comment, 1/user + likes): Facial 4 (bajaj_rhea 1+1 like, lucyjtaylor73 'hair appointment or facial' 1+1), Hair 3 (finn1gann 1 + lucyjtaylor73's comment also counted 2), Diet 2 (a.cxxpss 1+1). Sheet mask slid into her mouth, spa left her red 2 h, eye bags gone. Facialist = Sienna, Ryan's new girlfriend ('omg wait. you're ryan's jess??'); Jess replied 'ha' again; Sienna followed her. Images: jess_d02_red/glow/side.jpg (toon)."
+    "Day 2 (Nov 22, ~12:47 PM ET): facial. Vote (top_comment, 1/user + likes): Facial 4 (bajaj_rhea 1+1 like, lucyjtaylor73 'hair appointment or facial' 1+1), Hair 3 (finn1gann 1 + lucyjtaylor73's comment also counted 2), Diet 2 (a.cxxpss 1+1). Sheet mask slid into her mouth, spa left her red 2 h, eye bags gone. Facialist = Sienna, Ryan's new girlfriend ('omg wait. you're ryan's jess??'); Jess replied 'ha' again; Sienna followed her. Images: jess_d02_red/glow/side.jpg (toon).",
+    "Day 3 (Nov 23 ~5:54 PM ET): diet + gym. Vote: Diet/gym 4 (lucyjtaylor73 1+1 like, a.cxxpss 'Diet' 1+1), Hair 1 (finn1gann). 21 salads -> soup by Tuesday, spin class couldn't unclip, real plan (walk, lift, sleep, real food). Ryan is Member of the Month at her new gym; her first post on the empty profile = gym selfie; Ryan viewed in 30 s: 'u go to my gym now?' / 'nice form btw'; she sent 'ha'. Looks jess_d03_poster/soup/spin/gym. Fitness 3->5, Conf 4."
    ],
    "open_vote": {
-    "question": "What should Jess fix next?",
-    "type": "top_comment",
-    "note": "Day 3 vote: count comments on Day 2 (17982285914922550) + leftovers on Day 1. Hair is 'next in line' (finn1gann), diet asked (a.cxxpss). | Nov 23 AM tally (1/user latest + likes; D1 leftovers + D2): Diet/gym 4 (lucyjtaylor73 'start a diet and get a gym membership' D2 09:36 UTC 1+1 like; a.cxxpss 'Diet' D1 1+1), Hair 1 (finn1gann D1). Also count comments on Mon bonus 18147503311608565."
+    "question": "1 or 2?",
+    "type": "two_choice",
+    "options": [
+     "Hair",
+     "The dress"
+    ],
+    "note": "Day 4 vote: count comments on Day 3 (17990474928106209) + any new on Day 2/bonus. 1=Hair (finn1gann asked), 2=The dress (fitting Friday). Tally at Nov 23 PM: 0 (finn1gann's old hair comment counted for Day 3 already)."
    },
    "cast": {
     "Ryan": "her ex; dumped her by text; he's the best man at her sister Chloe's wedding (Day 30)",
@@ -712,30 +727,36 @@
    "status": "live",
    "setup_needed": [],
    "title": "Danny: he told the reunion group chat he's a rich, ripped, engaged CEO. 30 days to make the lies true.",
-   "day": 2,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "18104109443640017",
+   "day": 3,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "18114348776579519",
    "image": "danny.jpg",
    "stats": {
     "Body": 2,
     "Money": 3,
-    "Style": 2,
+    "Style": 3,
     "Lies": 8,
-    "Confidence": 4
+    "Confidence": 5
    },
    "upgrades_so_far": [
-    "Day 2 (Nov 22): CEO. Vote: CEO 5-0 (jagongetemm 1+2 likes, sisilia_ammar13 1+1). Renamed kiosk 'Danny Tech Solutions', Comic Sans business cards, $14 revenue vs $90 cards, mom = only employee asking for a raise. Brock asked the company name; Kayla: 'wait the kiosk at the mall?? he fixed my phone today'. Brock typing. LIES TRUE tile 0.5/3. Images danny_d02_ceo/shock.jpg."
+    "Day 2 (Nov 22): CEO. Vote: CEO 5-0 (jagongetemm 1+2 likes, sisilia_ammar13 1+1). Renamed kiosk 'Danny Tech Solutions', Comic Sans business cards, $14 revenue vs $90 cards, mom = only employee asking for a raise. Brock asked the company name; Kayla: 'wait the kiosk at the mall?? he fixed my phone today'. Brock typing. LIES TRUE tile 0.5/3. Images danny_d02_ceo/shock.jpg.",
+    "Day 3 (Nov 23 ~5:58 PM ET): engaged = crowd's choice (0 votes on Day 2/bonus; only nihtyyyy critique). Cardboard fiancee arrived folded (crease through her face), Mom will play fiancee's mom for $90, dating app: first match = Brock's sister. Brock: 'why is my sister asking about u' / 'CEO'; Danny: 'business meeting'. LIES TRUE 0.5 -> 0.75/3. Looks danny_d03_crease/broke/match/panic (trimmed beard)."
    ],
    "open_vote": {
-    "question": "Which lie becomes true next?",
-    "type": "top_comment",
-    "note": "Day 3: ripped / engaged / more money. Count comments on Day 2 (18104109443640017). | Nov 23 AM: 0 votes so far for Day 3 (only nihtyyyy feedback comments: 'Stop bro it ain't gonna work', and 'add hooks / ai slop' critique, replied politely). Also count comments on Mon bonus 18134528287696479."
+    "question": "1 or 2?",
+    "type": "two_choice",
+    "options": [
+     "Ripped",
+     "More money"
+    ],
+    "note": "Day 4 vote: count comments on Day 3 (18114348776579519). 1=Ripped, 2=More money."
    },
    "cast": {
     "Brock": "high-school bully, now a realtor; doubts him in the group chat",
     "Mom": "he lives with her",
     "Kayla": "classmate, two kids and a dog",
-    "nihtyyyy": "viewer/critic: 'Stop bro it ain't gonna work' shown as a comment card in the Nov 23 bonus; also gave hook feedback."
+    "nihtyyyy": "viewer/critic: 'Stop bro it ain't gonna work' shown as a comment card in the Nov 23 bonus; also gave hook feedback.",
+    "Brock's sister": "matched with Danny on a dating app Day 3 (unnamed so far)"
    },
    "deadline": "Day 30 = the 10-year reunion",
    "voice_cloud": "am_adam",
@@ -1213,7 +1234,9 @@
   "Nov 22 evening: Theo night check 18034086566684122 (hook 'He accepted Jake's follow with his face.', cover '10 PM / HE LIKED IT', 25.6 s, chat at ~12.4 s, vote ~18 s); Horde Butt Goblin D1 battle 18345069586256051 ('At midnight, he gets stronger.', cover 'DAY 1 / MIDNIGHT +100 HP', 20.8 s). Check at ~24 h.",
   "2026-11-23 AM (~14-20h after posting): Jess D2 1,374 views/14 likes/1 comment/1 share/1 save; Theo Sun bonus 1,203 views/7 likes/2 comments; Malik D6 283/4 likes; Theo D6 238/2; History E2 213/3 likes/1 save; Danny D2 136/1/3 comments/1 save; Rosie D6 127/0; Horde boss result 82, fact #5 114, Butt Goblin D1 119; Theo night check 81 (~9h).",
   "2026-11-23 ~7:50 AM ET posted: Theo bonus 18421319248083034 (27.5 s, chat at ~6 s), Jess bonus 18147503311608565 (26.0 s, 4 toon looks), Danny bonus 18134528287696479 (27.6 s, critic comment card), Horde fact #6 18107608181567119 (25.2 s).",
-  "2026-11-23 ~1:52 PM ET midday extras posted: Malik bonus 18132991759879035 (27.7 s, cover 'LEFTY / WHO IS MAILK?'), Rosie bonus 18222835645348979 (25.9 s, '164F / HIS COFFEE', real thermometer tip in caption), History E3 17956803138314196 (34.8 s, '1919 / A MOLASSES TSUNAMI', first real archival photo), Horde fact #7 17990987547075998 (26.3 s, '450 YRS? / NOBODY KNOWS'). Numbers at check: Malik D6 357 views/5 likes, Rosie D6 127/0, History E2 213/3 likes/1 save, Horde fact #6 122/0 (5 h); 0 comments on all 4 accounts."
+  "2026-11-23 ~1:52 PM ET midday extras posted: Malik bonus 18132991759879035 (27.7 s, cover 'LEFTY / WHO IS MAILK?'), Rosie bonus 18222835645348979 (25.9 s, '164F / HIS COFFEE', real thermometer tip in caption), History E3 17956803138314196 (34.8 s, '1919 / A MOLASSES TSUNAMI', first real archival photo), Horde fact #7 17990987547075998 (26.3 s, '450 YRS? / NOBODY KNOWS'). Numbers at check: Malik D6 357 views/5 likes, Rosie D6 127/0, History E2 213/3 likes/1 save, Horde fact #6 122/0 (5 h); 0 comments on all 4 accounts.",
+  "2026-11-23 ~6:15 PM ET (24-30 h after post): Jess D2 1,427 views/41.2% skip/11.6 s avg/15 likes/3 comments/1 share/1 save; Jess Mon bonus 1,482/34.7%/13.1 s/19 likes/0 comments/3 saves (best watch time on any account); Theo Sun bonus 1,230/38.3%/8.3 s; Malik D6 357/41.2%/9.6 s/5 likes; Theo D6 248/46.3%/9.4 s; History E2 213/48.7%/10.8 s; Danny D2 139/36.8%/9.8 s/5 comments; Danny Mon bonus 128/30.4%/8.6 s; Rosie D6 128/42.6%/7.4 s/0; Theo Mon bonus 146/43.3%/9.3 s; History E3 64/70%/4.4 s (5 h); Horde Reels 82-126 views, 47-58% skip, 4.3-5.9 s; IntelliStudy r001 46/95%/1.4 s.",
+  "2026-11-23 ~5:50-6:10 PM ET posted: Theo D7 18361184245168851 (25.9 s, chat ~15.7 s, cover 'DAY 7 / HIS TAILOR = HER MOM'), Jess D3 17990474928106209 (26.2 s, 4 toon looks, 'SHE JOINED HIS GYM'), Danny D3 18114348776579519 (24.7 s, 4 looks, 'BULLY'S SISTER?!'), Malik D7 18065019035539474 (26.3 s, 'TYLER WAS OPEN'), Rosie D7 18130821860482376 (25.4 s, 'SPATULA DOWN'), Horde Butt Goblin D2 18110820866250746 (21.9 s), IntelliStudy r002 18104769407386151 (16.3 s). All story episodes end on the 5h 2-choice ask ('1 OR 2?' title + hint + voice 'Comment one or two')."
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1239,7 +1262,8 @@
   "Nov 22 evening: Day 2 episodes of the toon pages fell well below their Day 1s at ~5 h (Jess 359 vs D1 1,624 at 24 h; Danny 135 vs 832) and Theo's morning bonus (820) beat his Day 6 (206) again. Single-moment Reels with one absurd beat keep out-reaching full episodes; Theo night check applies it (one gag chain: face-accept -> 23-week-old like -> Jake's 'formal' DM -> Maya typing). Windsor's comment cache can lag hours behind media_comments_count: query comments with a narrow date_from/date_to (today) and an account filter to get a fresh pull, and compare against media_comments_count before declaring no missed comments.",
   "Nov 23 AM extras: Jess D2 recovered to 1,374 views at ~14h (D1 1,660) and Theo's Sunday morning bonus hit 1,203 (vs his D6 238): the morning single-moment Reel keeps out-reaching Theo's own evening episodes. Danny D2 stalled at 136 and drew a 'no hook / AI slop' comment, so Danny's bonus opens on a concrete in-person beat (bully at the kiosk) and puts the critic's real comment in the story. Theo's bonus moves the chat to ~6 s (earliest yet) to test whether an earlier chat beat lifts avg watch; compare vs Sun bonus (chat ~12 s).",
   "Nov 23 midday extras: Malik D6 (357 views, 5 likes) keeps beating Rosie D6 (127, 0 likes, 0 comments ever) with the same 3D style, so Rosie's bonus got a sharper absurd hook (boss's coffee temp mid-sip) + a practical save-worthy tip in the caption (thermometer calibration). History E3 cut to 34.8 s (E2 at 59 s did 213 views) and uses a real 1919 archival photo (LOC Red Cross collection = no known restrictions; LOC 'v.jpg' gives 1024 px) instead of only period art: compare its 24h reach vs E2. Horde: 'myth-bust' fact format (NOAA says the 450-year chart has no reliable data) tested vs plain facts.",
-  "Nov 23 PM (Boris live: 'whatever you need to make it go better, but it's doing great'): Jess is the model account (every Reel 1,400-1,700 views; 3 of top 4 posts). Keep her format unchanged; only fix her low comments with a 2-choice 'comment 1 or 2' ask + leading comment card by ~10 s; copy her mechanics (one-line premise, 3-4 looks per Reel, 2-choice ask) to Danny and Theo. RUNBOOK 5h."
+  "Nov 23 PM (Boris live: 'whatever you need to make it go better, but it's doing great'): Jess is the model account (every Reel 1,400-1,700 views; 3 of top 4 posts). Keep her format unchanged; only fix her low comments with a 2-choice 'comment 1 or 2' ask + leading comment card by ~10 s; copy her mechanics (one-line premise, 3-4 looks per Reel, 2-choice ask) to Danny and Theo. RUNBOOK 5h.",
+  "Nov 23 main run: applied RUNBOOK 5h to every story series (not only Jess): 2-choice 'comment 1 or 2' ask in voice + vote-screen title + caption line 1, leading real comment card in the first 2 s. Check tomorrow whether comments per 1,000 views rise vs Day 2s (Jess D2: 2 per 1,400; Danny D2: 4 per 139). Also: Jess's morning bonus (34.7% skip, 13.1 s avg) beats every evening episode on watch time again; single-moment Reels keep winning. History E3 is at 70% skip / 4.4 s after 5 h (E2: 48.7% / 10.8 s): the archival-photo opening may be losing people; compare at 24 h before changing."
  ],
  "facts": [
   {
@@ -1318,7 +1342,8 @@
    "FACTS": "fact01-03.jpg (+ each new fact)"
   },
   "posted_as_stories": "2026-11-21 ~12:45 PM ET (all cards)",
-  "posted_per_day_nov21": "~1:00-1:30 PM ET: all Day 1-5 cards + Reels as stories on Theo/Malik/Rosie, Horde Day 1-3 (launch slides, battles, facts) + rules cards."
+  "posted_per_day_nov21": "~1:00-1:30 PM ET: all Day 1-5 cards + Reels as stories on Theo/Malik/Rosie, Horde Day 1-3 (launch slides, battles, facts) + rules cards.",
+  "posted_per_day_nov23": "~6:00-6:15 PM ET stories: day cards highlights/theo/day07, jess/day03, danny/day03, malik/day07, rosie/day07 + episode Reels as story videos (Jess, Danny, Malik, Rosie, Horde; Theo's story video call dropped by the connector and could not be verified, not retried to avoid a duplicate) + teaser/tracker cards on all 7 + IntelliStudy r002 video. Covers: highlights/<acc>/cover_dayNN.jpg."
  },
  "voting_rule_v2": "From Nov 22: episodes end with the open vote (scene sv: 'NOW IT'S ON YOU / TOP COMMENT DECIDES'). Counting: group comments by the idea they ask for; each user = 1 vote (latest), each like on a comment = +1; the idea with the most wins (tie -> earliest comment). Open the next episode with the winning comment as a card + how many asked. Numbered replies ('3') still count for the matching idea from the previous episode.",
  "priority_accounts": {
@@ -1342,10 +1367,12 @@
   "features_seen_nov23": "Landing page 'Try it now - no account needed' demo: paste a paragraph -> 3 AI flashcards in ~2 s (button 'Make my flashcards', link 'Use a sample paragraph'). Site also advertises: PDF/photo upload, quizzes from notes, spaced repetition, calendar + analytics, 20 AI requests/day free; Pro $9/mo or $59/yr (200 AI/day, exam planner, weak spots, mock tests).",
   "tools": "intellistudy/cap.py (Playwright screenshot capture at 390x760 dsf3) + intellistudy/build.py (PIL+ffmpeg composite, Kokoro af_heart voice).",
   "log": [
-   "Nov 23 ~7:45 AM ET: Reel r001 18618003577064117 'still making flashcards by hand?' real capture of my chemistry notes -> 3 cards in 2.2 s (real measured), 15.3 s; also posted as story 18111297698368633. Earlier: Nov 22 12:37 PM ET Reel 18019531103956034 (not made by these runs): 113 views, 80% skip, 2.0 s avg watch."
+   "Nov 23 ~7:45 AM ET: Reel r001 18618003577064117 'still making flashcards by hand?' real capture of my chemistry notes -> 3 cards in 2.2 s (real measured), 15.3 s; also posted as story 18111297698368633. Earlier: Nov 22 12:37 PM ET Reel 18019531103956034 (not made by these runs): 113 views, 80% skip, 2.0 s avg watch.",
+   "Nov 23 ~6:09 PM ET (main run, no IntelliStudy task exists yet): Reel r002 18104769407386151 'POV: history test tomorrow. 0 flashcards.' real capture of WW1 notes -> 3 cards in 2.2 s (measured), 16.3 s; also posted as story 18120323747105465. r001 at ~10 h: 46 views, 95% skip, 1.4 s avg watch."
   ],
   "lessons": [
-   "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1."
+   "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1.",
+   "Nov 23: r001 (phone screen + 'Still making flashcards by hand?') got 95% skip / 1.4 s avg: the static landing-page frame on frame 1 reads as an ad. r002 tries a POV exam-panic hook; if skip stays >80%, open on the finished cards (the payoff) zoomed in, with the hook text over them, and cut the typing."
   ]
  }
 }
