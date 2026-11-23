@@ -1,0 +1,315 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He did everything",
+  "left-handed.",
+  "All. Day."
+ ],
+ "hook_emoji": "🏀",
+ "name_line": "Bonus: lefty day.",
+ "sub_line": "Not Day 7  •  vote still open",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   7
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Coach Reyes",
+  "msg": "film session thursday? your call.",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Tyler said he can't go left. So he did everything left-handed."
+   ],
+   [
+    0.1,
+    "Cereal, left-handed. Most of it hit the floor."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "He wrote his name left-handed on a math test."
+   ],
+   [
+    0.1,
+    "The teacher handed it back: who is Mailk?"
+   ],
+   [
+    0.1,
+    "He dribbled to class, left hand only. Into the trophy case."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Tyler texted."
+   ],
+   [
+    0.1,
+    "My brother saw you hit the trophy case."
+   ],
+   [
+    0.1,
+    "Still can't go left. See you in eleven days."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Coach Reyes, the scout, or text Jada?"
+   ],
+   [
+    0.1,
+    "Top comment decides Day 7 tonight."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "6/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "66",
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "17/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "mailk",
+   "trophy",
+   "left",
+   "test",
+   "teacher"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.6,
+   "kind": "calendar",
+   "text": "11",
+   "y": 1400,
+   "hold": 2.0,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "CEREAL: LOST",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 100
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "LEFT HAND ONLY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1250,
+   "angle": 4,
+   "hold": 1.6,
+   "size": 85,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "WHO IS MAILK?",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.8,
+   "size": 95
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "*CLANK*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6,
+   "size": 110,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "11 DAYS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 90
+  }
+ ],
+ "cover_title": [
+  "LEFTY",
+  "WHO IS MAILK?"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tyler",
+  "sub": "best friend",
+  "msgs": [
+   [
+    "them",
+    "my brother saw you dribble into the trophy case"
+   ],
+   [
+    "me",
+    "left hand only now"
+   ],
+   [
+    "them",
+    "still can't go left. see you in 11 days"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "Coach Reyes, the scout, or Jada?"
+ }
+}

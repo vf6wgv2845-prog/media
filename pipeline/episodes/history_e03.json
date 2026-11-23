@@ -1,0 +1,450 @@
+{
+ "image": "history/molasses_flood_1919.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.18,
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "p1": [
+   [
+    0.05,
+    "In 1919, a wave of molasses swept through Boston."
+   ],
+   [
+    0.1,
+    "Thirty five miles an hour."
+   ]
+  ],
+  "p2": [
+   [
+    0.1,
+    "A fifty foot tank held two point three million gallons."
+   ],
+   [
+    0.1,
+    "It leaked, so the owners painted it brown."
+   ]
+  ],
+  "p3": [
+   [
+    0.1,
+    "January fifteenth, around lunchtime, it burst."
+   ],
+   [
+    0.1,
+    "The wave knocked an elevated train off its tracks."
+   ]
+  ],
+  "p4": [
+   [
+    0.1,
+    "Twenty one dead. About a hundred fifty hurt."
+   ],
+   [
+    0.1,
+    "It thickened as it cooled, and trapped people."
+   ]
+  ],
+  "p5": [
+   [
+    0.1,
+    "The company blamed anarchists."
+   ],
+   [
+    0.1,
+    "In 1925, a ruling blamed the owners' negligence."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "The top comment picks our next true story."
+   ]
+  ]
+ },
+ "pill": "THAT REALLY HAPPENED",
+ "order": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "sv"
+ ],
+ "notif": {
+  "from": "x",
+  "msg": "x",
+  "emoji": "",
+  "color": [
+   0,
+   0,
+   0
+  ]
+ },
+ "panels": {
+  "p1": {
+   "image": "history/molasses_flood_1919.jpg",
+   "credit": "Boston molasses flood, 1919 (Red Cross photo, LOC)",
+   "focus": [
+    0.55,
+    0.4
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p2": {
+   "image": "history/boston_waterfront_1906.jpg",
+   "credit": "Boston waterfront, c. 1906 (Detroit Publishing, LOC)",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.18
+   ]
+  },
+  "p3": {
+   "image": "history/molasses_flood_1919.jpg",
+   "credit": "Boston molasses flood, 1919 (Red Cross photo, LOC)",
+   "focus": [
+    0.4,
+    0.3
+   ],
+   "zoom": [
+    1.05,
+    1.25
+   ]
+  },
+  "p4": {
+   "image": "history/molasses_flood_1919.jpg",
+   "credit": "Boston molasses flood, 1919 (Red Cross photo, LOC)",
+   "focus": [
+    0.6,
+    0.75
+   ],
+   "zoom": [
+    1.15,
+    1.35
+   ]
+  },
+  "p5": {
+   "image": "history/daumier_lawyer_1846.jpg",
+   "credit": "Honoré Daumier, Les Gens de Justice, 1846 (Art Institute of Chicago)",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  }
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which true story next?"
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1919",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SPEED",
+    "value": "35 MPH",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5"
+  ],
+  "y": 1560,
+  "keywords": [
+   "1919",
+   "molasses",
+   "boston",
+   "thirty",
+   "five",
+   "fifty",
+   "million",
+   "gallons",
+   "brown",
+   "train",
+   "twenty",
+   "one",
+   "hundred",
+   "anarchists",
+   "1925",
+   "negligence",
+   "smell"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "p1",
+   "line": 0,
+   "text": "MOLASSES",
+   "bg": [
+    120,
+    70,
+    30
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 110,
+   "hold": 1.8,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p1",
+   "line": 1,
+   "text": "35 MPH",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 110,
+   "hold": 2.0
+  },
+  {
+   "scene": "p2",
+   "line": 0,
+   "text": "2.3M GALLONS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.2,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "p2",
+   "line": 1,
+   "text": "PAINTED BROWN",
+   "bg": [
+    120,
+    70,
+    30
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p3",
+   "line": 0,
+   "text": "*BOOM*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -5,
+   "size": 120,
+   "hold": 1.6
+  },
+  {
+   "scene": "p3",
+   "line": 1,
+   "text": "TRAIN: DERAILED",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 85,
+   "hold": 2.0,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p4",
+   "line": 1,
+   "text": "STUCK",
+   "bg": [
+    120,
+    70,
+    30
+   ],
+   "y": 1280,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.8,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p5",
+   "line": 0,
+   "text": "\"ANARCHISTS!\"",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.8,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "p5",
+   "line": 1,
+   "text": "1925: THEIR FAULT",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 85,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "1919",
+  "A MOLASSES TSUNAMI"
+ ]
+}

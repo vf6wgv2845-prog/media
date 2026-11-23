@@ -19,3 +19,8 @@ Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud
 - ruischer_haarlem_gate.jpg: Johannes Ruischer, Haarlem Gate at Amsterdam, c. 1650-70 (AIC 83912)
 - saenredam_fool_1595.jpg: Jan Saenredam, Fool Holding a Staff (Tis om te lachen), c. 1595 (AIC 261875)
 - liss_lovers_fool_1625.jpg: Johann Liss, Interior with Two Pairs of Lovers and a Fool, 1625/29 (AIC 36263)
+## E3 Great Molasses Flood (Nov 23)
+- molasses_flood_1919.jpg: "Boston, Mass. Boston molasses explosion", American National Red Cross photograph collection, Library of Congress (LOC 2017679979, no known restrictions)
+- boston_waterfront_1906.jpg: "Bird's-eye view of waterfront, Boston, Mass.", c1906, Library of Congress (ppmsca 09012)
+- boston_harbor_1906.jpg: "Boston harbor from East Boston, Mass.", c1906, Detroit Publishing Co., Library of Congress (det 4a09983)
+- daumier_lawyer_1846.jpg: Honoré Daumier, "A defence lawyer at the Court of Arbitration...", Les Gens de Justice, 1846 (AIC 61130, public domain)

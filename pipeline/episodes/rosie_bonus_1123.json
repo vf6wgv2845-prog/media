@@ -1,0 +1,326 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "BONUS  •  24 DAYS LEFT",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "She took the temp",
+  "of her boss's coffee.",
+  "While he drank it."
+ ],
+ "hook_emoji": "🌡️",
+ "name_line": "Bonus: the thermometer.",
+ "sub_line": "Not Day 7  •  vote still open",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   6
+  ],
+  [
+   "Speed",
+   6
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Chef Marco",
+  "msg": "stop thermometering my coffee.",
+  "emoji": "",
+  "color": [
+   214,
+   64,
+   46
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "She took the temperature of her boss's coffee. While he was drinking it."
+   ],
+   [
+    0.1,
+    "One sixty four. She said: you're welcome."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "After the raw chicken, she bought three thermometers."
+   ],
+   [
+    0.1,
+    "She checked the soup, the fryer, the walk-in, and the dish water."
+   ],
+   [
+    0.1,
+    "Chef Marco taped a sign to his mug. No thermometers."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Dee texted."
+   ],
+   [
+    0.1,
+    "Test them in ice water. They should read thirty two."
+   ],
+   [
+    0.1,
+    "If they don't, they lie."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Ramen, steak frites, or smash burgers?"
+   ],
+   [
+    0.1,
+    "Top comment picks her Day 7 dish tonight."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "24",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "64%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "12/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "three",
+   "thermometers",
+   "soup",
+   "fryer",
+   "walk-in",
+   "marco",
+   "mug"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.6,
+   "kind": "calendar",
+   "text": "24",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "164°F",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 130,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "x3",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6,
+   "size": 130
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "DISH WATER: 118°F",
+   "bg": [
+    110,
+    170,
+    235
+   ],
+   "y": 1250,
+   "angle": 4,
+   "hold": 1.8,
+   "size": 80,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "NO THERMOMETERS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 85,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "32°F = TRUTH",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 85,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "164°F",
+  "HIS COFFEE"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Dee",
+  "sub": "cook-off judge, 12 yrs",
+  "msgs": [
+   [
+    "them",
+    "did you buy the thermometer"
+   ],
+   [
+    "me",
+    "i bought three"
+   ],
+   [
+    "them",
+    "test them in ice water. should read 32. if not, they lie."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "her Day 7 dish?"
+ }
+}
