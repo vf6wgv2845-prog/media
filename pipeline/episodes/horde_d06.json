@@ -1,0 +1,274 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment I'M IN or your haul",
+ "hook": [
+  "2,100 HP.",
+  "Zero hits.",
+  "He's getting comfy."
+ ],
+ "hook_emoji": "🧟",
+ "name_line": "Butt Goblin: Day 2.",
+ "sub_line": "2,100 HP  •  0 hits  •  6 days",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "Tonight 12:00: Butt Goblin -> 2,200 HP",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "7 days.",
+   "2,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "Beat the",
+  "Butt Goblin"
+ ],
+ "options": [
+  [
+   "🚬",
+   "Pick up 10 butts"
+  ],
+  [
+   "🧤",
+   "Gloves or a picker"
+  ],
+  [
+   "🗑️",
+   "Bin it"
+  ],
+  [
+   "💬",
+   "Comment: pieces + city"
+  ],
+  [
+   "✋",
+   "Or just comment I'M IN"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Twenty one hundred HP. Zero hits. The Butt Goblin is getting comfortable."
+   ],
+   [
+    0.1,
+    "At midnight, he hits twenty two hundred."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Fastest way to hit him: the nearest bus stop."
+   ],
+   [
+    0.1,
+    "Gloves or a picker. Count the butts. Bin them."
+   ],
+   [
+    0.1,
+    "Ten butts is ten damage. The first hit in Trash Horde history."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "One piece is one damage."
+   ],
+   [
+    0.1,
+    "Comment your pieces and city. Or just comment I'm in."
+   ],
+   [
+    0.1,
+    "Gloves on. No needles or glass."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  WEEK 2  •  DAY 2",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "2,100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "bus",
+   "stop",
+   "gloves",
+   "picker",
+   "butts",
+   "ten",
+   "damage",
+   "first",
+   "hit"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "0 HITS",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 110,
+   "hold": 2.4,
+   "delay": 1.2
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "6",
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BUS STOP",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "GLOVES ON",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "-10 HP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 130,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "DAY 2",
+  "BUS STOP = 10 DMG"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
