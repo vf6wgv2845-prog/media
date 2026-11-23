@@ -362,7 +362,16 @@
      "2026-11-21: +2 from comments=0, likes=1, shares=0, saves=0, views=116"
     ],
     "note": "Same rules as Theo's aura: real engagement on the previous episode Reel only. Started at 10 on the first episode that uses the format."
-   }
+   },
+   "bonus_posts": [
+    {
+     "date": "2026-11-23",
+     "media_id": "18132991759879035",
+     "video": "malik/bonus_1123.mp4",
+     "config": "pipeline/episodes/malik_bonus_1123.json",
+     "note": "Midday ~1:52 PM ET bonus (NOT Day 7): 'lefty day' because Tyler said he can't go left: cereal on the floor, math test signed 'Mailk', dribbled into the trophy case; Coach Reyes notif 'film session thursday? your call.'; Tyler chat 'still can't go left. see you in 11 days'. Vote kept open (0 comments on Day 6; no leading comment). Day 7 votes: count this Reel too."
+    }
+   ]
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
@@ -482,14 +491,23 @@
      "2026-11-21: +1 from comments=0, likes=0, shares=0, saves=0, views=123"
     ],
     "note": "Same rules as Theo's aura: real engagement on the previous episode Reel only. Started at 10 on the first episode that uses the format."
-   }
+   },
+   "bonus_posts": [
+    {
+     "date": "2026-11-23",
+     "media_id": "18222835645348979",
+     "video": "rosie/bonus_1123.mp4",
+     "config": "pipeline/episodes/rosie_bonus_1123.json",
+     "note": "Midday ~1:52 PM ET bonus (NOT Day 7): bought 3 thermometers, took Chef Marco's coffee temp while he drank it (164F), Marco 'stop thermometering my coffee', Dee chat 'test them in ice water. should read 32. if not, they lie.' Real USDA ice-point calibration + safe temps in caption. Dee's Sunday 6 AM lesson still open. Vote kept open (0 comments on Day 6). Day 7 votes: count this Reel too."
+    }
+   ]
   },
   "horde": {
    "title": "The Trash Horde: real litter pickup damages a zombie horde",
    "type": "community_game",
    "day": 4,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "18345069586256051",
+   "last_post_date": "2026-11-23",
+   "last_media_id": "17990987547075998",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
@@ -503,7 +521,8 @@
     "18063847979802361",
     "18118044971139337",
     "18345069586256051",
-    "18107608181567119"
+    "18107608181567119",
+    "17990987547075998"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -551,7 +570,8 @@
     "Nov 22 ~12:52 PM ET (main run): read all comments on all 9 counted Horde posts -> still 0 comments, 0 hauls. Landfill King survived (5,000 HP); week-1 boss result Reel posted 18063847979802361 (horde spreads + new boss Butt Goblin 2,000 HP, deadline Sun Nov 29, +100 HP/day with no hits). Totals: community-reported 0 / verified 0. NEXT Horde Reel not before ~2:52 PM ET (2 h spacing).",
     "Nov 22 ~2:54 PM ET (extras midday): read all comments on all 10 counted Horde posts -> still 0 comments of any kind, 0 hauls; totals unchanged (Butt Goblin 2,000/2,000 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Waited for 2 h spacing after the 12:52 boss Reel, then posted fact #5 (cigarette filters are plastic -> thousands of microplastics; #1 ICC item 25+ yrs, 2.4M in 2017; NOAA; ties into the Butt Goblin; 25 s, vote screen ~16.5 s, ask 'comment I'M IN') 18118044971139337. Only 1 midday Reel: a 2nd would need 2 h spacing (~4:54 PM) and collide with the evening battle Reel. Next Horde Reel not before ~4:54 PM ET.",
     "Nov 22 ~5:54 PM ET (evening run): read all comments on all 11 counted Horde posts -> still 0 comments of any kind, 0 hauls. Totals unchanged: Butt Goblin 2,000/2,000 HP, 0 dmg, 0 cleaners (community-reported and verified both 0). Posted Butt Goblin Day 1 battle Reel 18345069586256051 (hook 'At midnight, he gets stronger.', +100 HP at midnight if no hits, NOAA filter fact, 20.8 s). Regen applies from Nov 23: if still 0 hits at the next run, boss HP = 2,100.",
-    "Nov 23 ~7:50 AM ET (extras): 0 comments on all 12 counted Horde posts (media_comments_count 0 everywhere) -> 0 hauls; totals 0 dmg, 0 cleaners (community-reported and verified both 0). Boss regen applied: 2,000 -> 2,100 HP (0 hits Nov 22). Posted fact #6 (1 smoked butt per liter killed half the test fish in 96 h, Slaughter et al. 2011) + 'horde advances' (+100 HP) 18107608181567119."
+    "Nov 23 ~7:50 AM ET (extras): 0 comments on all 12 counted Horde posts (media_comments_count 0 everywhere) -> 0 hauls; totals 0 dmg, 0 cleaners (community-reported and verified both 0). Boss regen applied: 2,000 -> 2,100 HP (0 hits Nov 22). Posted fact #6 (1 smoked butt per liter killed half the test fish in 96 h, Slaughter et al. 2011) + 'horde advances' (+100 HP) 18107608181567119.",
+    "Nov 23 ~1:52 PM ET (extras midday): read comments on all 13 counted Horde posts -> 0 comments of any kind (media_comments_count 0 everywhere; comment query Nov 20-23 empty) -> 0 hauls; totals unchanged (Butt Goblin 2,100/2,100 HP after this morning's regen, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted fact #7 ('450 years?' -> NOAA: no reliable data, plastic could stay indefinitely; 26.3 s) 17990987547075998. Next Horde Reel not before ~3:52 PM ET. If still 0 hits by midnight: +100 -> 2,200."
    ],
    "format": {
     "tiles": [
@@ -816,9 +836,9 @@
      "#didyouknow"
     ]
    },
-   "day": 2,
-   "last_post_date": "2026-11-22",
-   "last_media_id": "18441229918144625",
+   "day": 3,
+   "last_post_date": "2026-11-23",
+   "last_media_id": "17956803138314196",
    "episodes": [
     {
      "n": 1,
@@ -832,6 +852,13 @@
      "media_id": "18441229918144625",
      "config": "pipeline/episodes/history_e02.json",
      "note": "0 comments on E1 -> we picked. Facts: History Today (Goldgar), History.com (Roos), Wikipedia. 59 s."
+    },
+    {
+     "n": 3,
+     "title": "The Great Molasses Flood (1919)",
+     "media_id": "17956803138314196",
+     "config": "pipeline/episodes/history_e03.json",
+     "note": "Midday extras ~1:52 PM ET, 34.8 s (25-35 s cut per lesson). 0 comments on E2 -> we picked. Facts: City of Boston Archives, Britannica, NPR (wave height reported 15-40 ft -> not stated in voice; 35 mph agreed by all three). Images: LOC Red Cross 1919 photo, LOC Detroit Publishing c.1906 waterfront/harbor, Daumier (AIC)."
     }
    ],
    "format": "Panel scenes p1..pN (pipeline/scenes2.py): one real public-domain artwork per beat, slow zoom, joke/fact stickers, word captions, HUD (YEAR + a counter), open vote 'top comment picks our next true story'. Facts double-checked (2 sources), uncertain claims labelled ('one chronicle says', 'some accounts'). Sources + art credits in the caption. Images: AIC open access (see assets/history/SOURCES.md).",
@@ -1180,7 +1207,8 @@
   "Nov 22 ~5 h after post (main run Reels, posted ~12:47-12:53 PM ET): Jess D2 359 views / 43.8% skip / 11.0 s avg / 3 likes / 0 comments; Theo D6 206 / 48% / 8.3 s / 2 likes / 1 comment; Danny D2 135 / 37.8% / 9.5 s / 1 like / 1 comment / 1 save; History E2 208 / 47.5% / 10.6 s / 3 likes / 1 save; Malik D6 162 / 50.7% / 7.0 s / 3 likes; Rosie D6 125 / 41.1% / 7.6 s / 0; Horde boss result 62 / 44.2% / 5.5 s; Horde fact #5 113 / 47.5% / 5.7 s; Horde fact #4 (AM) 125 / 57.5% / 4.8 s. Theo Sun bonus (AM) 820 views / 38.1% / 7.9 s.",
   "Nov 22 evening: Theo night check 18034086566684122 (hook 'He accepted Jake's follow with his face.', cover '10 PM / HE LIKED IT', 25.6 s, chat at ~12.4 s, vote ~18 s); Horde Butt Goblin D1 battle 18345069586256051 ('At midnight, he gets stronger.', cover 'DAY 1 / MIDNIGHT +100 HP', 20.8 s). Check at ~24 h.",
   "2026-11-23 AM (~14-20h after posting): Jess D2 1,374 views/14 likes/1 comment/1 share/1 save; Theo Sun bonus 1,203 views/7 likes/2 comments; Malik D6 283/4 likes; Theo D6 238/2; History E2 213/3 likes/1 save; Danny D2 136/1/3 comments/1 save; Rosie D6 127/0; Horde boss result 82, fact #5 114, Butt Goblin D1 119; Theo night check 81 (~9h).",
-  "2026-11-23 ~7:50 AM ET posted: Theo bonus 18421319248083034 (27.5 s, chat at ~6 s), Jess bonus 18147503311608565 (26.0 s, 4 toon looks), Danny bonus 18134528287696479 (27.6 s, critic comment card), Horde fact #6 18107608181567119 (25.2 s)."
+  "2026-11-23 ~7:50 AM ET posted: Theo bonus 18421319248083034 (27.5 s, chat at ~6 s), Jess bonus 18147503311608565 (26.0 s, 4 toon looks), Danny bonus 18134528287696479 (27.6 s, critic comment card), Horde fact #6 18107608181567119 (25.2 s).",
+  "2026-11-23 ~1:52 PM ET midday extras posted: Malik bonus 18132991759879035 (27.7 s, cover 'LEFTY / WHO IS MAILK?'), Rosie bonus 18222835645348979 (25.9 s, '164F / HIS COFFEE', real thermometer tip in caption), History E3 17956803138314196 (34.8 s, '1919 / A MOLASSES TSUNAMI', first real archival photo), Horde fact #7 17990987547075998 (26.3 s, '450 YRS? / NOBODY KNOWS'). Numbers at check: Malik D6 357 views/5 likes, Rosie D6 127/0, History E2 213/3 likes/1 save, Horde fact #6 122/0 (5 h); 0 comments on all 4 accounts."
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1204,7 +1232,8 @@
   "Nov 22: History E1 got 5 views in 20 h (new account, 0 followers) but 13.2 s avg watch. E2 posted at 59 s; if it also stalls under 20 views, try a 25-30 s cut.",
   "Nov 22 midday extras: Horde still 0 comments after 10 Reels. Fact #5 ties the fact to the current boss (Butt Goblin = cigarette butts) so the fact and the game read as one story; compare its 24h reach vs facts #1-#4 (115-182 views). Weekend early main runs squeeze the extras slot: with the 2 h spacing rule only 1 midday Horde Reel fits, so the 5/day test is effectively 3-4/day on weekends.",
   "Nov 22 evening: Day 2 episodes of the toon pages fell well below their Day 1s at ~5 h (Jess 359 vs D1 1,624 at 24 h; Danny 135 vs 832) and Theo's morning bonus (820) beat his Day 6 (206) again. Single-moment Reels with one absurd beat keep out-reaching full episodes; Theo night check applies it (one gag chain: face-accept -> 23-week-old like -> Jake's 'formal' DM -> Maya typing). Windsor's comment cache can lag hours behind media_comments_count: query comments with a narrow date_from/date_to (today) and an account filter to get a fresh pull, and compare against media_comments_count before declaring no missed comments.",
-  "Nov 23 AM extras: Jess D2 recovered to 1,374 views at ~14h (D1 1,660) and Theo's Sunday morning bonus hit 1,203 (vs his D6 238): the morning single-moment Reel keeps out-reaching Theo's own evening episodes. Danny D2 stalled at 136 and drew a 'no hook / AI slop' comment, so Danny's bonus opens on a concrete in-person beat (bully at the kiosk) and puts the critic's real comment in the story. Theo's bonus moves the chat to ~6 s (earliest yet) to test whether an earlier chat beat lifts avg watch; compare vs Sun bonus (chat ~12 s)."
+  "Nov 23 AM extras: Jess D2 recovered to 1,374 views at ~14h (D1 1,660) and Theo's Sunday morning bonus hit 1,203 (vs his D6 238): the morning single-moment Reel keeps out-reaching Theo's own evening episodes. Danny D2 stalled at 136 and drew a 'no hook / AI slop' comment, so Danny's bonus opens on a concrete in-person beat (bully at the kiosk) and puts the critic's real comment in the story. Theo's bonus moves the chat to ~6 s (earliest yet) to test whether an earlier chat beat lifts avg watch; compare vs Sun bonus (chat ~12 s).",
+  "Nov 23 midday extras: Malik D6 (357 views, 5 likes) keeps beating Rosie D6 (127, 0 likes, 0 comments ever) with the same 3D style, so Rosie's bonus got a sharper absurd hook (boss's coffee temp mid-sip) + a practical save-worthy tip in the caption (thermometer calibration). History E3 cut to 34.8 s (E2 at 59 s did 213 views) and uses a real 1919 archival photo (LOC Red Cross collection = no known restrictions; LOC 'v.jpg' gives 1024 px) instead of only period art: compare its 24h reach vs E2. Horde: 'myth-bust' fact format (NOAA says the 450-year chart has no reliable data) tested vs plain facts."
  ],
  "facts": [
   {
@@ -1246,6 +1275,18 @@
    "fact": "Leachate from smoked cigarette butts (filter + tobacco): 96-hour LC50 ~1 butt per liter for both topsmelt (marine, 1.1/L) and fathead minnow (freshwater, 0.97/L), i.e. ~1 butt/L killed half the test fish",
    "source": "Slaughter E, Gersberg RM, Watanabe K, Rudolph J, Stransky C, Novotny TE. Tobacco Control 2011;20(Suppl 1):i25-i29 (San Diego State University)",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3088407/"
+  },
+  {
+   "fact": "NOAA Marine Debris Program: 'We may not know exactly how long it takes for plastic and other materials to break down'; short history of plastics, 'absence of reliable data, and only a few peer-reviewed studies'; plastics 'could stay in the ocean and Great Lakes for an indefinite amount of time'. Popular round numbers (e.g. aluminum can 200 years) have little science behind them (Harold Johnson, Scientific American guest blog 'Time to Can the Round Numbers').",
+   "source": "NOAA Marine Debris Program blog, 'The Mystery of How Long Until It's Gone' (Sept 1, 2020); Scientific American guest blog",
+   "url": "https://blog.marinedebris.noaa.gov/mystery-how-long-until-its-gone",
+   "used_in": "horde fact #7, 2026-11-23"
+  },
+  {
+   "fact": "Great Molasses Flood: Jan 15, 1919 ~12:30-1 PM; 50-ft tank, ~2.3M gallons; ~35 mph; wave height reported 15-40 ft (Britannica) / 30 ft (NPR); 21 killed, ~150 injured; knocked an Elevated train off its tracks (Boston.gov); tank leaked, painted brown to hide it (Boston.gov, NPR); owners blamed anarchists; 1925 auditor ruled owners' negligence, damages paid; smell 'for years' (Britannica), folklore on hot days (NPR).",
+   "source": "boston.gov City Archives; Britannica; NPR 2019-01-15",
+   "url": "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+   "used_in": "history E3, 2026-11-23"
   }
  ],
  "post_queue": [],
