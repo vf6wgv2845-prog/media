@@ -1,0 +1,360 @@
+{
+ "image": "danny_d03_crease.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 3 / 30",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "He told his reunion",
+  "he's engaged.",
+  "His fiancée is cardboard."
+ ],
+ "hook_emoji": "💍",
+ "name_line": "Day 3: Engaged.",
+ "sub_line": "Crowd's choice  •  engaged",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   3
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   5
+  ]
+ ],
+ "notif": {
+  "from": "Brock",
+  "msg": "why is my sister asking about u",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "28 days.",
+   "Lies true: 0.75/3."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "💪",
+   "Ripped"
+  ],
+  [
+   "💰",
+   "More money"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He told his reunion he's engaged. His fiancée is cardboard."
+   ],
+   [
+    0.1,
+    "Day three. No votes came in, so: engaged."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The cutout came folded. She has a crease through her face."
+   ],
+   [
+    0.1,
+    "He asked Mom to play the fiancée's mom. She wants ninety dollars first."
+   ],
+   [
+    0.1,
+    "So, a dating app. First match: Brock's sister."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ten minutes later, Brock texted."
+   ],
+   [
+    0.1,
+    "Why is my sister asking about you?"
+   ],
+   [
+    0.1,
+    "He said: business meeting."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Now it's on you. Ripped, or more money?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "28",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "0.75/3",
+    "from": "0.5/3",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "40/100",
+    "from": "31/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "folded",
+   "crease",
+   "face",
+   "mom",
+   "ninety",
+   "dollars",
+   "dating",
+   "app",
+   "brock's",
+   "sister"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 1.2,
+   "user": "nihtyyyy",
+   "text": "Stop bro it ain't gonna work",
+   "likes": 0,
+   "y": 1650,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "jagongetemm",
+   "text": "ceo cs when u get money u unlock more things to do and buy",
+   "likes": 2,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "28",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "0 VOTES = OUR PICK",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "CREASE: PERMANENT",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "MOM: $90",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "IT'S A MATCH?!",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.8
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "BUSINESS MEETING",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "DAY 3",
+  "BULLY'S SISTER?!"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Brock",
+  "sub": "the bully · realtor",
+  "msgs": [
+   [
+    "them",
+    "why is my sister asking about u"
+   ],
+   [
+    "them",
+    "CEO"
+   ],
+   [
+    "me",
+    "business meeting"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = RIPPED   2 = MORE MONEY"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "danny_d03_broke.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "danny_d03_match.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_d03_panic.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_d03_match.jpg"
+  }
+ ]
+}
