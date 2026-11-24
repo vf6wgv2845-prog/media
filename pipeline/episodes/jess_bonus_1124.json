@@ -1,0 +1,370 @@
+{
+ "image": "jess_b1124_shock.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 3 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "She's maid of honor.",
+  "Her ex is best man.",
+  "They walk in together."
+ ],
+ "hook_emoji": "💍",
+ "name_line": "Tuesday morning.",
+ "sub_line": "Bonus  •  Day 4 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Chloe",
+  "msg": "cute couple",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Style: 2/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her sister just made her maid of honor. Her ex is the best man."
+   ],
+   [
+    0.1,
+    "They walk down the aisle together. Arm in arm."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Ryan texted."
+   ],
+   [
+    0.1,
+    "Heard we're walking together. Don't trip."
+   ],
+   [
+    0.1,
+    "She sent: ha. Fourth time this week."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "So she practiced the walk. With a mop. It had his name on it."
+   ],
+   [
+    0.1,
+    "The mop fell over. Mom filmed it."
+   ],
+   [
+    0.1,
+    "Mom sent it to the family chat. Chloe replied: cute couple."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Fitting is Friday. Hair, or the dress?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "42%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "mop",
+   "name",
+   "fell",
+   "mom",
+   "filmed",
+   "family",
+   "chloe",
+   "cute",
+   "couple"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.6,
+   "user": "a.cxxpss",
+   "text": "Hair",
+   "likes": 1,
+   "y": 1790,
+   "hold": 2.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "a.cxxpss",
+   "text": "Hair",
+   "likes": 1,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "27",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "ARM IN ARM",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "PRACTICE RYAN",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "*THUD*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 5,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FAMILY CHAT: 14",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1300,
+   "angle": -3,
+   "size": 85,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "MAID OF HONOR",
+  "HER EX IS BEST MAN"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "heard we're walking together"
+   ],
+   [
+    "them",
+    "don't trip lol"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = HAIR   2 = THE DRESS"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_b1124_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_b1124_mop.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_b1124_fall.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_b1124_ha.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1124_mop.jpg"
+  }
+ ]
+}
