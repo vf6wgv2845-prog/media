@@ -1,0 +1,377 @@
+{
+ "image": "danny_b1124_ceo.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 3 / 30  •  BONUS",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "His bully's sister",
+  "booked a meeting",
+  "with the CEO. (him)"
+ ],
+ "hook_emoji": "💼",
+ "name_line": "Tuesday morning.",
+ "sub_line": "Bonus  •  Day 4 drops tonight",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Tara",
+  "msg": "also can u fix a cracked screen",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Lies true: 0.75/3."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His bully's sister booked a business meeting. With the CEO. He's the CEO."
+   ],
+   [
+    0.1,
+    "The company is a phone kiosk at the mall."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Brock's sister, Tara, texted."
+   ],
+   [
+    0.1,
+    "So what does Danny Tech Solutions actually do?"
+   ],
+   [
+    0.1,
+    "He said: we're in stealth mode."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Mom taped a sign on a stool. Board room."
+   ],
+   [
+    0.1,
+    "She'll play his assistant. Ninety dollars. Again."
+   ],
+   [
+    0.1,
+    "Then Tara asked if he fixes cracked screens. That's all he does."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Nobody's voted yet. Ripped, or more money?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "0.75/3",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "40/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "board",
+   "room",
+   "mom",
+   "ninety",
+   "dollars",
+   "tara",
+   "cracked",
+   "screens"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 3.0,
+   "kind": "calendar",
+   "text": "27",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "HQ: MALL KIOSK",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "STEALTH MODE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BOARD ROOM = STOOL",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 75,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "$90 (AGAIN)",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": 5,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "MEETING: 12:00",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1300,
+   "angle": -3,
+   "size": 85,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1840,
+   "angle": -3,
+   "size": 70,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE CEO MEETING"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tara",
+  "sub": "Brock's sister",
+  "msgs": [
+   [
+    "them",
+    "so what does danny tech solutions do exactly"
+   ],
+   [
+    "them",
+    "my brother says ur a CEO lol"
+   ],
+   [
+    "me",
+    "we're in stealth mode"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = RIPPED   2 = MORE MONEY"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_b1124_panic.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_b1124_board.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "danny_b1124_panic.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_b1124_ceo.jpg"
+  }
+ ]
+}
