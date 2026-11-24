@@ -24,3 +24,8 @@ Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud
 - boston_waterfront_1906.jpg: "Bird's-eye view of waterfront, Boston, Mass.", c1906, Library of Congress (ppmsca 09012)
 - boston_harbor_1906.jpg: "Boston harbor from East Boston, Mass.", c1906, Detroit Publishing Co., Library of Congress (det 4a09983)
 - daumier_lawyer_1846.jpg: Honoré Daumier, "A defence lawyer at the Court of Arbitration...", Les Gens de Justice, 1846 (AIC 61130, public domain)
+## E4 The Emu War (Nov 24)
+- emu_melbourne_1908.jpg: "The Australian Emu, Melbourne, Australia", Keystone View Co. stereograph, c1908, Library of Congress (LOC 2002714949, no known restrictions; left half cropped)
+- lewis_gun_crew_1917.jpg: "Lewis machine gun crew, Camp Mills", 1917, Bain Collection, Library of Congress (LOC 2014705434, no known restrictions) [US troops, used to show the weapon type, labelled as such]
+- lewis_gun_test_1917.jpg: "Marine Corps rifle range, Lewis machine gun tests", 1917, Harris & Ewing, Library of Congress (LOC 2016867417, no known restrictions)
+- jacque_wheat_field_1844.jpg: Charles Émile Jacque, Wheat Field, 1844 (AIC 45590, public domain)

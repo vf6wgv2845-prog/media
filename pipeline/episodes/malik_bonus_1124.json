@@ -1,0 +1,311 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He put a GO LEFT",
+  "note on everything.",
+  "His mom read it."
+ ],
+ "hook_emoji": "🏀",
+ "name_line": "Bonus: GO LEFT.",
+ "sub_line": "Not Day 8  •  1 or 2 still open",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Coach Reyes",
+  "msg": "that's one. 10 days.",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Day 8?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "📧",
+   "Email the FSU scout"
+  ],
+  [
+   "💬",
+   "Text Jada first"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Coach said: go left, or Tyler starts. So Malik stuck GO LEFT notes on everything."
+   ],
+   [
+    0.1,
+    "The mirror. The cereal box. His phone. The car keys."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "His mom found the note on the car keys. She only turned left."
+   ],
+   [
+    0.1,
+    "Four lefts. Same block. Twenty five minutes late."
+   ],
+   [
+    0.1,
+    "At practice he finally went left. Straight into Coach Reyes."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Tyler texted."
+   ],
+   [
+    0.1,
+    "My mom saw your mom go around our block four times."
+   ],
+   [
+    0.1,
+    "Still think you start? Ten days."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Day 8 is yours. One, email the scout. Two, text Jada."
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "7/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "70",
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "25/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "left",
+   "four",
+   "block",
+   "twenty",
+   "five",
+   "coach",
+   "reyes",
+   "mom"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.4,
+   "kind": "calendar",
+   "text": "10",
+   "y": 1400,
+   "hold": 2.0,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "GO LEFT x47",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 100
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "LEFT ONLY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": 4,
+   "hold": 1.6,
+   "size": 85
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "25 MIN LATE",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.8,
+   "size": 95
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "*THUD*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 1250,
+   "angle": 5,
+   "hold": 1.6,
+   "size": 110
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "10 DAYS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 90
+  }
+ ],
+ "cover_title": [
+  "GO LEFT",
+  "4 LEFTS, 1 BLOCK"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tyler",
+  "sub": "best friend",
+  "msgs": [
+   [
+    "them",
+    "my mom saw your mom go around our block 4 times"
+   ],
+   [
+    "me",
+    "she read my sticky note"
+   ],
+   [
+    "them",
+    "still think you start? 10 days"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = EMAIL THE SCOUT   2 = TEXT JADA"
+ }
+}

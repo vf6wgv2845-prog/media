@@ -1,0 +1,425 @@
+{
+ "image": "history/emu_melbourne_1908.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.18,
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "p1": [
+   [
+    0.05,
+    "In 1932, Australia sent soldiers with machine guns to fight emus."
+   ],
+   [
+    0.1,
+    "The emus won."
+   ]
+  ],
+  "p2": [
+   [
+    0.1,
+    "About twenty thousand emus were eating wheat in Western Australia."
+   ],
+   [
+    0.1,
+    "Many of the farmers were war veterans."
+   ]
+  ],
+  "p3": [
+   [
+    0.1,
+    "Three soldiers. Two Lewis guns. Ten thousand rounds."
+   ],
+   [
+    0.1,
+    "The emus split into small groups and ran."
+   ]
+  ],
+  "p4": [
+   [
+    0.1,
+    "At one ambush, a gun jammed."
+   ],
+   [
+    0.1,
+    "The major's report claimed 986 kills. Ten rounds each."
+   ]
+  ],
+  "p5": [
+   [
+    0.1,
+    "His verdict: they could face machine guns with the invulnerability of tanks."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "The top comment picks our next true story."
+   ]
+  ]
+ },
+ "pill": "THAT REALLY HAPPENED",
+ "order": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "sv"
+ ],
+ "notif": {
+  "from": "x",
+  "msg": "x",
+  "emoji": "",
+  "color": [
+   0,
+   0,
+   0
+  ]
+ },
+ "panels": {
+  "p1": {
+   "image": "history/emu_melbourne_1908.jpg",
+   "credit": "Emu, Melbourne, 1908 (Keystone stereograph, LOC)",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p2": {
+   "image": "history/jacque_wheat_field_1844.jpg",
+   "credit": "Charles Émile Jacque, Wheat Field, 1844 (Art Institute of Chicago)",
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.0,
+    1.18
+   ]
+  },
+  "p3": {
+   "image": "history/lewis_gun_crew_1917.jpg",
+   "credit": "Lewis gun crew, 1917, US camp (Bain, LOC)",
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p4": {
+   "image": "history/lewis_gun_test_1917.jpg",
+   "credit": "Lewis gun test, 1917 (Harris & Ewing, LOC)",
+   "focus": [
+    0.3,
+    0.6
+   ],
+   "zoom": [
+    1.05,
+    1.3
+   ]
+  },
+  "p5": {
+   "image": "history/emu_melbourne_1908.jpg",
+   "credit": "Emu, Melbourne, 1908 (Keystone stereograph, LOC)",
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "zoom": [
+    1.15,
+    1.35
+   ]
+  }
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which true story next?"
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1932",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "EMUS",
+    "value": "~20,000",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5"
+  ],
+  "y": 1560,
+  "keywords": [
+   "1932",
+   "emus",
+   "emu",
+   "won",
+   "twenty",
+   "thousand",
+   "wheat",
+   "veterans",
+   "three",
+   "two",
+   "lewis",
+   "ten",
+   "jammed",
+   "986",
+   "tanks"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "p1",
+   "line": 0,
+   "text": "MACHINE GUNS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.8
+  },
+  {
+   "scene": "p1",
+   "line": 1,
+   "text": "EMUS: 1  ARMY: 0",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "p2",
+   "line": 0,
+   "text": "~20,000 EMUS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 95,
+   "hold": 2.0
+  },
+  {
+   "scene": "p3",
+   "line": 0,
+   "text": "3 SOLDIERS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 95,
+   "hold": 2.0
+  },
+  {
+   "scene": "p3",
+   "line": 1,
+   "text": "*SCATTER*",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1280,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.8
+  },
+  {
+   "scene": "p4",
+   "line": 0,
+   "text": "*JAM*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": -5,
+   "size": 120,
+   "hold": 1.6
+  },
+  {
+   "scene": "p4",
+   "line": 1,
+   "text": "10 ROUNDS / EMU",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1280,
+   "angle": 3,
+   "size": 85,
+   "hold": 2.0
+  },
+  {
+   "scene": "p5",
+   "line": 0,
+   "text": "\"TANKS\"",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 110,
+   "hold": 2.2
+  }
+ ],
+ "cover_title": [
+  "1932",
+  "THE EMUS WON"
+ ]
+}

@@ -1,0 +1,274 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment I'M IN or your haul",
+ "hook": [
+  "Door to mailbox.",
+  "60 seconds.",
+  "That's the first hit."
+ ],
+ "hook_emoji": "🧟",
+ "name_line": "60-second challenge #2.",
+ "sub_line": "2,200 HP  •  0 hits  •  5 days",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "Tonight 12:00: Butt Goblin -> 2,300 HP",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "7 days.",
+   "2,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "Your",
+  "60 seconds"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves or a picker"
+  ],
+  [
+   "⏱️",
+   "60 s timer"
+  ],
+  [
+   "📬",
+   "Door to mailbox + back"
+  ],
+  [
+   "💬",
+   "Comment: pieces + city"
+  ],
+  [
+   "✋",
+   "Or just comment I'M IN"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Your front door to your mailbox. Sixty seconds. That could be the first hit ever."
+   ],
+   [
+    0.1,
+    "Nobody has hit the Butt Goblin yet. Twenty two hundred HP."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Gloves on. Set a timer. Walk to the mailbox and back."
+   ],
+   [
+    0.1,
+    "Grab every butt, wrapper and cap on the way."
+   ],
+   [
+    0.1,
+    "Butts are the most littered item in America. You will find some."
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Bin it. Comment how many pieces and your city."
+   ],
+   [
+    0.1,
+    "Not today? Just comment I'm in. At midnight he grows to twenty three hundred."
+   ],
+   [
+    0.1,
+    "No needles, no broken glass."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  WEEK 2  •  DAY 3",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "2,200",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "gloves",
+   "timer",
+   "mailbox",
+   "butt",
+   "wrapper",
+   "cap",
+   "most",
+   "littered",
+   "america"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "0:60",
+   "bg": [
+    245,
+    214,
+    80
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 140,
+   "hold": 2.4,
+   "delay": 1.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "kind": "calendar",
+   "text": "5",
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "TIMER ON",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -5,
+   "size": 105,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-1 HP EACH",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "#1 LITTER: BUTTS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 85,
+   "hold": 2.0
+  }
+ ],
+ "cover_title": [
+  "60 SEC",
+  "DOOR TO MAILBOX"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
