@@ -1,0 +1,314 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "BONUS  •  23 DAYS LEFT",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "She diced 14 onions.",
+  "The whole kitchen",
+  "cried."
+ ],
+ "hook_emoji": "🧅",
+ "name_line": "Bonus: onion day.",
+ "sub_line": "Not Day 8  •  1 or 2 still open",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   6
+  ],
+  [
+   "Speed",
+   6
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Chef Marco",
+  "msg": "who ordered 14 onions",
+  "emoji": "",
+  "color": [
+   214,
+   64,
+   46
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 1/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Next dish?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥩",
+   "Steak frites"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Dee texted one word: onions. So Rosie diced fourteen of them."
+   ],
+   [
+    0.1,
+    "By onion six, the whole kitchen was crying."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The dishwasher cried. The delivery guy cried."
+   ],
+   [
+    0.1,
+    "Chef Marco cried in front of a supplier."
+   ],
+   [
+    0.1,
+    "He said it was allergies. It was not allergies."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Dee replied."
+   ],
+   [
+    0.1,
+    "Root end on. Sharper knife. Again."
+   ],
+   [
+    0.1,
+    "Fourteen onions. Zero tears from Rosie."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Next dish is yours. One, ramen. Two, steak frites."
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "23",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "70%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "13/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "onions",
+   "fourteen",
+   "cried",
+   "marco",
+   "allergies",
+   "supplier",
+   "dishwasher"
+  ]
+ },
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.6,
+   "kind": "calendar",
+   "text": "23",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "ONION 6 / 14",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 100
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*SNIFF*",
+   "bg": [
+    110,
+    170,
+    235
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -4,
+   "hold": 1.6,
+   "size": 110
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "SUPPLIER: CONFUSED",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 1250,
+   "angle": 4,
+   "hold": 1.8,
+   "size": 80
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "NOT ALLERGIES",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 90
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "ROOT END ON",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1790,
+   "angle": -3,
+   "hold": 1.8,
+   "size": 85
+  }
+ ],
+ "cover_title": [
+  "ONIONS",
+  "14 DICED. ALL CRIED"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Dee",
+  "sub": "cook-off judge, 12 yrs",
+  "msgs": [
+   [
+    "me",
+    "14 onions diced. marco is crying"
+   ],
+   [
+    "them",
+    "photo."
+   ],
+   [
+    "them",
+    "root end on. sharper knife. again."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = RAMEN   2 = STEAK FRITES"
+ },
+ "comments": []
+}
