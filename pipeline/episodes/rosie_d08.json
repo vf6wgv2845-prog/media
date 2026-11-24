@@ -1,0 +1,325 @@
+{
+ "image": "rosie.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.18,
+ "pill": "DAY 8  •  23 DAYS LEFT",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "She flipped a steak",
+  "22 times.",
+  "Zero crust."
+ ],
+ "hook_emoji": "🥩",
+ "name_line": "Day 8: Steak frites.",
+ "sub_line": "Our pick  •  steak frites",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   7
+  ],
+  [
+   "Speed",
+   8
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Julian",
+  "msg": "steak frites? cute.",
+  "emoji": "",
+  "color": [
+   214,
+   64,
+   46
+  ],
+  "icon": "👨‍🍳"
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "23 days.",
+   "Skill: 74%."
+  ],
+  "Top comment = tomorrow's dish.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Next dish?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🐟",
+   "Crispy salmon"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Nobody voted, so we picked steak frites. She flipped the steak twenty two times. Zero crust."
+   ],
+   [
+    0.1,
+    "The fries came out limp. The dishwasher called them sad noodles."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The fix: fry them twice. Three twenty five, rest, then three seventy five."
+   ],
+   [
+    0.1,
+    "Steak: screaming hot pan. Don't touch it. Four minutes a side. Crust."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Dee texted."
+   ],
+   [
+    0.1,
+    "Photo."
+   ],
+   [
+    0.1,
+    "Crust, yes. Fries, yes. Sunday, you cook for me."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Ramen, or crispy salmon?"
+   ],
+   [
+    0.1,
+    "Comment one or two. Full recipe in the caption."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "23",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "74%",
+    "from": "70%",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "14/100",
+    "from": "13/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1620,
+  "keywords": [
+   "twice",
+   "three",
+   "twenty",
+   "five",
+   "seventy",
+   "hot",
+   "touch",
+   "four",
+   "minutes",
+   "crust"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "23",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SAD NOODLES",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.8,
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "FRY x2",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1400,
+   "angle": -4,
+   "size": 120,
+   "hold": 1.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "HANDS OFF",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1400,
+   "angle": 5,
+   "size": 100,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 2.6,
+   "text": "SKILL +4%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1400,
+   "angle": -3,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "SUNDAY: COOK FOR DEE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1000,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "DAY 8",
+  "22 FLIPS. 0 CRUST"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Dee",
+  "sub": "mentor · ex-judge",
+  "msgs": [
+   [
+    "them",
+    "photo."
+   ],
+   [
+    "me",
+    "[photo]"
+   ],
+   [
+    "them",
+    "crust: yes. fries: yes."
+   ],
+   [
+    "them",
+    "sunday. you cook for me."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = RAMEN   2 = CRISPY SALMON"
+ },
+ "notif_y": 1060
+}

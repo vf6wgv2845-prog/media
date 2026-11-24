@@ -129,7 +129,7 @@ def character(who, look_over=None):
         g.append(f'<path d="M{hx + 60} {hy - ry - 120} q30 -40 50 -10 M{hx - 40} {hy - ry - 110} q-30 -30 -50 5" fill="none" stroke="{look["hair"]}" stroke-width="10" stroke-linecap="round"/>')
         pts = []
         for i in range(9):
-            x = hx - rx + 10 + i * (2 * rx - 20) / 8; pts.append(f'{x:.0f},{hy - 70 + (28 if i % 2 else 0) + (12 if i in (3, 6) else 0)}')
+            x = hx - rx + 10 + i * (2 * rx - 20) / 8; pts.append(f'{x:.0f},{hy - 70 + look.get("bangs", 0) + (28 if i % 2 else 0) + (12 if i in (3, 6) else 0) + (look.get("bangs_jag", 0) * ((i * 7) % 3 - 1))}')
         g.append(f'<path d="M{hx - rx - 5} {hy - 40} Q{hx - rx} {hy - ry - 20} {hx} {hy - ry - 18} Q{hx + rx} {hy - ry - 20} {hx + rx + 5} {hy - 40} L{" L".join(reversed(pts))} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8" stroke-linejoin="round"/>')
     elif hs == "long_waves":
         g.append(f'<path d="M{hx - rx - 10} {hy - 10} Q{hx - rx} {hy - ry - 30} {hx + 20} {hy - ry - 25} Q{hx + rx + 10} {hy - ry - 10} {hx + rx + 10} {hy - 10} Q{hx + 60} {hy - 120} {hx - 40} {hy - 150} Q{hx - 120} {hy - 120} {hx - rx - 10} {hy - 10} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8"/>')

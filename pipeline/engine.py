@@ -187,7 +187,7 @@ class Episode(Scenes2, Extras):
         d = self.DUR["s3"]; im = self.bg(t, d, 0.97, 1.08); self.shade(im, 0.6, 1.0, 0.42); st = self.TM["s3"]
         tn = st[self.c["notif_line"]]
         if t > tn:
-            p = back((t - tn) / .45); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * (690 if self.c.get('hud') else 500))))
+            p = back((t - tn) / .45); ny = self.c.get('notif_y'); im.alpha_composite(self.NOTIF, ((W - 900) // 2, int(-220 + p * (690 if self.c.get('hud') else 500)) if ny is None else int(ny - (1 - min(1, p)) * 160)))  # notif_y: keep the face clear (Nov 24)
         if self.c.get("conflict") and any(self.c["conflict"]):  # "conflict": null -> no text panel (it fought the word captions, Nov 21)
             self.panel(im, (80, 1085, 1000, 1430), ease((t - st[self.c["conflict_lines"][0]]) / .4))
             paste_anim(im, self.L3a, 1150, st[self.c["conflict_lines"][0]], t, pop=True)

@@ -1,0 +1,297 @@
+{
+ "image": "malik.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 8 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He emailed a scout",
+  "at 2 AM.",
+  "His mom signed it."
+ ],
+ "hook_emoji": "📧",
+ "name_line": "Day 8: The scout.",
+ "sub_line": "Our pick  •  email the FSU scout",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Dez",
+  "msg": "heard u emailed fsu. so did i.",
+  "emoji": "",
+  "color": [
+   200,
+   40,
+   40
+  ],
+  "icon": "🏀"
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "10 days.",
+   "Confidence: 9/10."
+  ],
+  "Top comment = tomorrow's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "💬",
+   "Text Jada"
+  ],
+  [
+   "🏀",
+   "Practice left hand with Tyler"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He emailed the Florida State scout at two A M. His mom signed it."
+   ],
+   [
+    0.1,
+    "No votes, so we picked the scout. Draft one had fourteen exclamation marks."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The highlight link? His missed shot against Northside."
+   ],
+   [
+    0.1,
+    "Then Dez texted. He emailed the scout too."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "At seven A M, the scout replied."
+   ],
+   [
+    0.1,
+    "Got your email. And your mom's. Show me your left hand on December fourth."
+   ],
+   [
+    0.1,
+    "Left. Again."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Text Jada, or practice left with Tyler?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "8/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "72",
+    "from": "70",
+    "at": [
+     "sc",
+     1
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "28/100",
+    "from": "25/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "highlight",
+   "missed",
+   "northside",
+   "dez",
+   "scout"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.2,
+   "kind": "calendar",
+   "text": "10",
+   "y": 1400,
+   "hold": 2.0,
+   "label": "TOURNEY IN"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "!!!!!!!!!!!!!!",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "WRONG CLIP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "delay": 2.0,
+   "text": "CONFIDENCE +1",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1000,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "LEFT. AGAIN.",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 95,
+   "hold": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "DAY 8",
+  "HIS MOM SIGNED IT"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "FSU scout",
+  "sub": "Florida State",
+  "msgs": [
+   [
+    "them",
+    "got your email. and your mom's."
+   ],
+   [
+    "them",
+    "show me your left hand dec 4"
+   ],
+   [
+    "me",
+    "yes sir"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = TEXT JADA   2 = LEFT WITH TYLER"
+ }
+}

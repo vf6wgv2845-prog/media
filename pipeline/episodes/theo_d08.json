@@ -1,0 +1,369 @@
+{
+ "image": "theo_d08_onebrow.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  DAY 8 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "One eyebrow: gone.",
+  "He plucked it all.",
+  "By accident."
+ ],
+ "hook_emoji": "😳",
+ "name_line": "Day 8: Eyebrows.",
+ "sub_line": "You voted  •  eyebrows",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   4
+  ],
+  [
+   "Fitness",
+   7
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "WHERE ARE MY TWEEZERS",
+  "emoji": "",
+  "color": [
+   214,
+   48,
+   64
+  ]
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "23 days.",
+   "Brows: 1 of 2."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "💬",
+   "Answer Maya"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted eyebrows. He used his mom's tweezers. He took the whole left one."
+   ],
+   [
+    0.1,
+    "His little sister named the empty spot Kevin."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "So he drew it back on with eyeliner. Permanently surprised."
+   ],
+   [
+    0.1,
+    "Brow bar at the mall. Wax. His eyes watered. Right as Maya walked past."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Two minutes later."
+   ],
+   [
+    0.1,
+    "Were you crying at the brow bar? Also, who is the suit for?"
+   ],
+   [
+    0.1,
+    "He typed: it was the wax. She's typing."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Answer Maya for real, or fix the smile?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "23",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "66%",
+    "from": "62%",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "57/100",
+    "from": "50/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1620,
+  "keywords": [
+   "eyeliner",
+   "surprised",
+   "brow",
+   "bar",
+   "wax",
+   "watered",
+   "maya"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "5sta.r.angel",
+   "text": "2 we have to fix those eyebrows",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.5,
+   "user": "ivannn_720",
+   "text": "2!!",
+   "likes": 0,
+   "y": 1650,
+   "hold": 1.7
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.4,
+   "user": "5sta.r.angel",
+   "text": "2 we have to fix those eyebrows",
+   "likes": 0,
+   "y": 1790,
+   "hold": 2.2
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "23",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "EYEBROWS: 2-0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "SURPRISED. FOREVER.",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1420,
+   "angle": -4,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "RIIIP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1420,
+   "angle": 5,
+   "size": 110,
+   "hold": 1.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 2.4,
+   "text": "GLOW-UP +4%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1420,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "IT WAS THE WAX",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "DAY 8",
+  "HE LOST AN EYEBROW"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "sc",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "were you crying at the brow bar??"
+   ],
+   [
+    "them",
+    "also WHO is the suit for"
+   ],
+   [
+    "me",
+    "it was the wax"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = ANSWER MAYA   2 = THE SMILE"
+ },
+ "beats": [
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_d08_drawn.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "theo_d08_onebrow.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_d02_clearskin.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "theo_d08_drawn.jpg"
+  }
+ ],
+ "notif_y": 1080
+}
