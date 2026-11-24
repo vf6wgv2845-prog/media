@@ -4,7 +4,8 @@ Made Nov 21 so Jess and Danny exist without Leonardo, and so characters can VISI
 
 Usage:  python3 -I pipeline/toon.py spec.json      -> writes spec["out"] (PNG, 1080x1920)
 spec = {"out": "pipeline/assets/jess.png", "who": "jess" | "danny", "scene": "jess_bedroom" | "danny_bedroom" | "plain",
-        "look": {...overrides of the character's defaults below...}}
+        "look": {...overrides of the character's defaults below...},
+        "extra": "<optional raw SVG drawn over the character, e.g. a prop>"}
 Style: thick dark outlines, flat colours, big heads. Our own design: do not copy any other account's character."""
 import sys, os, json, math
 
@@ -168,6 +169,7 @@ def svg(spec):
 {scene(spec.get("scene", "plain"))}
 <ellipse cx="540" cy="1900" rx="330" ry="40" fill="#000" opacity=".12"/>
 {character(spec["who"], spec.get("look"))}
+{spec.get("extra", "")}
 <rect width="1080" height="1920" fill="url(#vg)"/></svg>'''
 
 def render(spec):

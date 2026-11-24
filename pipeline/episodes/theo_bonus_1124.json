@@ -1,0 +1,363 @@
+{
+ "image": "theo_d02_clearskin.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  TUESDAY MORNING",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "His mom texts",
+  "his ex's mom now.",
+  "About him."
+ ],
+ "hook_emoji": "👔",
+ "name_line": "Tuesday, 7 AM.",
+ "sub_line": "Bonus  •  Day 8 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   4
+  ],
+  [
+   "Fitness",
+   7
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "you can't leave a group chat in this house",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "23 days.",
+   "Style: 4/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His mom texts his ex's mom now. About him."
+   ],
+   [
+    0.1,
+    "He found out when they added him."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Maya's mom: the suit is ready Thursday."
+   ],
+   [
+    0.1,
+    "Maya keeps asking who it's for."
+   ],
+   [
+    0.1,
+    "His mom: tell her it's for HER party."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "He left the group. Mom added him back."
+   ],
+   [
+    0.1,
+    "He left again. Mom added Aunt Linda."
+   ],
+   [
+    0.1,
+    "Nine people now. Maya still doesn't know."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Two of you said eyebrows. Or does he answer Maya?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "23",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "62%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "50/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "left",
+   "mom",
+   "aunt",
+   "linda",
+   "nine",
+   "maya",
+   "group"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.6,
+   "user": "5sta.r.angel",
+   "text": "2 we have to fix those eyebrows",
+   "likes": 0,
+   "y": 1790,
+   "hold": 2.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "ivannn_720",
+   "text": "2!!",
+   "likes": 0,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "23",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "ADDED BY: MOM",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "THEO LEFT",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1250,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "+ AUNT LINDA",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": 5,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "MEMBERS: 9",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "TUESDAY",
+  "THE MOMS GROUP CHAT"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Theo's suit",
+  "sub": "group chat · 2 moms + Theo",
+  "msgs": [
+   [
+    "them",
+    "MAYA'S MOM: hem is ready thursday"
+   ],
+   [
+    "them",
+    "maya keeps asking who it's for"
+   ],
+   [
+    "them",
+    "THEO'S MOM: tell her it's for HER party"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = ANSWER MAYA   2 = EYEBROWS"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_gaming.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_d02_clearskin.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "theo_gaming.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "theo_d02_clearskin.jpg"
+  }
+ ]
+}
