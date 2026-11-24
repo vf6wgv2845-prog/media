@@ -1,0 +1,286 @@
+{
+ "image": "trash_horde.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment I'M IN or your haul",
+ "hook": [
+  "4.5 TRILLION",
+  "cigarette filters.",
+  "Every single year."
+ ],
+ "hook_emoji": "🚬",
+ "name_line": "Fact #8: the bill is yours.",
+ "sub_line": "Butt Goblin  •  2,200 HP  •  0 hits",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Horde Intel",
+  "msg": "Butt Goblin regenerated: 2,200 HP. 5 days.",
+  "emoji": "",
+  "color": [
+   110,
+   60,
+   200
+  ],
+  "icon": "🧟"
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "7 days.",
+   "2,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "Land the",
+  "first hit"
+ ],
+ "options": [
+  [
+   "🥤",
+   "Spot one bottle or cup"
+  ],
+  [
+   "🧤",
+   "Gloves or a picker"
+  ],
+  [
+   "🗑️",
+   "Bin it"
+  ],
+  [
+   "💬",
+   "Comment: pieces + city"
+  ],
+  [
+   "🙋",
+   "Or just comment I'M IN"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Four and a half trillion cigarette filters pollute the planet every year. Says the World Health Organization."
+   ],
+   [
+    0.1,
+    "Filters contain microplastics."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Who pays to clean it up? Taxpayers. China: two point six billion dollars a year."
+   ],
+   [
+    0.1,
+    "Overnight, the Butt Goblin grew. Two thousand two hundred HP."
+   ],
+   [
+    0.1,
+    "Five days left. Still zero hits."
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "Every butt you bin is one damage."
+   ],
+   [
+    0.1,
+    "Comment your pieces and city. Or just: I'm in."
+   ],
+   [
+    0.1,
+    "Gloves or a picker. No needles or glass."
+   ]
+  ]
+ },
+ "pill": "TRASH HORDE  •  FACT #8",
+ "hud": {
+  "tiles": [
+   {
+    "label": "BOSS HP",
+    "value": "2,200",
+    "from": "2,100",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   },
+   {
+    "label": "DAMAGE",
+    "value": "0",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "CLEANERS",
+    "value": "0",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "trillion",
+   "filters",
+   "microplastics",
+   "taxpayers",
+   "billion",
+   "goblin",
+   "zero",
+   "five"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "4,500,000,000,000",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 90,
+   "hold": 2.6,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "MICROPLASTICS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1250,
+   "angle": 3,
+   "size": 90,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BILL: YOU",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1250,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "+100 HP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1250,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "kind": "calendar",
+   "text": "5",
+   "x": 820,
+   "y": 1230,
+   "hold": 1.8
+  }
+ ],
+ "cover_title": [
+  "4.5 TRILLION",
+  "THE BILL IS YOURS"
+ ],
+ "order": [
+  "s1",
+  "s3",
+  "s5"
+ ]
+}
