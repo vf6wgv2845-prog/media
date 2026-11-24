@@ -57,5 +57,5 @@ if __name__=="__main__":
     if "cover" in s:
         c=s["cover"]; day_cover(c["out"],c["image"],c["cx"],c["cy"],c["side"],c["ring"],c["num"]); print(c["out"])
         if "big" not in s: sys.exit()
-    card(s["out"],s["image"],s["big"],s["small"],[tuple(r) for r in s["rows"]],s["cta"],tuple(s.get("color",[236,110,160])),s.get("days"),s.get("cx",0.5))
+    card(s["out"],s["image"],s["big"],s["small"],[tuple(r) for r in s["rows"]],s["cta"],tuple(s.get("color",[236,110,160])),s.get("days"),s.get("cx",0.5),s.get("top",0.0))
     print(s["out"])
