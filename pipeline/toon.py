@@ -44,9 +44,20 @@ JESS = dict(skin="#f2c3a0", blush="#ec8f8f", hair="#5a3324", hair_style="bun_ban
 DANNY = dict(skin="#e9b48c", blush="#e08a7a", hair="#3b2a20", hair_style="messy_short", eye="#4a3426", tired=0, brow_tilt=-10,
              mouth="grin", top="polo", top_color="#2f9e8f", top_dark="#23786d", pants="#4b4f5c", spots=0, phone=True, sweat=True,
              beard="patchy", belly=1, nametag="DANNY", lashes=False, earrings=False, makeup=0)
+# Nov 25: Malik + Rosie redrawn in the toon style (Boris: they switch from 3D; Theo stays 3D), Wes = Trash Horde story lead.
+MALIK = dict(skin="#8a5636", blush="#b5664f", hair="#1c1410", hair_style="locs", eye="#3b2418", tired=0, brow_tilt=-6, brow_y=-70,
+             mouth="flat", top="jersey", top_color="#1f4fa3", top_dark="#173c7d", number="23", pants="#2b2f3a", spots=0, phone=False, sweat=False,
+             lashes=False, earrings=False, makeup=0)
+ROSIE = dict(skin="#d9a07a", blush="#e07a6a", hair="#2a1812", hair_style="curly_bun", bandana="#d63a3a", eye="#4a2c1c", tired=0, brow_tilt=8, brow_y=-62,
+             mouth="smile", top="chef", top_color="#f7f4ee", top_dark="#dcd6cc", chef_name="Rosie", pants="#3a3f4b", spots=0, phone=False, sweat=False,
+             lashes=True, earrings=False, makeup=0)
+WES = dict(skin="#efc19c", blush="#e68f80", hair="#8a5a2b", hair_style="messy_short", eye="#3c5a7a", tired=0, brow_tilt=-8, brow_y=-70,
+           mouth="flat", top="vest", top_color="#7d8796", top_dark="#5f6774", pants="#3b4150", spots=0, phone=False, sweat=False,
+           lashes=False, earrings=False, makeup=0, gloves=True)
+CHARS = {"jess": JESS, "danny": DANNY, "malik": MALIK, "rosie": ROSIE, "wes": WES}
 
 def character(who, look_over=None):
-    look = dict(JESS if who == "jess" else DANNY); look.update(look_over or {})
+    look = dict(CHARS.get(who, DANNY)); look.update(look_over or {})
     hx, hy = 540, 900; wide = 1.08 if who == "danny" else 1.0
     rx, ry = int(215 * wide), 235
     g = []
@@ -69,6 +80,22 @@ def character(who, look_over=None):
     elif look["top"] == "dress":
         g.append(f'<path d="M360 1920 L400 1300 Q420 1170 540 1160 Q660 1170 680 1300 L720 1920 Z" fill="{look["top_color"]}" stroke="{INK}" stroke-width="8"/>')
         g.append(f'<path d="M430 1200 Q540 1260 650 1200" fill="none" stroke="{look["top_dark"]}" stroke-width="10"/>')
+    elif look["top"] == "jersey":
+        g.append(f'<path d="M330 1920 L345 1260 Q350 1170 430 1150 L470 1150 Q540 1230 610 1150 L650 1150 Q730 1170 735 1260 L750 1920 Z" fill="{look["top_color"]}" stroke="{INK}" stroke-width="8"/>')
+        g.append(f'<path d="M300 1250 Q270 1400 330 1560 L345 1260 Z M780 1250 Q810 1400 750 1560 L735 1260 Z" fill="{look["skin"]}" stroke="{INK}" stroke-width="7"/>')
+        g.append(f'<path d="M470 1150 Q540 1230 610 1150" fill="none" stroke="#fff" stroke-width="12"/>')
+        g.append(f'<text x="540" y="1470" font-family="Inter" font-weight="900" font-size="190" text-anchor="middle" fill="#fff" stroke="{INK}" stroke-width="6">{look.get("number", "23")}</text>')
+    elif look["top"] == "chef":
+        g.append(f'<path d="M300 1920 L320 1290 Q340 1160 540 1140 Q740 1160 760 1290 L780 1920 Z" fill="{look["top_color"]}" stroke="{INK}" stroke-width="8"/>')
+        g.append(f'<path d="M470 1145 L540 1300 L560 1920" fill="none" stroke="{look["top_dark"]}" stroke-width="8"/><rect x="455" y="1130" width="170" height="50" rx="20" fill="{look["top_color"]}" stroke="{INK}" stroke-width="7"/>')
+        for yy in (1340, 1440, 1540):
+            g.append(f'<circle cx="610" cy="{yy}" r="11" fill="{look["top_dark"]}" stroke="{INK}" stroke-width="4"/><circle cx="680" cy="{yy}" r="11" fill="{look["top_dark"]}" stroke="{INK}" stroke-width="4"/>')
+        if look.get("chef_name"):
+            g.append(f'<text x="420" y="1330" font-family="Inter" font-weight="900" font-style="italic" font-size="44" text-anchor="middle" fill="#c0392b">{look["chef_name"]}</text>')
+    elif look["top"] == "vest":
+        g.append(f'<path d="M300 1920 L320 1290 Q340 1160 540 1140 Q740 1160 760 1290 L780 1920 Z" fill="{look["top_color"]}" stroke="{INK}" stroke-width="8"/>')
+        g.append(f'<path d="M360 1230 L470 1160 L520 1920 L370 1920 Z M720 1230 L610 1160 L560 1920 L710 1920 Z" fill="#ff8a1f" stroke="{INK}" stroke-width="7"/>')
+        g.append(f'<rect x="375" y="1450" width="135" height="30" fill="#e8f060" stroke="{INK}" stroke-width="4"/><rect x="570" y="1450" width="135" height="30" fill="#e8f060" stroke="{INK}" stroke-width="4"/>')
     else:  # tee / jacket generic
         g.append(f'<path d="M300 1920 L320 1290 Q340 1160 540 1140 Q740 1160 760 1290 L780 1920 Z" fill="{look["top_color"]}" stroke="{INK}" stroke-width="8"/>')
         g.append(f'<path d="M470 1150 Q540 1210 610 1150" fill="none" stroke="{INK}" stroke-width="7"/>')
@@ -90,7 +117,7 @@ def character(who, look_over=None):
     g.append(f'<ellipse cx="{hx - rx + 4}" cy="{hy + 20}" rx="34" ry="44" fill="{look["skin"]}" stroke="{INK}" stroke-width="7"/><ellipse cx="{hx + rx - 4}" cy="{hy + 20}" rx="34" ry="44" fill="{look["skin"]}" stroke="{INK}" stroke-width="7"/>')
     if look.get("earrings"):
         g.append(f'<circle cx="{hx - rx}" cy="{hy + 72}" r="12" fill="#f6c945" stroke="{INK}" stroke-width="4"/><circle cx="{hx + rx}" cy="{hy + 72}" r="12" fill="#f6c945" stroke="{INK}" stroke-width="4"/>')
-    jaw = 30 if who == "danny" else 0
+    jaw = {"danny": 30, "malik": 18, "wes": 14}.get(who, 0)
     g.append(f'<path d="M{hx - rx} {hy - 30} Q{hx - rx} {hy - ry} {hx} {hy - ry} Q{hx + rx} {hy - ry} {hx + rx} {hy - 30} Q{hx + rx + jaw // 2} {hy + ry - 40} {hx} {hy + ry + jaw // 2} Q{hx - rx - jaw // 2} {hy + ry - 40} {hx - rx} {hy - 30} Z" fill="{look["skin"]}" stroke="{INK}" stroke-width="8"/>')
     # beard
     if look.get("beard") == "patchy":
@@ -136,6 +163,21 @@ def character(who, look_over=None):
     elif hs == "messy_short":
         spikes = " ".join(f'L{hx - rx + i * (2 * rx) / 10:.0f},{hy - ry - (40 if i % 2 else 5)}' for i in range(11))
         g.append(f'<path d="M{hx - rx - 8} {hy - 50} {spikes} L{hx + rx + 8} {hy - 50} Q{hx + 40} {hy - ry + 30} {hx - rx - 8} {hy - 50} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8" stroke-linejoin="round"/>')
+    elif hs == "locs":
+        g.append(f'<path d="M{hx - rx + 5} {hy - 60} Q{hx - rx + 10} {hy - ry - 30} {hx} {hy - ry - 32} Q{hx + rx - 10} {hy - ry - 30} {hx + rx - 5} {hy - 60} Q{hx + 60} {hy - ry + 20} {hx - 20} {hy - ry + 26} Q{hx - 100} {hy - ry + 30} {hx - rx + 5} {hy - 60} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8"/>')
+        for i in range(13):
+            x = hx - rx + 20 + i * (2 * rx - 40) / 12; top = hy - ry - 70 - (20 if i % 2 else 0)
+            g.append(f'<rect x="{x - 15:.0f}" y="{top:.0f}" width="30" height="{110 + (i % 3) * 14}" rx="15" fill="{look["hair"]}" stroke="{INK}" stroke-width="5" transform="rotate({(i - 6) * 4} {x:.0f} {top + 60:.0f})"/>')
+    elif hs == "curly_bun":
+        g.append(f'<circle cx="{hx}" cy="{hy - ry - 70}" r="95" fill="{look["hair"]}" stroke="{INK}" stroke-width="8"/>')
+        for i in range(9):
+            x = hx - 70 + i * 18; g.append(f'<circle cx="{x}" cy="{hy - ry - 120 + (i % 2) * 14}" r="26" fill="{look["hair"]}" stroke="{INK}" stroke-width="4"/>')
+        g.append(f'<path d="M{hx - rx - 5} {hy - 40} Q{hx - rx} {hy - ry - 20} {hx} {hy - ry - 18} Q{hx + rx} {hy - ry - 20} {hx + rx + 5} {hy - 40} Q{hx + 120} {hy - 150} {hx} {hy - 140} Q{hx - 120} {hy - 150} {hx - rx - 5} {hy - 40} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8"/>')
+        for x in (hx - rx + 10, hx + rx - 10):
+            g.append(f'<circle cx="{x}" cy="{hy - 20}" r="34" fill="{look["hair"]}" stroke="{INK}" stroke-width="5"/>')
+        if look.get("bandana"):
+            g.append(f'<path d="M{hx - rx + 10} {hy - ry + 40} Q{hx} {hy - ry - 10} {hx + rx - 10} {hy - ry + 40} L{hx + rx - 20} {hy - ry + 85} Q{hx} {hy - ry + 35} {hx - rx + 20} {hy - ry + 85} Z" fill="{look["bandana"]}" stroke="{INK}" stroke-width="6"/>')
+            g.append(f'<path d="M{hx + 20} {hy - ry - 5} q60 -70 100 -20 q-40 40 -100 20 Z M{hx + 20} {hy - ry - 5} q-30 -80 -90 -50 q20 50 90 50 Z" fill="{look["bandana"]}" stroke="{INK}" stroke-width="6"/>')
     elif hs == "fade":
         g.append(f'<path d="M{hx - rx + 5} {hy - 60} Q{hx - rx + 10} {hy - ry - 30} {hx} {hy - ry - 32} Q{hx + rx - 10} {hy - ry - 30} {hx + rx - 5} {hy - 60} Q{hx + 60} {hy - ry + 30} {hx - 20} {hy - ry + 36} Q{hx - 100} {hy - ry + 40} {hx - rx + 5} {hy - 60} Z" fill="{look["hair"]}" stroke="{INK}" stroke-width="8"/>')
     if look.get("sweat"):
@@ -161,6 +203,29 @@ def scene(name):
 <rect x="780" y="240" width="230" height="320" fill="#ffd166" stroke="{INK}" stroke-width="7" transform="rotate(5 895 400)"/><circle cx="895" cy="360" r="70" fill="#f4a261" stroke="{INK}" stroke-width="6" transform="rotate(5 895 400)"/><text x="895" y="510" font-family="Inter" font-weight="900" font-size="36" text-anchor="middle" fill="{INK}" transform="rotate(5 895 400)">DREAM BIG</text>
 <rect x="700" y="1230" width="380" height="330" rx="20" fill="#3d5a80" stroke="{INK}" stroke-width="8"/><rect x="700" y="1200" width="380" height="70" rx="20" fill="#98c1d9" stroke="{INK}" stroke-width="8"/>
 <rect x="40" y="1320" width="220" height="240" rx="10" fill="#a7825f" stroke="{INK}" stroke-width="7"/><rect x="70" y="1250" width="160" height="80" rx="8" fill="#2b2d42" stroke="{INK}" stroke-width="6"/><rect x="82" y="1262" width="136" height="56" fill="#8ecae6"/>'''
+    if name == "kitchen":
+        return f'''<rect width="1080" height="1920" fill="#f5e6c8"/><rect y="0" width="1080" height="260" fill="#cfd8dc"/>
+<rect x="0" y="1380" width="1080" height="540" fill="#9aa5ae"/><rect x="0" y="1360" width="1080" height="34" fill="#7b868f"/>
+<line x1="80" y1="300" x2="1000" y2="300" stroke="{INK}" stroke-width="8"/>
+<circle cx="170" cy="380" r="60" fill="#d98c4a" stroke="{INK}" stroke-width="7"/><line x1="170" y1="300" x2="170" y2="320" stroke="{INK}" stroke-width="6"/>
+<circle cx="910" cy="390" r="70" fill="#c07a3a" stroke="{INK}" stroke-width="7"/><line x1="910" y1="300" x2="910" y2="320" stroke="{INK}" stroke-width="6"/>
+<rect x="760" y="520" width="90" height="120" fill="#fff" stroke="{INK}" stroke-width="5" transform="rotate(4 805 580)"/><rect x="870" y="520" width="90" height="120" fill="#fff" stroke="{INK}" stroke-width="5" transform="rotate(-3 915 580)"/>
+<text x="805" y="590" font-family="Inter" font-weight="900" font-size="22" text-anchor="middle" fill="{INK}" transform="rotate(4 805 580)">TABLE 4</text><text x="915" y="590" font-family="Inter" font-weight="900" font-size="22" text-anchor="middle" fill="{INK}" transform="rotate(-3 915 580)">86 FISH</text>
+<rect x="40" y="1230" width="300" height="140" rx="12" fill="#5f6b75" stroke="{INK}" stroke-width="7"/><ellipse cx="120" cy="1230" rx="60" ry="14" fill="#2b2b2b"/><ellipse cx="260" cy="1230" rx="60" ry="14" fill="#2b2b2b"/>'''
+    if name == "gym":
+        return f'''<rect width="1080" height="1920" fill="#e8d2a8"/><rect y="1380" width="1080" height="540" fill="#c98f4f"/>
+<line x1="0" y1="1500" x2="1080" y2="1500" stroke="#fff" stroke-width="8" opacity=".7"/><path d="M200 1920 Q540 1560 880 1920" fill="none" stroke="#fff" stroke-width="8" opacity=".7"/>
+<rect x="60" y="200" width="420" height="160" rx="8" fill="#1f4fa3" stroke="{INK}" stroke-width="7"/><text x="270" y="300" font-family="Inter" font-weight="900" font-size="64" text-anchor="middle" fill="#ffd166">EAGLES</text>
+<rect x="760" y="240" width="220" height="140" fill="#fff" stroke="{INK}" stroke-width="7"/><rect x="830" y="300" width="80" height="60" fill="none" stroke="#e5484d" stroke-width="6"/>
+<circle cx="870" cy="420" r="45" fill="none" stroke="#e5484d" stroke-width="8"/><path d="M830 430 L850 520 L890 520 L910 430" fill="none" stroke="#fff" stroke-width="4"/>
+<rect x="0" y="560" width="1080" height="16" fill="#b07a40"/><rect x="0" y="700" width="1080" height="16" fill="#b07a40"/>'''
+    if name == "street":
+        return f'''<rect width="1080" height="1920" fill="#3d3566"/><rect y="1380" width="1080" height="540" fill="#4a4f57"/><rect y="1360" width="1080" height="30" fill="#6b717a"/>
+<rect x="40" y="420" width="300" height="960" fill="#5a4f8a" stroke="{INK}" stroke-width="7"/><rect x="760" y="360" width="300" height="1020" fill="#4f467d" stroke="{INK}" stroke-width="7"/>
+<rect x="90" y="500" width="80" height="90" fill="#ffd166"/><rect x="210" y="500" width="80" height="90" fill="#2b2650"/><rect x="90" y="660" width="80" height="90" fill="#2b2650"/><rect x="210" y="660" width="80" height="90" fill="#ffd166"/>
+<rect x="810" y="440" width="80" height="90" fill="#ffd166"/><rect x="930" y="440" width="80" height="90" fill="#2b2650"/><rect x="810" y="600" width="80" height="90" fill="#2b2650"/><rect x="930" y="600" width="80" height="90" fill="#ffd166"/>
+<circle cx="880" cy="180" r="70" fill="#f4f1de" opacity=".9"/><rect x="520" y="330" width="14" height="1050" fill="#2b2b2b"/><ellipse cx="527" cy="330" rx="60" ry="20" fill="#ffe08a"/>
+<g fill="#8fe36b" stroke="{INK}" stroke-width="5"><circle cx="150" cy="1300" r="40"/><circle cx="950" cy="1290" r="46"/></g><g fill="#fff"><circle cx="138" cy="1292" r="9"/><circle cx="162" cy="1292" r="9"/><circle cx="937" cy="1282" r="10"/><circle cx="963" cy="1282" r="10"/></g>'''
     return '<rect width="1080" height="1920" fill="#e9e3f5"/>'
 
 def svg(spec):

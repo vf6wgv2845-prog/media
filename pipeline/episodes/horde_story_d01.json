@@ -1,0 +1,347 @@
+{
+ "image": "wes_d01_cup.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "pill": "THE TRASH HORDE  •  DAY 1 / 30",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "He threw one cup",
+  "out his car window.",
+  "It hit a park ranger."
+ ],
+ "hook_emoji": "🥤",
+ "name_line": "Meet Wes.",
+ "sub_line": "30 days of litter duty",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Ranger Cole",
+  "msg": "park spotless by day 30 or you start over",
+  "emoji": "",
+  "color": [
+   60,
+   160,
+   90
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "30 days.",
+   "Park clean: 0%."
+  ],
+  "Top comment = tomorrow's move.",
+  [
+   "Real litter you pick up",
+   "hits the horde too."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Wes threw one cup out his car window. It hit a park ranger."
+   ],
+   [
+    0.1,
+    "The judge gave him thirty days of litter duty."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then his ex texted."
+   ],
+   [
+    0.1,
+    "Cole says you hit him with a cup? He's your supervisor, by the way."
+   ],
+   [
+    0.1,
+    "Cole is her new boyfriend."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "First night, he filled one bag. Then the bag moved."
+   ],
+   [
+    0.1,
+    "The trash had eyes. All of it."
+   ],
+   [
+    0.1,
+    "Cole's rule: the park is spotless by day thirty, or he starts over."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Tomorrow: gear up, or find backup?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "0%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,300",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1760,
+  "keywords": [
+   "bag",
+   "moved",
+   "eyes",
+   "trash",
+   "cole",
+   "thirty",
+   "spotless"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "30",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "*BONK*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.6,
+   "delay": 1.6
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SENTENCE: 30 DAYS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 520,
+   "angle": 3,
+   "size": 75,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "BOSS = HER BF",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "IT MOVED",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "DAY 1",
+  "THE TRASH HAS EYES"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Brooke",
+  "sub": "the ex",
+  "msgs": [
+   [
+    "them",
+    "cole says u hit him with a CUP??"
+   ],
+   [
+    "them",
+    "he's your supervisor btw"
+   ],
+   [
+    "me",
+    "cool cool cool"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = GEAR UP   2 = GET BACKUP"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "wes_d01_grab.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_toon_shock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_d01_bag.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "wes_d01_eyes.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_d01_grab.jpg"
+  }
+ ]
+}
