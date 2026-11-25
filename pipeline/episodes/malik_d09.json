@@ -1,0 +1,378 @@
+{
+ "image": "malik_d09_tape.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 9 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "Tyler taped his",
+  "right hand down.",
+  "The ball hit the trash."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 9: Go left.",
+ "sub_line": "Crowd's choice  •  practice left",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   8
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "chem test MONDAY. no C = no tourney.",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💬",
+   "Text Jada back"
+  ],
+  [
+   "📚",
+   "Study chem on IntelliStudy"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Nobody voted, so the crowd picked: go left, with Tyler. First, Tyler taped his right hand down."
+   ],
+   [
+    0.1,
+    "First dribble: off his shoe. Into the trash can. Tyler filmed it."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Jada texted. First time in a year."
+   ],
+   [
+    0.1,
+    "Saw Tyler's story. You went left? Into a trash can?"
+   ],
+   [
+    0.1,
+    "He typed for ten minutes. Sent nothing."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt two: left hand only, all day. He dropped the cranberry sauce. Again."
+   ],
+   [
+    0.1,
+    "Attempt three: a real drill. A hundred left-hand layups. Seven in a row."
+   ],
+   [
+    0.1,
+    "Coach Reyes walked by. That's two. Handles plus one."
+   ],
+   [
+    0.1,
+    "Then Mom: chem test Monday. No C, no tourney."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Text Jada back, or study chem on IntelliStudy?"
+   ],
+   [
+    0.1,
+    "What should Malik do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "9/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "74",
+    "from": "72",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "29/100",
+    "from": "28/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "tyler",
+   "right",
+   "hand",
+   "trash",
+   "left",
+   "cranberry",
+   "hundred",
+   "seven",
+   "coach",
+   "reyes",
+   "two",
+   "chem",
+   "monday",
+   "tourney"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.0,
+   "kind": "calendar",
+   "text": "9",
+   "label": "TOURNEY IN",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 1.4,
+   "text": "*CLANG*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.8,
+   "text": "AGAIN.",
+   "bg": [
+    214,
+    48,
+    64
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 2.4,
+   "text": "7 IN A ROW",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 0.8,
+   "text": "HANDLES +1",
+   "bg": [
+    255,
+    150,
+    60
+   ],
+   "y": 560,
+   "angle": 3,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR TEAMMATE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 9",
+  "INTO THE TRASH"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Jada",
+  "sub": "the ex",
+  "msgs": [
+   [
+    "them",
+    "saw tyler's story"
+   ],
+   [
+    "them",
+    "u went left?? into a trash can?"
+   ],
+   [
+    "me",
+    "typing..."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TEXT JADA  or  STUDY CHEM"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "malik_d09_trash.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "malik_d09_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "malik_toon_sad.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "malik_d09_layup.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "malik_d09_chem.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "malik_d09_chem.jpg"
+  }
+ ],
+ "motion": true
+}

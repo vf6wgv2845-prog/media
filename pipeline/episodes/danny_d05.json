@@ -1,0 +1,367 @@
+{
+ "image": "danny_d05_pushup.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.1,
+ "pill": "DAY 5 / 30",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "100 push-ups.",
+  "He did 4.",
+  "Mom stepped over him."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 5: Get ripped.",
+ "sub_line": "Crowd's choice  •  get ripped",
+ "stats": [
+  [
+   "Body",
+   4
+  ],
+  [
+   "Money",
+   5
+  ],
+  [
+   "Style",
+   3
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Tara",
+  "msg": "fyi my brother's been training since june",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Lies true: 0.75/3."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "🏃",
+   "Run the 5K for real"
+  ],
+  [
+   "💌",
+   "Ask Tara to run with him"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Nobody voted, so the crowd picked: get ripped. Attempt one: a hundred push-ups."
+   ],
+   [
+    0.1,
+    "He did four. Then he lay there. His mom stepped over him with the laundry."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Brock texted."
+   ],
+   [
+    0.1,
+    "Heard you're getting ripped. Turkey trot tomorrow. Five K. Loser pays the reunion bar tab."
+   ],
+   [
+    0.1,
+    "He sent: deal. He has never run a 5K."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt two: he jogged to the end of the street. He took a ride back. Nine dollars forty."
+   ],
+   [
+    0.1,
+    "Attempt three: a real plan. Run one minute, walk two. Repeat."
+   ],
+   [
+    0.1,
+    "Two miles. Slow. But two miles. Body plus two."
+   ],
+   [
+    0.1,
+    "Then Tara texted: my brother's been training since June."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Run the 5K for real, or ask Tara to run it with him?"
+   ],
+   [
+    0.1,
+    "What should Danny do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "BODY",
+    "value": "4/10",
+    "from": "2/10",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "46/100",
+    "from": "41/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "hundred",
+   "four",
+   "mom",
+   "laundry",
+   "ride",
+   "nine",
+   "forty",
+   "one",
+   "minute",
+   "walk",
+   "two",
+   "miles",
+   "body",
+   "tara",
+   "june"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.0,
+   "kind": "calendar",
+   "text": "26",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 0.6,
+   "text": "4 / 100",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1420,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.4,
+   "text": "$9.40",
+   "bg": [
+    47,
+    158,
+    143
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 1.0,
+   "text": "BODY +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR GYM BUDDY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 5",
+  "4 PUSH-UPS"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Brock",
+  "sub": "the bully",
+  "msgs": [
+   [
+    "them",
+    "heard ur getting ripped lol"
+   ],
+   [
+    "them",
+    "turkey trot tmrw. 5k"
+   ],
+   [
+    "them",
+    "loser pays the reunion bar tab"
+   ],
+   [
+    "me",
+    "deal"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "RUN IT  or  ASK TARA TO RUN TOO"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "danny_d05_pushup.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_d05_text.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_d05_ride.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "danny_d05_run.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "danny_d05_june.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_d05_run.jpg"
+  }
+ ],
+ "motion": true
+}
