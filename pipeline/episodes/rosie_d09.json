@@ -1,0 +1,386 @@
+{
+ "image": "rosie_d09_dated.jpg",
+ "cx": -0.12,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "pill": "DAY 9 / 30",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Her rival = her ex.",
+  "Her boss",
+  "just found out."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 9: Crispy salmon.",
+ "sub_line": "Crowd's choice  •  crispy salmon",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   9
+  ],
+  [
+   "Plating",
+   7
+  ],
+  [
+   "Speed",
+   8
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Dee",
+  "msg": "good. now beat him.",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "22 days.",
+   "Skill 74%."
+  ],
+  "Top comment = tonight's dish.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "🍜",
+   "Ramen"
+  ],
+  [
+   "🥧",
+   "Pumpkin pie"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Nobody voted, so the crowd picked crispy salmon. Attempt one: the skin glued itself to the pan."
+   ],
+   [
+    0.1,
+    "Attempt two: she flipped it early. The skin stayed. The fish didn't."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Julian Price texted."
+   ],
+   [
+    0.1,
+    "Pat it dry. Hot pan. Don't touch it. You taught me that."
+   ],
+   [
+    0.1,
+    "Chef Marco read it over her shoulder. You dated Julian?"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Two years. Culinary school. He left for Paris. She stayed."
+   ],
+   [
+    0.1,
+    "Attempt three: her own rule. Dry skin, hot oil, press ten seconds, then hands off."
+   ],
+   [
+    0.1,
+    "Glass-crisp skin. Marco ate it standing up. Flavor plus one."
+   ],
+   [
+    0.1,
+    "Then Dee texted: good. Now beat him."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Ramen, or pumpkin pie for Thanksgiving? What should Rosie cook next?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "22",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "76%",
+    "from": "74%",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "15/100",
+    "from": "14/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "salmon",
+   "skin",
+   "glued",
+   "flipped",
+   "early",
+   "fish",
+   "julian",
+   "paris",
+   "dry",
+   "hot",
+   "ten",
+   "seconds",
+   "marco",
+   "flavor",
+   "dee",
+   "beat"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.0,
+   "kind": "calendar",
+   "text": "22",
+   "label": "COOK-OFF IN",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 4.4,
+   "text": "*SSSS*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 100,
+   "hold": 1.4
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 2.0,
+   "text": "SKIN: 1  FISH: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 75,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.4,
+   "text": "2 YEARS",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1450,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 1.0,
+   "text": "FLAVOR +1",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR CHEF FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 9",
+  "HE'S HER EX"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Julian Price",
+  "sub": "the favorite",
+  "msgs": [
+   [
+    "them",
+    "pat it dry. hot pan. don't touch it"
+   ],
+   [
+    "them",
+    "you taught me that"
+   ],
+   [
+    "me",
+    "..."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "RAMEN  or  PUMPKIN PIE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "image": "rosie_d09_stuck.jpg"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "rosie_d09_flip.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "rosie_d09_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "rosie_d09_dated.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "rosie_toon_smirk.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "rosie_d09_crisp.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "rosie_d09_crisp.jpg"
+  }
+ ],
+ "motion": true
+}
