@@ -1,0 +1,482 @@
+{
+ "image": "history/homer_thanksgiving_ways_1858.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.18,
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "numbered": false,
+ "cta": "Comment your haul + city",
+ "hook": [
+  "152 pieces.",
+  "That's YOUR share",
+  "of US litter."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Battle Day 2.",
+ "sub_line": "Landfill King  •  5,000 HP  •  2 days left",
+ "stats": [
+  [
+   "Boss HP",
+   10
+  ],
+  [
+   "Horde strength",
+   10
+  ],
+  [
+   "Streets cleaned",
+   0
+  ],
+  [
+   "Cleaners",
+   0
+  ]
+ ],
+ "notif_line": 0,
+ "conflict": [
+  "50 billion pieces.",
+  [
+   "(roads + waterways,",
+   "2020 count)"
+  ]
+ ],
+ "conflict_lines": [
+  1,
+  2
+ ],
+ "premise": [
+  [
+   "2 days left.",
+   "5,000 HP."
+  ],
+  "1 piece = 1 dmg  •  1 lb = 10 dmg",
+  [
+   "Gloves on.",
+   "No needles, no glass."
+  ]
+ ],
+ "vote_q": [
+  "How to",
+  "fight back"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gloves + a bag"
+  ],
+  [
+   "🗑️",
+   "Pick up 10 pieces"
+  ],
+  [
+   "♻️",
+   "Bin or recycle it"
+  ],
+  [
+   "💬",
+   "Comment: 10 pieces, city"
+  ],
+  [
+   "👥",
+   "Tag a friend to join"
+  ]
+ ],
+ "script": {
+  "p1": [
+   [
+    0.05,
+    "In 1939, America had two Thanksgivings."
+   ],
+   [
+    0.1,
+    "Depending on your state: one, the other, or both."
+   ]
+  ],
+  "p2": [
+   [
+    0.1,
+    "Stores wanted more shopping days before Christmas."
+   ],
+   [
+    0.1,
+    "So President Roosevelt moved it up a week."
+   ]
+  ],
+  "p3": [
+   [
+    0.1,
+    "Twenty-two states followed him. Twenty-three refused."
+   ],
+   [
+    0.1,
+    "Critics called it Franksgiving."
+   ]
+  ],
+  "p4": [
+   [
+    0.1,
+    "Football coaches rescheduled big games."
+   ],
+   [
+    0.1,
+    "Texas, Colorado and Mississippi celebrated both."
+   ]
+  ],
+  "p5": [
+   [
+    0.1,
+    "In 1941, Congress fixed it: the fourth Thursday."
+   ],
+   [
+    0.1,
+    "That's why it's tomorrow."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "The top comment picks our next true story."
+   ]
+  ]
+ },
+ "pill": "THAT REALLY HAPPENED",
+ "order": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "sv"
+ ],
+ "notif": {
+  "from": "x",
+  "msg": "x",
+  "emoji": "",
+  "color": [
+   0,
+   0,
+   0
+  ]
+ },
+ "panels": {
+  "p1": {
+   "image": "history/homer_thanksgiving_dinner_1858.jpg",
+   "credit": "Winslow Homer, Thanksgiving Day, 1858 (AIC)",
+   "focus": [
+    0.5,
+    0.27
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p2": {
+   "image": "history/hassam_newyork_street_1902.jpg",
+   "credit": "Childe Hassam, New York Street, 1902 (AIC)",
+   "focus": [
+    0.6,
+    0.6
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p3": {
+   "image": "history/homer_thanksgiving_ways_1858.jpg",
+   "credit": "Winslow Homer, Thanksgiving Day, 1858 (AIC)",
+   "focus": [
+    0.5,
+    0.28
+   ],
+   "zoom": [
+    1.0,
+    1.2
+   ]
+  },
+  "p4": {
+   "image": "history/callot_football_1622.jpg",
+   "credit": "Jacques Callot, Football Game, c. 1622 (AIC)",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  "p5": {
+   "image": "history/harnett_sundays_dinner_1888.jpg",
+   "credit": "W. M. Harnett, For Sunday's Dinner, 1888 (AIC)",
+   "focus": [
+    0.45,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  }
+ },
+ "open_vote": {
+  "title": "NOW IT'S ON YOU",
+  "hint": "which true story next?"
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1939",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "THANKSGIVINGS",
+    "value": "2",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5"
+  ],
+  "y": 1200,
+  "keywords": [
+   "1939",
+   "two",
+   "thanksgivings",
+   "both",
+   "thirtieth",
+   "christmas",
+   "roosevelt",
+   "week",
+   "twenty-two",
+   "twenty-three",
+   "franksgiving",
+   "football",
+   "texas",
+   "colorado",
+   "mississippi",
+   "1941",
+   "fourth",
+   "thursday",
+   "tomorrow"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "p1",
+   "line": 0,
+   "text": "TWO THANKSGIVINGS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "p1",
+   "line": 1,
+   "text": "ONE? BOTH?",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 820,
+   "angle": 3,
+   "size": 95,
+   "hold": 2.0
+  },
+  {
+   "scene": "p3",
+   "line": 0,
+   "text": "22 vs 23",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 110,
+   "hold": 1.8
+  },
+  {
+   "scene": "p3",
+   "line": 1,
+   "text": "FRANKSGIVING",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "p4",
+   "line": 0,
+   "text": "RESCHEDULED",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.8
+  },
+  {
+   "scene": "p4",
+   "line": 1,
+   "text": "2x TURKEY",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.8
+  },
+  {
+   "scene": "p5",
+   "line": 0,
+   "text": "4TH THURSDAY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 95,
+   "hold": 2.0
+  },
+  {
+   "scene": "p5",
+   "line": 1,
+   "text": "= TOMORROW",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.8
+  },
+  {
+   "scene": "p2",
+   "line": 0,
+   "text": "NOV 30 -> 23",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 420,
+   "angle": -3,
+   "size": 100,
+   "hold": 1.8
+  },
+  {
+   "scene": "p2",
+   "line": 1,
+   "text": "-1 WEEK",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "1939",
+  "TWO THANKSGIVINGS"
+ ],
+ "motion": true
+}

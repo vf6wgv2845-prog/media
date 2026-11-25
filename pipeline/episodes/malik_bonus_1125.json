@@ -1,0 +1,359 @@
+{
+ "image": "malik_b1125_cart.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "He saw his ex",
+  "in aisle 4.",
+  "Then the cans fell."
+ ],
+ "hook_emoji": "🥫",
+ "name_line": "Thanksgiving eve.",
+ "sub_line": "Bonus  •  Day 9 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "you got BANNED from a grocery store??",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Mom sent Malik for cranberry sauce. Aisle four: Jada. His ex."
+   ],
+   [
+    0.1,
+    "He went left with the cart. Into the cranberry pyramid."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Tyler texted."
+   ],
+   [
+    0.1,
+    "Jada just posted a can avalanche. Was that you?"
+   ],
+   [
+    0.1,
+    "He said no. In his jersey."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Jada handed him one can. Still can't go left, huh?"
+   ],
+   [
+    0.1,
+    "Mom got her sauce. Malik got banned from aisle four."
+   ],
+   [
+    0.1,
+    "Tourney in nine days. She'll be there."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Text Jada, or practice left with Tyler? What should Malik do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "8/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "72",
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "28/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "jada",
+   "can",
+   "left",
+   "banned",
+   "aisle",
+   "four",
+   "nine",
+   "tourney",
+   "stands",
+   "mom"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "9",
+   "label": "TOURNEY IN",
+   "x": 230,
+   "y": 1340,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "*CLANK*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 520,
+   "angle": -5,
+   "size": 115,
+   "hold": 1.6,
+   "delay": 2.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "#23 IN THE VIDEO",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 640,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "STILL CAN'T GO LEFT",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR TEAMMATE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0,
+   "delay": 0.6
+  }
+ ],
+ "cover_title": [
+  "AISLE 4",
+  "HIS EX SAW IT"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tyler",
+  "sub": "best friend",
+  "msgs": [
+   [
+    "them",
+    "jada just posted a can avalanche"
+   ],
+   [
+    "them",
+    "was that u"
+   ],
+   [
+    "me",
+    "no"
+   ],
+   [
+    "them",
+    "bro ur jersey is IN the video"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TEXT JADA  or  GO LEFT W/ TYLER"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "malik_b1125_crash.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "malik_b1125_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "malik_b1125_can.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "malik_b1125_banned.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "malik_toon_sad.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "malik_b1125_cart.jpg"
+  }
+ ],
+ "motion": true
+}

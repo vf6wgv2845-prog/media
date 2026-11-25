@@ -1,0 +1,342 @@
+{
+ "image": "wes_b1125_phone.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "pill": "THE TRASH HORDE  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "His new boss",
+  "is dating his ex.",
+  "He texts in ALL CAPS."
+ ],
+ "hook_emoji": "📱",
+ "name_line": "Night 1, 6 AM.",
+ "sub_line": "Bonus  •  Day 2 tomorrow",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Ranger Cole",
+  "msg": "PHOTO OF CUP SENT TO BROOKE.",
+  "emoji": "",
+  "color": [
+   60,
+   160,
+   90
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "30 days.",
+   "Park clean: 0%."
+  ],
+  "Top comment = tomorrow's move.",
+  [
+   "Real litter you pick up",
+   "hits the horde too."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Wes's new boss is his ex's boyfriend. Ranger Cole texts in all caps."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Six A.M."
+   ],
+   [
+    0.1,
+    "Bench four. Thirty-one cups."
+   ],
+   [
+    0.1,
+    "One has your name on it."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "It did. Drive-thru. Large lemonade."
+   ],
+   [
+    0.1,
+    "Horde HP: twenty-three hundred. Only real litter you pick up can hit it."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Gloves and a grabber, or find backup? What should Wes do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "0%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,300",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "drive-thru",
+   "lemonade",
+   "horde",
+   "twenty-three",
+   "hundred",
+   "real",
+   "litter"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "BOSS = HER BF",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.8,
+   "delay": 2.4
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "31 CUPS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 640,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "US: 394.7M CUPS LITTERED",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": 3,
+   "size": 62,
+   "hold": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "0 HITS SO FAR",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1440,
+   "angle": -3,
+   "size": 90,
+   "hold": 2.0
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR CLEANUP CREW",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 54,
+   "hold": 3.0,
+   "delay": 0.6
+  }
+ ],
+ "cover_title": [
+  "31 CUPS",
+  "ONE IS HIS"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "WES. BENCH 4. 31 CUPS."
+   ],
+   [
+    "me",
+    "those were there before me"
+   ],
+   [
+    "them",
+    "ONE HAS YOUR NAME ON IT."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "GLOVES + GRABBER  or  BACKUP"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_toon_shock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_b1125_cup.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "wes_d01_eyes.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_d01_grab.jpg"
+  }
+ ],
+ "motion": true
+}

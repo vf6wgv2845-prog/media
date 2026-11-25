@@ -226,6 +226,18 @@ def scene(name):
 <rect x="810" y="440" width="80" height="90" fill="#ffd166"/><rect x="930" y="440" width="80" height="90" fill="#2b2650"/><rect x="810" y="600" width="80" height="90" fill="#2b2650"/><rect x="930" y="600" width="80" height="90" fill="#ffd166"/>
 <circle cx="880" cy="180" r="70" fill="#f4f1de" opacity=".9"/><rect x="520" y="330" width="14" height="1050" fill="#2b2b2b"/><ellipse cx="527" cy="330" rx="60" ry="20" fill="#ffe08a"/>
 <g fill="#8fe36b" stroke="{INK}" stroke-width="5"><circle cx="150" cy="1300" r="40"/><circle cx="950" cy="1290" r="46"/></g><g fill="#fff"><circle cx="138" cy="1292" r="9"/><circle cx="162" cy="1292" r="9"/><circle cx="937" cy="1282" r="10"/><circle cx="963" cy="1282" r="10"/></g>'''
+    if name == "store":  # Nov 25: grocery aisle (Malik's cranberry run)
+        shelf = ""
+        for row, y in enumerate((330, 560, 790, 1020)):
+            for side, x0 in ((0, 0), (1, 760)):
+                shelf += f'<rect x="{x0}" y="{y + 170}" width="320" height="22" fill="#9aa5ae" stroke="{INK}" stroke-width="5"/>'
+                for k in range(4):
+                    col = ["#d64545", "#f2b134", "#3d8bd9", "#6fbf5a"][(k + row + side) % 4]
+                    shelf += f'<rect x="{x0 + 14 + k * 76}" y="{y + 70}" width="60" height="100" rx="8" fill="{col}" stroke="{INK}" stroke-width="4"/><rect x="{x0 + 14 + k * 76}" y="{y + 100}" width="60" height="34" fill="#fff" opacity=".85"/>'
+        return f'''<rect width="1080" height="1920" fill="#eef1e6"/><rect y="1380" width="1080" height="540" fill="#d7d2c4"/><rect y="1360" width="1080" height="30" fill="#bdb7a6"/>
+<rect x="0" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/><rect x="760" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/>
+{shelf}<rect x="390" y="90" width="300" height="130" rx="14" fill="#2f6fb3" stroke="{INK}" stroke-width="7"/><line x1="540" y1="0" x2="540" y2="90" stroke="{INK}" stroke-width="6"/>
+<text x="540" y="150" font-family="Inter" font-weight="900" font-size="52" text-anchor="middle" fill="#fff">AISLE 4</text><text x="540" y="198" font-family="Inter" font-weight="800" font-size="28" text-anchor="middle" fill="#ffd166">CANNED GOODS</text>'''
     return '<rect width="1080" height="1920" fill="#e9e3f5"/>'
 
 def svg(spec):

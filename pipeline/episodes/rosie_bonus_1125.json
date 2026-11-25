@@ -1,0 +1,359 @@
+{
+ "image": "rosie_b1125_turkey.jpg",
+ "cx": -0.12,
+ "voice": "af_heart",
+ "speed": 1.15,
+ "pill": "BONUS  •  22 DAYS LEFT",
+ "accent": [
+  214,
+  64,
+  46
+ ],
+ "hook": [
+  "Her boss handed her",
+  "a frozen 20-lb turkey.",
+  "Due tomorrow. Noon."
+ ],
+ "hook_emoji": "🦃",
+ "name_line": "Thanksgiving eve.",
+ "sub_line": "Bonus  •  Day 9 drops tonight",
+ "stats": [
+  [
+   "Knife skills",
+   6
+  ],
+  [
+   "Flavor",
+   8
+  ],
+  [
+   "Plating",
+   7
+  ],
+  [
+   "Speed",
+   8
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Julian Price",
+  "msg": "heard marco gave u the frozen one",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "22 days.",
+   "Skill 74%."
+  ],
+  "Top comment = tonight's dish.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Chef Marco handed Rosie a frozen, twenty-pound turkey. Due tomorrow, noon."
+   ],
+   [
+    0.1,
+    "Attempt one: the hair dryer. Marco unplugged it."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "So she texted Dee."
+   ],
+   [
+    0.1,
+    "Cold water, still in the wrapper. Change it every thirty minutes."
+   ],
+   [
+    0.1,
+    "Thirty minutes a pound."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Ten hours. Twenty alarms. Thawed by six, straight into the oven."
+   ],
+   [
+    0.1,
+    "Then Julian Price texted: heard Marco gave you the frozen one."
+   ],
+   [
+    0.1,
+    "Marco read it. How does Julian know about my turkey?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Ramen, or crispy salmon? What should Rosie cook next?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "22",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "74%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "14/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "ten",
+   "hours",
+   "twenty",
+   "alarms",
+   "six",
+   "oven",
+   "julian",
+   "marco",
+   "frozen",
+   "turkey"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.8,
+   "kind": "calendar",
+   "text": "22",
+   "x": 230,
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "*UNPLUGGED*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 520,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.6,
+   "delay": 1.6
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "20 LB = 10 HOURS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 640,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "20 ALARMS",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR CHEF FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 56,
+   "hold": 3.0,
+   "delay": 0.6
+  }
+ ],
+ "cover_title": [
+  "20 LB",
+  "STILL FROZEN"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Dee",
+  "sub": "mentor",
+  "msgs": [
+   [
+    "me",
+    "frozen turkey. 20 lb. due at noon"
+   ],
+   [
+    "them",
+    "cold water. in the wrapper. change it every 30 min"
+   ],
+   [
+    "them",
+    "30 min a pound. never the counter. never hot"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "RAMEN  or  CRISPY SALMON"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "rosie_b1125_dryer.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "rosie_b1125_sink.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "rosie_b1125_alarms.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "rosie_b1125_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "rosie_toon_shock.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "rosie_b1125_turkey.jpg"
+  }
+ ],
+ "motion": true
+}
