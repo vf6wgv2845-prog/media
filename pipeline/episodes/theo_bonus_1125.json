@@ -1,0 +1,328 @@
+{
+ "image": "theo_b1125_card.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "pill": "SEASON 1  •  WEDNESDAY MORNING",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "Mom sent his smile",
+  "to his ex's mom.",
+  "Maya saw it."
+ ],
+ "hook_emoji": "📸",
+ "name_line": "Wednesday morning.",
+ "sub_line": "Bonus  •  Day 9 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   4
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   4
+  ],
+  [
+   "Fitness",
+   7
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Aunt Linda",
+  "msg": "blink twice if ur ok",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 0,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "23 days.",
+   "Style: 4/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Mom sent his Thanksgiving photo to his ex's mom. Take fourteen."
+   ],
+   [
+    0.1,
+    "He smiles like a hostage. One eyebrow is eyeliner."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Aunt Linda, in the group chat: blink twice if you're okay."
+   ],
+   [
+    0.1,
+    "Maya's mom: she laughed for ten minutes."
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Maya texted."
+   ],
+   [
+    0.1,
+    "Why do you smile like a hostage? And who's the suit for?"
+   ],
+   [
+    0.1,
+    "He sent: my face does that."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Two of you said fix the smile. Or does he answer Maya?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "22",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "66%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "57/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "fourteen",
+   "hostage",
+   "eyebrow",
+   "linda",
+   "blink",
+   "maya",
+   "ten",
+   "minutes"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sc",
+   "line": 1,
+   "delay": 0.6,
+   "user": "5sta.r.angel",
+   "text": "the smile",
+   "likes": 0,
+   "y": 1790,
+   "hold": 2.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "ivannn_720",
+   "text": "The smile",
+   "likes": 0,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "22",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "TAKE 14",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 85,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "10 MINUTES",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 95,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "TAKE 14",
+  "THE HOSTAGE SMILE"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "why do you smile like ur being held hostage"
+   ],
+   [
+    "them",
+    "and u STILL didn't say who the suit is for"
+   ],
+   [
+    "me",
+    "my face does that"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = ANSWER MAYA   2 = THE SMILE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "theo_d08_drawn.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_gaming.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_b1125_card.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "theo_d08_drawn.jpg"
+  }
+ ],
+ "notif_y": 1080
+}

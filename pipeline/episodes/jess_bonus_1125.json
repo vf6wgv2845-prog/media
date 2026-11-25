@@ -1,0 +1,375 @@
+{
+ "image": "jess_b1125_shock.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 4 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Her ex is coming",
+  "to Thanksgiving.",
+  "Her sister invited him."
+ ],
+ "hook_emoji": "🦃",
+ "name_line": "Wednesday morning.",
+ "sub_line": "Bonus  •  Day 5 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   3
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Sienna",
+  "msg": "bringing anyone tomorrow? :)",
+  "emoji": "",
+  "color": [
+   150,
+   110,
+   220
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Style: 2/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Her sister invited her ex to Thanksgiving. Tomorrow."
+   ],
+   [
+    0.1,
+    "Mom's place cards: Jess, between Ryan and his girlfriend."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Ryan finally stopped typing."
+   ],
+   [
+    0.1,
+    "New everything, huh? See you at the turkey."
+   ],
+   [
+    0.1,
+    "She sent: ha. Fifth time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "She swapped her card with Grandma's. Mom swapped it back. Six times."
+   ],
+   [
+    0.1,
+    "Mom glued it down."
+   ],
+   [
+    0.1,
+    "Then his girlfriend texted: bringing anyone?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Two of you said the dress. Or does she find a date?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "50%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "thanksgiving",
+   "ex",
+   "tomorrow",
+   "ryan",
+   "girlfriend",
+   "grandma",
+   "six",
+   "glued",
+   "anyone"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.6,
+   "user": "tj_you_dont_know_me",
+   "text": "The dress!",
+   "likes": 1,
+   "y": 1790,
+   "hold": 2.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "a.cxxpss",
+   "text": "The dress",
+   "likes": 1,
+   "y": 1650,
+   "hold": 3.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SEAT: THE MIDDLE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA #5",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "SWAP x6",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "*SQUEEZE*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 100,
+   "hold": 1.0
+  }
+ ],
+ "cover_title": [
+  "GLUED",
+  "NEXT TO HER EX"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "new everything huh"
+   ],
+   [
+    "them",
+    "see u at the turkey tomorrow"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = THE DRESS   2 = A DATE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "jess_b1125_cards.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_b1125_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_b1125_cards.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_b1125_glue.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_b1125_shock.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1125_glue.jpg"
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "image": "danny_b1125_fix.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "pill": "DAY 4 / 30  •  BONUS",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "His bully needed",
+  "a phone repair.",
+  "From him."
+ ],
+ "hook_emoji": "📱",
+ "name_line": "Wednesday morning.",
+ "sub_line": "Bonus  •  Day 5 drops tonight",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Brock (reunion chat)",
+  "msg": "only thing danny's ripping is people off",
+  "emoji": "",
+  "color": [
+   235,
+   80,
+   95
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Lies true: 0.75/3."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His high school bully came to his kiosk. Cracked screen."
+   ],
+   [
+    0.1,
+    "Danny fixed it in eight minutes. Full price. Plus tax."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Brock's sister texted."
+   ],
+   [
+    0.1,
+    "My brother says you charged him full price. Good."
+   ],
+   [
+    0.1,
+    "He sent: the CEO thanks you. She's typing."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Brock left a review. One star. Fast. Rude. Would come back."
+   ],
+   [
+    0.1,
+    "Then, in the reunion chat: the only thing Danny's ripping is people off."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Nobody's voted yet. Get ripped, or ask Tara out?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "1/3",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "41/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1760,
+  "keywords": [
+   "bully",
+   "eight",
+   "full",
+   "price",
+   "tax",
+   "one",
+   "star",
+   "ripping",
+   "danny"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "+ TAX",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "STILL THE CEO",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "1 STAR",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 110,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 760,
+   "angle": -3,
+   "size": 75,
+   "hold": 2.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "1 STAR",
+  "FROM HIS BULLY"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tara",
+  "sub": "Brock's sister",
+  "msgs": [
+   [
+    "them",
+    "my brother says u charged him full price"
+   ],
+   [
+    "them",
+    "good"
+   ],
+   [
+    "me",
+    "the CEO thanks you"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = GET RIPPED   2 = ASK TARA OUT"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "danny_b1125_smug.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_d04_cash.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_b1125_review.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "danny_b1124_panic.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_b1125_smug.jpg"
+  }
+ ]
+}
