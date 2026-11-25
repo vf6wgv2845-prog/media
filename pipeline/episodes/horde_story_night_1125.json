@@ -1,0 +1,348 @@
+{
+ "image": "wes_n1_dark.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "pill": "NIGHT 1",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "The cigarette butts",
+  "stood up.",
+  "Then one coughed."
+ ],
+ "hook_emoji": "",
+ "name_line": "Night 1.",
+ "sub_line": "Bonus  •  Day 2 drops tomorrow",
+ "stats": [
+  [
+   "Body",
+   2
+  ],
+  [
+   "Money",
+   3
+  ],
+  [
+   "Style",
+   2
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Ranger Cole",
+  "msg": "MIDNIGHT HE GETS +100 HP.",
+  "emoji": "",
+  "color": [
+   60,
+   160,
+   90
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "30 days.",
+   "Park clean: 0%."
+  ],
+  "Top comment = tomorrow's move.",
+  [
+   "Real litter you pick up",
+   "hits the horde too."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Night one. Wes's flashlight died at bench four."
+   ],
+   [
+    0.1,
+    "Then the cigarette butts stood up. One of them coughed."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "He texted Cole."
+   ],
+   [
+    0.1,
+    "The butts are moving."
+   ],
+   [
+    0.1,
+    "That's the Butt Goblin. Don't let him reach midnight."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Twenty-three hundred HP. At midnight, he gets a hundred more."
+   ],
+   [
+    0.1,
+    "Only real litter you pick up can hit him. Nobody has. Yet."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Gloves and a grabber, or find backup? What should Wes do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "0%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,300",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "flashlight",
+   "bench",
+   "four",
+   "butts",
+   "coughed",
+   "hundred",
+   "midnight",
+   "real",
+   "litter",
+   "nobody"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.6,
+   "text": "*CLICK CLICK*",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.4
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 2.2,
+   "text": "*COUGH*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 5,
+   "size": 105,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.4,
+   "text": "US: BUTTS = #1 LITTERED ITEM",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 56,
+   "hold": 2.4
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 1.2,
+   "text": "0 HITS SO FAR",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1440,
+   "angle": 3,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR CLEANUP CREW",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "NIGHT 1",
+  "THE BUTTS STOOD UP"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "me",
+    "the butts are MOVING"
+   ],
+   [
+    "them",
+    "THAT'S THE BUTT GOBLIN."
+   ],
+   [
+    "them",
+    "DON'T LET HIM REACH MIDNIGHT."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "GLOVES + GRABBER  or  BACKUP"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "wes_n1_goblin.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_n1_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_n1_hp.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_n1_hp.jpg"
+  }
+ ],
+ "motion": true
+}
