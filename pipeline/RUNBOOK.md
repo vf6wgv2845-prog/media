@@ -1,6 +1,7 @@
 # Daily run: Boris's Instagram story accounts (6)
 
 Owner: Boris. He has given standing permission to post on all accounts in `state.json` `accounts`: Theo, Malik, Rosie, Trash Horde, and (once set up) the two new Theo-style glow-up pages Jess and Danny.
+**Nov 25: read section 5i first. It overrides older format/cadence notes for Jess, Theo, Malik, Rosie and the Trash Horde.**
 **Golden rule: the audience decides.** Every episode must follow the winning vote from the previous episode's comments. Never ignore, override or "improve on" a vote.
 
 ## 0a. New glow-up pages (Jess, Danny): same format as Theo
@@ -115,6 +116,34 @@ Data Nov 23 PM: every Jess Reel 1,400-1,700 views (D1 1,683, D2 1,425, Mon bonus
 - **Only fix comments on Jess** (2 and 0 comments on her last two despite 1,400+ views): end on a 2-choice question that's answerable in one tap ("1 or 2?"), say it in the voice AND show it as the cover-style sticker; put the leading real comment card on screen by ~10 s, not only on the vote screen; pin-able caption line 1 ends with the question. Keep the full option list in the caption for the episode.
 - **Copy Jess's mechanics to Danny and Theo** (never her story): a premise a stranger gets in one line in the first 2 s, 3-4 picture changes per Reel (Danny: new toon.py looks every Reel; Theo: rotate existing images as beats until a live session adds new ones), and the same 2-choice comment ask.
 - Track each run in learning_log: Jess views vs comments, and whether the 2-choice ask lifts comments; if comments stay under 3 for 2 more days, try the commenter-cameo ask in the voice line instead.
+
+## 5i. Nov 25: niche research + "the 800-view gate" (Boris, live: "Jess is doing good, rank it up but don't make a change that makes it go down; change the others a good amount")
+**What our own data says (59 Reels, Nov 19-24, Windsor skip rate + avg watch):** every Reel with **skip <= 40% AND avg watch >= 10 s** reached 800-1,800 views. Everything else was stuck at ~100-250 (47 Reels, avg 50% skip / 6.8 s). Instagram shows each Reel to a small test pool and only pushes it further if people stay. Jess passes this gate on every post (avg 37% / 12.0 s, 1,473-1,820 views). Theo, Malik, Rosie, Horde and History almost never do (45-53% skip, 5.5-8.2 s). Danny's Wed bonus (receipt + 1-star review props) is the first non-Jess Reel at 32.8% / 14.8 s.
+**What the niche + platform reward (web, Nov 25; sources in state.trends.niche_nov25):**
+- Instagram Reels ranking (late 2026, per SocialPilot and Dataslayer write-ups): watch time / completion first, then **sends (DM shares) per reach**, then likes per reach. Original content only, no watermarks. Keyword-rich caption text beats hashtags. Trial Reels need 1,000+ followers (we can't use them yet).
+- @30daystofix (2-10M per Reel): ex/reunion stakes, visible change every day, a new picture or joke every 1.5-2 s, top comment as a card, sitcom structure (see 3c0).
+- Fruit Love Island (AI reality-TV parody, Mar 2026: 3M followers in 9 days, 300M+ views, ~10M per episode, per Wikipedia): a familiar format (dating show), audience votes decide what happens, daily serialized episodes, absurd characters. It also drew heavy "AI slop" backlash and TikTok removals. So: stay hand-drawn-looking with real comments and real recipes/facts, never generic AI-looking footage.
+**Gate rules for every account except Jess (apply from the next Reel):** the hook sentence is fully on screen by 1 s; a new picture or prop every 2-3 s (3-4 looks + drawn props, never one static image); the strongest beat (chat with the ex/rival) by 7-9 s; 20-26 s total; one visible prop that IS the joke in the frame (receipt, sign, card, glued place card); a relationship stake a stranger gets in one line. On the vote screen add a send sticker ("SEND THIS TO YOUR <brother/sister/teammate/chef friend>") and put the same ask in caption line 2.
+
+### Jess: protect the baseline, test one lever at a time
+**Never change** the premise, toon style, voice (af_bella 1.18), length (22-26 s), order (s1 -> chat by ~7 s -> s3 -> 1-or-2 vote), 3-4 looks per Reel, the leading real comment card, the morning single-moment bonus, or posting times (~7:50 AM bonus, ~5:50 PM episode).
+**Baseline** (her last 6 Reels): 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares.
+**Tests** go on the **morning bonus first** (never the Day episode), **one at a time**, with results logged in `state.series.jess.experiments`. At ~24 h: **keep** it only if views >= 1,400 AND skip <= 38% AND avg watch >= 11 s (then also use it on episodes); otherwise revert the next day and note why. Order:
+- **T1 (Nov 26 AM bonus): send prompt.** No voice change. Vote screen gets a sticker "SEND THIS TO YOUR SISTER" (or the beat's best fit) and caption line 2 = a send ask ("Send this to the friend who'd glue the place card"). Measures shares/reach.
+- **T2: loop ending.** The last frame returns to the hook image, and the last voice line sets up the first one so rewatches flow (watch time).
+- **T3: a third Jess Reel per day** (a 12-16 s chat-only "night text" beat, ~9:30 PM ET). Only after T1/T2 hold, and stop if the other Jess Reels drop below the baseline.
+- **T4:** the cameo ask in the voice line ("want to be her date? comment the job").
+
+### Theo (stays 3D, Boris Nov 25)
+Every Reel gets 1-2 drawn props/frames composited with PIL over his existing images (like the Nov 25 Thanksgiving card: frames, signs, stickers on the photo, a phone screen), 4+ beats, chat by ~7 s. Keep asking Boris for new 3D images in live sessions.
+
+### Malik + Rosie: redrawn as toons (Boris approved Nov 25)
+From their next Reel use `toon.py` who `malik` (scene `gym`) / who `rosie` (scene `kitchen`); base looks are `pipeline/assets/malik_toon_*.jpg` / `rosie_toon_*.jpg`. Render 3-4 looks per Reel with props (`extra` SVG: ball, scout email on a phone, burnt pan, thermometer). The first toon Reel's caption says once "(new look, same story)"; no other fuss. The stories continue. Sharpen the stakes so a stranger gets them in one line:
+- Malik: "His ex is in the stands at the tourney and the scout wants his left hand" (Jada + scout Dec 4 + Tyler/Dez).
+- Rosie: next episode twist: **Julian (the favorite) is her ex from culinary school**. Hook lines lead with Julian or Chef Marco, never with the dish. The recipe stays real and stays in the caption.
+
+### Trash Horde = a story now (Boris approved Nov 25)
+Lead **Wes** (toon `who: wes`, scene `street`): he threw one cup out his car window, it hit park ranger **Cole** (his ex **Brooke**'s new boyfriend), and the judge gave him 30 days of litter duty in the park. At night the trash comes alive (the Horde). He must get the park spotless by Day 30 or start over. Same vote mechanics as Jess (1 or 2, top comment). HUD: DAYS LEFT / PARK CLEAN % / HORDE HP. **HORDE HP moves only from real hauls** (5c counting + verification rules unchanged); real cleaners appear as comment cards and become "reinforcements" by @handle. Litter facts only as one sticker inside an episode, with the source in the caption. No more standalone fact/quiz/challenge Reels. Cadence: AM bonus beat, midday short beat (<= 20 s: a chat or a real-haul shout-out), evening Day N.
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.

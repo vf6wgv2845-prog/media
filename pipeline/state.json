@@ -396,7 +396,21 @@
      "config": "pipeline/episodes/malik_bonus_1124.json",
      "note": "Midday ~1:57 PM ET bonus (NOT Day 8): GO LEFT sticky notes on everything; mom read the car-keys note and only turned left (4 lefts, same block, 25 min late); went left at practice into Coach Reyes ('that's one. 10 days.'); Tyler chat 'my mom saw your mom go around our block 4 times' / 'still think you start? 10 days'. 0 comments on Day 7 + Mon bonus (read Nov 23-24) -> no leading comment; 1-or-2 vote (scout vs Jada) kept open. Day 8 votes: count this Reel too. 31.3 s."
     }
-   ]
+   ],
+   "art_switch": {
+    "date": "2026-11-25",
+    "approved_by": "Boris (live, Nov 25)",
+    "toon_who": "malik",
+    "scene": "gym",
+    "base_looks": [
+     "malik_toon_base.jpg",
+     "malik_toon_shock.jpg",
+     "malik_toon_grin.jpg",
+     "malik_toon_sad.jpg"
+    ],
+    "note": "From the next Reel: toon style, 3-4 looks per Reel with drawn props (RUNBOOK 5i). First toon Reel caption: '(new look, same story)'. Old 3D image kept only for history."
+   },
+   "premise_hook_nov25": "His ex Jada will be in the stands at the tourney, and the FSU scout wants to see his left hand Dec 4 (Tyler/Dez rivalry)."
   },
   "rosie": {
    "title": "Rosie's 30 days to the city cook-off",
@@ -424,7 +438,7 @@
    },
    "cast": {
     "Chef Marco": "her boss, doubts her",
-    "Julian Price": "old culinary school rival, favorite to win",
+    "Julian Price": "old culinary school rival, favorite to win | Nov 25 plan (RUNBOOK 5i): next episode reveals Julian is her ex from culinary school (they dated 2 years); lead hooks with Julian/Marco, not the dish.",
     "Mentor": "Dee: tough retired chef, judged the city cook-off 12 years; texted Rosie Day 6 (Marco gave her the number). Sunday 6 AM lesson next."
    },
    "rules": "Every practice dish comes with a REAL, accurate recipe (post it as a carousel or in the caption). Day 30 = the cook-off; later seasons go regional then a TV-style final.",
@@ -534,14 +548,27 @@
      "config": "pipeline/episodes/rosie_bonus_1124.json",
      "note": "Midday ~2:00 PM ET bonus (NOT Day 8): Dee texted 'onions', Rosie diced 14, whole kitchen cried (dishwasher, delivery guy, Chef Marco in front of a supplier, 'allergies'); Marco notif 'who ordered 14 onions'; Dee chat 'photo.' / 'root end on. sharper knife. again.' Caption: onion dice method + LOC syn-propanethial-S-oxide fact. 0 comments on Day 7 + Mon bonus -> 1-or-2 vote (ramen vs steak frites) kept open; Dee's Sunday 6 AM lesson still open. Day 8 votes: count this Reel too. 24.1 s."
     }
-   ]
+   ],
+   "art_switch": {
+    "date": "2026-11-25",
+    "approved_by": "Boris (live, Nov 25)",
+    "toon_who": "rosie",
+    "scene": "kitchen",
+    "base_looks": [
+     "rosie_toon_base.jpg",
+     "rosie_toon_shock.jpg",
+     "rosie_toon_smirk.jpg",
+     "rosie_toon_sad.jpg"
+    ],
+    "note": "From the next Reel: toon style, 3-4 looks per Reel with drawn props (RUNBOOK 5i). First toon Reel caption: '(new look, same story)'. Old 3D image kept only for history."
+   }
   },
   "horde": {
    "title": "The Trash Horde: real litter pickup damages a zombie horde",
-   "type": "community_game",
+   "type": "story_plus_real_hauls",
    "day": 6,
    "last_post_date": "2026-11-24",
-   "last_media_id": "18103707833431212",
+   "last_media_id": "18016460165999943",
    "count_comments_on": [
     "18086748809339674",
     "18360182398220303",
@@ -561,7 +588,8 @@
     "17920457073465342",
     "17904637818655765",
     "18103707833431212",
-    "18125982830516343"
+    "18125982830516343",
+    "18016460165999943"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -617,7 +645,8 @@
     "Nov 24 ~7:52 AM ET (extras AM): read comments on all 15 counted Horde posts -> 0 comments of any kind (media_comments_count 0 everywhere; comment query Nov 22-24 empty for the account) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,100 -> 2,200 HP (0 hits Nov 23). Posted fact #8 (WHO 31 May 2022: ~4.5 trillion cigarette filters pollute the planet yearly, filters contain microplastics, cleanup costs fall on taxpayers, China ~US$2.6B/yr) + horde advances 17920457073465342 (27.1 s). If still 0 hits by midnight: +100 -> 2,300.",
     "Nov 24 ~1:57 PM ET (extras midday): read comments on all 16 counted Horde posts -> 0 comments of any kind (media_comments_count 0 on every Horde post Nov 19-24; comment query Nov 23-24 empty for the account) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted 60-second challenge #2 'door to mailbox' 17904637818655765 (26.6 s; fact used = KAB 2020 butts 19.6%, already logged). If still 0 hits by midnight: +100 -> 2,300.",
     "Nov 24 ~6:05 PM ET (main run): read all comments on all 17 counted Horde posts (media_comments_count 0 on every Horde post; comment pulls last_3dT, Nov 24 only and last_14dT since Nov 23 12:00 UTC show no Horde comments) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 3 battle 18103707833431212 ('ONE PIECE COUNTS', 22.0 s) + teaser story + video story. Midday challenge #2 17904637818655765 had only 17 views at ~4 h (possible suppression/processing; not reposted). If still 0 hits by midnight: +100 -> 2,300.",
-    "Nov 25 ~7:55 AM ET (extras AM): read comments on all 18 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 shows no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,200 -> 2,300 HP (0 hits Nov 24). Posted quiz #1 (new format: '15, 152 or 1,520?' -> 152 each, KAB 2020, Thanksgiving 'walk off the turkey' ask) 18125982830516343 (30.1 s, cover '152 / PIECES. EACH.'). If still 0 hits by midnight: +100 -> 2,400."
+    "Nov 25 ~7:55 AM ET (extras AM): read comments on all 18 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 shows no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,200 -> 2,300 HP (0 hits Nov 24). Posted quiz #1 (new format: '15, 152 or 1,520?' -> 152 each, KAB 2020, Thanksgiving 'walk off the turkey' ask) 18125982830516343 (30.1 s, cover '152 / PIECES. EACH.'). If still 0 hits by midnight: +100 -> 2,400.",
+    "Nov 25 ~9:57 AM ET (live session with Boris): Trash Horde switched to a story (RUNBOOK 5i). Posted story Day 1 18016460165999943 (Wes, 30 days of litter duty). Real-haul game unchanged: Butt Goblin 2,300 HP, 0 hits, deadline Sun Nov 29."
    ],
    "format": {
     "tiles": [
@@ -634,7 +663,49 @@
      "hp_max": 5000,
      "result": "survived (0 hits, 0 cleaners) -> horde spread, Nov 22"
     }
-   ]
+   ],
+   "story": {
+    "status": "live from 2026-11-25",
+    "lead": "Wes (toon who 'wes', scene 'street', orange hi-vis vest)",
+    "premise": "Wes threw one cup out his car window; it hit park ranger Cole, his ex Brooke's new boyfriend. The judge gave him 30 days of litter duty in the park. At night the trash comes alive (the Horde). Park spotless by Day 30 or he starts over.",
+    "day": 1,
+    "start_date": "2026-11-25",
+    "voice": "am_fenrir",
+    "speed": 1.15,
+    "cast": {
+     "Wes": "lead, early 20s, threw the cup",
+     "Cole": "park ranger, his supervisor, Brooke's new boyfriend",
+     "Brooke": "Wes's ex; texts him",
+     "The Horde": "the park's litter, alive at night; the Butt Goblin is its boss this week (HP from REAL hauls only)"
+    },
+    "hud": [
+     "DAYS LEFT",
+     "PARK CLEAN %",
+     "HORDE HP (real hauls only)"
+    ],
+    "open_vote": {
+     "question": "1 or 2?",
+     "type": "two_choice",
+     "options": [
+      "Gear up (gloves + grabber)",
+      "Find backup"
+     ],
+     "note": "Day 2 vote: count comments on Day 1 (18016460165999943) + bonuses."
+    },
+    "cadence": "AM bonus beat, midday short beat (<=20 s chat or real-haul shout-out), evening Day N (RUNBOOK 5i). Tonight Nov 25: main run posts a bonus beat (not Day 2: Day 1 went up ~10 AM); Day 2 = Nov 26 evening.",
+    "real_hauls": "5c counting/verification unchanged; every real haul = damage to HORDE HP + comment card + 'reinforcement @handle' in the story. Never invent hauls.",
+    "bonus_posts": [],
+    "episodes": [
+     {
+      "day": 1,
+      "date": "2026-11-25",
+      "media_id": "18016460165999943",
+      "video": "horde/story_d01.mp4",
+      "config": "pipeline/episodes/horde_story_d01.json",
+      "note": "Posted ~9:57 AM ET by the live Nov 25 session (Boris approved the story switch). 23.5 s, looks wes_d01_cup/grab/bag/eyes + wes_toon_shock, chat with Brooke, cover 'DAY 1 / THE TRASH HAS EYES'. Vote: 1 Gear up / 2 Find backup."
+     }
+    ]
+   }
   },
   "jess": {
    "status": "live",
@@ -772,7 +843,18 @@
     }
    ],
    "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered",
-   "art": "Original flat-vector character drawn with pipeline/toon.py (SVG -> Chromium). Change the look day by day via toon.py 'look' params (hair_style, top, spots, beard, mouth, makeup, earrings...) so the glow-up is VISIBLE; render a new pipeline/assets/<name>_dNN.jpg each episode."
+   "art": "Original flat-vector character drawn with pipeline/toon.py (SVG -> Chromium). Change the look day by day via toon.py 'look' params (hair_style, top, spots, beard, mouth, makeup, earrings...) so the glow-up is VISIBLE; render a new pipeline/assets/<name>_dNN.jpg each episode.",
+   "experiments": {
+    "rule": "RUNBOOK 5i: one lever at a time, on the morning bonus first; keep only if ~24 h views >= 1,400 AND skip <= 38% AND avg watch >= 11 s, else revert next day.",
+    "baseline_nov25": "last 6 Reels: 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares",
+    "queue": [
+     "T1 send prompt (sticker on vote screen + caption line 2), Nov 26 AM bonus",
+     "T2 loop ending",
+     "T3 third daily Reel (12-16 s night text, ~9:30 PM ET) only if T1/T2 hold",
+     "T4 cameo ask in voice"
+    ],
+    "results": []
+   }
   },
   "danny": {
    "status": "live",
@@ -1017,13 +1099,24 @@
     "theo_bonus_1125": "#TheosGlowUp #glowup #glowupchallenge #storytime #youdecide",
     "jess_bonus_1125": "#JessGlowUp #glowup #30daychallenge #storytime #youdecide",
     "danny_bonus_1125": "#DannysComeback #glowup #30daychallenge #storytime #youdecide",
-    "horde_quiz01": "#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge"
+    "horde_quiz01": "#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge",
+    "horde_story_d01": "#TrashHorde #storytime #litterpicking #cleanup #animation"
    },
    "note": "AM extras; results logged by the next run"
   }
  ],
  "trends": {
-  "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it."
+  "gta6": "GTA 6 launched Nov 19, 2026 (Rockstar). While it's trending, weave light GTA 6 references into all three series (Malik's team group chat, Rosie making launch-night snacks), text only: no Rockstar logos, art or gameplay footage. 1 of the 5 hashtags can be #GTA6 when the episode actually mentions it.",
+  "niche_nov25": {
+   "summary": "RUNBOOK 5i. Our gate: skip <= 40% and avg watch >= 10 s -> 800-1,800 views; otherwise ~100-250.",
+   "sources": [
+    "https://www.socialpilot.co/blog/instagram-reels-algorithm (Sep 2026)",
+    "https://www.dataslayer.ai/blog/instagram-algorithm-2025-complete-guide-for-marketers (Jun 2026)",
+    "https://en.wikipedia.org/wiki/Fruit_Love_Island",
+    "https://fruitloveisland.ai/blog/ai-shows-tiktok-2026/ (promotional)",
+    "pipeline/ANALYSIS_30daystofix_2026-11-21.md"
+   ]
+  }
  },
  "schedule": "Main run 5:45 PM ET (all episodes + stories + Horde battle). Extras task 7:37 AM + 1:37 PM ET (Theo bonus in the morning, Trash Horde Reels both runs; 5/day test Nov 21-25). See RUNBOOK 5e.",
  "learning_log": [
@@ -1368,7 +1461,8 @@
   "Nov 24 AM extras: morning bonuses beat their own evening episodes on watch time again on all three glow-up pages (Jess 13.0 s vs D3 11.9 s; Theo 9.8 vs 6.2; Danny 8.6 vs 6.7) and on skip rate. The 5h '1 or 2' ask got Theo's first fast vote replies (2 '2's within 6 h on D7) and 1 on Jess D3 at 1,383 views: still ~1 comment per 1,000 views on Jess, so the 2-day check in RUNBOOK 5h stays open. Applied today: leading real comment card at ~9 s (chat line 3) + again on the vote screen; props drawn into toon looks (toon.py 'extra' SVG) so the gag is visible, not only narrated. Contact-sheet catch: toon props at x>750 or y<600 get cropped by the cx -0.12 zoom; keep props within x 0-750, y 650-1500, and put stickers at y 560 when a prop sits at chest height.",
   "Nov 24 midday extras: Malik, Rosie, History and Horde still have 0 comments ever on recent posts (Malik/Rosie Reels ~120-160 views each, flat for 4 days), so the 1-or-2 ask hasn't moved them yet; the toon pages' picture changes (3-4 looks) aren't possible for Malik/Rosie (one 3D image each) -> ask Boris in a live session for 3-4 new Malik/Rosie scene images in the same style. History E4 tests a well-known, funny story (Emu War) with a 'the emus won' hook vs E3's archival-disaster opening (60.6% skip): compare 24 h skip/avg watch. Glyph catch: emoji/arrow characters inside sticker text (e.g. '⬅', '⏱') render as empty boxes; keep sticker text plain ASCII.",
   "Nov 24 main run: Jess's 2-choice ask got 3 hair votes (2 commenters + 1 like) vs 1 on D2/D3 at similar views - still ~1-2 comments per 1,000 views, so RUNBOOK 5h's 2-day check is now due: next Jess episode also puts the cameo ask in the voice line ('want to be in it? comment the job you'd do'). Applied today: notification card moved off the face (new cfg 'notif_y', e.g. 1060-1080) on the 3D characters so the visual gag stays visible (Theo's missing eyebrow, Rosie's face); keep the default (top) on toons, where y~1080 covers the mouth. Theo got his first visible change in the cloud (OpenCV brow removal + drawn brow): compare D8 skip/avg watch vs D7 (54.8% / 6.2 s). History E4 (well-known funny story) beats E3 at 5 h (52.6% vs 58.8% skip, 8.5 vs 7.6 s): keep famous-but-weird stories.",
-  "Nov 25 AM extras: Theo D8 (visible change: a missing eyebrow) and Danny D4 (concrete money hook '$12 became $3') each did ~2.3-2.4x their previous episode, and Jess's mop bonus hit 1,803 (record): a visible, specific prop/change on screen beats narrated change. Applied today: every bonus has a visible prop in the picture (Theo's Thanksgiving card frame, Jess's glued place cards, Danny's receipt + 1-star review sign) and leans on the Thanksgiving trend (Nov 26). Engine catches: cover_title lines over ~9 characters overflow the 1080 frame ('WEDNESDAY' did) -> keep cover line 1 <= 8 chars; toon props drawn near the frame edges or below y~1450 get cropped/darkened by the engine framing, keep props within x 200-880, y 1000-1450; captions default y 1500 covers props at chest height -> move captions to y ~1760 when the prop is there. make_cover can be re-run alone (Episode(...).load_timing(); build_layers(); build_extras(); make_cover())."
+  "Nov 25 AM extras: Theo D8 (visible change: a missing eyebrow) and Danny D4 (concrete money hook '$12 became $3') each did ~2.3-2.4x their previous episode, and Jess's mop bonus hit 1,803 (record): a visible, specific prop/change on screen beats narrated change. Applied today: every bonus has a visible prop in the picture (Theo's Thanksgiving card frame, Jess's glued place cards, Danny's receipt + 1-star review sign) and leans on the Thanksgiving trend (Nov 26). Engine catches: cover_title lines over ~9 characters overflow the 1080 frame ('WEDNESDAY' did) -> keep cover line 1 <= 8 chars; toon props drawn near the frame edges or below y~1450 get cropped/darkened by the engine framing, keep props within x 200-880, y 1000-1450; captions default y 1500 covers props at chest height -> move captions to y ~1760 when the prop is there. make_cover can be re-run alone (Episode(...).load_timing(); build_layers(); build_extras(); make_cover()).",
+  "Nov 25 (Boris live: niche research): our own 59 Reels show a hard gate: skip <= 40% AND avg watch >= 10 s -> 800-1,800 views (all 6 Jess Reels, Danny D1, Theo Sun bonus); everything else ~100-250 (avg 50% / 6.8 s). Platform write-ups agree watch time first, then DM sends per reach. Decisions (Boris): Jess protected + one-lever A/B tests on the morning bonus (T1 send prompt first); Malik + Rosie redrawn as toons; Theo stays 3D with drawn props; Trash Horde becomes a story (Wes, 30 days of litter duty) with real hauls still the only source of Horde damage. RUNBOOK 5i."
  ],
  "facts": [
   {
