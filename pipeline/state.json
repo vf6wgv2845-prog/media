@@ -281,7 +281,7 @@
      "Text Jada",
      "Practice left with Tyler"
     ],
-    "note": "Day 9 vote: count comments on Day 8 (18118617413332163) + Wed midday bonus."
+    "note": "Day 9 vote: count comments on Day 8 (18118617413332163) + Tue bonus (18133610128698536) + Wed midday bonus (18027021251937486)."
    },
    "cast": {
     "Tyler": "best friend, made varsity (loyalty tension as Malik rises)",
@@ -395,6 +395,13 @@
      "video": "malik/bonus_1124.mp4",
      "config": "pipeline/episodes/malik_bonus_1124.json",
      "note": "Midday ~1:57 PM ET bonus (NOT Day 8): GO LEFT sticky notes on everything; mom read the car-keys note and only turned left (4 lefts, same block, 25 min late); went left at practice into Coach Reyes ('that's one. 10 days.'); Tyler chat 'my mom saw your mom go around our block 4 times' / 'still think you start? 10 days'. 0 comments on Day 7 + Mon bonus (read Nov 23-24) -> no leading comment; 1-or-2 vote (scout vs Jada) kept open. Day 8 votes: count this Reel too. 31.3 s."
+    },
+    {
+     "date": "2026-11-25",
+     "media_id": "18027021251937486",
+     "video": "malik/bonus_1125.mp4",
+     "config": "pipeline/episodes/malik_bonus_1125.json",
+     "note": "Midday ~1:50 PM ET bonus (NOT Day 9). FIRST TOON Reel (caption said '(new look, same story)'). Thanksgiving eve: Mom sent him for cranberry sauce; Jada (ex) in aisle 4 (first time on screen, offscreen character); he 'went left' with the cart into the cranberry pyramid; Jada handed him one can: 'still can't go left, huh?'; banned from aisle 4; Tyler chat 'jada just posted a can avalanche' / 'was that u' / 'no' / 'bro ur jersey is IN the video'; Mom notif 'you got BANNED from a grocery store??'. Tourney in 9 days, Jada will be in the stands. Vote kept open (0 comments on Day 8 + Tue bonus, read Nov 24-25): Text Jada vs practice left with Tyler, natural-question wording (RUNBOOK 5j), send sticker 'SEND THIS TO YOUR TEAMMATE'. Day 9 votes: count this Reel too. 27.5 s, motion on, captions y 1200. New toon scene 'store' + looks malik_b1125_*."
     }
    ],
    "art_switch": {
@@ -434,7 +441,7 @@
      "Ramen",
      "Crispy salmon"
     ],
-    "note": "Day 9 vote: count comments on Day 8 (17974732644195464) + Wed midday bonus."
+    "note": "Day 9 vote: count comments on Day 8 (17974732644195464) + Tue bonus (18339115372277399) + Wed midday bonus (17959867089295245)."
    },
    "cast": {
     "Chef Marco": "her boss, doubts her",
@@ -547,6 +554,13 @@
      "video": "rosie/bonus_1124.mp4",
      "config": "pipeline/episodes/rosie_bonus_1124.json",
      "note": "Midday ~2:00 PM ET bonus (NOT Day 8): Dee texted 'onions', Rosie diced 14, whole kitchen cried (dishwasher, delivery guy, Chef Marco in front of a supplier, 'allergies'); Marco notif 'who ordered 14 onions'; Dee chat 'photo.' / 'root end on. sharper knife. again.' Caption: onion dice method + LOC syn-propanethial-S-oxide fact. 0 comments on Day 7 + Mon bonus -> 1-or-2 vote (ramen vs steak frites) kept open; Dee's Sunday 6 AM lesson still open. Day 8 votes: count this Reel too. 24.1 s."
+    },
+    {
+     "date": "2026-11-25",
+     "media_id": "17959867089295245",
+     "video": "rosie/bonus_1125.mp4",
+     "config": "pipeline/episodes/rosie_bonus_1125.json",
+     "note": "Midday ~1:52 PM ET bonus (NOT Day 9). FIRST TOON Reel ('(new look, same story)' in caption). Marco handed her a frozen 20-lb turkey for staff Thanksgiving, due noon tomorrow; hair dryer attempt (Marco unplugged it); Dee chat: cold water in the wrapper, change every 30 min, 30 min a pound, never the counter, never hot; 10 hours, 20 alarms, thawed by 6, straight into the oven; Julian Price notif 'heard marco gave u the frozen one' -> Marco: 'How does Julian know about my turkey?' (open loop that sets up the Julian-is-her-ex reveal planned for Day 9, NOT revealed). USDA thawing guide in caption (USDA blog, UNL + Illinois Extension). Vote kept open: Ramen vs Crispy salmon (natural question). Day 9 votes: count this Reel too. 28.0 s."
     }
    ],
    "art_switch": {
@@ -589,7 +603,8 @@
     "17904637818655765",
     "18103707833431212",
     "18125982830516343",
-    "18016460165999943"
+    "18016460165999943",
+    "17986971077900609"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -646,7 +661,8 @@
     "Nov 24 ~1:57 PM ET (extras midday): read comments on all 16 counted Horde posts -> 0 comments of any kind (media_comments_count 0 on every Horde post Nov 19-24; comment query Nov 23-24 empty for the account) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted 60-second challenge #2 'door to mailbox' 17904637818655765 (26.6 s; fact used = KAB 2020 butts 19.6%, already logged). If still 0 hits by midnight: +100 -> 2,300.",
     "Nov 24 ~6:05 PM ET (main run): read all comments on all 17 counted Horde posts (media_comments_count 0 on every Horde post; comment pulls last_3dT, Nov 24 only and last_14dT since Nov 23 12:00 UTC show no Horde comments) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 3 battle 18103707833431212 ('ONE PIECE COUNTS', 22.0 s) + teaser story + video story. Midday challenge #2 17904637818655765 had only 17 views at ~4 h (possible suppression/processing; not reposted). If still 0 hits by midnight: +100 -> 2,300.",
     "Nov 25 ~7:55 AM ET (extras AM): read comments on all 18 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 shows no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,200 -> 2,300 HP (0 hits Nov 24). Posted quiz #1 (new format: '15, 152 or 1,520?' -> 152 each, KAB 2020, Thanksgiving 'walk off the turkey' ask) 18125982830516343 (30.1 s, cover '152 / PIECES. EACH.'). If still 0 hits by midnight: +100 -> 2,400.",
-    "Nov 25 ~9:57 AM ET (live session with Boris): Trash Horde switched to a story (RUNBOOK 5i). Posted story Day 1 18016460165999943 (Wes, 30 days of litter duty). Real-haul game unchanged: Butt Goblin 2,300 HP, 0 hits, deadline Sun Nov 29."
+    "Nov 25 ~9:57 AM ET (live session with Boris): Trash Horde switched to a story (RUNBOOK 5i). Posted story Day 1 18016460165999943 (Wes, 30 days of litter duty). Real-haul game unchanged: Butt Goblin 2,300 HP, 0 hits, deadline Sun Nov 29.",
+    "Nov 25 ~1:54 PM ET (extras midday): read comments on all 20 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday bonus 17986971077900609 ('31 CUPS / ONE IS HIS', 18.7 s). Quiz #1 (18125982830516343) only 19 views at ~6 h (57.9% skip / 2.9 s): possible suppression, not reposted. If still 0 hits by midnight: +100 -> 2,400."
    ],
    "format": {
     "tiles": [
@@ -690,11 +706,19 @@
       "Gear up (gloves + grabber)",
       "Find backup"
      ],
-     "note": "Day 2 vote: count comments on Day 1 (18016460165999943) + bonuses."
+     "note": "Day 2 vote: count comments on Day 1 (18016460165999943) + bonuses (midday 17986971077900609 + tonight's)."
     },
     "cadence": "AM bonus beat, midday short beat (<=20 s chat or real-haul shout-out), evening Day N (RUNBOOK 5i). Tonight Nov 25: main run posts a bonus beat (not Day 2: Day 1 went up ~10 AM); Day 2 = Nov 26 evening.",
     "real_hauls": "5c counting/verification unchanged; every real haul = damage to HORDE HP + comment card + 'reinforcement @handle' in the story. Never invent hauls.",
-    "bonus_posts": [],
+    "bonus_posts": [
+     {
+      "date": "2026-11-25",
+      "media_id": "17986971077900609",
+      "video": "horde/story_bonus_1125.mp4",
+      "config": "pipeline/episodes/horde_story_bonus_1125.json",
+      "note": "Midday short beat ~1:54 PM ET (18.7 s, <=20 s per 5i): Ranger Cole texts in ALL CAPS 'WES. BENCH 4. 31 CUPS.' / 'ONE HAS YOUR NAME ON IT.' -> it did (drive-thru lemonade); Cole notif 'PHOTO OF CUP SENT TO BROOKE.'; Horde HP 2,300, 0 real hits. Fact sticker: 394.7M fast-food cups littered (KAB 2020, already in facts). Vote kept open: gear up vs find backup (natural question). Count this Reel for Day 2."
+     }
+    ],
     "episodes": [
      {
       "day": 1,
@@ -1013,9 +1037,9 @@
      "#didyouknow"
     ]
    },
-   "day": 4,
-   "last_post_date": "2026-11-24",
-   "last_media_id": "18379227847214008",
+   "day": 5,
+   "last_post_date": "2026-11-25",
+   "last_media_id": "17987368164129610",
    "episodes": [
     {
      "n": 1,
@@ -1043,6 +1067,13 @@
      "media_id": "18379227847214008",
      "config": "pipeline/episodes/history_e04.json",
      "note": "Midday extras ~1:57 PM ET, 35.8 s. 0 comments on E3 (and E1/E2) -> we picked. Facts: Britannica, National Geographic, Wikipedia (agree: Nov-Dec 1932, ~20,000 emus, Meredith + 2 soldiers, 2 Lewis guns, 10,000 rounds, gun jam, 'invulnerability of tanks'; 986 kills / 9,860 rounds is Meredith's claim, disputed; NatGeo's '2,500 killed' conflicts -> not used). Images: LOC emu stereograph c1908, LOC 1917 US Lewis gun photos (labelled as weapon type, not the 1932 op), Jacque wheat field (AIC)."
+    },
+    {
+     "n": 5,
+     "title": "Two Thanksgivings / Franksgiving (1939)",
+     "media_id": "17987368164129610",
+     "config": "pipeline/episodes/history_e05.json",
+     "note": "Midday extras ~1:53 PM ET, 33.9 s, timely (Thanksgiving = Nov 26). 0 comments on E4 (and E1-E3) -> we picked. Facts: History.com, Newspapers.com blog, 9News (22 vs 23 states: History + Newspapers say 22 followed FDR, 23 kept Nov 30, TX/CO/MS both; 9News says 23 -> used 22, caption notes the disagreement). No photos of FDR (real-person photo rule); art = AIC public domain: Homer 1858 x2, Hassam 1902, Callot c.1622, Harnett 1888. Motion on, captions y 1200. Cover '1939 / TWO THANKSGIVINGS'."
     }
    ],
    "format": "Panel scenes p1..pN (pipeline/scenes2.py): one real public-domain artwork per beat, slow zoom, joke/fact stickers, word captions, HUD (YEAR + a counter), open vote 'top comment picks our next true story'. Facts double-checked (2 sources), uncertain claims labelled ('one chronicle says', 'some accounts'). Sources + art credits in the caption. Images: AIC open access (see assets/history/SOURCES.md).",
@@ -1432,7 +1463,8 @@
   "2026-11-24 ~7:55 AM ET (~9-19 h after post): Jess Mon bonus 1,548 views/35.3% skip/13.0 s avg/19 likes/3 saves; Jess D3 1,383/40.2%/11.9 s/10 likes/1 real comment (a.cxxpss 'Hair')/3 shares; Theo Mon bonus 152/42.3%/9.8 s; Theo D7 132/54.8%/6.2 s/2 real comments (both '2'); Danny Mon bonus 128/30.4%/8.6 s; Danny D3 138/47.9%/6.7 s/0 comments; Malik D7 143/46.3%/8.5 s; Malik bonus 123/53.5%/6.4 s; Rosie D7 123/43.5%/5.6 s; Rosie bonus 131/42.5%/7.9 s; History E3 122/60.6%/6.9 s; Horde Reels 114-135, 44-56% skip, 5.1-5.9 s; IntelliStudy 49-52 views, 96-98% skip. Posted Nov 24 AM: Theo bonus 18115937681181108 (23.4 s, 'TUESDAY / THE MOMS GROUP CHAT'), Jess bonus 18639960409028785 (24.6 s, 4 toon looks incl. a mop prop, 'TUESDAY / SHE WALKS WITH HER EX'), Danny bonus 17921897892466201 (25.2 s, 3 looks, 'BONUS / THE CEO MEETING'), Horde fact #8 17920457073465342 (27.1 s).",
   "2026-11-24 ~1:40 PM ET (midday extras check, cached Windsor numbers): Malik D7 160 views/2 likes/0 comments, Malik Mon bonus 126/0/1 save; Rosie D7 123/0 likes, Rosie Mon bonus 131/1 like; History E3 127/1 save (E2 213); Horde Reels 112-135 views, 0-1 likes, 0 comments on all 16 counted posts. Posted midday: Malik bonus 18133610128698536 (31.3 s, cover 'GO LEFT / 4 LEFTS, 1 BLOCK'), History E4 Emu War 18379227847214008 (35.8 s, 'THE EMUS WON'), Horde 60-sec challenge #2 17904637818655765 (26.6 s, 'DOOR TO MAILBOX'), Rosie bonus 18339115372277399 (24.1 s, 'ONIONS / 14 DICED. ALL CRIED').",
   "2026-11-24 ~6:20 PM ET (~20-24 h after post): Jess D3 1,464 views/39.9% skip/11.9 s avg/10 likes/3 shares; Jess Tue bonus 1,773/33.4%/13.5 s/18 likes (best watch time again); Theo D7 132/54.8%/6.2 s/2 real comments; Theo Tue bonus 178/43.2%/9.6 s; Danny D3 138/47.9%/6.7 s; Danny Tue bonus 180/48.6%/8.5 s; Malik D7 169/48.6%/8.9 s; Malik Tue bonus 132/44.2%/9.3 s (5 h); Rosie D7 123/43.5%/5.6 s; Rosie Tue bonus 159/48.9%/6.0 s; History E3 129/58.8%/7.6 s; History E4 Emu War 187/52.6%/8.5 s at 5 h (beats E3); Horde Butt Goblin D2 135/44.2%/5.3 s, Horde AM 112/47.5%/7.3 s, Horde midday challenge #2 17/70.6%/2.5 s (stalled); IntelliStudy r002 52/97.9%/0.8 s. Followers: Theo 21, Jess 11, Danny 2, others 0. Posted ~5:57-6:17 PM ET: Jess D4 18021095636956827 (21.9 s, 'KITCHEN SCISSORS'), Theo D8 17901096468405918 (27.0 s, 'HE LOST AN EYEBROW', first cloud-edited Theo face images), Danny D4 18128505965510807 (27.1 s, 'THE BULLY NEEDS HIM'), Malik D8 18118617413332163 (26.3 s, 'HIS MOM SIGNED IT'), Rosie D8 17974732644195464 (26.8 s, '22 FLIPS. 0 CRUST'), Horde D3 battle 18103707833431212 (22.0 s), IntelliStudy r003 18138985030731686 (17.2 s).",
-  "2026-11-25 ~7:40 AM ET (cached Windsor numbers): Jess Tue bonus 1,803 views/18 likes/2 comments (most-viewed post on any account so far), Jess D4 1,023/13 likes/2 comments ('The dress' x2)/3 shares at ~9 h; Theo D8 317/2 likes/2 comments (both 'the smile') = 2.4x Theo D7 (133); Theo Tue bonus 184; Danny D4 324/1 like/0 comments = 2.3x Danny D3 (140); Danny Tue bonus 185; Malik D8 133, Malik Tue bonus 133; Rosie D8 115, Rosie Tue bonus 159; History E4 Emu War 197 (E3 129); Horde Tue Reels 39-112, 0 comments; IntelliStudy Tue 7 views. Posted Nov 25 AM: Theo bonus 18159439078522137 (24.5 s, 'TAKE 14 / THE HOSTAGE SMILE', Thanksgiving card frame), Jess bonus 18114229340621512 (24.4 s, 4 looks, 'GLUED / NEXT TO HER EX'), Danny bonus 18003790077029471 (24.4 s, 3 new looks, '1 STAR / FROM HIS BULLY'), Horde quiz #1 18125982830516343 (30.1 s, '152 / PIECES. EACH.')."
+  "2026-11-25 ~7:40 AM ET (cached Windsor numbers): Jess Tue bonus 1,803 views/18 likes/2 comments (most-viewed post on any account so far), Jess D4 1,023/13 likes/2 comments ('The dress' x2)/3 shares at ~9 h; Theo D8 317/2 likes/2 comments (both 'the smile') = 2.4x Theo D7 (133); Theo Tue bonus 184; Danny D4 324/1 like/0 comments = 2.3x Danny D3 (140); Danny Tue bonus 185; Malik D8 133, Malik Tue bonus 133; Rosie D8 115, Rosie Tue bonus 159; History E4 Emu War 197 (E3 129); Horde Tue Reels 39-112, 0 comments; IntelliStudy Tue 7 views. Posted Nov 25 AM: Theo bonus 18159439078522137 (24.5 s, 'TAKE 14 / THE HOSTAGE SMILE', Thanksgiving card frame), Jess bonus 18114229340621512 (24.4 s, 4 looks, 'GLUED / NEXT TO HER EX'), Danny bonus 18003790077029471 (24.4 s, 3 new looks, '1 STAR / FROM HIS BULLY'), Horde quiz #1 18125982830516343 (30.1 s, '152 / PIECES. EACH.').",
+  "2026-11-25 ~2:00 PM ET (midday extras, ~19-24 h numbers): Malik Tue bonus 133 views/43.9% skip/9.2 s (vs D8 133/59.5%/6.7 s: bonus beat the episode again); Rosie Tue bonus 162/49.3%/6.0 s, Rosie D8 116/42.2%/7.0 s; History E4 Emu War 197/51.9%/8.4 s (best History views since E2); Horde: story Day 1 126/41.9%/8.5 s at 5 h (best Horde skip + watch ever), quiz #1 19/57.9%/2.9 s, challenge #2 91/62.5%/5.2 s, Butt Goblin D3 103/62.9%/5.1 s. 0 comments on every Malik/Rosie/History/Horde post. Posted midday (all motion on, captions y 1200, natural-question vote, send sticker): Malik bonus 18027021251937486 (27.5 s, first toon, 'AISLE 4 / HIS EX SAW IT'), Rosie bonus 17959867089295245 (28.0 s, first toon, '20 LB / STILL FROZEN'), History E5 17987368164129610 (33.9 s, '1939 / TWO THANKSGIVINGS'), Horde story bonus 17986971077900609 (18.7 s, '31 CUPS / ONE IS HIS')."
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1465,7 +1497,8 @@
   "Nov 24 main run: Jess's 2-choice ask got 3 hair votes (2 commenters + 1 like) vs 1 on D2/D3 at similar views - still ~1-2 comments per 1,000 views, so RUNBOOK 5h's 2-day check is now due: next Jess episode also puts the cameo ask in the voice line ('want to be in it? comment the job you'd do'). Applied today: notification card moved off the face (new cfg 'notif_y', e.g. 1060-1080) on the 3D characters so the visual gag stays visible (Theo's missing eyebrow, Rosie's face); keep the default (top) on toons, where y~1080 covers the mouth. Theo got his first visible change in the cloud (OpenCV brow removal + drawn brow): compare D8 skip/avg watch vs D7 (54.8% / 6.2 s). History E4 (well-known funny story) beats E3 at 5 h (52.6% vs 58.8% skip, 8.5 vs 7.6 s): keep famous-but-weird stories.",
   "Nov 25 AM extras: Theo D8 (visible change: a missing eyebrow) and Danny D4 (concrete money hook '$12 became $3') each did ~2.3-2.4x their previous episode, and Jess's mop bonus hit 1,803 (record): a visible, specific prop/change on screen beats narrated change. Applied today: every bonus has a visible prop in the picture (Theo's Thanksgiving card frame, Jess's glued place cards, Danny's receipt + 1-star review sign) and leans on the Thanksgiving trend (Nov 26). Engine catches: cover_title lines over ~9 characters overflow the 1080 frame ('WEDNESDAY' did) -> keep cover line 1 <= 8 chars; toon props drawn near the frame edges or below y~1450 get cropped/darkened by the engine framing, keep props within x 200-880, y 1000-1450; captions default y 1500 covers props at chest height -> move captions to y ~1760 when the prop is there. make_cover can be re-run alone (Episode(...).load_timing(); build_layers(); build_extras(); make_cover()).",
   "Nov 25 (Boris live: niche research): our own 59 Reels show a hard gate: skip <= 40% AND avg watch >= 10 s -> 800-1,800 views (all 6 Jess Reels, Danny D1, Theo Sun bonus); everything else ~100-250 (avg 50% / 6.8 s). Platform write-ups agree watch time first, then DM sends per reach. Decisions (Boris): Jess protected + one-lever A/B tests on the morning bonus (T1 send prompt first); Malik + Rosie redrawn as toons; Theo stays 3D with drawn props; Trash Horde becomes a story (Wes, 30 days of litter duty) with real hauls still the only source of Horde damage. RUNBOOK 5i.",
-  "Nov 25 deep research (RUNBOOK 5j, pipeline/RESEARCH_2026-11-25.md): Jess is at the IG median for <2K-follower accounts; 10K+ needs non-follower reach = watch time + sends per reach. 'Comment 1 or 2' matches Meta's vote/comment-bait pattern -> non-Jess pages switch to a natural question now, Jess tests it (T2). Engine 'motion' flag (punch-in + shake on every picture change) on for non-Jess pages. Captions/comment cards were sitting in IG's bottom UI zone (y 1500-1790) -> non-Jess pages move captions to y ~1200. Non-Jess Day episodes test 35-50 s sitcom-length cuts at voice speed 1.10. YouTube Shorts approved for Jess (waiting on connection)."
+  "Nov 25 deep research (RUNBOOK 5j, pipeline/RESEARCH_2026-11-25.md): Jess is at the IG median for <2K-follower accounts; 10K+ needs non-follower reach = watch time + sends per reach. 'Comment 1 or 2' matches Meta's vote/comment-bait pattern -> non-Jess pages switch to a natural question now, Jess tests it (T2). Engine 'motion' flag (punch-in + shake on every picture change) on for non-Jess pages. Captions/comment cards were sitting in IG's bottom UI zone (y 1500-1790) -> non-Jess pages move captions to y ~1200. Non-Jess Day episodes test 35-50 s sitcom-length cuts at voice speed 1.10. YouTube Shorts approved for Jess (waiting on connection).",
+  "Nov 25 midday extras: the Horde story switch already shows in the data: story Day 1 hit 41.9% skip / 8.5 s at 5 h vs 58-63% / 3-5 s for the fact/quiz/challenge formats (quiz #1 stalled at 19 views) -> story beats + a character with a relationship stake beat standalone facts on every page we've tried. Applied today to Malik + Rosie's first toon Reels: 4-5 drawn props/looks per Reel (new toon.py 'store' scene: cart, cranberry cans, BANNED sign; frozen turkey, hair dryer, sink, alarm phone), ex/rival stake in the hook, natural-question vote + send sticker. Engine catches: History panels: the cover AND the sv spotlight use cfg 'image', not the panels -> always set 'image' to a panel image (E5 first render showed the old emu); with captions at y 1200 the calendar sticker fits at x 230, y ~1340-1400 (y 620-1150 collides with the hook text); the sv send sticker fits at y 1250 (y 760-960 covers the comment card/hint); a top notification and a y-560 sticker on the same line overlap -> drop the sticker; notif text over ~36 chars is cut off; vote title 'WHAT SHOULD HE DO?' overflows at the default size -> 'WHAT NOW?' + options in the hint."
  ],
  "facts": [
   {
@@ -1537,6 +1570,18 @@
    "source": "Library of Congress, Everyday Mysteries, 'Why does chopping an onion make you cry?'",
    "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/",
    "used_in": "rosie bonus caption, 2026-11-24 (no tear-reduction claims: not confirmed by a source)"
+  },
+  {
+   "fact": "1939: Thanksgiving was due Nov 30; under retail pressure (short Christmas shopping season) FDR moved it to Nov 23 (announced Aug 14, 1939). 22 states followed, 23 kept Nov 30, Texas, Colorado and Mississippi marked both (History.com; Newspapers.com: '23 old, 22 new, 3 both'; 9News says 23 followed). Nicknamed 'Franksgiving'; college football coaches complained about rescheduling. Repeated 1940. Congress fixed the fourth Thursday in 1941; FDR signed Dec 26, 1941.",
+   "source": "History.com (Tim Ott), Newspapers.com blog, 9News Colorado",
+   "url": "https://www.history.com/articles/fdr-thanksgiving-date-change-franksgiving",
+   "used_in": "history E5, 2026-11-25"
+  },
+  {
+   "fact": "USDA turkey thawing: fridge 24 h per 4-5 lb; cold water in original wrapper (UNL: leak-proof bag), change water every 30 min, ~30 min per lb (20 lb = 10 h), cook immediately; never thaw on the counter (outer layer in 40-140F danger zone, 2-hour rule); no warm/hot water (Illinois Ext.); can cook from frozen, at least 50% longer (UNL).",
+   "source": "USDA blog 'Thaw Your Turkey Safely' (2023), UNL Extension, Illinois Extension",
+   "url": "https://www.usda.gov/node/55388",
+   "used_in": "rosie bonus 2026-11-25"
   }
  ],
  "post_queue": [],
