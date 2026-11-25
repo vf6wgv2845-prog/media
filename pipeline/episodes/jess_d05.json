@@ -1,0 +1,371 @@
+{
+ "image": "jess_dress_nozip.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 5 / 30",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Dress fitting.",
+  "It didn't zip.",
+  "Mom brought pliers."
+ ],
+ "hook_emoji": "👗",
+ "name_line": "Day 5: The dress.",
+ "sub_line": "You voted  •  the dress",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Chloe",
+  "msg": "fitting is FRIDAY. did it zip??",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "26 days.",
+   "Style: 5/10."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💌",
+   "A date for Thanksgiving"
+  ],
+  [
+   "💄",
+   "Full glam"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted the dress. She tried it on. It didn't zip."
+   ],
+   [
+    0.1,
+    "Mom brought pliers. Chloe brought a second pair."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "She sent Chloe a photo of the zipper. Wrong chat. Ryan."
+   ],
+   [
+    0.1,
+    "Is that the dress? I need the color. For my tie."
+   ],
+   [
+    0.1,
+    "She sent: ha. Sixth time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Then Grandma walked in with her sewing kit. Forty years a seamstress."
+   ],
+   [
+    0.1,
+    "She let out the seams. It zipped."
+   ],
+   [
+    0.1,
+    "Grandma: now give me my seat back."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Thanksgiving is tomorrow. Bring a date, or full glam?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "26",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "58%",
+    "from": "50%",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "grandma",
+   "sewing",
+   "kit",
+   "forty",
+   "seamstress",
+   "seams",
+   "zipped",
+   "seat"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "tj_you_dont_know_me",
+   "text": "The dress!",
+   "likes": 3,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.5,
+   "user": "a.cxxpss",
+   "text": "The dress",
+   "likes": 1,
+   "y": 1650,
+   "hold": 1.7
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.5,
+   "user": "tj_you_dont_know_me",
+   "text": "The dress!",
+   "likes": 3,
+   "y": 1790,
+   "hold": 2.2
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "26",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "DRESS: 6 VOTES",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 75,
+   "hold": 1.8,
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA #6",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "40 YEARS",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 1.2,
+   "text": "STYLE +3",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1300,
+   "angle": -3,
+   "size": 100,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "DAY 5",
+  "IT WON'T ZIP"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "me",
+    "[photo: the zipper]"
+   ],
+   [
+    "them",
+    "is that the dress"
+   ],
+   [
+    "them",
+    "need the color. for my tie"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = A DATE   2 = FULL GLAM"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "jess_d05_pliers.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_d05_wrongchat.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_d05_grandma.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_d05_zipped.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_d05_zipped.jpg"
+  }
+ ]
+}
