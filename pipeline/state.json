@@ -108,7 +108,7 @@
      "Answer Maya",
      "Fix the smile"
     ],
-    "note": "Day 9 vote: count comments on Day 8 (17901096468405918) + Wed morning bonus. 1=Answer Maya (she asked who the suit is for), 2=Fix the smile."
+    "note": "Day 9 vote: count comments on Day 8 (17901096468405918) + Wed morning bonus. 1=Answer Maya (she asked who the suit is for), 2=Fix the smile. Nov 25 AM: smile leads 2-0 (5sta.r.angel 'the smile' 00:29 UTC, ivannn_720 'The smile' 01:24 UTC, 0 likes each; both replied). Count the Wed bonus 18159439078522137 too."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
@@ -233,6 +233,13 @@
      "video": "theo/bonus_1124.mp4",
      "config": "pipeline/episodes/theo_bonus_1124.json",
      "note": "Tuesday ~7:44 AM ET morning bonus (NOT Day 8): his mom and Maya's mom (the tailor) started a group chat 'Theo's suit' and added him; Maya's mom: hem ready Thursday, Maya keeps asking who it's for; his mom: 'tell her it's for HER party'; Theo left twice, Mom re-added him + Aunt Linda, 9 members, Maya still doesn't know. Cards: 5sta.r.angel '2 we have to fix those eyebrows' (~9 s), ivannn_720 '2!!' on the vote screen. Open threads: suit ready Thursday, group chat, Maya's unanswered 'who's it for'. Vote kept open (1 Answer Maya / 2 Eyebrows). 23.4 s."
+    },
+    {
+     "date": "2026-11-25",
+     "media_id": "18159439078522137",
+     "video": "theo/bonus_1125.mp4",
+     "config": "pipeline/episodes/theo_bonus_1125.json",
+     "note": "Wednesday ~7:50 AM ET morning bonus (NOT Day 9): Thanksgiving card photo, take 14, 'hostage smile' + eyeliner brow; Mom posted it in the 'Theo's suit' group chat; Aunt Linda 'blink twice if ur ok'; Maya's mom: Maya laughed 10 min; Maya: 'why do you smile like ur being held hostage' / 'and u STILL didn't say who the suit is for'; Theo: 'my face does that'. New asset theo_b1125_card.jpg (PIL Thanksgiving card frame around theo_d08_drawn). Cards 5sta.r.angel 'the smile' (~9 s), ivannn_720 'The smile' (vote screen). 24.5 s. Vote kept open (smile leads 2-0). Open threads: Maya still doesn't know who the suit is for, suit hem ready Thursday (= Thanksgiving)."
     }
    ],
    "follower_ladder": {
@@ -553,7 +560,8 @@
     "18110820866250746",
     "17920457073465342",
     "17904637818655765",
-    "18103707833431212"
+    "18103707833431212",
+    "18125982830516343"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -569,14 +577,15 @@
    "boss": {
     "name": "The Butt Goblin",
     "hp_max": 2000,
-    "hp": 2200,
+    "hp": 2300,
     "deadline": "2026-11-29 (Sunday)",
     "regen": "+100 HP per day with zero hits (announced in the Reel; apply from Nov 23 if no hits that day, cap 3,000)",
     "if_not_beaten": "the horde spreads again; next boss gets harder",
     "why_2000": "Landfill King took 0 damage in week 1; a 5,000+ HP boss with zero players kills the game. Smaller HP + regen = 'harder' twist without making the first win impossible.",
     "regen_log": [
      "2026-11-23 00:00: +100 (0 hits on Nov 22) -> 2,100",
-     "2026-11-24 00:00: +100 (0 hits on Nov 23) -> 2,200"
+     "2026-11-24 00:00: +100 (0 hits on Nov 23) -> 2,200",
+     "2026-11-25 00:00: +100 (0 hits on Nov 24) -> 2,300"
     ]
    },
    "totals": {
@@ -607,7 +616,8 @@
     "Nov 23 ~6:07 PM ET (main run): all 14 counted Horde posts have 0 comments (media_comments_count 0; comment query Nov 20-23 empty) -> 0 hauls, totals unchanged (2,100/2,100 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 2 battle 18110820866250746 ('2,100 HP. Zero hits.', bus stop = 10 dmg, 21.9 s) + story video + teaser story. At midnight if still 0 hits: +100 -> 2,200 (next run applies).",
     "Nov 24 ~7:52 AM ET (extras AM): read comments on all 15 counted Horde posts -> 0 comments of any kind (media_comments_count 0 everywhere; comment query Nov 22-24 empty for the account) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,100 -> 2,200 HP (0 hits Nov 23). Posted fact #8 (WHO 31 May 2022: ~4.5 trillion cigarette filters pollute the planet yearly, filters contain microplastics, cleanup costs fall on taxpayers, China ~US$2.6B/yr) + horde advances 17920457073465342 (27.1 s). If still 0 hits by midnight: +100 -> 2,300.",
     "Nov 24 ~1:57 PM ET (extras midday): read comments on all 16 counted Horde posts -> 0 comments of any kind (media_comments_count 0 on every Horde post Nov 19-24; comment query Nov 23-24 empty for the account) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted 60-second challenge #2 'door to mailbox' 17904637818655765 (26.6 s; fact used = KAB 2020 butts 19.6%, already logged). If still 0 hits by midnight: +100 -> 2,300.",
-    "Nov 24 ~6:05 PM ET (main run): read all comments on all 17 counted Horde posts (media_comments_count 0 on every Horde post; comment pulls last_3dT, Nov 24 only and last_14dT since Nov 23 12:00 UTC show no Horde comments) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 3 battle 18103707833431212 ('ONE PIECE COUNTS', 22.0 s) + teaser story + video story. Midday challenge #2 17904637818655765 had only 17 views at ~4 h (possible suppression/processing; not reposted). If still 0 hits by midnight: +100 -> 2,300."
+    "Nov 24 ~6:05 PM ET (main run): read all comments on all 17 counted Horde posts (media_comments_count 0 on every Horde post; comment pulls last_3dT, Nov 24 only and last_14dT since Nov 23 12:00 UTC show no Horde comments) -> 0 hauls; totals unchanged (Butt Goblin 2,200/2,200 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Butt Goblin Day 3 battle 18103707833431212 ('ONE PIECE COUNTS', 22.0 s) + teaser story + video story. Midday challenge #2 17904637818655765 had only 17 views at ~4 h (possible suppression/processing; not reposted). If still 0 hits by midnight: +100 -> 2,300.",
+    "Nov 25 ~7:55 AM ET (extras AM): read comments on all 18 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 shows no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,200 -> 2,300 HP (0 hits Nov 24). Posted quiz #1 (new format: '15, 152 or 1,520?' -> 152 each, KAB 2020, Thanksgiving 'walk off the turkey' ask) 18125982830516343 (30.1 s, cover '152 / PIECES. EACH.'). If still 0 hits by midnight: +100 -> 2,400."
    ],
    "format": {
     "tiles": [
@@ -653,14 +663,15 @@
      "The dress",
      "A date for the wedding"
     ],
-    "note": "Day 5 vote: count comments on Day 4 (18021095636956827) + Wed bonus. 1=The dress (fitting Friday), 2=A date for the wedding. Open thread: Ryan still typing after 'new everything'."
+    "note": "Day 5 vote: count comments on Day 4 (18021095636956827) + Wed bonus. 1=The dress (fitting Friday), 2=A date for the wedding. Open thread: Ryan still typing after 'new everything'. Nov 25 AM: The dress leads 2-0 commenters (tj_you_dont_know_me 'The dress!' 1 like, a.cxxpss 'The dress' 1 like = 4 points), 0 for a date; both replied. Count the Wed bonus 18114229340621512 too."
    },
    "cast": {
-    "Ryan": "her ex; dumped her by text; he's the best man at her sister Chloe's wedding (Day 30)",
+    "Ryan": "her ex; dumped her by text; he's the best man at her sister Chloe's wedding (Day 30); invited by Chloe to family Thanksgiving (Nov 26), seated next to Jess (place card glued)",
     "Chloe": "her older sister, the bride; loving but bossy; Nov 24 bonus: made Jess maid of honor (walks with Ryan, the best man).",
     "Ryan's new girlfriend": "introduce later; influencer type",
     "Sienna": "Ryan's new girlfriend (the influencer type), a facialist; did Jess's facial Day 2, followed her. Friendly so far.",
-    "Mom": "Jess's mom; filmed the mop practice walk and sent it to the family chat (Nov 24 bonus)"
+    "Mom": "Jess's mom; filmed the mop practice walk and sent it to the family chat (Nov 24 bonus)",
+    "Grandma": "Jess's grandma; Jess swapped place cards with her 6 times (Nov 25 bonus)"
    },
    "deadline": "Day 30 = Chloe's wedding",
    "voice_cloud": "af_bella",
@@ -751,6 +762,13 @@
      "video": "jess/bonus_1124.mp4",
      "config": "pipeline/episodes/jess_bonus_1124.json",
      "note": "Tuesday ~7:47 AM ET bonus (NOT Day 4): Chloe made Jess maid of honor, so she walks down the aisle arm in arm with Ryan (best man). Ryan: 'heard we're walking together' / 'don't trip lol'; Jess: 'ha' (4th time). She practiced the walk with a mop labelled RYAN; it fell; Mom filmed it and sent it to the family chat (14); Chloe: 'cute couple'. Card a.cxxpss 'Hair' (1 like) at ~9 s + vote screen. Toon looks jess_b1124_shock/ha/mop/fall (toon.py now takes an 'extra' SVG prop). 24.6 s. Vote kept open."
+    },
+    {
+     "date": "2026-11-25",
+     "media_id": "18114229340621512",
+     "video": "jess/bonus_1125.mp4",
+     "config": "pipeline/episodes/jess_bonus_1125.json",
+     "note": "Wednesday ~7:50 AM ET bonus (NOT Day 5): Chloe invited Ryan (best man) to family Thanksgiving tomorrow; Mom's place cards put Jess between Ryan and Sienna; Ryan: 'new everything huh' / 'see u at the turkey tomorrow'; Jess: 'ha' (5th time); she swapped her card with Grandma's 6 times, Mom swapped back, then super-glued it; Sienna: 'bringing anyone tomorrow? :)'. Looks jess_b1125_shock/cards/glue/ha (table + place cards + glue as toon 'extra'). Cards tj_you_dont_know_me 'The dress!' (1 like, ~9 s) + a.cxxpss 'The dress' (1 like, vote screen). 24.4 s. Vote kept open (dress leads 2-0). Open threads: Thanksgiving dinner seated between Ryan and Sienna (tomorrow), 'bringing anyone?', fitting Friday."
     }
    ],
    "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered",
@@ -783,10 +801,10 @@
      "Get ripped",
      "Ask Tara out"
     ],
-    "note": "Day 5 vote: count comments on Day 4 (18128505965510807) + Wed bonus. 1=Get ripped, 2=Ask Tara out. Open: Brock booked a repair at the kiosk."
+    "note": "Day 5 vote: count comments on Day 4 (18128505965510807) + Wed bonus. 1=Get ripped, 2=Ask Tara out. Open: Brock booked a repair at the kiosk. Nov 25 AM: still 0 votes (Day 4 and Tue bonus have 0 comments). Count the Wed bonus 18003790077029471 too."
    },
    "cast": {
-    "Brock": "high-school bully, now a realtor; doubts him in the group chat",
+    "Brock": "high-school bully, now a realtor; doubts him in the group chat; Nov 25 bonus: got his phone fixed at the kiosk (full price + tax), left a 1-star review 'Fast. Rude. Would come back.'",
     "Mom": "he lives with her",
     "Kayla": "classmate, two kids and a dog",
     "nihtyyyy": "viewer/critic: 'Stop bro it ain't gonna work' shown as a comment card in the Nov 23 bonus; also gave hook feedback.",
@@ -881,6 +899,13 @@
      "video": "danny/bonus_1124.mp4",
      "config": "pipeline/episodes/danny_bonus_1124.json",
      "note": "Tuesday ~7:50 AM ET bonus (NOT Day 4): Brock's sister (now named Tara) booked a 'business meeting' with the CEO at noon; chat Tara: 'so what does danny tech solutions do exactly' / 'my brother says ur a CEO lol'; Danny: 'we're in stealth mode'. Mom taped BOARD ROOM on a stool, will play his assistant for $90 again; Tara: 'also can u fix a cracked screen'. No comment card (no real votes yet); 'VOTES SO FAR: 0' sticker. Looks danny_b1124_ceo/board/panic (navy polo, CEO nametag). 25.2 s. Vote kept open."
+    },
+    {
+     "date": "2026-11-25",
+     "media_id": "18003790077029471",
+     "video": "danny/bonus_1125.mp4",
+     "config": "pipeline/episodes/danny_bonus_1125.json",
+     "note": "Wednesday ~7:52 AM ET bonus (NOT Day 5): Brock came to the kiosk for his repair; Danny fixed it in 8 min, full price + tax ($89 + $7.12 on the receipt prop); Tara: 'my brother says u charged him full price' / 'good'; Danny: 'the CEO thanks you'; Brock's 1-star review 'Fast. Rude. Would come back.'; reunion chat Brock: 'only thing danny's ripping is people off'. Looks danny_b1125_fix/smug/review. No comment card (0 votes); 'VOTES SO FAR: 0' sticker. 24.4 s. Vote kept open."
     }
    ],
    "premise_note": "Changed Nov 21 to the 'lie becomes true' angle so it isn't a copy of @30daystofix (reunion + prom-queen ex). Different from Jess (rom-com wedding) and Theo (party, ex).",
@@ -985,6 +1010,16 @@
     "intellistudy_r003": "#studytok #studyhacks #igcse #revision #biology"
    },
    "note": "Prior-day results: Jess (same 5-tag set) 1,464-1,773 views; other accounts 120-180 regardless of tags -> tags are not the bottleneck; hook/premise is."
+  },
+  {
+   "date": "2026-11-25",
+   "posts": {
+    "theo_bonus_1125": "#TheosGlowUp #glowup #glowupchallenge #storytime #youdecide",
+    "jess_bonus_1125": "#JessGlowUp #glowup #30daychallenge #storytime #youdecide",
+    "danny_bonus_1125": "#DannysComeback #glowup #30daychallenge #storytime #youdecide",
+    "horde_quiz01": "#TrashHorde #litterpicking #cleanup #pickuplitter #cleanupchallenge"
+   },
+   "note": "AM extras; results logged by the next run"
   }
  ],
  "trends": {
@@ -1301,7 +1336,8 @@
   "2026-11-23 ~5:50-6:10 PM ET posted: Theo D7 18361184245168851 (25.9 s, chat ~15.7 s, cover 'DAY 7 / HIS TAILOR = HER MOM'), Jess D3 17990474928106209 (26.2 s, 4 toon looks, 'SHE JOINED HIS GYM'), Danny D3 18114348776579519 (24.7 s, 4 looks, 'BULLY'S SISTER?!'), Malik D7 18065019035539474 (26.3 s, 'TYLER WAS OPEN'), Rosie D7 18130821860482376 (25.4 s, 'SPATULA DOWN'), Horde Butt Goblin D2 18110820866250746 (21.9 s), IntelliStudy r002 18104769407386151 (16.3 s). All story episodes end on the 5h 2-choice ask ('1 OR 2?' title + hint + voice 'Comment one or two').",
   "2026-11-24 ~7:55 AM ET (~9-19 h after post): Jess Mon bonus 1,548 views/35.3% skip/13.0 s avg/19 likes/3 saves; Jess D3 1,383/40.2%/11.9 s/10 likes/1 real comment (a.cxxpss 'Hair')/3 shares; Theo Mon bonus 152/42.3%/9.8 s; Theo D7 132/54.8%/6.2 s/2 real comments (both '2'); Danny Mon bonus 128/30.4%/8.6 s; Danny D3 138/47.9%/6.7 s/0 comments; Malik D7 143/46.3%/8.5 s; Malik bonus 123/53.5%/6.4 s; Rosie D7 123/43.5%/5.6 s; Rosie bonus 131/42.5%/7.9 s; History E3 122/60.6%/6.9 s; Horde Reels 114-135, 44-56% skip, 5.1-5.9 s; IntelliStudy 49-52 views, 96-98% skip. Posted Nov 24 AM: Theo bonus 18115937681181108 (23.4 s, 'TUESDAY / THE MOMS GROUP CHAT'), Jess bonus 18639960409028785 (24.6 s, 4 toon looks incl. a mop prop, 'TUESDAY / SHE WALKS WITH HER EX'), Danny bonus 17921897892466201 (25.2 s, 3 looks, 'BONUS / THE CEO MEETING'), Horde fact #8 17920457073465342 (27.1 s).",
   "2026-11-24 ~1:40 PM ET (midday extras check, cached Windsor numbers): Malik D7 160 views/2 likes/0 comments, Malik Mon bonus 126/0/1 save; Rosie D7 123/0 likes, Rosie Mon bonus 131/1 like; History E3 127/1 save (E2 213); Horde Reels 112-135 views, 0-1 likes, 0 comments on all 16 counted posts. Posted midday: Malik bonus 18133610128698536 (31.3 s, cover 'GO LEFT / 4 LEFTS, 1 BLOCK'), History E4 Emu War 18379227847214008 (35.8 s, 'THE EMUS WON'), Horde 60-sec challenge #2 17904637818655765 (26.6 s, 'DOOR TO MAILBOX'), Rosie bonus 18339115372277399 (24.1 s, 'ONIONS / 14 DICED. ALL CRIED').",
-  "2026-11-24 ~6:20 PM ET (~20-24 h after post): Jess D3 1,464 views/39.9% skip/11.9 s avg/10 likes/3 shares; Jess Tue bonus 1,773/33.4%/13.5 s/18 likes (best watch time again); Theo D7 132/54.8%/6.2 s/2 real comments; Theo Tue bonus 178/43.2%/9.6 s; Danny D3 138/47.9%/6.7 s; Danny Tue bonus 180/48.6%/8.5 s; Malik D7 169/48.6%/8.9 s; Malik Tue bonus 132/44.2%/9.3 s (5 h); Rosie D7 123/43.5%/5.6 s; Rosie Tue bonus 159/48.9%/6.0 s; History E3 129/58.8%/7.6 s; History E4 Emu War 187/52.6%/8.5 s at 5 h (beats E3); Horde Butt Goblin D2 135/44.2%/5.3 s, Horde AM 112/47.5%/7.3 s, Horde midday challenge #2 17/70.6%/2.5 s (stalled); IntelliStudy r002 52/97.9%/0.8 s. Followers: Theo 21, Jess 11, Danny 2, others 0. Posted ~5:57-6:17 PM ET: Jess D4 18021095636956827 (21.9 s, 'KITCHEN SCISSORS'), Theo D8 17901096468405918 (27.0 s, 'HE LOST AN EYEBROW', first cloud-edited Theo face images), Danny D4 18128505965510807 (27.1 s, 'THE BULLY NEEDS HIM'), Malik D8 18118617413332163 (26.3 s, 'HIS MOM SIGNED IT'), Rosie D8 17974732644195464 (26.8 s, '22 FLIPS. 0 CRUST'), Horde D3 battle 18103707833431212 (22.0 s), IntelliStudy r003 18138985030731686 (17.2 s)."
+  "2026-11-24 ~6:20 PM ET (~20-24 h after post): Jess D3 1,464 views/39.9% skip/11.9 s avg/10 likes/3 shares; Jess Tue bonus 1,773/33.4%/13.5 s/18 likes (best watch time again); Theo D7 132/54.8%/6.2 s/2 real comments; Theo Tue bonus 178/43.2%/9.6 s; Danny D3 138/47.9%/6.7 s; Danny Tue bonus 180/48.6%/8.5 s; Malik D7 169/48.6%/8.9 s; Malik Tue bonus 132/44.2%/9.3 s (5 h); Rosie D7 123/43.5%/5.6 s; Rosie Tue bonus 159/48.9%/6.0 s; History E3 129/58.8%/7.6 s; History E4 Emu War 187/52.6%/8.5 s at 5 h (beats E3); Horde Butt Goblin D2 135/44.2%/5.3 s, Horde AM 112/47.5%/7.3 s, Horde midday challenge #2 17/70.6%/2.5 s (stalled); IntelliStudy r002 52/97.9%/0.8 s. Followers: Theo 21, Jess 11, Danny 2, others 0. Posted ~5:57-6:17 PM ET: Jess D4 18021095636956827 (21.9 s, 'KITCHEN SCISSORS'), Theo D8 17901096468405918 (27.0 s, 'HE LOST AN EYEBROW', first cloud-edited Theo face images), Danny D4 18128505965510807 (27.1 s, 'THE BULLY NEEDS HIM'), Malik D8 18118617413332163 (26.3 s, 'HIS MOM SIGNED IT'), Rosie D8 17974732644195464 (26.8 s, '22 FLIPS. 0 CRUST'), Horde D3 battle 18103707833431212 (22.0 s), IntelliStudy r003 18138985030731686 (17.2 s).",
+  "2026-11-25 ~7:40 AM ET (cached Windsor numbers): Jess Tue bonus 1,803 views/18 likes/2 comments (most-viewed post on any account so far), Jess D4 1,023/13 likes/2 comments ('The dress' x2)/3 shares at ~9 h; Theo D8 317/2 likes/2 comments (both 'the smile') = 2.4x Theo D7 (133); Theo Tue bonus 184; Danny D4 324/1 like/0 comments = 2.3x Danny D3 (140); Danny Tue bonus 185; Malik D8 133, Malik Tue bonus 133; Rosie D8 115, Rosie Tue bonus 159; History E4 Emu War 197 (E3 129); Horde Tue Reels 39-112, 0 comments; IntelliStudy Tue 7 views. Posted Nov 25 AM: Theo bonus 18159439078522137 (24.5 s, 'TAKE 14 / THE HOSTAGE SMILE', Thanksgiving card frame), Jess bonus 18114229340621512 (24.4 s, 4 looks, 'GLUED / NEXT TO HER EX'), Danny bonus 18003790077029471 (24.4 s, 3 new looks, '1 STAR / FROM HIS BULLY'), Horde quiz #1 18125982830516343 (30.1 s, '152 / PIECES. EACH.')."
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1331,13 +1367,15 @@
   "Nov 23 main run: applied RUNBOOK 5h to every story series (not only Jess): 2-choice 'comment 1 or 2' ask in voice + vote-screen title + caption line 1, leading real comment card in the first 2 s. Check tomorrow whether comments per 1,000 views rise vs Day 2s (Jess D2: 2 per 1,400; Danny D2: 4 per 139). Also: Jess's morning bonus (34.7% skip, 13.1 s avg) beats every evening episode on watch time again; single-moment Reels keep winning. History E3 is at 70% skip / 4.4 s after 5 h (E2: 48.7% / 10.8 s): the archival-photo opening may be losing people; compare at 24 h before changing.",
   "Nov 24 AM extras: morning bonuses beat their own evening episodes on watch time again on all three glow-up pages (Jess 13.0 s vs D3 11.9 s; Theo 9.8 vs 6.2; Danny 8.6 vs 6.7) and on skip rate. The 5h '1 or 2' ask got Theo's first fast vote replies (2 '2's within 6 h on D7) and 1 on Jess D3 at 1,383 views: still ~1 comment per 1,000 views on Jess, so the 2-day check in RUNBOOK 5h stays open. Applied today: leading real comment card at ~9 s (chat line 3) + again on the vote screen; props drawn into toon looks (toon.py 'extra' SVG) so the gag is visible, not only narrated. Contact-sheet catch: toon props at x>750 or y<600 get cropped by the cx -0.12 zoom; keep props within x 0-750, y 650-1500, and put stickers at y 560 when a prop sits at chest height.",
   "Nov 24 midday extras: Malik, Rosie, History and Horde still have 0 comments ever on recent posts (Malik/Rosie Reels ~120-160 views each, flat for 4 days), so the 1-or-2 ask hasn't moved them yet; the toon pages' picture changes (3-4 looks) aren't possible for Malik/Rosie (one 3D image each) -> ask Boris in a live session for 3-4 new Malik/Rosie scene images in the same style. History E4 tests a well-known, funny story (Emu War) with a 'the emus won' hook vs E3's archival-disaster opening (60.6% skip): compare 24 h skip/avg watch. Glyph catch: emoji/arrow characters inside sticker text (e.g. '⬅', '⏱') render as empty boxes; keep sticker text plain ASCII.",
-  "Nov 24 main run: Jess's 2-choice ask got 3 hair votes (2 commenters + 1 like) vs 1 on D2/D3 at similar views - still ~1-2 comments per 1,000 views, so RUNBOOK 5h's 2-day check is now due: next Jess episode also puts the cameo ask in the voice line ('want to be in it? comment the job you'd do'). Applied today: notification card moved off the face (new cfg 'notif_y', e.g. 1060-1080) on the 3D characters so the visual gag stays visible (Theo's missing eyebrow, Rosie's face); keep the default (top) on toons, where y~1080 covers the mouth. Theo got his first visible change in the cloud (OpenCV brow removal + drawn brow): compare D8 skip/avg watch vs D7 (54.8% / 6.2 s). History E4 (well-known funny story) beats E3 at 5 h (52.6% vs 58.8% skip, 8.5 vs 7.6 s): keep famous-but-weird stories."
+  "Nov 24 main run: Jess's 2-choice ask got 3 hair votes (2 commenters + 1 like) vs 1 on D2/D3 at similar views - still ~1-2 comments per 1,000 views, so RUNBOOK 5h's 2-day check is now due: next Jess episode also puts the cameo ask in the voice line ('want to be in it? comment the job you'd do'). Applied today: notification card moved off the face (new cfg 'notif_y', e.g. 1060-1080) on the 3D characters so the visual gag stays visible (Theo's missing eyebrow, Rosie's face); keep the default (top) on toons, where y~1080 covers the mouth. Theo got his first visible change in the cloud (OpenCV brow removal + drawn brow): compare D8 skip/avg watch vs D7 (54.8% / 6.2 s). History E4 (well-known funny story) beats E3 at 5 h (52.6% vs 58.8% skip, 8.5 vs 7.6 s): keep famous-but-weird stories.",
+  "Nov 25 AM extras: Theo D8 (visible change: a missing eyebrow) and Danny D4 (concrete money hook '$12 became $3') each did ~2.3-2.4x their previous episode, and Jess's mop bonus hit 1,803 (record): a visible, specific prop/change on screen beats narrated change. Applied today: every bonus has a visible prop in the picture (Theo's Thanksgiving card frame, Jess's glued place cards, Danny's receipt + 1-star review sign) and leans on the Thanksgiving trend (Nov 26). Engine catches: cover_title lines over ~9 characters overflow the 1080 frame ('WEDNESDAY' did) -> keep cover line 1 <= 8 chars; toon props drawn near the frame edges or below y~1450 get cropped/darkened by the engine framing, keep props within x 200-880, y 1000-1450; captions default y 1500 covers props at chest height -> move captions to y ~1760 when the prop is there. make_cover can be re-run alone (Episode(...).load_timing(); build_layers(); build_extras(); make_cover())."
  ],
  "facts": [
   {
    "fact": "~50 billion pieces of litter on US roadways (23.7B) and waterways (25.9B); 152 per US resident",
    "source": "Keep America Beautiful 2020 National Litter Study",
-   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021"
+   "url": "https://kab.org/litter-study-summary-report-may-2021_final_05172021",
+   "used_in": "horde quiz #1, 2026-11-25 (re-verified by web search Nov 25: kab.org litter study summary May 2021)"
   },
   {
    "fact": "Cigarette butts are the single most littered item in the US: 19.6% of all litter",
