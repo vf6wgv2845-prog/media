@@ -39,12 +39,15 @@ class Episode(Scenes2, Extras):
         self._BASE = base
 
     def _set_beat(self, n, t):
+        self._since_beat = t  # time since the scene (or the latest beat in it) started; used by cfg "motion"
         if not self._BEATS: return
         cur = self._BASE; i = self.order.index(n)
         for sc, ln, dl, imgs in self._BEATS:
             if sc not in self.order: continue
             j = self.order.index(sc)
-            if j < i or (j == i and t >= self.line_t(sc, ln) + dl): cur = imgs
+            if j < i or (j == i and t >= self.line_t(sc, ln) + dl):
+                cur = imgs
+                if j == i: self._since_beat = t - (self.line_t(sc, ln) + dl)
         self.BIG, self.BLUR, self.DIM = cur
 
     def cover(self, src):
@@ -98,8 +101,14 @@ class Episode(Scenes2, Extras):
     def bg(self, t, dur, z0, z1, src=None):
         src = src or self.BIG; cx_off = self.c.get("cx", 0.0)
         z = (z0 + (z1 - z0) * (t / dur)) * (1 + 0.006 * math.sin(t * 2.0))
+        sx = 0.0
+        if self.c.get("motion"):  # Nov 25 (RUNBOOK 5j): punch-in + tiny shake on every picture change, stronger slow push
+            k = getattr(self, "_since_beat", 9.0)
+            z *= 1 + 0.04 * (t / max(dur, 0.1))
+            if 0 <= k < 0.35:
+                e = 1 - k / 0.35; z *= 1 + 0.09 * e * e; sx = math.sin(k * 90) * 14 * e
         vw = self.CW / (1.12 * z) * (1080 / 1280); vh = vw * 1920 / 1080
-        x0 = max(0, min(self.CW - vw, self.CW / 2 - vw / 2 + cx_off * self.CW))
+        x0 = max(0, min(self.CW - vw, self.CW / 2 - vw / 2 + cx_off * self.CW + sx))
         y0 = max(0, min(self.CH - vh, self.CH * 0.5 - vh / 2 - (self.CH - vh) * 0.05))
         return src.crop((int(x0), int(y0), int(x0 + vw), int(y0 + vh))).resize((W, H), Image.BILINEAR).convert("RGBA")
 

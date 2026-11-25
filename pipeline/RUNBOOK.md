@@ -1,7 +1,7 @@
 # Daily run: Boris's Instagram story accounts (6)
 
 Owner: Boris. He has given standing permission to post on all accounts in `state.json` `accounts`: Theo, Malik, Rosie, Trash Horde, and (once set up) the two new Theo-style glow-up pages Jess and Danny.
-**Nov 25: read section 5i first. It overrides older format/cadence notes for Jess, Theo, Malik, Rosie and the Trash Horde.**
+**Nov 25: read sections 5i, 5j and 5k first. It overrides older format/cadence notes for Jess, Theo, Malik, Rosie and the Trash Horde.**
 **Golden rule: the audience decides.** Every episode must follow the winning vote from the previous episode's comments. Never ignore, override or "improve on" a vote.
 
 ## 0a. New glow-up pages (Jess, Danny): same format as Theo
@@ -128,7 +128,7 @@ Data Nov 23 PM: every Jess Reel 1,400-1,700 views (D1 1,683, D2 1,425, Mon bonus
 ### Jess: protect the baseline, test one lever at a time
 **Never change** the premise, toon style, voice (af_bella 1.18), length (22-26 s), order (s1 -> chat by ~7 s -> s3 -> 1-or-2 vote), 3-4 looks per Reel, the leading real comment card, the morning single-moment bonus, or posting times (~7:50 AM bonus, ~5:50 PM episode).
 **Baseline** (her last 6 Reels): 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares.
-**Tests** go on the **morning bonus first** (never the Day episode), **one at a time**, with results logged in `state.series.jess.experiments`. At ~24 h: **keep** it only if views >= 1,400 AND skip <= 38% AND avg watch >= 11 s (then also use it on episodes); otherwise revert the next day and note why. Order:
+**Tests (the order is now in 5j)** go on the **morning bonus first** (never the Day episode), **one at a time**, with results logged in `state.series.jess.experiments`. At ~24 h: **keep** it only if views >= 1,400 AND skip <= 38% AND avg watch >= 11 s (then also use it on episodes); otherwise revert the next day and note why. Order:
 - **T1 (Nov 26 AM bonus): send prompt.** No voice change. Vote screen gets a sticker "SEND THIS TO YOUR SISTER" (or the beat's best fit) and caption line 2 = a send ask ("Send this to the friend who'd glue the place card"). Measures shares/reach.
 - **T2: loop ending.** The last frame returns to the hook image, and the last voice line sets up the first one so rewatches flow (watch time).
 - **T3: a third Jess Reel per day** (a 12-16 s chat-only "night text" beat, ~9:30 PM ET). Only after T1/T2 hold, and stop if the other Jess Reels drop below the baseline.
@@ -143,7 +143,27 @@ From their next Reel use `toon.py` who `malik` (scene `gym`) / who `rosie` (scen
 - Rosie: next episode twist: **Julian (the favorite) is her ex from culinary school**. Hook lines lead with Julian or Chef Marco, never with the dish. The recipe stays real and stays in the caption.
 
 ### Trash Horde = a story now (Boris approved Nov 25)
-Lead **Wes** (toon `who: wes`, scene `street`): he threw one cup out his car window, it hit park ranger **Cole** (his ex **Brooke**'s new boyfriend), and the judge gave him 30 days of litter duty in the park. At night the trash comes alive (the Horde). He must get the park spotless by Day 30 or start over. Same vote mechanics as Jess (1 or 2, top comment). HUD: DAYS LEFT / PARK CLEAN % / HORDE HP. **HORDE HP moves only from real hauls** (5c counting + verification rules unchanged); real cleaners appear as comment cards and become "reinforcements" by @handle. Litter facts only as one sticker inside an episode, with the source in the caption. No more standalone fact/quiz/challenge Reels. Cadence: AM bonus beat, midday short beat (<= 20 s: a chat or a real-haul shout-out), evening Day N.
+Lead **Wes** (toon `who: wes`, scene `street`): he threw one cup out his car window, it hit park ranger **Cole** (his ex **Brooke**'s new boyfriend), and the judge gave him 30 days of litter duty in the park. At night the trash comes alive (the Horde). He must get the park spotless by Day 30 or start over. Same vote mechanics as Jess (top comment decides), worded as a natural question per 5j (no "comment 1 or 2"). HUD: DAYS LEFT / PARK CLEAN % / HORDE HP. **HORDE HP moves only from real hauls** (5c counting + verification rules unchanged); real cleaners appear as comment cards and become "reinforcements" by @handle. Litter facts only as one sticker inside an episode, with the source in the caption. No more standalone fact/quiz/challenge Reels. Cadence: AM bonus beat, midday short beat (<= 20 s: a chat or a real-haul shout-out), evening Day N.
+
+## 5j. Nov 25 (Boris live: "get to 10K, then 100K+ fast"): deep research -> production + distribution rules
+Full notes + sources: `pipeline/RESEARCH_2026-11-25.md`. Short version:
+- **Where we stand:** Jess (1,400-1,800) is at the Instagram median for accounts under 2K followers (Metricool 2026: ~1,484 views per Reel). Getting to 10K+ needs non-follower distribution, which runs on watch time, then **sends per reach** (Mosseri: "sends are slightly more important for unconnected content"), then likes per reach. Posting more mainly raises the odds of an outlier (Buffer: the 90th-percentile post rises with frequency, the median doesn't).
+- **Vote-bait risk:** Instagram says it may not recommend content "asking people to comment with a specific word, number, or emoji". Facebook demotes "vote baiting". "Comment 1 or 2" is exactly that pattern. **Boris (Nov 25): rephrase on every page except Jess now; Jess tests it first (her test queue below).** New wording: voice "Dress, or a date? What should she do?" Vote-screen title "WHAT SHOULD SHE DO?" with hint "THE DRESS  or  A DATE". Caption: a natural question ("Dress or a date: what should Jess do?"), never "comment 1 or 2" or "comment the number". Keep counting votes from any comment that names an option (or says 1/2).
+- **Motion (all pages except Jess until her test): set cfg `"motion": true`.** engine.py adds a punch-in + tiny shake on every picture change and scene start, plus a stronger slow push. Aim for a visual event (picture change, sticker, punch) every 1.5-2 s.
+- **Safe zones (Instagram UI covers the bottom ~35% and a ~230 px right rail over the bottom 40%):** on non-Jess pages put word captions at y ~1150-1250 (not 1500), comment cards at y <= 1450, and no stickers at x > 850 below y 1150. HUD stays below y ~270 (already true). Cover title stays inside the 3:4 grid crop (y 240-1680; already true).
+- **Length test (non-Jess Day episodes only):** 35-50 s with the full sitcom shape (3c0: the ask -> 3 escalating attempts with a callback -> real test -> chat payoff -> vote). The hook still lands by 1 s and the chat by 8 s. Bonuses stay 20-26 s. Socialinsider 2026: 45-60 s Reels have 2.2x the median views of 1-30 s Reels (a correlation). Judge by avg watch time AND views at 24 h vs the page's last 3 Day episodes, and log the result.
+- **Voice:** non-Jess Day episodes try speed 1.10 (from 1.18) with more full stops before reveals. "Unnatural voice" is the #2 reason viewers say a video feels AI.
+- **Sends:** every non-Jess Reel ends with a send sticker + caption line 2 send ask (5i).
+- **Jess test queue (one lever per morning bonus, keep rule from 5i):** T1 send prompt (Nov 26) -> T2 vote wording without "1 or 2" (Nov 27) -> T3 `motion: true` (Nov 28) -> T4 captions at y ~1200 (safe zone) -> T5 loop ending -> T6 third daily Reel. If a test drops her below the bar, revert and move to the next.
+- **Series linking:** Instagram's "link reels into a series" (next-episode button) has no API. It's on Boris's in-app list in the daily report: link each page's Reels in order, Jess first.
+- **YouTube Shorts (Boris approved Nov 25):** see 5k once the channel is connected in Windsor (get_connectors shows a youtube account).
+- **Don't:** post the same video on two of our Instagram accounts (originality penalty), use other apps' watermarks, use coordinated likes or comments between our own accounts, or use like/follow CTAs.
+
+## 5k. YouTube Shorts cross-post (Boris approved Nov 25; active once `get_connectors` lists a youtube account)
+- Each main run, after Jess's episode is live on Instagram: `execute_action` youtube `upload_video` with the same `jess/dNN.mp4` (clean file, no watermark), title "<hook line> | 30 Days to the Wedding, Day N #shorts" (<= 100 chars), a description with the premise + "New episode every day" + 3 hashtags (#shorts #storytime #glowup), privacy public. Add it to a playlist "Season 1: 30 Days to the Wedding" (`add_video_to_playlist`) if one exists. Morning bonuses go up too, titled "Bonus: ...".
+- On YouTube the vote line becomes "Comment what she should do" (no numbers). Reply to genuine YouTube comments with `reply_to_comment`.
+- Log every upload in `state.youtube.log` (date, video id, source file). Check views after 24-48 h and compare with Instagram. If Shorts beat 1,000 views/video for a week, propose adding Danny next.
+- Never upload another page's video to Jess's channel.
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.

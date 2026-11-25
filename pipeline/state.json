@@ -848,10 +848,12 @@
     "rule": "RUNBOOK 5i: one lever at a time, on the morning bonus first; keep only if ~24 h views >= 1,400 AND skip <= 38% AND avg watch >= 11 s, else revert next day.",
     "baseline_nov25": "last 6 Reels: 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares",
     "queue": [
-     "T1 send prompt (sticker on vote screen + caption line 2), Nov 26 AM bonus",
-     "T2 loop ending",
-     "T3 third daily Reel (12-16 s night text, ~9:30 PM ET) only if T1/T2 hold",
-     "T4 cameo ask in voice"
+     "T1 send prompt (Nov 26 AM bonus)",
+     "T2 vote wording without '1 or 2' (Nov 27)",
+     "T3 motion: true (Nov 28)",
+     "T4 captions at y ~1200 (safe zone)",
+     "T5 loop ending",
+     "T6 third daily Reel (12-16 s night text, ~9:30 PM ET)"
     ],
     "results": []
    }
@@ -1462,7 +1464,8 @@
   "Nov 24 midday extras: Malik, Rosie, History and Horde still have 0 comments ever on recent posts (Malik/Rosie Reels ~120-160 views each, flat for 4 days), so the 1-or-2 ask hasn't moved them yet; the toon pages' picture changes (3-4 looks) aren't possible for Malik/Rosie (one 3D image each) -> ask Boris in a live session for 3-4 new Malik/Rosie scene images in the same style. History E4 tests a well-known, funny story (Emu War) with a 'the emus won' hook vs E3's archival-disaster opening (60.6% skip): compare 24 h skip/avg watch. Glyph catch: emoji/arrow characters inside sticker text (e.g. '⬅', '⏱') render as empty boxes; keep sticker text plain ASCII.",
   "Nov 24 main run: Jess's 2-choice ask got 3 hair votes (2 commenters + 1 like) vs 1 on D2/D3 at similar views - still ~1-2 comments per 1,000 views, so RUNBOOK 5h's 2-day check is now due: next Jess episode also puts the cameo ask in the voice line ('want to be in it? comment the job you'd do'). Applied today: notification card moved off the face (new cfg 'notif_y', e.g. 1060-1080) on the 3D characters so the visual gag stays visible (Theo's missing eyebrow, Rosie's face); keep the default (top) on toons, where y~1080 covers the mouth. Theo got his first visible change in the cloud (OpenCV brow removal + drawn brow): compare D8 skip/avg watch vs D7 (54.8% / 6.2 s). History E4 (well-known funny story) beats E3 at 5 h (52.6% vs 58.8% skip, 8.5 vs 7.6 s): keep famous-but-weird stories.",
   "Nov 25 AM extras: Theo D8 (visible change: a missing eyebrow) and Danny D4 (concrete money hook '$12 became $3') each did ~2.3-2.4x their previous episode, and Jess's mop bonus hit 1,803 (record): a visible, specific prop/change on screen beats narrated change. Applied today: every bonus has a visible prop in the picture (Theo's Thanksgiving card frame, Jess's glued place cards, Danny's receipt + 1-star review sign) and leans on the Thanksgiving trend (Nov 26). Engine catches: cover_title lines over ~9 characters overflow the 1080 frame ('WEDNESDAY' did) -> keep cover line 1 <= 8 chars; toon props drawn near the frame edges or below y~1450 get cropped/darkened by the engine framing, keep props within x 200-880, y 1000-1450; captions default y 1500 covers props at chest height -> move captions to y ~1760 when the prop is there. make_cover can be re-run alone (Episode(...).load_timing(); build_layers(); build_extras(); make_cover()).",
-  "Nov 25 (Boris live: niche research): our own 59 Reels show a hard gate: skip <= 40% AND avg watch >= 10 s -> 800-1,800 views (all 6 Jess Reels, Danny D1, Theo Sun bonus); everything else ~100-250 (avg 50% / 6.8 s). Platform write-ups agree watch time first, then DM sends per reach. Decisions (Boris): Jess protected + one-lever A/B tests on the morning bonus (T1 send prompt first); Malik + Rosie redrawn as toons; Theo stays 3D with drawn props; Trash Horde becomes a story (Wes, 30 days of litter duty) with real hauls still the only source of Horde damage. RUNBOOK 5i."
+  "Nov 25 (Boris live: niche research): our own 59 Reels show a hard gate: skip <= 40% AND avg watch >= 10 s -> 800-1,800 views (all 6 Jess Reels, Danny D1, Theo Sun bonus); everything else ~100-250 (avg 50% / 6.8 s). Platform write-ups agree watch time first, then DM sends per reach. Decisions (Boris): Jess protected + one-lever A/B tests on the morning bonus (T1 send prompt first); Malik + Rosie redrawn as toons; Theo stays 3D with drawn props; Trash Horde becomes a story (Wes, 30 days of litter duty) with real hauls still the only source of Horde damage. RUNBOOK 5i.",
+  "Nov 25 deep research (RUNBOOK 5j, pipeline/RESEARCH_2026-11-25.md): Jess is at the IG median for <2K-follower accounts; 10K+ needs non-follower reach = watch time + sends per reach. 'Comment 1 or 2' matches Meta's vote/comment-bait pattern -> non-Jess pages switch to a natural question now, Jess tests it (T2). Engine 'motion' flag (punch-in + shake on every picture change) on for non-Jess pages. Captions/comment cards were sitting in IG's bottom UI zone (y 1500-1790) -> non-Jess pages move captions to y ~1200. Non-Jess Day episodes test 35-50 s sitcom-length cuts at voice speed 1.10. YouTube Shorts approved for Jess (waiting on connection)."
  ],
  "facts": [
   {
@@ -1595,5 +1598,10 @@
    "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1.",
    "Nov 23: r001 (phone screen + 'Still making flashcards by hand?') got 95% skip / 1.4 s avg: the static landing-page frame on frame 1 reads as an ad. r002 tries a POV exam-panic hook; if skip stays >80%, open on the finished cards (the payoff) zoomed in, with the hook text over them, and cut the typing."
   ]
+ },
+ "youtube": {
+  "status": "approved by Boris Nov 25; waiting for him to connect Jess's channel in Windsor (connect link sent)",
+  "scope": "Jess only to start (RUNBOOK 5k)",
+  "log": []
  }
 }
