@@ -1,0 +1,419 @@
+{
+ "image": "malik_d10_asleep.jpg",
+ "cx": 0.0,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 10 / 30",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "No C on Monday's",
+  "chem test =",
+  "no tourney."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 10: Study chem.",
+ "sub_line": "You voted  •  study chem",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   8
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   10
+  ]
+ ],
+ "notif": {
+  "from": "Tyler",
+  "msg": "bro the bracket is out. look.",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 4,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "📚",
+   "Study with Jada on Sunday"
+  ],
+  [
+   "🎥",
+   "Scout Dez's game film"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted: study chem. No C on Monday, no tourney."
+   ],
+   [
+    0.1,
+    "Attempt one: he read his notes four times. Then fell asleep on them."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Jada texted."
+   ],
+   [
+    0.1,
+    "Heard you picked chem over me. Lol."
+   ],
+   [
+    0.1,
+    "He sent: it's the tourney. She sent: I got an A. Sunday?"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt two: Tyler quizzed him. Tyler: five. Malik: zero."
+   ],
+   [
+    0.1,
+    "Attempt three: his notes into IntelliStudy. Three flashcards in under two seconds."
+   ],
+   [
+    0.1,
+    "Card two: change the big numbers in front. Never the subscripts."
+   ],
+   [
+    0.1,
+    "Mom's quiz: correct. That's one."
+   ],
+   [
+    0.1,
+    "Then the bracket dropped. Round one: Northside. Dez."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Study with Jada on Sunday, or scout Dez's game film?"
+   ],
+   [
+    0.1,
+    "What should Malik do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "10/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "76",
+    "from": "74",
+    "at": [
+     "s3",
+     3
+    ],
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "36/100",
+    "from": "29/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "chem",
+   "monday",
+   "tourney",
+   "four",
+   "asleep",
+   "tyler",
+   "five",
+   "zero",
+   "intellistudy",
+   "three",
+   "flashcards",
+   "two",
+   "seconds",
+   "never",
+   "h2o",
+   "correct",
+   "one",
+   "reyes",
+   "northside",
+   "dez"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "104malkie",
+   "text": "study",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.5,
+   "user": "104malkie",
+   "text": "study",
+   "likes": 0,
+   "y": 1420,
+   "hold": 2.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "8",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 1.6,
+   "text": "4 READS. 0 FACTS.",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 1.8,
+   "text": "TYLER 5 - MALIK 0",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 0.4,
+   "text": "THE TRICK: NEVER THE SUBSCRIPTS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 46,
+   "hold": 2.6
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "delay": 1.2,
+   "text": "THAT'S ONE.",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1420,
+   "angle": -3,
+   "size": 95,
+   "hold": 1.5
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR LAB PARTNER",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 58,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 10",
+  "0 OUT OF 5"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Jada",
+  "sub": "his ex",
+  "msgs": [
+   [
+    "them",
+    "heard u picked chem over me lol"
+   ],
+   [
+    "me",
+    "it's the tourney"
+   ],
+   [
+    "them",
+    "i got an A. sunday?"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "STUDY WITH JADA  or  SCOUT DEZ"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "malik_d10_jada.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "malik_d10_tyler.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "malik_d10_app_notes.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "malik_d10_app_cards.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "malik_d10_quiz.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 4,
+   "image": "malik_d10_bracket.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "malik_d10_bracket.jpg"
+  }
+ ],
+ "motion": true,
+ "notif_y": 380,
+ "cover_image": "malik_d10_tyler.jpg"
+}
