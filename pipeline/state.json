@@ -1713,7 +1713,7 @@
   }
  },
  "youtube": {
-  "status": "OFF (Boris, Nov 26): the pipeline can't upload and he can't do TikTok/YouTube by hand. Instagram only.",
+  "status": "Windsor youtube upload_video exists (verified Nov 26). Waiting for Boris to connect the channel in Windsor (pick the Brand Account). TikTok: only via the Buffer connector if he connects it. Boris can't upload by hand.",
   "scope": "Jess only to start (RUNBOOK 5k)",
   "log": []
  },
