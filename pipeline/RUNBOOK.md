@@ -254,14 +254,26 @@ Jess doesn't change. Each shift below continues the running story: no "new serie
 
 ### 5n.2 Jess test queue (replaces the 5i/5j order; one lever per morning bonus, keep rule from 5i)
 - **T1 (Nov 26 AM bonus): send gag + send prompt.** One group-chat-relatable beat, the sticker "SEND THIS TO THE FRIEND WHO..." matching it, and the same ask in caption line 2. Measures shares/reach.
-- **T2 (Nov 27): aura-swing stickers + an aura-debate caption question.** Measures comments.
-- **T3 (Nov 28): a 12-15 s bonus** (one gag + punchline + loop ending). Measures completion and rewatches.
+- **T2 (Fri Nov 27): RSVP guest list + follower milestones (5o).** Measures comments + follows.
+- **T3 (Nov 28): aura-swing stickers + an aura-debate caption question.** Measures comments.
+- **T3b (Nov 29): a 12-15 s bonus** (one gag + punchline + loop ending). Measures completion and rewatches.
 - **T4: seamless loop ending** (if T3 didn't already prove it).
 - **T5: vote wording without "1 or 2"**, then T6 `motion`, T7 captions at y ~1200, T8 a third daily Reel.
 Day episodes stay on the baseline until a test passes the 5i keep rule; then it moves onto the episodes.
 
 ### 5n.3 Profile -> follow (Boris does these in the app; the API can't edit profiles or pin posts)
 Every Jess cover says "DAY N" huge (bonus covers: "DAY N.5" or "BONUS"). Bio proposal for Jess: "Her ex is the best man at her sister's wedding 💍 / Can she hit 100% glow-up in 30 days? / You pick the fix 👇 Day 1 pinned". Pin Day 1 + the best episode (D5) + the newest milestone. Same pattern for Theo. Check follows per profile visit in Boris's Insights when he shares them.
+
+## 5o. Jess: the wedding guest list + follower milestones (Boris approved, Nov 26)
+**RSVP guest list (from Fri Nov 27 AM bonus, then every episode):** Mom hands Jess the wedding guest list. Line: "Want a seat at the wedding? Comment RSVP." Everyone who comments RSVP (or clearly asks for a seat) goes into `state.series.jess.guest_list` (handle, date, comment id), and gets a reply: "You're on the list 💌 Table TBD". Only handles that opted in by commenting ever go on screen; never invent guests. Every 3-4 days a quick seating-chart gag puts real RSVP handles on place cards (callback to the glued place card), and the comments pick tables ("next to Ryan?", "kids' table?"). "Tag who you're bringing" goes in caption line 2 (tags = shares/comments). Day 30 finale: the real place cards with every RSVP handle.
+**Follower milestones = story rewards (bonus content only; they never override a vote):** shown as a fact, never as "follow for X": a small vote-screen sticker "GUESTS 11/25" + caption line "At 25 guests: Jess's maid-of-honor speech draft." Use the real `followers_count` from Windsor each run.
+- 25: Jess's maid-of-honor speech draft (a disaster bonus Reel)
+- 50: the full dress + glam reveal Reel
+- 100: viewers pick what goes wrong for Ryan at the rehearsal dinner (a comment vote)
+- 250: Grandma gets her own episode
+- 500: a seating-chart episode with every RSVP handle so far
+- 1K: commenters write Jess's wedding toast (top comment lines used, credited by handle)
+When a milestone is hit, post the reward as that day's extra Reel (keep the 2-hour spacing) and say so in the caption ("You hit 50. As promised:"). This launches on Jess as the T2 test slot (Fri Nov 27); if it lifts comments without dropping her below the 5i bar, it moves onto her Day episodes and the pattern gets copied to Theo (his `follower_ladder` already exists) and then the other pages.
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.

@@ -890,9 +890,10 @@
     "rule": "RUNBOOK 5i: one lever at a time, on the morning bonus first; keep only if ~24 h views >= 1,400 AND skip <= 38% AND avg watch >= 11 s, else revert next day.",
     "baseline_nov25": "last 6 Reels: 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares",
     "queue": [
-     "T1 send gag + send prompt (Nov 26 AM bonus)",
-     "T2 aura-swing stickers + aura-debate caption question (Nov 27)",
-     "T3 12-15 s bonus with loop ending (Nov 28)",
+     "T1 send gag + send prompt (Thu Nov 26 AM bonus)",
+     "T2 RSVP guest list + follower milestones, RUNBOOK 5o (Fri Nov 27)",
+     "T3 aura-swing stickers + aura-debate question (Sat Nov 28)",
+     "T3b 12-15 s bonus with loop ending (Sun Nov 29)",
      "T4 seamless loop ending",
      "T5 vote wording without '1 or 2'",
      "T6 motion: true",
@@ -902,6 +903,17 @@
     "results": [],
     "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3).",
     "insights_from_boris_nov26": "In-app Insights (Boris): skip 31.9-35.6%, avg watch 11-12 s / 25 s, share rate 0.1-0.3%, comment rate 0-0.4%, 65 profile visits -> 0 follows, 99.4% non-followers, ~72% aged 13-24. Bottleneck = shares/comments/follows (RUNBOOK 5n)."
+   },
+   "guest_list": [],
+   "follower_ladder": {
+    "25": "maid-of-honor speech draft bonus",
+    "50": "full dress + glam reveal",
+    "100": "viewers pick what goes wrong for Ryan at the rehearsal dinner",
+    "250": "Grandma's own episode",
+    "500": "seating-chart episode with every RSVP handle",
+    "1000": "commenters write Jess's wedding toast",
+    "current_followers_nov25": 11,
+    "hit": []
    }
   },
   "danny": {
@@ -1536,7 +1548,8 @@
   "Nov 25 midday extras: the Horde story switch already shows in the data: story Day 1 hit 41.9% skip / 8.5 s at 5 h vs 58-63% / 3-5 s for the fact/quiz/challenge formats (quiz #1 stalled at 19 views) -> story beats + a character with a relationship stake beat standalone facts on every page we've tried. Applied today to Malik + Rosie's first toon Reels: 4-5 drawn props/looks per Reel (new toon.py 'store' scene: cart, cranberry cans, BANNED sign; frozen turkey, hair dryer, sink, alarm phone), ex/rival stake in the hook, natural-question vote + send sticker. Engine catches: History panels: the cover AND the sv spotlight use cfg 'image', not the panels -> always set 'image' to a panel image (E5 first render showed the old emu); with captions at y 1200 the calendar sticker fits at x 230, y ~1340-1400 (y 620-1150 collides with the hook text); the sv send sticker fits at y 1250 (y 760-960 covers the comment card/hint); a top notification and a y-560 sticker on the same line overlap -> drop the sticker; notif text over ~36 chars is cut off; vote title 'WHAT SHOULD HE DO?' overflows at the default size -> 'WHAT NOW?' + options in the hint.",
   "Nov 25 main run: the first toon bonuses for Malik (37.0% skip) and Rosie (39.5% skip / 10.2 s) both passed the skip side of the 800-view gate within ~5 h, their best ever (Malik D8 59.5%, Rosie D8 41.8% / 7.1 s) -> the toon switch + ex/rival hook works; kept it on their Day 9s. Applied today: every non-Jess Day episode = 5j length test (36-40 s, sitcom shape: 3 attempts + chat payoff + one more twist), speed 1.10, motion, captions y~1200 (Theo 1380 so the mouth gag stays visible), natural-question vote + send sticker. Engine catches: 'make_episode all' does not refresh contact.jpg (check stills first, or grab frames from final.mp4); the motion push crops props below y~1500 and beyond x~850: draw props inside x 230-850, y 1000-1450 (or wrap the 'extra' SVG in a scale(0.8) group toward the centre); hook line 1 over ~19 characters overflows; the auto cover grabs the LAST beat image, so build the cover from the hook image when the title is the fail (scratch cover.py approach: tiles + title over a chosen asset).",
   "Nov 25 night (Boris live): Jess D5 got 27.4% skip (record) and 1,406 views in ~1 h 40 min. Boris: Jess is the main focus, Theo second; copy what works on Jess to every page; IntelliStudy videos become niche + varied. -> RUNBOOK 5l (Jess formula = default on all story pages, the 35-50 s length test ends unless the 24 h data says otherwise, 24 h Jess review procedure, IntelliStudy niche/format rotation).",
-  "Nov 26 (Boris, Jess Insights + growth checklist): the hook works (skip ~32-36%); the cap is shares (0.1-0.3%), comments (0-0.4%), completion (~46%) and follows (65 visits -> 0). RUNBOOK 5n: send-worthy relatable gag, joke aura-swing stickers + aura-debate question (HUD aura stays real), hidden rewatch detail, loop + open-loop endings, standalone mini-stories, bigger stakes every 5 days, 12-15 s bonus test; new Jess test queue T1-T8; profile/bio/pin steps for Boris."
+  "Nov 26 (Boris, Jess Insights + growth checklist): the hook works (skip ~32-36%); the cap is shares (0.1-0.3%), comments (0-0.4%), completion (~46%) and follows (65 visits -> 0). RUNBOOK 5n: send-worthy relatable gag, joke aura-swing stickers + aura-debate question (HUD aura stays real), hidden rewatch detail, loop + open-loop endings, standalone mini-stories, bigger stakes every 5 days, 12-15 s bonus test; new Jess test queue T1-T8; profile/bio/pin steps for Boris.",
+  "Nov 26 (Boris): cash giveaway at 100K dropped (wrong followers, minors in the audience, legal rules); instead Jess gets an RSVP guest list (opt-in handles on place cards, Day 30 finale) + story-reward follower milestones 25/50/100/250/500/1K (RUNBOOK 5o), launched as Jess test T2 on the Fri Nov 27 bonus."
  ],
  "facts": [
   {
