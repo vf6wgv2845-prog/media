@@ -1,0 +1,362 @@
+{
+ "image": "jess_b1126_turkey.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 5 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "She practiced",
+  "small talk with Ryan.",
+  "On the turkey."
+ ],
+ "hook_emoji": "🦃",
+ "name_line": "Thursday morning.",
+ "sub_line": "Bonus  •  Day 6 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   6
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "did the can win again",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Style: 5/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💌",
+   "Bring a date"
+  ],
+  [
+   "💄",
+   "Full glam"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Thanksgiving. She practiced small talk with Ryan. On the turkey."
+   ],
+   [
+    0.1,
+    "Hi Ryan. How's the... best man-ing?"
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "The real Ryan texted."
+   ],
+   [
+    0.1,
+    "What are you bringing? I made a pie. From scratch."
+   ],
+   [
+    0.1,
+    "She sent: ha. Seventh time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Her job: rolls. The can said: press here."
+   ],
+   [
+    0.1,
+    "She held it at arm's length. Four minutes."
+   ],
+   [
+    0.1,
+    "Pop. Dough on her forehead."
+   ],
+   [
+    0.1,
+    "Then Sienna posted it. Made Ryan's pie. He helped."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Dinner at four, glued next to Ryan. A date, or full glam?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "58%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "rolls",
+   "press",
+   "four",
+   "minutes",
+   "pop",
+   "forehead",
+   "sienna",
+   "pie",
+   "ryan's",
+   "helped"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "25",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "TURKEY = RYAN",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "delay": 0.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA #7",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "\"FROM SCRATCH\"",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 760,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 1,
+   "text": "SEND THIS TO YOUR CAN-SCARED FRIEND",
+   "bg": [
+    236,
+    110,
+    160
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 44,
+   "hold": 2.6
+  }
+ ],
+ "cover_title": [
+  "POP!",
+  "THE CAN WON"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "what r u bringing"
+   ],
+   [
+    "them",
+    "i made a pie. from scratch"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = BRING A DATE   2 = FULL GLAM"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_b1126_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_b1126_can.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_b1126_pop.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "jess_b1126_pie.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1126_pop.jpg"
+  }
+ ],
+ "notif_y": -600
+}

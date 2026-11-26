@@ -1,0 +1,295 @@
+{
+ "image": "theo_b1126_rack.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "motion": true,
+ "pill": "SEASON 1  •  THURSDAY MORNING",
+ "accent": [
+  255,
+  190,
+  80
+ ],
+ "hook": [
+  "He practiced",
+  "the slow dance.",
+  "With a coat rack."
+ ],
+ "hook_emoji": "",
+ "name_line": "Thursday morning.",
+ "sub_line": "Bonus  •  Day 10 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   7
+  ],
+  [
+   "Confidence",
+   10
+  ]
+ ],
+ "notif": {
+  "from": "Maya's mom",
+  "msg": "pants again?? who is this suit FOR",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 0,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "21 days.",
+   "Style: 5/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "💬",
+   "Tell Maya"
+  ],
+  [
+   "🕺",
+   "Learn to dance"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "He practiced the slow dance with a coat rack. Spin one: the suit pants ripped."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Maya: Jake takes dance lessons now. Slow dance at ten."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Her mom took the pants back. Second repair. For: question marks."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Tell Maya who it's for, or learn to dance?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "21",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "70%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "57/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1180,
+  "keywords": [
+   "slow",
+   "dance",
+   "coat",
+   "rack",
+   "ripped",
+   "pants",
+   "second",
+   "repair"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.15,
+   "user": "ivannn_720",
+   "text": "Learn to dance",
+   "likes": 0,
+   "y": 1450,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "ivannn_720",
+   "text": "Learn to dance",
+   "likes": 0,
+   "y": 1650,
+   "hold": 2.6
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.9,
+   "text": "RIIIP",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.8,
+   "text": "SEND TO THE FRIEND WHO CAN'T SLOW DANCE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 42,
+   "hold": 2.6
+  }
+ ],
+ "cover_title": [
+  "RIIIP",
+  "SPIN ONE"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "jake's been taking dance lessons lol"
+   ],
+   [
+    "them",
+    "there's a slow dance at 10"
+   ],
+   [
+    "me",
+    "cool cool cool"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TELL MAYA  or  LEARN TO DANCE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "image": "theo_b1126_rack.jpg"
+  },
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.9,
+   "image": "theo_b1126_rip.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_gaming.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_b1126_tag.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "theo_b1126_rack.jpg"
+  }
+ ]
+}
