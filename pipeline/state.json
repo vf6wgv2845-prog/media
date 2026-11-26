@@ -290,7 +290,7 @@
      "Text Jada back",
      "Study chem on IntelliStudy"
     ],
-    "note": "Day 10 vote: count comments on Day 9 (18111738383182141) + Thu midday bonus. If IntelliStudy wins, Day 10 genuinely shows him studying chem on IntelliStudy (quick shot of the app/site + one specific thing he learns, short and fun; only show real features) and the caption says 'IntelliStudy (our own study app) link in bio'. Tourney Dec 4 (8 days after Nov 26)."
+    "note": "Day 10 vote: count comments on Day 9 (18111738383182141) + Thu midday bonus. If IntelliStudy wins, Day 10 genuinely shows him studying chem on IntelliStudy (quick shot of the app/site + one specific thing he learns, short and fun; only show real features) and the caption says 'IntelliStudy (our own study app) link in bio'. Tourney Dec 4 (8 days after Nov 26). | Nov 26 midday: Study chem 1 (104malkie 'study' on D9, 14:20 UTC, 0 likes; replied), Text Jada 0. Count the Thu midday bonus 17899560684681870 too."
    },
    "cast": {
     "Tyler": "best friend, made varsity (loyalty tension as Malik rises)",
@@ -414,6 +414,13 @@
      "video": "malik/bonus_1125.mp4",
      "config": "pipeline/episodes/malik_bonus_1125.json",
      "note": "Midday ~1:50 PM ET bonus (NOT Day 9). FIRST TOON Reel (caption said '(new look, same story)'). Thanksgiving eve: Mom sent him for cranberry sauce; Jada (ex) in aisle 4 (first time on screen, offscreen character); he 'went left' with the cart into the cranberry pyramid; Jada handed him one can: 'still can't go left, huh?'; banned from aisle 4; Tyler chat 'jada just posted a can avalanche' / 'was that u' / 'no' / 'bro ur jersey is IN the video'; Mom notif 'you got BANNED from a grocery store??'. Tourney in 9 days, Jada will be in the stands. Vote kept open (0 comments on Day 8 + Tue bonus, read Nov 24-25): Text Jada vs practice left with Tyler, natural-question wording (RUNBOOK 5j), send sticker 'SEND THIS TO YOUR TEAMMATE'. Day 9 votes: count this Reel too. 27.5 s, motion on, captions y 1200. New toon scene 'store' + looks malik_b1125_*."
+    },
+    {
+     "date": "2026-11-26",
+     "media_id": "17899560684681870",
+     "video": "malik/bonus_1126.mp4",
+     "config": "pipeline/episodes/malik_bonus_1126.json",
+     "note": "Midday ~1:57 PM ET bonus (NOT Day 10). Thanksgiving dinner: Grandma asked 'how's Jada?'; Jada texted on the table 'happy thanksgiving' / 'u still going left?' (Grandma read it out loud); Mom slid his chem notes over (no C, no tourney); passed the gravy left-handed onto the chem notes ('-500 AURA' joke sticker, 'THAT'S ONE... (LEFT HAND)' callback); ends 'he started typing' (open loop, NOT sent). FIRST REAL MALIK VOTE: @104malkie 'study' (comment 18089761445313287, D9, 0 likes) shown as comment card at 0 s and ~13 s; 'VOTES SO FAR: STUDY 1 - JADA 0'; vote kept open (Text Jada vs Study chem). Replied to @104malkie. New toon scene 'dining' + looks malik_b1126_ask/phone/gravy/typing. 26.8 s, motion, captions y 1200, send sticker 'SEND THIS TO YOUR NOSY GRANDMA'. Day 10 votes: count this Reel too."
     }
    ],
    "art_switch": {
@@ -453,12 +460,13 @@
      "Ramen",
      "Pumpkin pie"
     ],
-    "note": "Day 10 vote: count comments on Day 9 (17883758289550779) + Thu midday bonus. Thanksgiving Nov 26 = staff Thanksgiving (the thawed turkey). Real recipe required for whichever wins. | Nov 26 AM: Pumpkin pie 1 (dreamvilleafterdarkk '1st ! & pumpkin pie' D9 00:06 UTC, 0 likes; replied), Ramen 0."
+    "note": "Day 10 vote: count comments on Day 9 (17883758289550779) + Thu midday bonus. Thanksgiving Nov 26 = staff Thanksgiving (the thawed turkey). Real recipe required for whichever wins. | Nov 26 AM: Pumpkin pie 1 (dreamvilleafterdarkk '1st ! & pumpkin pie' D9 00:06 UTC, 0 likes; replied), Ramen 0. | Nov 26 midday re-read (Nov 25-26 pull): no new viewer comments; still Pumpkin pie 1, Ramen 0. Count the Thu midday bonus 17929085478203027 too."
    },
    "cast": {
     "Chef Marco": "her boss, doubts her",
     "Julian Price": "her ex from culinary school (dated 2 years; he left for Paris, she stayed; REVEALED Day 9), favorite to win the cook-off; knows things about Marco's kitchen (how? open loop)",
-    "Mentor": "Dee: tough retired chef, judged the city cook-off 12 years; texted Rosie Day 6 (Marco gave her the number). Sunday 6 AM lesson next."
+    "Mentor": "Dee: tough retired chef, judged the city cook-off 12 years; texted Rosie Day 6 (Marco gave her the number). Sunday 6 AM lesson next.",
+    "Dishwasher": "kitchen dishwasher; Nov 26 bonus: seen texting 'JULIAN' and smiling = the possible leak (open loop, unconfirmed)"
    },
    "rules": "Every practice dish comes with a REAL, accurate recipe (post it as a carousel or in the caption). Day 30 = the cook-off; later seasons go regional then a TV-style final.",
    "voice_cloud": "af_heart",
@@ -575,6 +583,13 @@
      "video": "rosie/bonus_1125.mp4",
      "config": "pipeline/episodes/rosie_bonus_1125.json",
      "note": "Midday ~1:52 PM ET bonus (NOT Day 9). FIRST TOON Reel ('(new look, same story)' in caption). Marco handed her a frozen 20-lb turkey for staff Thanksgiving, due noon tomorrow; hair dryer attempt (Marco unplugged it); Dee chat: cold water in the wrapper, change every 30 min, 30 min a pound, never the counter, never hot; 10 hours, 20 alarms, thawed by 6, straight into the oven; Julian Price notif 'heard marco gave u the frozen one' -> Marco: 'How does Julian know about my turkey?' (open loop that sets up the Julian-is-her-ex reveal planned for Day 9, NOT revealed). USDA thawing guide in caption (USDA blog, UNL + Illinois Extension). Vote kept open: Ramen vs Crispy salmon (natural question). Day 9 votes: count this Reel too. 28.0 s."
+    },
+    {
+     "date": "2026-11-26",
+     "media_id": "17929085478203027",
+     "video": "rosie/bonus_1126.mp4",
+     "config": "pipeline/episodes/rosie_bonus_1126.json",
+     "note": "Midday ~1:57 PM ET bonus (NOT Day 10). Staff Thanksgiving: the thawed turkey hit 165F in the thigh (perfect); Chef Marco carved it asking about Julian every slice ('SO... JULIAN?' x14); Julian texted 'heard the turkey came out good' / 'save me the wing' (she never told him); Marco dropped the knife: 'How does Julian know about my turkey?' (callback gag); Rosie spots the DISHWASHER texting and smiling, phone shows 'JULIAN' (open loop: the leak? NOT confirmed). 'THE TRICK: REST IT 20 MIN' sticker; USDA 165F + 3 thermometer spots + 20-min rest in caption (USDA blog 'Turkey Tips Step 3'). Comment card @dreamvilleafterdarkk '1st ! & pumpkin pie' (0 likes) at 0 s and ~16 s. Vote kept open: Ramen vs Pumpkin pie (pie leads 1-0). 26.4 s, motion, captions y 1200. Looks rosie_b1126_temp/carve/phone/side. Day 10 votes: count this Reel too."
     }
    ],
    "art_switch": {
@@ -620,7 +635,8 @@
     "18016460165999943",
     "17986971077900609",
     "18121825328088565",
-    "18651459670042922"
+    "18651459670042922",
+    "18135279517689298"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -681,7 +697,8 @@
     "Nov 25 ~9:57 AM ET (live session with Boris): Trash Horde switched to a story (RUNBOOK 5i). Posted story Day 1 18016460165999943 (Wes, 30 days of litter duty). Real-haul game unchanged: Butt Goblin 2,300 HP, 0 hits, deadline Sun Nov 29.",
     "Nov 25 ~1:54 PM ET (extras midday): read comments on all 20 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday bonus 17986971077900609 ('31 CUPS / ONE IS HIS', 18.7 s). Quiz #1 (18125982830516343) only 19 views at ~6 h (57.9% skip / 2.9 s): possible suppression, not reposted. If still 0 hits by midnight: +100 -> 2,400.",
     "Nov 25 ~6:15 PM ET (main run): read comments on all 21 counted Horde posts (comment pulls Nov 24 18:00 UTC -> now: no Horde comments; media_comments_count 0 on every Horde post) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story night beat 18121825328088565 + it as a story + teaser story. If still 0 hits by midnight: +100 -> 2,400 (next run applies it).",
-    "Nov 26 ~7:57 AM ET (extras morning): read all 22 counted Horde posts (media_comments_count 0 on every one; comment pull Nov 24-26 had no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Applied midnight regen +100 -> Butt Goblin 2,400 HP. Posted story AM bonus 18651459670042922 ('HE GREW / +100 HP', 14.7 s)."
+    "Nov 26 ~7:57 AM ET (extras morning): read all 22 counted Horde posts (media_comments_count 0 on every one; comment pull Nov 24-26 had no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Applied midnight regen +100 -> Butt Goblin 2,400 HP. Posted story AM bonus 18651459670042922 ('HE GREW / +100 HP', 14.7 s).",
+    "Nov 26 ~1:59 PM ET (extras midday): read all 23 counted Horde posts (media_comments_count 0 on every one; comment pulls Nov 24-26 and Nov 25-26 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,400 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday beat 18135279517689298 ('THE FORK STOOD UP', 17.6 s). If still 0 hits by midnight: +100 -> 2,500 (next run applies it)."
    ],
    "format": {
     "tiles": [
@@ -725,7 +742,7 @@
       "Gear up (gloves + grabber)",
       "Find backup"
      ],
-     "note": "Day 2 vote: count comments on Day 1 (18016460165999943) + bonuses (midday 17986971077900609 + tonight's). + night beat 18121825328088565."
+     "note": "Day 2 vote: count comments on Day 1 (18016460165999943) + bonuses (midday 17986971077900609 + tonight's). + night beat 18121825328088565. + Thu midday 18135279517689298."
     },
     "cadence": "AM bonus beat, midday short beat (<=20 s chat or real-haul shout-out), evening Day N (RUNBOOK 5i). Tonight Nov 25: main run posts a bonus beat (not Day 2: Day 1 went up ~10 AM); Day 2 = Nov 26 evening.",
     "real_hauls": "5c counting/verification unchanged; every real haul = damage to HORDE HP + comment card + 'reinforcement @handle' in the story. Never invent hauls.",
@@ -750,6 +767,13 @@
       "video": "horde/story_bonus_1126.mp4",
       "config": "pipeline/episodes/horde_story_bonus_1126.json",
       "note": "Thursday ~7:57 AM ET AM bonus (14.7 s): Thanksgiving 6 AM, the Butt Goblin grew overnight (+100 HP, real regen: 0 hits) -> HUD 2,300 -> 2,400; Cole: 'HAPPY THANKSGIVING WES.' / 'HE GREW.' / 'TRASH DOESN'T TAKE HOLIDAYS.'; Brooke notif 'cole says ur working thanksgiving lol'; Wes reached in with no gloves, the goblin coughed in his face. Fact sticker 'FILTERS = PLASTIC (NOAA)' (state.facts NOAA cellulose acetate entry; caption cites NOAA Ocean Service most-common-ocean-litter page, title quoted loosely). Looks wes_b1126_grew/reach/cough. Vote kept open (gear up vs backup, 0 votes). Count this Reel for Day 2."
+     },
+     {
+      "date": "2026-11-26",
+      "media_id": "18135279517689298",
+      "video": "horde/story_midday_1126.mp4",
+      "config": "pipeline/episodes/horde_story_midday_1126.json",
+      "note": "Midday short beat ~1:59 PM ET (17.6 s, <=20 s per 5i): Wes ate Thanksgiving dinner alone on bench 4; Cole drove past in the golf cart with Brooke and a pie; Cole chat 'BROOKE SAYS HI.' / 'ALSO YOU MISSED ONE.' / 'TRASH DOESN'T KNOW THAT.'; the pie fork blew off the cart and stood up -> 'HORDE +1'. 'VOTES SO FAR: 0' sticker (no fake card), '-1,000 AURA' joke sticker, fact sticker 'PLASTIC = 38.6% OF US LITTER (KAB 2020)' (state.facts KAB entry), 'REAL HAUL + CITY = REAL DAMAGE'. Horde HP 2,400, 0 real hits. Vote kept open (gear up vs backup, 0 votes). Looks wes_b1126m_bench/fork/fight. Count this Reel for Day 2."
      }
     ],
     "episodes": [
@@ -1113,9 +1137,9 @@
      "#didyouknow"
     ]
    },
-   "day": 5,
-   "last_post_date": "2026-11-25",
-   "last_media_id": "17987368164129610",
+   "day": 6,
+   "last_post_date": "2026-11-26",
+   "last_media_id": "18471115987143430",
    "episodes": [
     {
      "n": 1,
@@ -1150,12 +1174,20 @@
      "media_id": "17987368164129610",
      "config": "pipeline/episodes/history_e05.json",
      "note": "Midday extras ~1:53 PM ET, 33.9 s, timely (Thanksgiving = Nov 26). 0 comments on E4 (and E1-E3) -> we picked. Facts: History.com, Newspapers.com blog, 9News (22 vs 23 states: History + Newspapers say 22 followed FDR, 23 kept Nov 30, TX/CO/MS both; 9News says 23 -> used 22, caption notes the disagreement). No photos of FDR (real-person photo rule); art = AIC public domain: Homer 1858 x2, Hassam 1902, Callot c.1622, Harnett 1888. Motion on, captions y 1200. Cover '1939 / TWO THANKSGIVINGS'."
+    },
+    {
+     "n": 6,
+     "title": "The 1904 Olympic marathon",
+     "media_id": "18471115987143430",
+     "config": "pipeline/episodes/history_e06.json",
+     "note": "Midday extras ~1:58 PM ET, 35.8 s. FIRST GUS EPISODE (toon host, museum scene, bm_george 1.08; caption said '(new host, same true stories)'). 0 comments on E5 (and E1-E4) -> we picked. Format: Jess formula (s1 hook -> sc director chat 'GUS. STOP TALKING TO THE EXHIBITS.' / 'IT'S 2 AM.' -> s3 -> sv). Facts kept to what IOC (olympics.com), Smithsonian and Olympedia agree on: Lorz quit ~mile 9, rode in a car (~11 mi per Smithsonian), entered first, DQ + ban later lifted; Hicks given strychnine in egg whites + brandy, 3:28:53, barely on his feet; Carvajal ate apples (rotten per Smithsonian / green per Olympedia), cramps, 4th; ~90F, one water stop (well at mile 12); 32 started, 14 finished. Disputed details (strychnine timing, dogs, Lorz's 3:13) not used. Art: AIC public domain Posada The Automobile, Gerome Chariot Race 1876 (labelled as a painting), Cezanne Basket of Apples (framed full-screen exhibit beats + in Gus's wall frame). Cover '1904 / HE TOOK A CAR'."
     }
    ],
    "format": "Panel scenes p1..pN (pipeline/scenes2.py): one real public-domain artwork per beat, slow zoom, joke/fact stickers, word captions, HUD (YEAR + a counter), open vote 'top comment picks our next true story'. Facts double-checked (2 sources), uncertain claims labelled ('one chronicle says', 'some accounts'). Sources + art credits in the caption. Images: AIC open access (see assets/history/SOURCES.md).",
    "open_vote": {
     "question": "Which true story next?",
-    "type": "top_comment"
+    "type": "top_comment",
+    "note": "Story #7: count comments on E6 18471115987143430 (top comment names the next true story)."
    },
    "host": {
     "name": "Gus",
@@ -1573,7 +1605,10 @@
     "horde_night_1125": "137",
     "history_e5": "159"
    }
-  }
+  },
+  "2026-11-26 midday read (~24 h): Malik Wed bonus 18027021251937486 (first toon, aisle 4) 167 views / 0 likes / 0 comments; Malik D9 18111738383182141 160 views / 1 like / 1 comment (first ever real vote: 'study').",
+  "2026-11-26 midday read (~24 h): Rosie Wed bonus 17959867089295245 (turkey thaw) 169 views / 1 like; Rosie D9 17883758289550779 (Julian-is-her-ex reveal) 361 views / 10 likes / 1 viewer comment = her best Day episode by far.",
+  "2026-11-26 midday read (~24 h): History E5 17987368164129610 (Franksgiving) 159 views / 0 likes; E4 Emu War 199. Horde Wed midday 17986971077900609 150 views; night beat 140; AM bonus 1126 136 at ~6 h."
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1613,7 +1648,8 @@
   "Nov 26 (Boris, Jess Insights + growth checklist): the hook works (skip ~32-36%); the cap is shares (0.1-0.3%), comments (0-0.4%), completion (~46%) and follows (65 visits -> 0). RUNBOOK 5n: send-worthy relatable gag, joke aura-swing stickers + aura-debate question (HUD aura stays real), hidden rewatch detail, loop + open-loop endings, standalone mini-stories, bigger stakes every 5 days, 12-15 s bonus test; new Jess test queue T1-T8; profile/bio/pin steps for Boris.",
   "Nov 26 (Boris): cash giveaway at 100K dropped (wrong followers, minors in the audience, legal rules); instead Jess gets an RSVP guest list (opt-in handles on place cards, Day 30 finale) + story-reward follower milestones 25/50/100/250/500/1K (RUNBOOK 5o), launched as Jess test T2 on the Fri Nov 27 bonus.",
   "Nov 26 deep research (reports/Growing animated Reels story series.md): Jess sits at the normal <2K-follower ceiling; growth = sends per reach (target 0.5-1%) + profile follows. 'Comment a number/word' is Instagram's named engagement-bait example -> Jess vote-wording test moved up to Nov 29, guest list uses an open question. Sept 2026 rule: AI-generated-person accounts need the profile AI label (Theo yes; cartoon pages no). Length effects are small (90-179 s +7%). Own clean cross-posts are fine; no boosting until profile converts. Theo got a cloud smile-with-teeth edit (new default image). RUNBOOK 5p.",
-  "Nov 26 AM extras: Danny D5 (37.7 s length test, motion, natural-question vote, send sticker) reached 1,563 views / 23 likes / 2 comments within ~9 h, the first non-Jess Day episode to pass the 800-view gate, and Theo D9 (36.4 s test) hit 648 (his best Day episode lately) -> the 5l length-test exception may apply to Danny/Theo at the 24 h check (compare views AND avg watch vs their last 3 Day episodes before reverting to 22-26 s). Rosie got her first-ever viewer comment on D9 (Julian/ex hook). Applied today: Jess T1 send gag (one lever), 12-16 s short-bonus test (5n.1.8) on Theo, Danny and Wes with real comment cards in the first second and the commenter's idea as the gag (h.nguy3n07's power-up -> hair gel)."
+  "Nov 26 AM extras: Danny D5 (37.7 s length test, motion, natural-question vote, send sticker) reached 1,563 views / 23 likes / 2 comments within ~9 h, the first non-Jess Day episode to pass the 800-view gate, and Theo D9 (36.4 s test) hit 648 (his best Day episode lately) -> the 5l length-test exception may apply to Danny/Theo at the 24 h check (compare views AND avg watch vs their last 3 Day episodes before reverting to 22-26 s). Rosie got her first-ever viewer comment on D9 (Julian/ex hook). Applied today: Jess T1 send gag (one lever), 12-16 s short-bonus test (5n.1.8) on Theo, Danny and Wes with real comment cards in the first second and the commenter's idea as the gag (h.nguy3n07's power-up -> hair gel).",
+  "Nov 26 midday extras: relationship reveals are the only thing that has moved Malik/Rosie so far (Rosie D9 Julian-is-her-ex: 361 views / 10 likes / first comment vs ~120-170 before; Malik D9's IntelliStudy-vs-Jada vote got his first-ever comment). Applied: both midday bonuses put the ex in the frame (Jada's text read out by Grandma; Julian texting the kitchen) with the real leading comment card at 0 s and again mid-Reel, 'VOTES SO FAR' when there's a count. History: first Gus-hosted episode (toon host + framed archival art as full-screen beats + director chat at ~11 s) - compare its skip/avg watch with E3-E5 (52-60% skip) at the next run. Engine catch: vote-screen title over ~12 characters and send stickers over ~32 characters overflow 1080 px; cover line 1 over ~5 big characters clips (use 'BONUS')."
  ],
  "facts": [
   {
@@ -1698,6 +1734,18 @@
    "source": "USDA blog 'Thaw Your Turkey Safely' (2023), UNL Extension, Illinois Extension",
    "url": "https://www.usda.gov/node/55388",
    "used_in": "rosie bonus 2026-11-25"
+  },
+  {
+   "fact": "1904 Olympic marathon, St. Louis (Aug 30, 1904, ~90F, dusty roads, one water stop at mile 12): Fred Lorz dropped out ~mile 9, rode in a car (Smithsonian: ~11 miles), entered the stadium first, DQ + AAU lifetime ban later rescinded (won 1905 Boston); Thomas Hicks won in 3:28:53 after handlers gave him strychnine (sulfate) in egg whites + brandy, barely on his feet; Felix Carvajal ate apples (rotten per Smithsonian, green per Olympedia), cramps, finished 4th; 32 started, 14 finished. Disagreements: strychnine timing, Lorz ride length, one dog vs a pack chasing Len Taunyane.",
+   "source": "IOC (olympics.com) 'The strange case of the St Louis 1904 marathon'; Smithsonian Magazine; Olympedia results 56131",
+   "url": "https://www.olympics.com/ioc/news/the-strange-case-of-the-st-louis-1904-marathon",
+   "used_in": "History E6, 2026-11-26"
+  },
+  {
+   "fact": "USDA: turkey is done at 165F (innermost thigh, innermost wing, thickest part of the breast; you can't tell by color); let it stand 20 minutes before carving so the juices settle.",
+   "source": "USDA blog 'Turkey Tips Step 3: Let's Finally Get Cooking' (Nov 25, 2014)",
+   "url": "https://www.usda.gov/about-usda/news/blog/turkey-tips-step-3-lets-finally-get-cooking",
+   "used_in": "Rosie bonus 2026-11-26"
   }
  ],
  "post_queue": [],
