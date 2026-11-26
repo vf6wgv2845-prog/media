@@ -81,8 +81,8 @@
    "day": 9,
    "last_post_date": "2026-11-25",
    "last_media_id": "17916808875502650",
-   "image": "theo_d09_smile.jpg",
-   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical. Leonardo reference image for consistency: the original scruffy Theo generation (search 'scruffy and neglected' in Your Generations). theo_gaming.jpg = him gaming (Day 3). Nov 24: theo_d08_onebrow.jpg (left brow removed, regrowing ~2 weeks) and theo_d08_drawn.jpg (eyeliner brow) are cloud edits; a live session should give him clean, shaped brows once the story says they grew back. Nov 25: theo_d09_smile.jpg = subtle closed-mouth smile (cloud warp). Left brow still eyeliner/regrowing.",
+   "image": "theo_teeth_drawnbrow.jpg",
+   "image_note": "Current look = theo_d02_clearskin.jpg (acne removed with an OpenCV cheek-smoothing edit). Big visual changes (hair, outfit, gym) need Leonardo in a live session; small ones can be image edits. Keep the face identical. Leonardo reference image for consistency: the original scruffy Theo generation (search 'scruffy and neglected' in Your Generations). theo_gaming.jpg = him gaming (Day 3). Nov 24: theo_d08_onebrow.jpg (left brow removed, regrowing ~2 weeks) and theo_d08_drawn.jpg (eyeliner brow) are cloud edits; a live session should give him clean, shaped brows once the story says they grew back. Nov 25: theo_d09_smile.jpg = subtle closed-mouth smile (cloud warp). Left brow still eyeliner/regrowing. Nov 26: NEW DEFAULTS theo_teeth_drawnbrow.jpg (real smile with visible teeth, eyeliner brow) and theo_teeth_clean.jpg (both brows); script pipeline/theo_teeth_edit.py <src> <out> applies the same smile to any front-facing Theo image.",
    "stats": {
     "Hair": 6,
     "Skin": 7,
@@ -891,14 +891,15 @@
     "baseline_nov25": "last 6 Reels: 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares",
     "queue": [
      "T1 send gag + send prompt (Thu Nov 26 AM bonus)",
-     "T2 RSVP guest list + follower milestones, RUNBOOK 5o (Fri Nov 27)",
+     "T2 guest list (open question, no 'comment RSVP') + follower milestones, RUNBOOK 5o (Fri Nov 27)",
      "T3 aura-swing stickers + aura-debate question (Sat Nov 28)",
-     "T3b 12-15 s bonus with loop ending (Sun Nov 29)",
-     "T4 seamless loop ending",
-     "T5 vote wording without '1 or 2'",
-     "T6 motion: true",
-     "T7 captions at y ~1200",
-     "T8 third daily Reel"
+     "T4 vote wording without '1 or 2' (Sun Nov 29; Instagram names 'comment a number' as engagement bait)",
+     "T5 12-15 s bonus with loop ending",
+     "T6 seamless loop ending",
+     "T7 motion: true",
+     "T8 captions at y ~1200",
+     "T9 45-60 s bonus (Buffer Nov 2026 length data)",
+     "T10 third daily Reel"
     ],
     "results": [],
     "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3).",
@@ -1549,7 +1550,8 @@
   "Nov 25 main run: the first toon bonuses for Malik (37.0% skip) and Rosie (39.5% skip / 10.2 s) both passed the skip side of the 800-view gate within ~5 h, their best ever (Malik D8 59.5%, Rosie D8 41.8% / 7.1 s) -> the toon switch + ex/rival hook works; kept it on their Day 9s. Applied today: every non-Jess Day episode = 5j length test (36-40 s, sitcom shape: 3 attempts + chat payoff + one more twist), speed 1.10, motion, captions y~1200 (Theo 1380 so the mouth gag stays visible), natural-question vote + send sticker. Engine catches: 'make_episode all' does not refresh contact.jpg (check stills first, or grab frames from final.mp4); the motion push crops props below y~1500 and beyond x~850: draw props inside x 230-850, y 1000-1450 (or wrap the 'extra' SVG in a scale(0.8) group toward the centre); hook line 1 over ~19 characters overflows; the auto cover grabs the LAST beat image, so build the cover from the hook image when the title is the fail (scratch cover.py approach: tiles + title over a chosen asset).",
   "Nov 25 night (Boris live): Jess D5 got 27.4% skip (record) and 1,406 views in ~1 h 40 min. Boris: Jess is the main focus, Theo second; copy what works on Jess to every page; IntelliStudy videos become niche + varied. -> RUNBOOK 5l (Jess formula = default on all story pages, the 35-50 s length test ends unless the 24 h data says otherwise, 24 h Jess review procedure, IntelliStudy niche/format rotation).",
   "Nov 26 (Boris, Jess Insights + growth checklist): the hook works (skip ~32-36%); the cap is shares (0.1-0.3%), comments (0-0.4%), completion (~46%) and follows (65 visits -> 0). RUNBOOK 5n: send-worthy relatable gag, joke aura-swing stickers + aura-debate question (HUD aura stays real), hidden rewatch detail, loop + open-loop endings, standalone mini-stories, bigger stakes every 5 days, 12-15 s bonus test; new Jess test queue T1-T8; profile/bio/pin steps for Boris.",
-  "Nov 26 (Boris): cash giveaway at 100K dropped (wrong followers, minors in the audience, legal rules); instead Jess gets an RSVP guest list (opt-in handles on place cards, Day 30 finale) + story-reward follower milestones 25/50/100/250/500/1K (RUNBOOK 5o), launched as Jess test T2 on the Fri Nov 27 bonus."
+  "Nov 26 (Boris): cash giveaway at 100K dropped (wrong followers, minors in the audience, legal rules); instead Jess gets an RSVP guest list (opt-in handles on place cards, Day 30 finale) + story-reward follower milestones 25/50/100/250/500/1K (RUNBOOK 5o), launched as Jess test T2 on the Fri Nov 27 bonus.",
+  "Nov 26 deep research (reports/Growing animated Reels story series.md): Jess sits at the normal <2K-follower ceiling; growth = sends per reach (target 0.5-1%) + profile follows. 'Comment a number/word' is Instagram's named engagement-bait example -> Jess vote-wording test moved up to Nov 29, guest list uses an open question. Sept 2026 rule: AI-generated-person accounts need the profile AI label (Theo yes; cartoon pages no). Length effects are small (90-179 s +7%). Own clean cross-posts are fine; no boosting until profile converts. Theo got a cloud smile-with-teeth edit (new default image). RUNBOOK 5p."
  ],
  "facts": [
   {
