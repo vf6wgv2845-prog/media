@@ -2022,6 +2022,11 @@
     "file": "jess/bonus_1126.mp4",
     "day": "bonus 11-26",
     "note": "NOT posted: Buffer 'Limit reached: maximum number of posts YouTube allows in a day (2)'. Skipped, not retried."
+   },
+   {
+    "date": "2026-11-26",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "note": "evening cross-post run: skipped YouTube (2/day Buffer limit already used by D1, D2 this morning). Next: D3, D4 in the Nov 27 morning run."
    }
   ]
  },
@@ -2087,10 +2092,10 @@
   ],
   "note": "RUNBOOK 5q",
   "catchup": {
-   "jess_tiktok_next": "d04",
+   "jess_tiktok_next": "caught up through d06 (next: new episodes/bonuses as they go live on IG: bonus_1127, d07...)",
    "jess_youtube_next": "d03",
    "youtube_daily_limit": 2,
-   "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 26 YouTube quota used (D1, D2): evening run skips YouTube.",
+   "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 26 YouTube quota used (D1, D2); Nov 27 AM: post D3 + D4.",
    "tiktok_bonus_backlog_skipped": [
     "jess/bonus_1123.mp4",
     "jess/bonus_1124.mp4",
@@ -2130,6 +2135,30 @@
    "file": "jess/bonus_1126.mp4",
    "day": "bonus 11-26",
    "note": "new (IG bonus this morning); sent"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b08c41c9131f7416c5715a6",
+   "file": "jess/d04.mp4",
+   "day": 4,
+   "note": "catch-up; sent, tiktok.com/@jessweddingglowup/video/7712629958933253390"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b08c4ea7c3f43554e3ccd2e",
+   "file": "jess/d05.mp4",
+   "day": 5,
+   "note": "catch-up; sent, tiktok.com/@jessweddingglowup/video/7712630788143074574"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b08c5709131f7416c5790af",
+   "file": "jess/d06.mp4",
+   "day": 6,
+   "note": "new (IG Day 6 tonight); sent, tiktok.com/@jessweddingglowup/video/7712631393477496094"
   }
  ],
  "autonomy_audit_nov26": {
