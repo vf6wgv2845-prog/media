@@ -293,6 +293,7 @@ Buffer is connected (org "My Organization", id 648a4579a7af12840277c415, free pl
 - `mcp__Buffer__create_post` with `channelId` (exact id from list_channels), `schedulingType: "automatic"`, `mode: "shareNow"`, `assets: [{"video": {"url": "https://raw.githubusercontent.com/vf6wgv2845-prog/media/main/<path>.mp4"}}]`, and a caption WITHOUT Instagram-only lines (no "link in bio" promises, no IG handles). TikTok: `metadata.tiktok = {"title": "<hook>", "isAiGenerated": true}`. YouTube: `metadata.youtube = {"type": "short", "title": "<hook> | 30 Days to the Wedding, Day N #shorts" (<=100 chars), "categoryId": "24", "madeForKids": false, "isAiGenerated": true, "privacy": "public"}`.
 - `isAiGenerated: true` on everything (AI voice/visuals; unlabeled AI got Fruit Love Island's episodes removed).
 - Episodes only (+ morning bonuses for Jess if the channel takes them); same clean file, no watermark. Log each post in `state.youtube.log` / `state.tiktok_log` (date, channel, Buffer post id, source file).
+- **YouTube limit (Nov 26): Buffer allows only 2 YouTube posts per day** (3rd fails 'maximum number of posts YouTube allows in a day (2)'). So YouTube gets Day episodes only (oldest unposted first, max 2/day across both runs); bonuses go to YouTube only once every Day is up. TikTok has no such limit seen.
 - If a Buffer call fails, retry once, then report it; never ask Boris to upload by hand. If list_channels is empty, skip silently and note "Buffer: no channels yet" in the report.
 
 ## 5r. Running without Boris (Nov 26 audit: "imagine I never text again")

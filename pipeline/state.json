@@ -1808,12 +1808,35 @@
   "task": "trig_01AgSkiuGQnH7WbTogHmebtn: 'IntelliStudy: Kai's IGCSE story + niche demos' (8:13 AM / 3:13 PM / 8:13 PM ET), created Nov 26 with Boris's approval"
  },
  "youtube": {
-  "status": "Windsor youtube upload_video exists (verified Nov 26). Waiting for Boris to connect the channel in Windsor (pick the Brand Account). TikTok: only via the Buffer connector if he connects it. Boris can't upload by hand.",
+  "status": "Jess YouTube channel (Buffer 6b07924c8541f09ecba7f889, being renamed from Youdecidewhatsnext) posting via Buffer (RUNBOOK 5q). YouTube LIMIT: max 2 posts per day through Buffer (error on 3rd, Nov 26 AM).",
   "scope": "Jess only to start (RUNBOOK 5k)",
   "log": [
    {
     "date": "2026-11-26",
     "note": "Nov 26: a Theo Day 1 upload attempt was blocked by the chat's permission check; channel is now Jess's (Boris renaming), so no Theo posts there."
+   },
+   {
+    "date": "2026-11-26",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "buffer_post_id": "6b0837794c34f04dc4afc5c5",
+    "file": "jess/d01.mp4",
+    "day": 1,
+    "note": "catch-up; sent"
+   },
+   {
+    "date": "2026-11-26",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "buffer_post_id": "6b08380a9a26fa19f0482926",
+    "file": "jess/d02.mp4",
+    "day": 2,
+    "note": "catch-up; sent"
+   },
+   {
+    "date": "2026-11-26",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "file": "jess/bonus_1126.mp4",
+    "day": "bonus 11-26",
+    "note": "NOT posted: Buffer 'Limit reached: maximum number of posts YouTube allows in a day (2)'. Skipped, not retried."
    }
   ]
  },
@@ -1867,8 +1890,15 @@
   ],
   "note": "RUNBOOK 5q",
   "catchup": {
-   "jess_tiktok_next": "d02",
-   "jess_youtube_next": "d01"
+   "jess_tiktok_next": "d04",
+   "jess_youtube_next": "d03",
+   "youtube_daily_limit": 2,
+   "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 26 YouTube quota used (D1, D2): evening run skips YouTube.",
+   "tiktok_bonus_backlog_skipped": [
+    "jess/bonus_1123.mp4",
+    "jess/bonus_1124.mp4",
+    "jess/bonus_1125.mp4"
+   ]
   },
   "task": "trig_013qYYXnMSEeVQQ5pAjMEkZK (8:41 AM + 6:41 PM ET)"
  },
@@ -1878,7 +1908,31 @@
    "channel": "jessweddingglowup",
    "buffer_post_id": "6b079290b8e2338b857eec3f",
    "file": "jess/d01.mp4",
-   "note": "first post (catch-up Day 1); status 'sending' at check"
+   "note": "first post (catch-up Day 1); confirmed sent 02:00 UTC"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b08376e9b7e78a5fb7e7290",
+   "file": "jess/d02.mp4",
+   "day": 2,
+   "note": "catch-up; sent, tiktok.com/@jessweddingglowup/video/7712475248569961741"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b0837ff9a26fa19f048241d",
+   "file": "jess/d03.mp4",
+   "day": 3,
+   "note": "catch-up; sent, tiktok.com/@jessweddingglowup/video/7712475735235054862"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b0838899a26fa19f0486122",
+   "file": "jess/bonus_1126.mp4",
+   "day": "bonus 11-26",
+   "note": "new (IG bonus this morning); sent"
   }
  ],
  "autonomy_audit_nov26": {
