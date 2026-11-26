@@ -1802,5 +1802,11 @@
   ],
   "tiktok_first_post": "https://tiktok.com/@jessweddingglowup/video/7712294016464801038"
  },
- "weekly_reviews": []
+ "weekly_reviews": [],
+ "finish_line": {
+  "date": "2026-12-15",
+  "why": "Windsor trial ends ~Dec 17 (Boris, Nov 26: finish all series before it ends; then he posts the best accounts by hand; IntelliStudy keeps going)",
+  "rule": "RUNBOOK 5r.1 (time-jump episodes when days_left > slots_left; Day 27 vote = finale choice; Dec 15 finales + season1_full.mp4 + season1_recap.mp4 per series; from Dec 16 no new Instagram posts except IntelliStudy)",
+  "intellistudy_after": "RUNBOOK 5r.9: Buffer Instagram channel for @intellistuddy (Boris connects it in Buffer slot 3)"
+ }
 }
