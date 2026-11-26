@@ -111,3 +111,17 @@ def footprints(x, y, s=1.0):
     for (fx, fy, n) in ((-60, 60, 1), (-60, -60, 2), (60, -60, 3), (60, 60, 4)):
         out += f'<ellipse cx="{fx}" cy="{fy}" rx="30" ry="45" fill="#4a6cf7" stroke="{INK}" stroke-width="5"/><text x="{fx}" y="{fy + 14}" font-family="Inter" font-weight="900" font-size="40" text-anchor="middle" fill="#fff">{n}</text>'
     return out + f'<text x="0" y="-165" font-family="Inter" font-weight="900" font-size="40" text-anchor="middle" fill="{INK}" stroke="#fff" stroke-width="8" paint-order="stroke">BOX STEP</text></g>'
+
+def pie(x, y, s=1.0, crack=False, soup=False, slice_out=False):
+    """Pumpkin pie in a tin, seen from a 3/4 angle."""
+    o = f'<g transform="translate({x} {y}) scale({s})"><ellipse cx="0" cy="22" rx="190" ry="62" fill="#8a8f98" stroke="{INK}" stroke-width="6"/>'
+    o += f'<ellipse cx="0" cy="0" rx="190" ry="62" fill="#d9a45a" stroke="{INK}" stroke-width="6"/>'
+    fill = "#e0892f" if not soup else "#f0a04a"
+    o += f'<ellipse cx="0" cy="0" rx="155" ry="46" fill="{fill}" stroke="{INK}" stroke-width="4"/>'
+    if soup:
+        o += f'<path d="M150 10 Q200 60 170 120 Q160 80 140 40 Z" fill="{fill}" stroke="{INK}" stroke-width="4"/><ellipse cx="-40" cy="-6" rx="40" ry="10" fill="#fff" opacity=".35"/>'
+    if crack:
+        o += f'<path d="M-120 -6 L-60 8 L-20 -12 L30 10 L80 -8 L130 6" fill="none" stroke="#6b3a12" stroke-width="7" stroke-linecap="round"/>'
+    if slice_out:
+        o += f'<path d="M0 0 L150 -18 Q160 10 140 30 Z" fill="#8a8f98" stroke="{INK}" stroke-width="4"/>'
+    return o + '</g>'
