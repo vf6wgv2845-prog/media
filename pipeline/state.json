@@ -1741,5 +1741,18 @@
    "3_weeks": "~400-1,000, occasional 1K+ bonus"
   },
   "basis": "Jess last 8 Reels 1,445-1,845 (median ~1,600), all stall at ~1,050-1,400 reach; Theo 130-580 with one 1,231 outlier, skip 40-55%."
- }
+ },
+ "buffer": {
+  "org_id": "648a4579a7af12840277c415",
+  "org_name": "My Organization",
+  "plan": "free: 3 channels, 10 scheduled posts",
+  "channels_planned": [
+   "TikTok-Jess",
+   "YouTube-Jess",
+   "TikTok-Theo"
+  ],
+  "channels_connected_nov26": [],
+  "note": "RUNBOOK 5q"
+ },
+ "tiktok_log": []
 }
