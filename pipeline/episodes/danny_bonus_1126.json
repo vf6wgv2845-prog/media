@@ -1,0 +1,307 @@
+{
+ "image": "danny_b1126_line.jpg",
+ "cx": 0.0,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "motion": true,
+ "pill": "DAY 5 / 30  •  BONUS",
+ "accent": [
+  47,
+  158,
+  143
+ ],
+ "hook": [
+  "Race day.",
+  "Brock: a pacer watch.",
+  "Danny: hair gel."
+ ],
+ "hook_emoji": "",
+ "name_line": "Thursday morning.",
+ "sub_line": "Bonus  •  Day 6 drops tonight",
+ "stats": [
+  [
+   "Body",
+   4
+  ],
+  [
+   "Money",
+   5
+  ],
+  [
+   "Style",
+   3
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   7
+  ]
+ ],
+ "notif": {
+  "from": "Brock",
+  "msg": "see u at the finish. bring ur wallet",
+  "emoji": "",
+  "color": [
+   235,
+   80,
+   95
+  ]
+ },
+ "notif_line": 0,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Body: 4/10."
+  ],
+  "Top comment = tonight.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "🏃",
+   "Run it"
+  ],
+  [
+   "💌",
+   "Ask Tara"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Turkey trot. Brock brought a pacer watch. Danny brought a whole tube of hair gel."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Tara: you running alone? He sent: it's a power-up."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "He powered up. The gel ran into his eyes. Then the horn went off."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Run it alone, or ask Tara to run with him?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "LIES TRUE",
+    "value": "1/3",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "46/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "gel",
+   "eyes",
+   "horn",
+   "powered"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.15,
+   "user": "h.nguy3n07",
+   "text": "He should turn into a super saiyan and win the race",
+   "likes": 2,
+   "y": 1450,
+   "hold": 2.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "99_vargas",
+   "text": "Ask the girl to fun it with him",
+   "likes": 0,
+   "y": 1650,
+   "hold": 2.6
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 3.4,
+   "text": "MEGA HOLD",
+   "bg": [
+    54,
+    192,
+    168
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 1.4,
+   "text": "-5,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1420,
+   "angle": 4,
+   "size": 95,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.8,
+   "text": "SEND THIS TO YOUR TURKEY TROT BUDDY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 46,
+   "hold": 2.6
+  }
+ ],
+ "cover_title": [
+  "HONK",
+  "GEL IN HIS EYES"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Tara",
+  "sub": "Brock's sister",
+  "msgs": [
+   [
+    "them",
+    "u running alone??"
+   ],
+   [
+    "them",
+    "he's doing lunges AT you"
+   ],
+   [
+    "me",
+    "it's a power-up"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "RUN IT  or  ASK TARA TO RUN TOO"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 3.4,
+   "image": "danny_b1126_gel.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_b1126_line.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_b1126_gel.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 1.4,
+   "image": "danny_b1126_eyes.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_b1126_eyes.jpg"
+  }
+ ]
+}

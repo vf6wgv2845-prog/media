@@ -1,0 +1,277 @@
+{
+ "image": "wes_b1126_grew.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "motion": true,
+ "pill": "THE TRASH HORDE  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "The Butt Goblin",
+  "grew overnight.",
+  "Nobody hit him."
+ ],
+ "hook_emoji": "",
+ "name_line": "Thanksgiving, 6 AM.",
+ "sub_line": "Bonus  •  Day 2 tonight",
+ "stats": [
+  [
+   "Park",
+   0
+  ]
+ ],
+ "notif": {
+  "from": "Brooke",
+  "msg": "cole says ur working thanksgiving lol",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 0,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "30 days.",
+   "Park: 0%"
+  ],
+  "Top comment decides.",
+  [
+   "Start from Day 1,",
+   "it's pinned."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "🧤",
+   "Gear up"
+  ],
+  [
+   "👥",
+   "Find backup"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Thanksgiving, six A M. The Butt Goblin grew overnight. Nobody hit him."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ranger Cole: Happy Thanksgiving. He grew. Trash doesn't take holidays."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Wes reached in. No gloves. The goblin coughed in his face."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Gloves and a grabber, or find backup?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "29",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "0%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,400",
+    "from": "2,300",
+    "at": [
+     "s1",
+     0
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "gloves",
+   "coughed",
+   "goblin"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "text": "+100 HP (0 HITS)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.4,
+   "text": "FILTERS = PLASTIC (NOAA)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1420,
+   "angle": 3,
+   "size": 58,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.9,
+   "text": "SEND THIS TO THE FRIEND WHO WORKS EVERY HOLIDAY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 38,
+   "hold": 2.4
+  }
+ ],
+ "cover_title": [
+  "HE GREW",
+  "+100 HP"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "HAPPY THANKSGIVING WES."
+   ],
+   [
+    "them",
+    "HE GREW."
+   ],
+   [
+    "me",
+    "it's a holiday"
+   ],
+   [
+    "them",
+    "TRASH DOESN'T TAKE HOLIDAYS."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "GLOVES + GRABBER  or  BACKUP"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_toon_shock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_b1126_reach.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.0,
+   "image": "wes_b1126_cough.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_b1126_grew.jpg"
+  }
+ ]
+}
