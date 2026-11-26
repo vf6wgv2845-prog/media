@@ -1808,5 +1808,15 @@
   "why": "Windsor trial ends ~Dec 17 (Boris, Nov 26: finish all series before it ends; then he posts the best accounts by hand; IntelliStudy keeps going)",
   "rule": "RUNBOOK 5r.1 (time-jump episodes when days_left > slots_left; Day 27 vote = finale choice; Dec 15 finales + season1_full.mp4 + season1_recap.mp4 per series; from Dec 16 no new Instagram posts except IntelliStudy)",
   "intellistudy_after": "RUNBOOK 5r.9: Buffer Instagram channel for @intellistuddy (Boris connects it in Buffer slot 3)"
+ },
+ "after_windsor_plan": {
+  "decided_nov26": "Boris waits until the Windsor trial ends, then decides. Wants FREE options only.",
+  "free_options": [
+   "Buffer free (3 slots: Jess TikTok, Jess YouTube, @intellistuddy Instagram) = posting only",
+   "Instagram Graph API via a free Meta developer app (posting + comments + insights; needs a token stored outside the public repo)",
+   "Make free tier (1,000 operations/month; maybe enough for IntelliStudy alone)",
+   "Metricool free (1 brand; scheduling + basic analytics)"
+  ],
+  "default_if_no_decision": "RUNBOOK 5r: series finish Dec 15; IntelliStudy continues via Buffer"
  }
 }
