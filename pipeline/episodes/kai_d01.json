@@ -1,0 +1,339 @@
+{
+ "image": "kai_d01_frame.jpg",
+ "cx": 0.0,
+ "voice": "bm_lewis",
+ "speed": 1.15,
+ "pill": "KAI'S IGCSEs  \u2022  DAY 1",
+ "accent": [
+  63,
+  143,
+  107
+ ],
+ "hook": [
+  "151 days to IGCSEs",
+  "Predicted: a 4.",
+  "Sister: all 9s."
+ ],
+ "hook_emoji": "\ud83d\udcda",
+ "name_line": "Day 1: The plan.",
+ "sub_line": "Kai's IGCSE story",
+ "stats": [
+  [
+   "Focus",
+   2
+  ]
+ ],
+ "notif": {
+  "from": "Mum",
+  "msg": "Mei did 9 hours a day. just saying",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 1,
+ "notif_y": 330,
+ "conflict": null,
+ "conflict_lines": [
+  1,
+  1
+ ],
+ "premise": [
+  [
+   "151 days."
+  ],
+  "x",
+  [
+   "x"
+  ]
+ ],
+ "vote_q": [
+  "Flashcards or past papers?"
+ ],
+ "cta": "What should Kai do?",
+ "options": [
+  [
+   "\ud83c\udccf",
+   "Flashcards"
+  ],
+  [
+   "\ud83d\udcdd",
+   "Past papers"
+  ]
+ ],
+ "numbered": false,
+ "motion": true,
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Kai's predicted a four. His sister got straight nines."
+   ],
+   [
+    0.1,
+    "Mum framed them."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Jayden: studying is for nerds."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "One: he highlighted the whole book."
+   ],
+   [
+    0.1,
+    "Two: cards by hand. Forty minutes. Three cards."
+   ],
+   [
+    0.1,
+    "Three: he pasted his notes into IntelliStudy. Two seconds."
+   ],
+   [
+    0.1,
+    "Questions from his own notes."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Dad: Mei never needed a phone."
+   ],
+   [
+    0.1,
+    "Flashcards, or past papers? What should Kai do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS TO EXAMS",
+    "value": "151",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PREDICTED",
+    "value": "4",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "FOCUS",
+    "value": "4/10",
+    "from": "2/10",
+    "at": [
+     "s3",
+     3
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "sc",
+   "s3",
+   "sv"
+  ],
+  "y": 1200,
+  "keywords": [
+   "kai",
+   "igcses",
+   "four",
+   "mei",
+   "nines",
+   "framed",
+   "jayden",
+   "nerds",
+   "chemistry",
+   "yellow",
+   "forty",
+   "three",
+   "intellistudy",
+   "two",
+   "seconds",
+   "dad",
+   "flashcards",
+   "past",
+   "papers",
+   "one",
+   "book",
+   "cards",
+   "notes",
+   "phone"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 1.6,
+   "kind": "calendar",
+   "text": "151",
+   "y": 1640,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 0.3,
+   "text": "FRAMED.",
+   "bg": [
+    200,
+    150,
+    47
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.4,
+   "text": "SEND THIS TO THE HIGHLIGHTER FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1480,
+   "angle": -3,
+   "size": 52,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 1.4,
+   "text": "3 CARDS. 40 MIN.",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 1430,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "text": "FRAME #10 INCOMING",
+   "bg": [
+    200,
+    150,
+    47
+   ],
+   "y": 1450,
+   "angle": 3,
+   "size": 64,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "DAY 1",
+  "SISTER: ALL 9s"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Jayden",
+  "sub": "best mate",
+  "msgs": [
+   [
+    "them",
+    "bro ur REVISING??"
+   ],
+   [
+    "them",
+    "studying is for nerds"
+   ],
+   [
+    "me",
+    "mum framed mei's results"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "flashcards or past papers?"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "kai_toon_base.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "kai_d01_yellow.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "kai_d01_cards.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "kai_d01_grin.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "kai_d01_frame.jpg"
+  }
+ ]
+}
