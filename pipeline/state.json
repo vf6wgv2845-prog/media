@@ -109,7 +109,7 @@
      "Tell Maya who the suit is for",
      "Learn to dance"
     ],
-    "note": "Day 10 vote: count comments on Day 9 (17916808875502650) + Thu AM bonus. Count '1'/'2' or any comment naming an option. Open: Maya still asking who the suit is for; suit hem ready Thursday."
+    "note": "Day 10 vote: count comments on Day 9 (17916808875502650) + Thu AM bonus. Count '1'/'2' or any comment naming an option. Open: Maya still asking who the suit is for; suit hem ready Thursday. | Nov 26 AM: Learn to dance 1 (ivannn_720 'Learn to dance' D9 00:02 UTC), Tell Maya 0."
    },
    "cast": {
     "Maya": "his ex; Day 2 viewed his selfie story twice; Day 3 texted 'wait... was that you at the gym?' (first text in 4 months). New boyfriend coming to the party. Day 4: 'nice hair. you still haven't answered me' (he still hasn't replied).",
@@ -242,6 +242,13 @@
      "video": "theo/bonus_1125.mp4",
      "config": "pipeline/episodes/theo_bonus_1125.json",
      "note": "Wednesday ~7:50 AM ET morning bonus (NOT Day 9): Thanksgiving card photo, take 14, 'hostage smile' + eyeliner brow; Mom posted it in the 'Theo's suit' group chat; Aunt Linda 'blink twice if ur ok'; Maya's mom: Maya laughed 10 min; Maya: 'why do you smile like ur being held hostage' / 'and u STILL didn't say who the suit is for'; Theo: 'my face does that'. New asset theo_b1125_card.jpg (PIL Thanksgiving card frame around theo_d08_drawn). Cards 5sta.r.angel 'the smile' (~9 s), ivannn_720 'The smile' (vote screen). 24.5 s. Vote kept open (smile leads 2-0). Open threads: Maya still doesn't know who the suit is for, suit hem ready Thursday (= Thanksgiving)."
+    },
+    {
+     "date": "2026-11-26",
+     "media_id": "17987525661103495",
+     "video": "theo/bonus_1126.mp4",
+     "config": "pipeline/episodes/theo_bonus_1126.json",
+     "note": "Thursday ~7:55 AM ET bonus (NOT Day 10), 5n.1.8 short-bonus test (15.8 s): practiced the slow dance with a coat rack (tag 'MAYA (practice)'), spin one ripped the suit pants (RIIIP); Maya: 'jake's been taking dance lessons lol' / 'there's a slow dance at 10'; Theo 'cool cool cool'; Maya's mom took the pants back, tag 'pants: 2nd repair / for: ????'. Card ivannn_720 'Learn to dance' at 0.15 s + vote screen. motion, captions y1180 s3, natural question, send sticker. New PIL props theo_b1126_rack/rip/tag. Vote kept open (dance leads 1-0)."
     }
    ],
    "follower_ladder": {
@@ -446,7 +453,7 @@
      "Ramen",
      "Pumpkin pie"
     ],
-    "note": "Day 10 vote: count comments on Day 9 (17883758289550779) + Thu midday bonus. Thanksgiving Nov 26 = staff Thanksgiving (the thawed turkey). Real recipe required for whichever wins."
+    "note": "Day 10 vote: count comments on Day 9 (17883758289550779) + Thu midday bonus. Thanksgiving Nov 26 = staff Thanksgiving (the thawed turkey). Real recipe required for whichever wins. | Nov 26 AM: Pumpkin pie 1 (dreamvilleafterdarkk '1st ! & pumpkin pie' D9 00:06 UTC, 0 likes; replied), Ramen 0."
    },
    "cast": {
     "Chef Marco": "her boss, doubts her",
@@ -612,7 +619,8 @@
     "18125982830516343",
     "18016460165999943",
     "17986971077900609",
-    "18121825328088565"
+    "18121825328088565",
+    "18651459670042922"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -628,7 +636,7 @@
    "boss": {
     "name": "The Butt Goblin",
     "hp_max": 2000,
-    "hp": 2300,
+    "hp": 2400,
     "deadline": "2026-11-29 (Sunday)",
     "regen": "+100 HP per day with zero hits (announced in the Reel; apply from Nov 23 if no hits that day, cap 3,000)",
     "if_not_beaten": "the horde spreads again; next boss gets harder",
@@ -636,7 +644,8 @@
     "regen_log": [
      "2026-11-23 00:00: +100 (0 hits on Nov 22) -> 2,100",
      "2026-11-24 00:00: +100 (0 hits on Nov 23) -> 2,200",
-     "2026-11-25 00:00: +100 (0 hits on Nov 24) -> 2,300"
+     "2026-11-25 00:00: +100 (0 hits on Nov 24) -> 2,300",
+     "2026-11-26 00:00: +100 (0 hits on Nov 25) -> 2,400"
     ]
    },
    "totals": {
@@ -671,7 +680,8 @@
     "Nov 25 ~7:55 AM ET (extras AM): read comments on all 18 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 shows no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,200 -> 2,300 HP (0 hits Nov 24). Posted quiz #1 (new format: '15, 152 or 1,520?' -> 152 each, KAB 2020, Thanksgiving 'walk off the turkey' ask) 18125982830516343 (30.1 s, cover '152 / PIECES. EACH.'). If still 0 hits by midnight: +100 -> 2,400.",
     "Nov 25 ~9:57 AM ET (live session with Boris): Trash Horde switched to a story (RUNBOOK 5i). Posted story Day 1 18016460165999943 (Wes, 30 days of litter duty). Real-haul game unchanged: Butt Goblin 2,300 HP, 0 hits, deadline Sun Nov 29.",
     "Nov 25 ~1:54 PM ET (extras midday): read comments on all 20 counted Horde posts (media_comments_count 0 on every Horde post; comment pull Nov 24-25 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday bonus 17986971077900609 ('31 CUPS / ONE IS HIS', 18.7 s). Quiz #1 (18125982830516343) only 19 views at ~6 h (57.9% skip / 2.9 s): possible suppression, not reposted. If still 0 hits by midnight: +100 -> 2,400.",
-    "Nov 25 ~6:15 PM ET (main run): read comments on all 21 counted Horde posts (comment pulls Nov 24 18:00 UTC -> now: no Horde comments; media_comments_count 0 on every Horde post) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story night beat 18121825328088565 + it as a story + teaser story. If still 0 hits by midnight: +100 -> 2,400 (next run applies it)."
+    "Nov 25 ~6:15 PM ET (main run): read comments on all 21 counted Horde posts (comment pulls Nov 24 18:00 UTC -> now: no Horde comments; media_comments_count 0 on every Horde post) -> 0 hauls; totals unchanged (Butt Goblin 2,300 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story night beat 18121825328088565 + it as a story + teaser story. If still 0 hits by midnight: +100 -> 2,400 (next run applies it).",
+    "Nov 26 ~7:57 AM ET (extras morning): read all 22 counted Horde posts (media_comments_count 0 on every one; comment pull Nov 24-26 had no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Applied midnight regen +100 -> Butt Goblin 2,400 HP. Posted story AM bonus 18651459670042922 ('HE GREW / +100 HP', 14.7 s)."
    ],
    "format": {
     "tiles": [
@@ -733,6 +743,13 @@
       "video": "horde/story_night_1125.mp4",
       "config": "pipeline/episodes/horde_story_night_1125.json",
       "note": "Main run ~6:15 PM ET night beat (NOT Day 2): Night 1, flashlight died at bench 4, the cigarette butts stood up and coughed = the Butt Goblin; Cole chat 'THAT'S THE BUTT GOBLIN.' / 'DON'T LET HIM REACH MIDNIGHT.'; notif 'MIDNIGHT HE GETS +100 HP.'; 2,300 HP, 0 real hits. Fact sticker: butts = #1 littered item (KAB 2020, 19.6%). 20.9 s. Vote kept open (gear up vs backup). Count this Reel for Day 2."
+     },
+     {
+      "date": "2026-11-26",
+      "media_id": "18651459670042922",
+      "video": "horde/story_bonus_1126.mp4",
+      "config": "pipeline/episodes/horde_story_bonus_1126.json",
+      "note": "Thursday ~7:57 AM ET AM bonus (14.7 s): Thanksgiving 6 AM, the Butt Goblin grew overnight (+100 HP, real regen: 0 hits) -> HUD 2,300 -> 2,400; Cole: 'HAPPY THANKSGIVING WES.' / 'HE GREW.' / 'TRASH DOESN'T TAKE HOLIDAYS.'; Brooke notif 'cole says ur working thanksgiving lol'; Wes reached in with no gloves, the goblin coughed in his face. Fact sticker 'FILTERS = PLASTIC (NOAA)' (state.facts NOAA cellulose acetate entry; caption cites NOAA Ocean Service most-common-ocean-litter page, title quoted loosely). Looks wes_b1126_grew/reach/cough. Vote kept open (gear up vs backup, 0 votes). Count this Reel for Day 2."
      }
     ],
     "episodes": [
@@ -882,6 +899,13 @@
      "video": "jess/bonus_1125.mp4",
      "config": "pipeline/episodes/jess_bonus_1125.json",
      "note": "Wednesday ~7:50 AM ET bonus (NOT Day 5): Chloe invited Ryan (best man) to family Thanksgiving tomorrow; Mom's place cards put Jess between Ryan and Sienna; Ryan: 'new everything huh' / 'see u at the turkey tomorrow'; Jess: 'ha' (5th time); she swapped her card with Grandma's 6 times, Mom swapped back, then super-glued it; Sienna: 'bringing anyone tomorrow? :)'. Looks jess_b1125_shock/cards/glue/ha (table + place cards + glue as toon 'extra'). Cards tj_you_dont_know_me 'The dress!' (1 like, ~9 s) + a.cxxpss 'The dress' (1 like, vote screen). 24.4 s. Vote kept open (dress leads 2-0). Open threads: Thanksgiving dinner seated between Ryan and Sienna (tomorrow), 'bringing anyone?', fitting Friday."
+    },
+    {
+     "date": "2026-11-26",
+     "media_id": "18343201555275587",
+     "video": "jess/bonus_1126.mp4",
+     "config": "pipeline/episodes/jess_bonus_1126.json",
+     "note": "Thursday ~7:55 AM ET bonus (NOT Day 6), Jess test T1 (send gag + send prompt): Thanksgiving morning, small-talk practice on the raw turkey ('how's the... best man-ing?'); Ryan: 'what r u bringing' / 'i made a pie. from scratch'; Jess 'ha' (#7); her job = rolls, held the can at arm's length 4 min, POP, dough on her forehead; Sienna's story 'made ryan's pie. he \"helped\" lol'. Send sticker 'SEND THIS TO YOUR CAN-SCARED FRIEND' on sv + caption line 2 send ask. No D6 votes yet -> 'VOTES SO FAR: 0' sticker, no comment card. Looks jess_b1126_turkey/ha/can/pop/pie (long_waves hair, makeup, earrings). 25.7 s, baseline otherwise unchanged (af_bella 1.18, no motion, captions y1500 s3, 1-or-2). Vote kept open."
     }
    ],
    "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered",
@@ -901,7 +925,15 @@
      "T9 45-60 s bonus (Buffer Nov 2026 length data)",
      "T10 third daily Reel"
     ],
-    "results": [],
+    "results": [
+     {
+      "test": "T1 send gag + send prompt",
+      "media_id": "18343201555275587",
+      "posted": "2026-11-26 ~07:55 ET",
+      "review_due": "2026-11-27 ~08:00 ET (24 h): keep only if views >= 1,400 AND skip <= 38% AND avg watch >= 11 s; also compare shares/reach vs baseline (0-3 shares)",
+      "result": "pending"
+     }
+    ],
     "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3). | Nov 26 01:32 UTC (~2 h 34 min): 1,445 views, 1,053 reach, 25 likes, 0 comments, 0 shares, 32.4% skip, 12.7 s avg: it filled the ~1,000-1,100-reach test pool fast, then flattened (0 sends -> no next pool). Revised 24 h estimate: ~1,600-1,900 (the 3,500 guess was too high).",
     "insights_from_boris_nov26": "In-app Insights (Boris): skip 31.9-35.6%, avg watch 11-12 s / 25 s, share rate 0.1-0.3%, comment rate 0-0.4%, 65 profile visits -> 0 follows, 99.4% non-followers, ~72% aged 13-24. Bottleneck = shares/comments/follows (RUNBOOK 5n)."
    },
@@ -945,7 +977,7 @@
      "Run the 5K for real",
      "Ask Tara to run with him"
     ],
-    "note": "Day 6 vote: count comments on Day 5 (18090873785322193) + Thu AM bonus. Day 6 = the Thanksgiving turkey trot 5K vs Brock (loser pays the reunion bar tab)."
+    "note": "Day 6 vote: count comments on Day 5 (18090873785322193) + Thu AM bonus. Day 6 = the Thanksgiving turkey trot 5K vs Brock (loser pays the reunion bar tab). | Nov 26 AM: Ask Tara 1 (99_vargas 'Ask the girl to fun it with him' D5 00:15 UTC), Run it 0; h.nguy3n07 'He should turn into a super saiyan and win the race' (2 likes) = not an option (used as the gel gag)."
    },
    "cast": {
     "Brock": "high-school bully, now a realtor; doubts him in the group chat; Nov 25 bonus: got his phone fixed at the kiosk (full price + tax), left a 1-star review 'Fast. Rude. Would come back.'; Nov 25 D5: challenged Danny to the Thanksgiving turkey trot 5K, loser pays the reunion bar tab; 'training since June' (per Tara).",
@@ -1051,6 +1083,13 @@
      "video": "danny/bonus_1125.mp4",
      "config": "pipeline/episodes/danny_bonus_1125.json",
      "note": "Wednesday ~7:52 AM ET bonus (NOT Day 5): Brock came to the kiosk for his repair; Danny fixed it in 8 min, full price + tax ($89 + $7.12 on the receipt prop); Tara: 'my brother says u charged him full price' / 'good'; Danny: 'the CEO thanks you'; Brock's 1-star review 'Fast. Rude. Would come back.'; reunion chat Brock: 'only thing danny's ripping is people off'. Looks danny_b1125_fix/smug/review. No comment card (0 votes); 'VOTES SO FAR: 0' sticker. 24.4 s. Vote kept open."
+    },
+    {
+     "date": "2026-11-26",
+     "media_id": "18102454643106991",
+     "video": "danny/bonus_1126.mp4",
+     "config": "pipeline/episodes/danny_bonus_1126.json",
+     "note": "Thursday ~7:56 AM ET bonus (NOT Day 6), short-bonus test (14.1 s): turkey trot start line, Brock has a pacer watch, Danny a tube of MEGA HOLD gel (power-up nod to commenter h.nguy3n07, card at 0.15 s with 2 likes); Tara: 'u running alone??' / 'he's doing lunges AT you'; Danny 'it's a power-up'; gel ran into his eyes, horn went off (-5,000 AURA joke sticker). Card 99_vargas 'Ask the girl to fun it with him' on the vote screen. Looks danny_b1126_line/gel/eyes (bib 404). Vote kept open (Ask Tara leads 1-0). The race itself = Day 6 tonight."
     }
    ],
    "premise_note": "Changed Nov 21 to the 'lie becomes true' angle so it isn't a copy of @30daystofix (reunion + prom-queen ex). Different from Jess (rom-com wedding) and Theo (party, ex).",
@@ -1512,7 +1551,29 @@
   "2026-11-25 ~7:40 AM ET (cached Windsor numbers): Jess Tue bonus 1,803 views/18 likes/2 comments (most-viewed post on any account so far), Jess D4 1,023/13 likes/2 comments ('The dress' x2)/3 shares at ~9 h; Theo D8 317/2 likes/2 comments (both 'the smile') = 2.4x Theo D7 (133); Theo Tue bonus 184; Danny D4 324/1 like/0 comments = 2.3x Danny D3 (140); Danny Tue bonus 185; Malik D8 133, Malik Tue bonus 133; Rosie D8 115, Rosie Tue bonus 159; History E4 Emu War 197 (E3 129); Horde Tue Reels 39-112, 0 comments; IntelliStudy Tue 7 views. Posted Nov 25 AM: Theo bonus 18159439078522137 (24.5 s, 'TAKE 14 / THE HOSTAGE SMILE', Thanksgiving card frame), Jess bonus 18114229340621512 (24.4 s, 4 looks, 'GLUED / NEXT TO HER EX'), Danny bonus 18003790077029471 (24.4 s, 3 new looks, '1 STAR / FROM HIS BULLY'), Horde quiz #1 18125982830516343 (30.1 s, '152 / PIECES. EACH.').",
   "2026-11-25 ~2:00 PM ET (midday extras, ~19-24 h numbers): Malik Tue bonus 133 views/43.9% skip/9.2 s (vs D8 133/59.5%/6.7 s: bonus beat the episode again); Rosie Tue bonus 162/49.3%/6.0 s, Rosie D8 116/42.2%/7.0 s; History E4 Emu War 197/51.9%/8.4 s (best History views since E2); Horde: story Day 1 126/41.9%/8.5 s at 5 h (best Horde skip + watch ever), quiz #1 19/57.9%/2.9 s, challenge #2 91/62.5%/5.2 s, Butt Goblin D3 103/62.9%/5.1 s. 0 comments on every Malik/Rosie/History/Horde post. Posted midday (all motion on, captions y 1200, natural-question vote, send sticker): Malik bonus 18027021251937486 (27.5 s, first toon, 'AISLE 4 / HIS EX SAW IT'), Rosie bonus 17959867089295245 (28.0 s, first toon, '20 LB / STILL FROZEN'), History E5 17987368164129610 (33.9 s, '1939 / TWO THANKSGIVINGS'), Horde story bonus 17986971077900609 (18.7 s, '31 CUPS / ONE IS HIS').",
   "2026-11-25 ~6:20 PM ET (~19-24 h numbers, cached Windsor): Jess D4 1,562 views/35.5% skip/11.3 s/21 likes/4 comments/3 shares/3 saves; Jess Wed bonus 1,595 in ~10 h/35.0%/23.3 s avg (loops)/24 likes/2 shares; Theo D8 399/40.8%/9.6 s/3 likes/4 comments (2 real); Theo Wed bonus 169/42.0%/9.3 s; Danny D4 466/54.1%/8.5 s; Danny Wed bonus 161/31.7%/15.2 s; Malik D8 133/59.5%/6.7 s, Malik Wed toon bonus 165 in ~5 h/37.0%/8.8 s; Rosie D8 117/41.8%/7.1 s, Rosie Wed toon bonus 145 in ~5 h/39.5%/10.2 s; History E4 199/51.9%/8.4 s, E5 152 in ~5 h/56.9%/8.0 s; Horde story D1 127/41.5%/8.4 s, midday beat 149/38.1%/5.8 s, quiz 30 views; IntelliStudy r003 8 views/100% skip.",
-  "2026-11-25 ~5:58-6:15 PM ET posted: Jess D5 18103405238426994 (25.7 s, cover 'DAY 5 / IT WON'T ZIP'), Theo D9 17916808875502650 (36.4 s, 'HIS TEETH GLOW'), Danny D5 18090873785322193 (37.7 s, '4 PUSH-UPS'), Malik D9 18111738383182141 (39.5 s, 'INTO THE TRASH', IntelliStudy option), Rosie D9 17883758289550779 (37.0 s, 'HE'S HER EX'), Horde night beat 18121825328088565 (20.9 s, 'NIGHT 1 / THE BUTTS STOOD UP'). Non-Jess Day episodes = first 35-40 s length test (5j) at speed 1.10 with motion: compare 24 h avg watch + views vs each page's last 3 Day episodes."
+  "2026-11-25 ~5:58-6:15 PM ET posted: Jess D5 18103405238426994 (25.7 s, cover 'DAY 5 / IT WON'T ZIP'), Theo D9 17916808875502650 (36.4 s, 'HIS TEETH GLOW'), Danny D5 18090873785322193 (37.7 s, '4 PUSH-UPS'), Malik D9 18111738383182141 (39.5 s, 'INTO THE TRASH', IntelliStudy option), Rosie D9 17883758289550779 (37.0 s, 'HE'S HER EX'), Horde night beat 18121825328088565 (20.9 s, 'NIGHT 1 / THE BUTTS STOOD UP'). Non-Jess Day episodes = first 35-40 s length test (5j) at speed 1.10 with motion: compare 24 h avg watch + views vs each page's last 3 Day episodes.",
+  {
+   "date": "2026-11-26",
+   "run": "extras AM",
+   "posts": {
+    "jess_bonus_1126": "18343201555275587",
+    "theo_bonus_1126": "17987525661103495",
+    "danny_bonus_1126": "18102454643106991",
+    "horde_story_bonus_1126": "18651459670042922"
+   },
+   "prev_day_numbers_at_~9-13h": {
+    "jess_d05": "1,481 views, 25 likes, 0 comments, 1 share",
+    "jess_bonus_1125": "1,636 views, 25 likes, 0 comments, 2 shares",
+    "theo_d09": "648 views, 1 like, 1 comment",
+    "theo_bonus_1125": "227 views, 2 likes, 2 comments, 1 share",
+    "danny_d05": "1,563 views, 23 likes, 2 comments (first non-Jess Day episode past 1,500)",
+    "danny_bonus_1125": "189 views",
+    "malik_d09": "140",
+    "rosie_d09": "182, 5 likes, 1 comment (first viewer comment ever)",
+    "horde_night_1125": "137",
+    "history_e5": "159"
+   }
+  }
  ],
  "lessons": [
   "Nov 20: Theo's morning bonus (a short 'real life' moment, 6 AM gym) got the first shares on any account (2). Try more small in-between moments.",
@@ -1551,7 +1612,8 @@
   "Nov 25 night (Boris live): Jess D5 got 27.4% skip (record) and 1,406 views in ~1 h 40 min. Boris: Jess is the main focus, Theo second; copy what works on Jess to every page; IntelliStudy videos become niche + varied. -> RUNBOOK 5l (Jess formula = default on all story pages, the 35-50 s length test ends unless the 24 h data says otherwise, 24 h Jess review procedure, IntelliStudy niche/format rotation).",
   "Nov 26 (Boris, Jess Insights + growth checklist): the hook works (skip ~32-36%); the cap is shares (0.1-0.3%), comments (0-0.4%), completion (~46%) and follows (65 visits -> 0). RUNBOOK 5n: send-worthy relatable gag, joke aura-swing stickers + aura-debate question (HUD aura stays real), hidden rewatch detail, loop + open-loop endings, standalone mini-stories, bigger stakes every 5 days, 12-15 s bonus test; new Jess test queue T1-T8; profile/bio/pin steps for Boris.",
   "Nov 26 (Boris): cash giveaway at 100K dropped (wrong followers, minors in the audience, legal rules); instead Jess gets an RSVP guest list (opt-in handles on place cards, Day 30 finale) + story-reward follower milestones 25/50/100/250/500/1K (RUNBOOK 5o), launched as Jess test T2 on the Fri Nov 27 bonus.",
-  "Nov 26 deep research (reports/Growing animated Reels story series.md): Jess sits at the normal <2K-follower ceiling; growth = sends per reach (target 0.5-1%) + profile follows. 'Comment a number/word' is Instagram's named engagement-bait example -> Jess vote-wording test moved up to Nov 29, guest list uses an open question. Sept 2026 rule: AI-generated-person accounts need the profile AI label (Theo yes; cartoon pages no). Length effects are small (90-179 s +7%). Own clean cross-posts are fine; no boosting until profile converts. Theo got a cloud smile-with-teeth edit (new default image). RUNBOOK 5p."
+  "Nov 26 deep research (reports/Growing animated Reels story series.md): Jess sits at the normal <2K-follower ceiling; growth = sends per reach (target 0.5-1%) + profile follows. 'Comment a number/word' is Instagram's named engagement-bait example -> Jess vote-wording test moved up to Nov 29, guest list uses an open question. Sept 2026 rule: AI-generated-person accounts need the profile AI label (Theo yes; cartoon pages no). Length effects are small (90-179 s +7%). Own clean cross-posts are fine; no boosting until profile converts. Theo got a cloud smile-with-teeth edit (new default image). RUNBOOK 5p.",
+  "Nov 26 AM extras: Danny D5 (37.7 s length test, motion, natural-question vote, send sticker) reached 1,563 views / 23 likes / 2 comments within ~9 h, the first non-Jess Day episode to pass the 800-view gate, and Theo D9 (36.4 s test) hit 648 (his best Day episode lately) -> the 5l length-test exception may apply to Danny/Theo at the 24 h check (compare views AND avg watch vs their last 3 Day episodes before reverting to 22-26 s). Rosie got her first-ever viewer comment on D9 (Julian/ex hook). Applied today: Jess T1 send gag (one lever), 12-16 s short-bonus test (5n.1.8) on Theo, Danny and Wes with real comment cards in the first second and the commenter's idea as the gag (h.nguy3n07's power-up -> hair gel)."
  ],
  "facts": [
   {
@@ -1588,7 +1650,8 @@
   {
    "fact": "Most cigarette filters are cellulose acetate (plastic-like); UV breaks one filter into thousands of tiny microplastics; butts = #1 item at the International Coastal Cleanup for 25+ years; 2,412,151 collected worldwide in 2017",
    "source": "NOAA Ocean Service 'most common ocean litter' (updated 09/23/26) + NOAA Marine Debris Program blog (2018-09-10)",
-   "url": "https://oceanservice.noaa.gov/facts/most-common-ocean-litter.html"
+   "url": "https://oceanservice.noaa.gov/facts/most-common-ocean-litter.html",
+   "used_in": "horde AM bonus 2026-11-26 (18651459670042922) sticker"
   },
   {
    "fact": "Leachate from smoked cigarette butts (filter + tobacco): 96-hour LC50 ~1 butt per liter for both topsmelt (marine, 1.1/L) and fathead minnow (freshwater, 0.97/L), i.e. ~1 butt/L killed half the test fish",
