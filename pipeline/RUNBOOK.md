@@ -1,5 +1,7 @@
 # Daily run: Boris's Instagram story accounts (6)
 
+**Nov 25 night (Boris, live): read 5l FIRST. Jess is the main focus, Theo second. What works on Jess is now the default format on every story page; 5l overrides 5i/5j where they differ. IntelliStudy videos: see 5g + 5l.4.**
+
 Owner: Boris. He has given standing permission to post on all accounts in `state.json` `accounts`: Theo, Malik, Rosie, Trash Horde, and (once set up) the two new Theo-style glow-up pages Jess and Danny.
 **Nov 25: read sections 5i, 5j and 5k first. It overrides older format/cadence notes for Jess, Theo, Malik, Rosie and the Trash Horde.**
 **Golden rule: the audience decides.** Every episode must follow the winning vote from the previous episode's comments. Never ignore, override or "improve on" a vote.
@@ -164,6 +166,46 @@ Full notes + sources: `pipeline/RESEARCH_2026-11-25.md`. Short version:
 - On YouTube the vote line becomes "Comment what she should do" (no numbers). Reply to genuine YouTube comments with `reply_to_comment`.
 - Log every upload in `state.youtube.log` (date, video id, source file). Check views after 24-48 h and compare with Instagram. If Shorts beat 1,000 views/video for a week, propose adding Danny next.
 - Never upload another page's video to Jess's channel.
+
+## 5l. Nov 25 night (Boris live): "Jess is the main focus, Theo second. Put what's working on Jess onto every other account. Make the IntelliStudy videos more niche and different from each other."
+Why: Jess D5 (18103405238426994, 25.7 s) had 1,406 views, 25 likes, **27.4% skip** (best on any account ever) and 12.6 s avg watch after ~1 h 40 min. Every earlier Jess Reel stalled at 1,500-1,850; D5 passed that in under 2 h. The other pages sit at 100-470.
+
+### 5l.1 Priority (every run)
+1. **Jess**: written, rendered and checked first, with the most care. Her baseline rules in 5i still apply (one test lever at a time, on the morning bonus only).
+2. **Theo**: second, same care. Then Danny, Malik, Rosie, Horde, History.
+
+### 5l.2 The Jess formula = the default for EVERY story page (Theo, Danny, Malik, Rosie, Horde/Wes)
+1. **A premise a stranger gets in one line**, built on a relationship stake: the ex + an event with a date (wedding / party / reunion / tourney / cook-off / court order). It's in hook line 1 or the chat. Never open on "Day N".
+2. **Length 22-26 s, four scenes: s1 -> sc -> s3 -> sv.** s1 = the fail in 3 short hook lines (each line <= ~19 characters, a concrete number or object: "Mom brought pliers."). sc = the chat with the ex/rival, starting by ~6 s. s3 = escalation -> payoff + one new twist. sv = the vote by ~20 s.
+   - **The 35-50 s length test (5j) ends.** Exception: if, at 24 h, a page's Nov 25 test episode (Theo D9 17916808875502650, Danny D5 18090873785322193, Malik D9 18111738383182141, Rosie D9 17883758289550779) beats that page's last 3 Day episodes on BOTH views and avg watch, that page may run one more test cut. Otherwise go back to 22-26 s. Log the result.
+3. **3-4 new pictures per Reel, and a drawn prop that IS the joke** (pliers, the "SENT TO: RYAN" tag, Grandma's sewing kit, glued place cards). Toon pages: new toon.py looks every Reel. Theo: PIL props + small cloud face edits that show the fix (e.g. theo_d09_smile.jpg). Props go inside x 230-850, y 1000-1450 so the camera push doesn't crop them.
+4. **A real comment card in the first second** (the winning vote, verbatim, with its real like count), and again at ~9 s. Zero votes? Use a "VOTES SO FAR: 0" sticker, never a fake card.
+5. **A running callback gag** that pays off every episode (Jess's "ha" count, now #6). Each page gets one: Theo = Maya's "who is the suit for?", Danny = the 1-star review / "CEO", Malik = "that's one... that's two" (Coach Reyes), Rosie = "How does Julian know?", Wes = Cole's ALL CAPS texts.
+6. **Family side characters with one line each** (Mom, Grandma, sister, Aunt Linda), plus the ex's new partner as a friendly threat.
+7. **Cover = the fail, not the fix** ("IT WON'T ZIP", "INTO THE TRASH"). Build it from the hook image (the engine's automatic cover uses the LAST beat image; rebuild it when they differ).
+8. **Morning single-moment bonus** on every page: one absurd beat that keeps the vote open.
+9. Platform rules from 5j stay on every page (they're about Instagram, not format): natural-question vote wording on non-Jess pages, the IG safe zones, a send sticker + a caption line-2 send ask. On non-Jess pages, `motion` stays until the 24 h comparison above. If the test cuts lose, try the Jess setup exactly (no motion, voice speed 1.15-1.18).
+
+### 5l.3 The 24 h Jess review (due Nov 26 ~6 PM ET, then for every Jess Day episode)
+At ~24 h, pull Jess D5's numbers: views, reach, skip, avg watch, likes, comments, shares, saves, and views at 2 h / 24 h. Compare with her last 6 Reels and write "what could have gone better" in `state.series.jess.experiments.results` + lessons:
+- Shares (D5 had 0 at 2 h; sends drive reach to non-followers).
+- Comments (0 at 2 h: was the 1-or-2 ask answerable? was there a comment card?).
+- Where viewers left: avg watch vs scene timings (s1 0-5.6 s, sc 5.6-13.4 s, s3 13.4-21.4 s, sv 21.4-25.7 s).
+- Cover/title, posting time, hook wording.
+Then turn each finding into ONE change for the next test slot (5i: on the morning bonus, one lever at a time). Copy anything that clearly worked to Theo, then to the other pages.
+
+### 5l.4 IntelliStudy videos (@intellistuddy): niche, and no two alike
+Data: r001-r003 got 95-100% skip and 1-2 s avg watch. They were three versions of the same video (generic notes -> 3 flashcards, same layout, same hook style).
+- **One niche per video, written for that exact student** (first words on screen = the niche): e.g. "Nursing students: pharm exam tomorrow", "AP US History: 40 terms by Friday", "IGCSE Biology Paper 2", "GCSE Chemistry: moles", "Med school anatomy: brachial plexus", "Spanish vocab: 50 words", "SAT vocab", "Law school: case names". Never the same subject twice in 7 days.
+- **Rotate formats; never the same format two posts in a row**:
+  (a) POV panic, then the payoff;
+  (b) race: writing cards by hand vs the app, with a real timer;
+  (c) quiz the viewer: show 3 real generated cards as questions, answers in the comments;
+  (d) "I turned [a public-domain text, e.g. the Gettysburg Address] into flashcards";
+  (e) one feature per video, a different section of the app each time (quiz mode, spaced repetition, PDF/photo upload) and only if it really works that day;
+  (f) a 12-15 s study-with-me timelapse with a single text hook.
+- **Every first frame looks different** (colour, layout, zoom). Open on the payoff (finished cards, zoomed in), never a static landing page.
+- Real screen recordings, real numbers, honest claims only (5g). Log `niche` + `format` for each post in `state.intellistudy.log` and check the last 7 entries before choosing.
 
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
