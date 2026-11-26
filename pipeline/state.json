@@ -902,7 +902,7 @@
      "T10 third daily Reel"
     ],
     "results": [],
-    "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3).",
+    "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3). | Nov 26 01:32 UTC (~2 h 34 min): 1,445 views, 1,053 reach, 25 likes, 0 comments, 0 shares, 32.4% skip, 12.7 s avg: it filled the ~1,000-1,100-reach test pool fast, then flattened (0 sends -> no next pool). Revised 24 h estimate: ~1,600-1,900 (the 3,500 guess was too high).",
     "insights_from_boris_nov26": "In-app Insights (Boris): skip 31.9-35.6%, avg watch 11-12 s / 25 s, share rate 0.1-0.3%, comment rate 0-0.4%, 65 profile visits -> 0 follows, 99.4% non-followers, ~72% aged 13-24. Bottleneck = shares/comments/follows (RUNBOOK 5n)."
    },
    "guest_list": [],
@@ -1728,5 +1728,18 @@
    "note": "First use. Story reason: Mom says no C on Monday's chem test = no tourney. Caption: 'IntelliStudy (our own study app) link in bio' (disclosed as ours). Plan: ~1 use per account every ~3 days, max 1-2 accounts/day; next candidates: Rosie (food science) Nov 26, Danny Nov 27, Theo Nov 28; Jess last and only if it doesn't hurt her baseline."
   }
  ],
- "plan_nov25_night": "Boris live: Jess unchanged; per-account soft shifts in RUNBOOK 5m (Theo needs a live image session; Danny = rom-com rivalry with Tara/Brock; Malik = high-school drama with basketball backdrop; Rosie = rom-com rivalry vs Julian; Horde = Wes story first, real game in background; History = recurring host Gus (toon 'gus'); IntelliStudy = Kai's IGCSE -> IB story series (toon 'kai') + 1 niche demo/day)."
+ "plan_nov25_night": "Boris live: Jess unchanged; per-account soft shifts in RUNBOOK 5m (Theo needs a live image session; Danny = rom-com rivalry with Tara/Brock; Malik = high-school drama with basketball backdrop; Rosie = rom-com rivalry vs Julian; Horde = Wes story first, real game in background; History = recurring host Gus (toon 'gus'); IntelliStudy = Kai's IGCSE -> IB story series (toon 'kai') + 1 niche demo/day).",
+ "forecast_nov26": {
+  "jess_per_video": {
+   "1_week": "~1,600-2,000 typical (outlier 3-5K if a send trigger lands)",
+   "2_weeks": "~1,800-3,000 if profile fix + guest list add followers; ~1,500-1,800 if not",
+   "3_weeks": "~2,000-4,000 base; a 10K+ breakout needs sends >= ~0.5-1% per reach"
+  },
+  "theo_per_video": {
+   "1_week": "~200-450",
+   "2_weeks": "~300-700 with new Leonardo images + Jess formula; 150-400 without",
+   "3_weeks": "~400-1,000, occasional 1K+ bonus"
+  },
+  "basis": "Jess last 8 Reels 1,445-1,845 (median ~1,600), all stall at ~1,050-1,400 reach; Theo 130-580 with one 1,231 outlier, skip 40-55%."
+ }
 }
