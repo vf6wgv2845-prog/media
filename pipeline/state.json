@@ -994,16 +994,15 @@
     "rule": "RUNBOOK 5i: one lever at a time, on the morning bonus first; keep only if ~24 h views >= 1,400 AND skip <= 38% AND avg watch >= 11 s, else revert next day.",
     "baseline_nov25": "last 6 Reels: 1,473-1,820 views, skip 33-41%, avg watch 10.6-13.4 s, 0-3 shares",
     "queue": [
-     "T1 send gag + send prompt (Thu Nov 26 AM bonus)",
-     "T2 guest list (open question, no 'comment RSVP') + follower milestones, RUNBOOK 5o (Fri Nov 27)",
-     "T3 aura-swing stickers + aura-debate question (Sat Nov 28)",
-     "T4 vote wording without '1 or 2' (Sun Nov 29; Instagram names 'comment a number' as engagement bait)",
-     "T5 12-15 s bonus with loop ending",
+     "T1 send gag + send prompt (Thu Nov 26 AM bonus) - verdict due Fri AM",
+     "T2 guest list (open question) + follower milestones, RUNBOOK 5o (Fri Nov 27)",
+     "T3 35-40 s sitcom-length bonus (Sat Nov 28): 3 attempts + chat payoff + payoff beat by ~12 s (Nov 25 test cuts beat their pages on views AND watch: Danny D5 1,579 views / 25.9% skip / 17.4 s, Theo D9 1,351 / 12.3 s, Rosie D9 438 / 14.3 s)",
+     "T4 vote wording without '1 or 2' (Sun Nov 29)",
+     "T5 aura-swing stickers + aura-debate question",
      "T6 seamless loop ending",
      "T7 motion: true",
      "T8 captions at y ~1200",
-     "T9 45-60 s bonus (Buffer Nov 2026 length data)",
-     "T10 third daily Reel"
+     "T9 third daily Reel"
     ],
     "results": [
      {
@@ -1023,10 +1022,19 @@
        "Cover/title/time unchanged (DAY 5 / IT WON'T ZIP, 5:58 PM ET) = no signal there."
       ],
       "next_change": "one lever per bonus as queued (T2 guest list Fri); for Day episodes, move the payoff beat to ~11-12 s once a bonus test confirms it."
+     },
+     {
+      "test": "24 h review addendum (Nov 26 23:50 UTC, scheduled review)",
+      "estimate_check": "Nov 25 estimate ~3,500 (range 2,500-5,000) was wrong; revised 1,600-1,900 at 2.5 h; actual 1,528 at 24 h.",
+      "new_finding": "Jess is now the only page on 22-26 s and Danny D5 (37.7 s) beat her on every metric (25.9% vs 32.5% skip, 17.4 s vs 13.1 s avg, 1,579 vs 1,528 views, 6 vs 0 comments). -> T3 moved up: a 35-40 s bonus on Sat Nov 28; if it passes the 5i keep rule, Jess Day episodes go 35-40 s. Short 12-15 s bonus dropped from her queue.",
+      "holiday_note": "Thanksgiving Nov 26: Jess T1 bonus 484 views at ~11 h (usually ~1,500) and D6 127 views at ~50 min; Theo/Malik/Rosie/Horde bonuses also flat (130-170). Judge T1 at 24 h with the holiday in mind (compare with Fri's bonus) before reverting it."
      }
     ],
     "d05_early": "Nov 26 00:39 UTC (~1 h 40 min): 1,406 views, 886 reach, 25 likes, 0 comments, 0 shares, 0 saves, 27.4% skip, 12.6 s avg. My estimate: 24 h ~3,500 (range 2,500-5,000). 24 h review due Nov 26 ~6 PM ET (RUNBOOK 5l.3). | Nov 26 01:32 UTC (~2 h 34 min): 1,445 views, 1,053 reach, 25 likes, 0 comments, 0 shares, 32.4% skip, 12.7 s avg: it filled the ~1,000-1,100-reach test pool fast, then flattened (0 sends -> no next pool). Revised 24 h estimate: ~1,600-1,900 (the 3,500 guess was too high).",
-    "insights_from_boris_nov26": "In-app Insights (Boris): skip 31.9-35.6%, avg watch 11-12 s / 25 s, share rate 0.1-0.3%, comment rate 0-0.4%, 65 profile visits -> 0 follows, 99.4% non-followers, ~72% aged 13-24. Bottleneck = shares/comments/follows (RUNBOOK 5n)."
+    "insights_from_boris_nov26": "In-app Insights (Boris): skip 31.9-35.6%, avg watch 11-12 s / 25 s, share rate 0.1-0.3%, comment rate 0-0.4%, 65 profile visits -> 0 follows, 99.4% non-followers, ~72% aged 13-24. Bottleneck = shares/comments/follows (RUNBOOK 5n).",
+    "dropped": [
+     "12-15 s short bonus (Nov 26 short-bonus test on Theo/Danny/Wes did worse than long episodes: Theo 167 views / 6.0 s, Danny 262 / 7.5 s)"
+    ]
    },
    "guest_list": [],
    "follower_ladder": {
@@ -1777,7 +1785,8 @@
   "Nov 26 deep research (reports/Growing animated Reels story series.md): Jess sits at the normal <2K-follower ceiling; growth = sends per reach (target 0.5-1%) + profile follows. 'Comment a number/word' is Instagram's named engagement-bait example -> Jess vote-wording test moved up to Nov 29, guest list uses an open question. Sept 2026 rule: AI-generated-person accounts need the profile AI label (Theo yes; cartoon pages no). Length effects are small (90-179 s +7%). Own clean cross-posts are fine; no boosting until profile converts. Theo got a cloud smile-with-teeth edit (new default image). RUNBOOK 5p.",
   "Nov 26 AM extras: Danny D5 (37.7 s length test, motion, natural-question vote, send sticker) reached 1,563 views / 23 likes / 2 comments within ~9 h, the first non-Jess Day episode to pass the 800-view gate, and Theo D9 (36.4 s test) hit 648 (his best Day episode lately) -> the 5l length-test exception may apply to Danny/Theo at the 24 h check (compare views AND avg watch vs their last 3 Day episodes before reverting to 22-26 s). Rosie got her first-ever viewer comment on D9 (Julian/ex hook). Applied today: Jess T1 send gag (one lever), 12-16 s short-bonus test (5n.1.8) on Theo, Danny and Wes with real comment cards in the first second and the commenter's idea as the gag (h.nguy3n07's power-up -> hair gel).",
   "Nov 26 midday extras: relationship reveals are the only thing that has moved Malik/Rosie so far (Rosie D9 Julian-is-her-ex: 361 views / 10 likes / first comment vs ~120-170 before; Malik D9's IntelliStudy-vs-Jada vote got his first-ever comment). Applied: both midday bonuses put the ex in the frame (Jada's text read out by Grandma; Julian texting the kitchen) with the real leading comment card at 0 s and again mid-Reel, 'VOTES SO FAR' when there's a count. History: first Gus-hosted episode (toon host + framed archival art as full-screen beats + director chat at ~11 s) - compare its skip/avg watch with E3-E5 (52-60% skip) at the next run. Engine catch: vote-screen title over ~12 characters and send stickers over ~32 characters overflow 1080 px; cover line 1 over ~5 big characters clips (use 'BONUS').",
-  "Nov 26 evening (24 h length-test verdict, RUNBOOK 5l exception): all four Nov 25 35-40 s test cuts beat their page's last 3 Day episodes on BOTH views and avg watch (Theo D9 1,305 views/12.3 s vs ~400/9.6; Danny D5 1,575/17.4 s vs 466/8.5; Rosie D9 434/14.3 s vs ~120/7.1; Malik D9 168/9.7 s vs 133/6.7) -> each ran one more 35-40 s test cut tonight (Theo D10 37.6 s, Danny D6 39.1, Malik D10 39.1, Rosie D10 35.4). Caveat: these episodes also had the strongest relationship beats; compare again at 24 h before making 35-40 s the default. Short 12-16 s bonuses (Nov 26 AM test) did worse than the long Day episodes on watch time and views (Theo 167/6.0 s, Danny 262/7.5 s) -> don't keep the short bonus format beyond the test. Engine: cover_image key added (cover = the fail frame, 5l.7); props.py (phones/signs/bursts/pie/footprints + overlay_many for Theo's 3D frames); toon scene 'race'. Props must sit at y ~1050-1250, x 300-780 to survive the camera push and clear the captions; notif_y 380 keeps notifications off the props."
+  "Nov 26 evening (24 h length-test verdict, RUNBOOK 5l exception): all four Nov 25 35-40 s test cuts beat their page's last 3 Day episodes on BOTH views and avg watch (Theo D9 1,305 views/12.3 s vs ~400/9.6; Danny D5 1,575/17.4 s vs 466/8.5; Rosie D9 434/14.3 s vs ~120/7.1; Malik D9 168/9.7 s vs 133/6.7) -> each ran one more 35-40 s test cut tonight (Theo D10 37.6 s, Danny D6 39.1, Malik D10 39.1, Rosie D10 35.4). Caveat: these episodes also had the strongest relationship beats; compare again at 24 h before making 35-40 s the default. Short 12-16 s bonuses (Nov 26 AM test) did worse than the long Day episodes on watch time and views (Theo 167/6.0 s, Danny 262/7.5 s) -> don't keep the short bonus format beyond the test. Engine: cover_image key added (cover = the fail frame, 5l.7); props.py (phones/signs/bursts/pie/footprints + overlay_many for Theo's 3D frames); toon scene 'race'. Props must sit at y ~1050-1250, x 300-780 to survive the camera push and clear the captions; notif_y 380 keeps notifications off the props.",
+  "Nov 26 24 h review (scheduled): the 35-40 s sitcom-length cuts are the biggest lever found so far (Danny D5 3.4x, Theo D9 3.4x, Rosie D9 3.7x their previous Day episode, all with better watch time), so Jess's length test moves up to Sat Nov 28 (T3) and the 12-15 s short bonus is dropped. Thanksgiving depressed Nov 26 reach on every page; don't revert a test on holiday numbers alone."
  ],
  "facts": [
   {

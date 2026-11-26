@@ -255,8 +255,9 @@ Jess doesn't change. Each shift below continues the running story: no "new serie
 ### 5n.2 Jess test queue (replaces the 5i/5j order; one lever per morning bonus, keep rule from 5i)
 - **T1 (Nov 26 AM bonus): send gag + send prompt.** One group-chat-relatable beat, the sticker "SEND THIS TO THE FRIEND WHO..." matching it, and the same ask in caption line 2. Measures shares/reach.
 - **T2 (Fri Nov 27): RSVP guest list + follower milestones (5o).** Measures comments + follows.
-- **T3 (Nov 28): aura-swing stickers + an aura-debate caption question.** Measures comments.
-- **T3b (Nov 29): a 12-15 s bonus** (one gag + punchline + loop ending). Measures completion and rewatches.
+- **T3 (Sat Nov 28): a 35-40 s sitcom-length bonus** (moved up Nov 26: the Nov 25 35-40 s cuts lifted Danny/Theo/Rosie 3-4x on views AND watch time; Danny D5 beat Jess on every metric). Payoff beat by ~12 s. If it passes the 5i keep rule, Jess Day episodes go 35-40 s.
+- **T3b (later): aura-swing stickers + an aura-debate caption question.** Measures comments.
+- ~~12-15 s bonus~~ dropped Nov 26: short bonuses did worse than long episodes on Theo/Danny/Wes.
 - **T4: seamless loop ending** (if T3 didn't already prove it).
 - **T5: vote wording without "1 or 2"**, then T6 `motion`, T7 captions at y ~1200, T8 a third daily Reel.
 Day episodes stay on the baseline until a test passes the 5i keep rule; then it moves onto the episodes.
