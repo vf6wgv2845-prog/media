@@ -1,0 +1,420 @@
+{
+ "image": "malik_b1126_ask.jpg",
+ "cx": 0.0,
+ "voice": "am_michael",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "Grandma asked",
+  "about his ex.",
+  "Then she texted."
+ ],
+ "hook_emoji": "🦃",
+ "name_line": "Thanksgiving dinner.",
+ "sub_line": "Bonus  •  Day 10 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "chem test. MONDAY.",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Thanksgiving dinner. Grandma asked one question. How's Jada?"
+   ],
+   [
+    0.1,
+    "Then his phone lit up. On the table. Next to the turkey."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Jada. Happy Thanksgiving. You still going left?"
+   ],
+   [
+    0.1,
+    "Grandma read it out loud."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Mom slid his chem notes over. No C, no tourney."
+   ],
+   [
+    0.1,
+    "Malik passed the gravy. Left handed. Onto the chem notes."
+   ],
+   [
+    0.1,
+    "Then he picked up the phone. And started typing."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Text Jada back, or study chem? One of you already said study. What should Malik do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "9/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "74",
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "29/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "jada",
+   "grandma",
+   "thanksgiving",
+   "left",
+   "chem",
+   "monday",
+   "tourney",
+   "gravy",
+   "typing",
+   "turkey"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "104malkie",
+   "text": "study",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "user": "104malkie",
+   "text": "study",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.4,
+   "delay": 0.3
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "8",
+   "label": "TOURNEY IN",
+   "x": 230,
+   "y": 1480,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "*BZZT*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.5,
+   "delay": 0.4
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "GRANDMA READ IT OUT LOUD",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 640,
+   "angle": -4,
+   "size": 64,
+   "hold": 1.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-500 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": 5,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "THAT'S ONE... (LEFT HAND)",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 760,
+   "angle": -3,
+   "size": 58,
+   "hold": 1.6,
+   "delay": 0.9
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "TYPING...",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 820,
+   "angle": 3,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: STUDY 1 • JADA 0",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 1110,
+   "angle": -2,
+   "size": 50,
+   "hold": 3.0
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR NOSY GRANDMA",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1290,
+   "angle": -3,
+   "size": 54,
+   "hold": 3.0,
+   "delay": 1.2
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "GRANDMA READ IT"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Jada",
+  "sub": "his ex",
+  "msgs": [
+   [
+    "them",
+    "happy thanksgiving"
+   ],
+   [
+    "them",
+    "u still going left?"
+   ],
+   [
+    "me",
+    "typing..."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TEXT JADA  or  STUDY CHEM"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "malik_b1126_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "malik_toon_sad.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "malik_b1126_gravy.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "malik_b1126_typing.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "malik_b1126_ask.jpg"
+  }
+ ],
+ "motion": true
+}

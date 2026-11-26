@@ -1,0 +1,394 @@
+{
+ "image": "gus_e06_shock_car.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.08,
+ "pill": "THAT REALLY HAPPENED  •  STORY #6",
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "hook": [
+  "1904 Olympics.",
+  "First man home",
+  "rode in a car."
+ ],
+ "hook_emoji": "🏃",
+ "name_line": "Gus, night guard.",
+ "sub_line": "True story  •  sources in caption",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Museum Director",
+  "msg": "GUS. STOP TALKING TO THE EXHIBITS.",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 2,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "1904 Olympic marathon. The first man into the stadium rode in a car."
+   ],
+   [
+    0.1,
+    "Fred Lorz quit at mile nine. Got a ride. Then jogged in to cheers."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "The director texted. Gus. Stop talking to the exhibits."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Disqualified. The real winner, Thomas Hicks, ran on egg whites, brandy and strychnine. Rat poison."
+   ],
+   [
+    0.1,
+    "Félix Carvajal stopped for apples. Got cramps. Still finished fourth."
+   ],
+   [
+    0.1,
+    "Ninety degrees. One water stop. Thirty two started. Fourteen finished."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "That really happened. Which true story should I tell tomorrow night?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1904",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "FINISHED",
+    "value": "14/32",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "1904",
+   "car",
+   "lorz",
+   "nine",
+   "eleven",
+   "hicks",
+   "strychnine",
+   "poison",
+   "apples",
+   "fourth",
+   "ninety",
+   "one",
+   "fourteen",
+   "disqualified",
+   "thirty"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "MILE 9: QUITS",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 80,
+   "hold": 1.6,
+   "delay": 0.6
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "~11 MILES BY CAR",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 760,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.6,
+   "delay": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "DISQUALIFIED",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 96,
+   "hold": 1.4,
+   "delay": 0.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "STRYCHNINE = RAT POISON",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 760,
+   "angle": 3,
+   "size": 66,
+   "hold": 1.8,
+   "delay": 3.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "4TH PLACE",
+   "bg": [
+    120,
+    225,
+    120
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 96,
+   "hold": 1.6,
+   "delay": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "1 WATER STOP",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.6,
+   "delay": 0.9
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR RUNNER FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 54,
+   "hold": 3.0,
+   "delay": 0.8
+  }
+ ],
+ "cover_title": [
+  "1904",
+  "HE TOOK A CAR"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Museum Director",
+  "sub": "boss",
+  "msgs": [
+   [
+    "them",
+    "GUS."
+   ],
+   [
+    "them",
+    "STOP TALKING TO THE EXHIBITS."
+   ],
+   [
+    "me",
+    "it's a true story"
+   ],
+   [
+    "them",
+    "IT'S 2 AM."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NEXT TRUE STORY?",
+  "hint": "NAME A STORY YOU WANT"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "gus_e06_ex_car.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "gus_e06_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "gus_e06_ex_race.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "gus_e06_ex_apples.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "gus_e06_grin_apples.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "gus_e06_shock_car.jpg"
+  }
+ ],
+ "motion": true
+}

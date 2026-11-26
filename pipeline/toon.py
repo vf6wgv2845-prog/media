@@ -233,6 +233,13 @@ def scene(name):
 <rect x="810" y="440" width="80" height="90" fill="#ffd166"/><rect x="930" y="440" width="80" height="90" fill="#2b2650"/><rect x="810" y="600" width="80" height="90" fill="#2b2650"/><rect x="930" y="600" width="80" height="90" fill="#ffd166"/>
 <circle cx="880" cy="180" r="70" fill="#f4f1de" opacity=".9"/><rect x="520" y="330" width="14" height="1050" fill="#2b2b2b"/><ellipse cx="527" cy="330" rx="60" ry="20" fill="#ffe08a"/>
 <g fill="#8fe36b" stroke="{INK}" stroke-width="5"><circle cx="150" cy="1300" r="40"/><circle cx="950" cy="1290" r="46"/></g><g fill="#fff"><circle cx="138" cy="1292" r="9"/><circle cx="162" cy="1292" r="9"/><circle cx="937" cy="1282" r="10"/><circle cx="963" cy="1282" r="10"/></g>'''
+    if name == "dining":  # Nov 26: family Thanksgiving dining room (Malik). Table is drawn in the look's "extra" so it sits in front.
+        return f'''<rect width="1080" height="1920" fill="#f1dcc0"/><rect y="0" width="1080" height="120" fill="#d9bd98"/>
+<rect x="0" y="1360" width="1080" height="560" fill="#8a5a3a"/>
+<rect x="680" y="250" width="320" height="380" rx="10" fill="#cfe6f2" stroke="{INK}" stroke-width="8"/><line x1="840" y1="250" x2="840" y2="630" stroke="{INK}" stroke-width="7"/><line x1="680" y1="440" x2="1000" y2="440" stroke="{INK}" stroke-width="7"/>
+<path d="M660 240 Q700 450 650 650 L620 650 L620 240 Z" fill="#c0504d" stroke="{INK}" stroke-width="6"/><path d="M1020 240 Q980 450 1030 650 L1060 650 L1060 240 Z" fill="#c0504d" stroke="{INK}" stroke-width="6"/>
+<rect x="70" y="260" width="230" height="170" fill="#fff8e7" stroke="{INK}" stroke-width="7" transform="rotate(-3 185 345)"/><text x="185" y="340" font-family="Inter" font-weight="900" font-size="34" text-anchor="middle" fill="#c0504d" transform="rotate(-3 185 345)">GIVE</text><text x="185" y="385" font-family="Inter" font-weight="900" font-size="34" text-anchor="middle" fill="#c0504d" transform="rotate(-3 185 345)">THANKS</text>
+<g fill="#e9a23b" stroke="{INK}" stroke-width="5"><path d="M120 520 l18 30 l-36 0 z"/><path d="M220 560 l18 30 l-36 0 z"/><path d="M170 600 l18 30 l-36 0 z"/></g>'''
     if name == "store":  # Nov 25: grocery aisle (Malik's cranberry run)
         shelf = ""
         for row, y in enumerate((330, 560, 790, 1020)):

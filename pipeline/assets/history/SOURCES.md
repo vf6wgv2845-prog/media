@@ -29,3 +29,7 @@ Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud
 - lewis_gun_crew_1917.jpg: "Lewis machine gun crew, Camp Mills", 1917, Bain Collection, Library of Congress (LOC 2014705434, no known restrictions) [US troops, used to show the weapon type, labelled as such]
 - lewis_gun_test_1917.jpg: "Marine Corps rifle range, Lewis machine gun tests", 1917, Harris & Ewing, Library of Congress (LOC 2016867417, no known restrictions)
 - jacque_wheat_field_1844.jpg: Charles Émile Jacque, Wheat Field, 1844 (AIC 45590, public domain)
+## E6 1904 Olympic marathon (Nov 26, first Gus episode)
+- posada_automobile.jpg: José Guadalupe Posada, The Automobile (El Automóvil), n.d. (AIC 45949, public domain)
+- cezanne_basket_apples_1893.jpg: Paul Cézanne, The Basket of Apples, c. 1893 (AIC 111436, public domain)
+- gerome_chariot_race_1876.jpg: Jean-Léon Gérôme, Chariot Race, 1876 (AIC 100350, public domain) [a race painting, shown as art, not the 1904 race]

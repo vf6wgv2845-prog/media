@@ -1,0 +1,389 @@
+{
+ "image": "rosie_b1126_temp.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  214,
+  58,
+  58
+ ],
+ "hook": [
+  "Turkey: perfect.",
+  "Then her ex",
+  "texted the kitchen."
+ ],
+ "hook_emoji": "🦃",
+ "name_line": "Staff Thanksgiving.",
+ "sub_line": "Bonus  •  Day 10 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Julian Price",
+  "msg": "save me the wing",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Staff Thanksgiving. One sixty five in the thigh. Perfect."
+   ],
+   [
+    0.1,
+    "Chef Marco carved it. And asked about Julian. Every. Single. Slice."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Julian texted. Heard the turkey came out good. Save me the wing."
+   ],
+   [
+    0.1,
+    "She never told him about the turkey."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Marco dropped the knife. How does Julian know about my turkey?"
+   ],
+   [
+    0.1,
+    "Rosie looked around. The dishwasher was texting. And smiling."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Ramen, or pumpkin pie? Pumpkin pie leads, one to zero. What should Rosie cook next?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "21",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "76%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "15/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "julian",
+   "marco",
+   "turkey",
+   "thanksgiving",
+   "perfect",
+   "slice",
+   "knife",
+   "dishwasher",
+   "smiling",
+   "sixty"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "dreamvilleafterdarkk",
+   "text": "1st ! & pumpkin pie",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "user": "dreamvilleafterdarkk",
+   "text": "1st ! & pumpkin pie",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2,
+   "delay": 0.3
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "21",
+   "label": "COOK-OFF IN",
+   "x": 230,
+   "y": 1480,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "THE TRICK: REST IT 20 MIN",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 620,
+   "angle": -3,
+   "size": 60,
+   "hold": 1.8,
+   "delay": 2.6
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "\"SO... JULIAN?\" x14",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 76,
+   "hold": 1.6,
+   "delay": 0.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*CLANG*",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 720,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.4,
+   "delay": 0.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "THE LEAK?",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 820,
+   "angle": 3,
+   "size": 96,
+   "hold": 1.6,
+   "delay": 0.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR EX'S BESTIE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 54,
+   "hold": 3.0,
+   "delay": 0.8
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "JULIAN KNOWS?!"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Julian Price",
+  "sub": "her ex",
+  "msgs": [
+   [
+    "them",
+    "heard the turkey came out good"
+   ],
+   [
+    "them",
+    "save me the wing"
+   ],
+   [
+    "me",
+    "who told you"
+   ],
+   [
+    "them",
+    "👀"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "RAMEN  or  PUMPKIN PIE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "rosie_b1126_carve.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "rosie_b1126_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "rosie_toon_shock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "rosie_b1126_side.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "rosie_b1126_temp.jpg"
+  }
+ ],
+ "motion": true
+}

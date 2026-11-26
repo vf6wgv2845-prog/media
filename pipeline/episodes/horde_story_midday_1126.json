@@ -1,0 +1,371 @@
+{
+ "image": "wes_b1126m_bench.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "Thanksgiving",
+  "on bench 4.",
+  "Alone."
+ ],
+ "hook_emoji": "🍴",
+ "name_line": "Day 1 of litter duty.",
+ "sub_line": "Bonus  •  Day 2 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Ranger Cole",
+  "msg": "BROOKE SAYS HI.",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Wes ate Thanksgiving dinner on bench four. Alone."
+   ],
+   [
+    0.1,
+    "Ranger Cole drove past in the golf cart. With Brooke. And a pie."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Cole: Brooke says hi. Also, you missed one."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The pie fork blew off the cart. It landed. Then it stood up."
+   ],
+   [
+    0.1,
+    "The Horde has a new member."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Gloves and a grabber, or find backup? What should Wes do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "29",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "0%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,400",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "thanksgiving",
+   "bench",
+   "four",
+   "alone",
+   "cole",
+   "brooke",
+   "pie",
+   "fork",
+   "horde",
+   "stood"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "fg": [
+    255,
+    255,
+    255
+   ],
+   "y": 470,
+   "angle": -2,
+   "size": 60,
+   "hold": 1.6
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "-1,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": 5,
+   "size": 96,
+   "hold": 1.6,
+   "delay": 0.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "PLASTIC = 38.6% OF US LITTER (KAB 2020)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 620,
+   "angle": -3,
+   "size": 40,
+   "hold": 2.2,
+   "delay": 0.8
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "HORDE +1",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 820,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "REAL HAUL + CITY = REAL DAMAGE",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1110,
+   "angle": -2,
+   "size": 52,
+   "hold": 3.0
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR HOLIDAY-SHIFT FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 48,
+   "hold": 3.0,
+   "delay": 0.8
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE FORK STOOD UP"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "BROOKE SAYS HI."
+   ],
+   [
+    "them",
+    "ALSO YOU MISSED ONE."
+   ],
+   [
+    "me",
+    "it's thanksgiving"
+   ],
+   [
+    "them",
+    "TRASH DOESN'T KNOW THAT."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "GLOVES + GRABBER  or  BACKUP"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_b1125_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_b1126m_fork.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "wes_b1126m_fight.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_b1126m_bench.jpg"
+  }
+ ],
+ "motion": true
+}
