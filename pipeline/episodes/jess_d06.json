@@ -1,0 +1,361 @@
+{
+ "image": "jess_d06_match.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 6 / 30",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Date needed by 4.",
+  "Her only match",
+  "wants her sister."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 6: A date.",
+ "sub_line": "You voted  •  bring a date",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Grandma",
+  "msg": "walter is wearing his good bow tie",
+  "emoji": "",
+  "color": [
+   150,
+   110,
+   220
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Confidence: 8/10."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💄",
+   "Full glam"
+  ],
+  [
+   "💃",
+   "Dance lessons with Walter"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted: bring a date. Dinner at four. She had one match."
+   ],
+   [
+    0.1,
+    "He asked: is your sister single? Her sister is the bride."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Ryan texted."
+   ],
+   [
+    0.1,
+    "Heard you're bringing someone. Who?"
+   ],
+   [
+    0.1,
+    "She sent: ha. Eighth time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Her date: Walter. Grandma's dance partner. Eighty-one."
+   ],
+   [
+    0.1,
+    "Walter needed a chair. Ryan got the kids' table."
+   ],
+   [
+    0.1,
+    "Then Walter asked him: so you dumped her by text?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Walter wants a second date. Full glam, or dance lessons with Walter?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "62%",
+    "from": "58%",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "walter",
+   "grandma's",
+   "dance",
+   "eighty-one",
+   "chair",
+   "ryan",
+   "kids'",
+   "table",
+   "text"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "lucyjtaylor73",
+   "text": "1",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.5,
+   "user": "lucyjtaylor73",
+   "text": "1",
+   "likes": 0,
+   "y": 1790,
+   "hold": 2.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "25",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "1 = BRING A DATE",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8,
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA #8",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 1.0,
+   "text": "WALTER, 81",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 0.9,
+   "text": "CONFIDENCE +2",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.6
+  }
+ ],
+ "cover_title": [
+  "DAY 6",
+  "HER DATE IS 81"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "heard ur bringing someone"
+   ],
+   [
+    "them",
+    "who"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = FULL GLAM   2 = DANCE W/ WALTER"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_d06_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_d06_walter.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_d06_table.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_d06_bytext.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_d06_second.jpg"
+  }
+ ],
+ "notif_y": -600,
+ "cover_image": "jess_d06_walter.jpg"
+}

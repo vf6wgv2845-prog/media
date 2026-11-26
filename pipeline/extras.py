@@ -7,6 +7,7 @@
               A tile with "from" shows the old value until scene/line "at", then pops to the new one.
 "stickers" kind "calendar": {"scene": "s1", "line": 0, "kind": "calendar", "text": "26", "y": 700, "hold": 3} = the flip-calendar DAYS LEFT prop
 "cover_title": ["DAY 4", "THE GYM"] -> designed cover (big title over the hero frame) instead of a frame grab
+"cover_image": "jess_d06_walter.jpg" -> hero frame for the cover (default: the last beat image)
 "captions":   word-by-word voice captions (2-3 words at a time, keywords coloured)
               {"scenes": ["s1","sb","s3","s4"], "y": 1500, "keywords": ["maya","aura"], "color": [255,214,102]}
 "stickers":   tilted pop-in labels / sound-effect cards (+ a pop sound)
@@ -243,6 +244,9 @@ class Extras:
     def make_cover(self):
         ct = self.c.get("cover_title")
         if not ct: return
+        if self.c.get("cover_image"):  # Nov 26: cover = the fail image (RUNBOOK 5l.7), not the last beat
+            import os as _os
+            self.BIG = self.cover(Image.open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "assets", self.c["cover_image"])).convert("RGB"))
         im = self.bg(0, 1, 1.0, 1.0); self.shade(im, 0.3, 0.9, 0.55)
         if self.HUD:
             x = 24
