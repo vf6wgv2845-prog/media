@@ -207,6 +207,36 @@ Data: r001-r003 got 95-100% skip and 1-2 s avg watch. They were three versions o
 - **Every first frame looks different** (colour, layout, zoom). Open on the payoff (finished cards, zoomed in), never a static landing page.
 - Real screen recordings, real numbers, honest claims only (5g). Log `niche` + `format` for each post in `state.intellistudy.log` and check the last 7 entries before choosing.
 
+## 5m. Nov 25 night (Boris live): per-account changes for every page except Jess ("you decide; soft shifts, never a restart")
+Jess doesn't change. Each shift below continues the running story: no "new series", no Day 1 again, same handle, same HUD.
+
+### Theo (no niche change)
+- The premise works and he has the only loyal commenters (5sta.r.angel, ivannn_720). The blocker is the pictures: one 3D face reused for 9 days. **Ask Boris for a live session: 10-12 new 3D images, same Theo** (fixed brows, real smile, suit, at the gym, at school, plus Maya and Jake as characters).
+- Like Jess: put the ex IN the scenes, not only in texts (Maya seeing him at the worst moment = s3 every episode). His regulars become characters by handle (5sta.r.angel = Maya's best friend, ivannn_720 = his barber) after asking them in a reply.
+
+### Danny (soft shift: three lies -> one rom-com rivalry)
+- "Make 3 lies true" is too much for a stranger to take in at 2 s. From Day 6, the one-line stake is "**His high school bully's sister is into him, and the reunion is in N days.**" Tara = the romance (Jess-style chats), Brock = the rival. The lies stay as the comedy engine (HUD LIES TRUE stays), not the hook.
+
+### Malik (soft shift: training show -> high-school drama, basketball as the backdrop)
+- 0 comments ever on a pure "road to the NBA" training story; the drama beats (Jada, aisle 4) got his best skip rates. From Day 10, every episode leads with the people (Jada, Tyler, Mom, Coach Reyes, chem class), and the basketball skill is the fix. The tourney (Dec 4) stays the deadline. This also gives IntelliStudy a natural home (grades = eligibility).
+
+### Rosie (soft shift: recipe show -> rom-com rivalry in a kitchen)
+- 0 comments ever; recipe viewers and story viewers are different people. From Day 10 the story is Rosie vs Julian (her ex, the favorite) with Marco and Dee. The dish is the battlefield; the hook is always Julian/Marco. Keep the real recipe in the caption plus one 2-second "THE TRICK" sticker in the Reel (save bait).
+
+### Trash Horde (the Wes story is the show; the real game moves to the background)
+- 0 real hauls in 7 days with 0 followers: the game can't headline yet. Wes's sitcom (community service, his ex's boyfriend as his boss, trash monsters at night) is the show. HORDE HP + "comment your haul + city" stays as one sticker + one caption line. Stop announcing nightly regen in hooks. Real hauls are still counted and credited exactly (5c), and the first real haul becomes a big episode beat.
+
+### History (recurring host: Gus, the museum night guard)
+- Faceless art slideshows = 52-60% skip, 0 followers. From the next episode (Story #6, not a restart), every story is told by **Gus** (toon `who: gus`, base `pipeline/assets/gus_toon_base.jpg`, navy guard shirt, grey beard), a museum night guard who tells one true story per night after closing, standing next to the "exhibit" (the public-domain archival image, shown as a framed beat). Same voice every time (Kokoro `bm_george`; if it sounds off, `am_michael` at 1.05 and keep it forever).
+- Running gag: the museum director texting "GUS. STOP TALKING TO THE EXHIBITS." Format = the Jess formula (hook = the most absurd true fact, 25-35 s, a chat beat at ~6 s, vote "which story tonight?"). Fact-checking and sources in the caption don't change. First Gus caption: "(new host, same true stories)".
+
+### IntelliStudy (@intellistuddy): Boris's idea, adopted: a long-running student story
+- **Kai, 15** (toon `who: kai`, base `pipeline/assets/kai_toon_base.jpg`). Season 1 = the months to his IGCSE exams in the May/June exam season (verify the dates with a web search before showing a countdown). Season 2 = the IB Diploma (2 years). One episode a day, Jess formula: a deadline + a relationship stake (e.g. his older sister got straight 9s and their parents compare them; the friend who says studying is for nerds), one study fix per day voted in the comments, HUD DAYS TO EXAMS / PREDICTED GRADE / FOCUS.
+- Every episode contains a **real IntelliStudy screen recording** of the thing Kai does that day (made from the live site per 5g: real notes for his subject, real generated cards/quiz), shown as his phone screen. Only real features, as they work that day.
+- **Honesty:** Kai is an animated character (say "animated story" in captions). His grades are story, never a claim about the app ("X% better grades", reviews and user counts stay banned). Study tips must be real techniques (active recall, spaced repetition, past papers).
+- Daily mix on @intellistuddy: 2 Kai episodes/bonuses + 1 niche demo from 5l.4. Kai's subjects rotate through the IGCSE subjects the niche demos cover, so both formats feed each other.
+- Note: the @intellistuddy scheduled task wasn't visible from the main run's session (Nov 25). If it doesn't read this runbook, Boris has to add this to its prompt.
+
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 

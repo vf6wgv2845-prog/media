@@ -54,7 +54,14 @@ ROSIE = dict(skin="#d9a07a", blush="#e07a6a", hair="#2a1812", hair_style="curly_
 WES = dict(skin="#efc19c", blush="#e68f80", hair="#8a5a2b", hair_style="messy_short", eye="#3c5a7a", tired=0, brow_tilt=-8, brow_y=-70,
            mouth="flat", top="vest", top_color="#7d8796", top_dark="#5f6774", pants="#3b4150", spots=0, phone=False, sweat=False,
            lashes=False, earrings=False, makeup=0, gloves=True)
-CHARS = {"jess": JESS, "danny": DANNY, "malik": MALIK, "rosie": ROSIE, "wes": WES}
+# Nov 25 night (Boris live, RUNBOOK 5m): recurring History host + the IntelliStudy student series lead.
+GUS = dict(skin="#e8b896", blush="#d98a78", hair="#c9c9cf", hair_style="fade", eye="#3c4a5a", tired=0, brow_tilt=-4, brow_y=-72, brow="#9a9aa2",
+           mouth="smirk", top="tee", top_color="#27365a", top_dark="#1c2742", pants="#2b2f3a", spots=0, phone=False, sweat=False,
+           beard="trimmed", beard_color="#a9a9b0", lashes=False, earrings=False, makeup=0)
+KAI = dict(skin="#d7a27c", blush="#d9826f", hair="#1b1512", hair_style="messy_short", eye="#3b2a1e", tired=0, brow_tilt=-6, brow_y=-70,
+           mouth="flat", top="hoodie", top_color="#3f8f6b", top_dark="#2f6f52", pants="#3a4a6b", spots=1, phone=True, sweat=False,
+           lashes=False, earrings=False, makeup=0)
+CHARS = {"jess": JESS, "danny": DANNY, "malik": MALIK, "rosie": ROSIE, "wes": WES, "gus": GUS, "kai": KAI}
 
 def character(who, look_over=None):
     look = dict(CHARS.get(who, DANNY)); look.update(look_over or {})
@@ -128,7 +135,7 @@ def character(who, look_over=None):
             if r.random() < 0.25: continue
             g.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r.uniform(3, 7):.1f}" fill="#4a3628" opacity=".75"/>')
     elif look.get("beard") == "trimmed":
-        g.append(f'<path d="M{hx - rx + 20} {hy + 40} Q{hx - rx + 30} {hy + ry + 10} {hx} {hy + ry + 26} Q{hx + rx - 30} {hy + ry + 10} {hx + rx - 20} {hy + 40} Q{hx + 60} {hy + 150} {hx} {hy + 150} Q{hx - 60} {hy + 150} {hx - rx + 20} {hy + 40} Z" fill="#3b2a20" opacity=".9"/>')
+        g.append(f'<path d="M{hx - rx + 20} {hy + 40} Q{hx - rx + 30} {hy + ry + 10} {hx} {hy + ry + 26} Q{hx + rx - 30} {hy + ry + 10} {hx + rx - 20} {hy + 40} Q{hx + 60} {hy + 150} {hx} {hy + 150} Q{hx - 60} {hy + 150} {hx - rx + 20} {hy + 40} Z" fill="{look.get('beard_color', '#3b2a20')}" opacity=".9"/>')
     # spots
     import random; r2 = random.Random(3)
     for _ in range(int(look.get("spots", 0))):

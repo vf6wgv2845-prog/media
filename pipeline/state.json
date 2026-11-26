@@ -1101,6 +1101,15 @@
    "open_vote": {
     "question": "Which true story next?",
     "type": "top_comment"
+   },
+   "host": {
+    "name": "Gus",
+    "toon": "gus",
+    "base": "gus_toon_base.jpg",
+    "role": "museum night guard who tells one true story per night after closing",
+    "voice": "bm_george (fallback am_michael 1.05, then keep it)",
+    "gag": "museum director texts 'GUS. STOP TALKING TO THE EXHIBITS.'",
+    "start": "next episode (Story #6), caption '(new host, same true stories)'"
    }
   }
  },
@@ -1669,7 +1678,20 @@
    "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1.",
    "Nov 23: r001 (phone screen + 'Still making flashcards by hand?') got 95% skip / 1.4 s avg: the static landing-page frame on frame 1 reads as an ad. r002 tries a POV exam-panic hook; if skip stays >80%, open on the finished cards (the payoff) zoomed in, with the hook text over them, and cut the typing."
   ],
-  "plan_nov25_night": "Boris: make the videos more niche and different from each other (RUNBOOK 5l.4): one niche per video, rotating formats, a different first frame each time; log niche + format."
+  "plan_nov25_night": "Boris: make the videos more niche and different from each other (RUNBOOK 5l.4): one niche per video, rotating formats, a different first frame each time; log niche + format.",
+  "series": {
+   "lead": "Kai, 15",
+   "toon": "kai",
+   "base": "kai_toon_base.jpg",
+   "season1": "months to IGCSE exams (May/June season; verify dates before any countdown)",
+   "season2": "IB Diploma (2 years)",
+   "hud": [
+    "DAYS TO EXAMS",
+    "PREDICTED GRADE",
+    "FOCUS"
+   ],
+   "rules": "RUNBOOK 5m: real app screen recording in every episode, animated-story label, no app result claims, real study techniques; 2 Kai posts + 1 niche demo per day."
+  }
  },
  "youtube": {
   "status": "approved by Boris Nov 25; waiting for him to connect Jess's channel in Windsor (connect link sent)",
@@ -1686,5 +1708,6 @@
    "votes": null,
    "note": "First use. Story reason: Mom says no C on Monday's chem test = no tourney. Caption: 'IntelliStudy (our own study app) link in bio' (disclosed as ours). Plan: ~1 use per account every ~3 days, max 1-2 accounts/day; next candidates: Rosie (food science) Nov 26, Danny Nov 27, Theo Nov 28; Jess last and only if it doesn't hurt her baseline."
   }
- ]
+ ],
+ "plan_nov25_night": "Boris live: Jess unchanged; per-account soft shifts in RUNBOOK 5m (Theo needs a live image session; Danny = rom-com rivalry with Tara/Brock; Malik = high-school drama with basketball backdrop; Rosie = rom-com rivalry vs Julian; Horde = Wes story first, real game in background; History = recurring host Gus (toon 'gus'); IntelliStudy = Kai's IGCSE -> IB story series (toon 'kai') + 1 niche demo/day)."
 }
