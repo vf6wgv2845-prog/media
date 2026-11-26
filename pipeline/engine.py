@@ -65,7 +65,7 @@ class Episode(Scenes2, Extras):
         for sc, segs in self.c["script"].items():
             parts, starts, ends, t = [], [], [], 0.0
             for gap, txt in segs:
-                a, sr = k.create(txt, voice=self.c["voice"], speed=self.c.get("speed", 1.08), lang='en-us')
+                a, sr = k.create(txt, voice=self.c["voice"], speed=self.c.get("speed", 1.08), lang=('en-gb' if self.c["voice"].startswith('b') else 'en-us'))
                 nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 300): nz[-1] + 1200]
                 parts.append(np.zeros(int(gap * SR))); t += gap; starts.append(round(t, 3)); parts.append(a); t += len(a) / SR; ends.append(round(t, 3))
             tail = 2.0 if sc == "s5" else 0.45
