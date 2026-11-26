@@ -1710,7 +1710,8 @@
     "FOCUS"
    ],
    "rules": "RUNBOOK 5m: real app screen recording in every episode, animated-story label, no app result claims, real study techniques; 2 Kai posts + 1 niche demo per day."
-  }
+  },
+  "task": "trig_01AgSkiuGQnH7WbTogHmebtn: 'IntelliStudy: Kai's IGCSE story + niche demos' (8:13 AM / 3:13 PM / 8:13 PM ET), created Nov 26 with Boris's approval"
  },
  "youtube": {
   "status": "Windsor youtube upload_video exists (verified Nov 26). Waiting for Boris to connect the channel in Windsor (pick the Brand Account). TikTok: only via the Buffer connector if he connects it. Boris can't upload by hand.",
@@ -1791,14 +1792,15 @@
    "Daily Instagram episodes": "5:45 PM ET",
    "Instagram extras": "7:37 AM + 1:37 PM ET",
    "Cross-post Jess to TikTok + YouTube (Buffer)": "8:41 AM + 6:41 PM ET",
-   "Jess D5 24h review": "one-off Nov 26 6:45 PM ET (this chat)"
+   "Jess D5 24h review": "one-off Nov 26 6:45 PM ET (this chat)",
+   "IntelliStudy: Kai's IGCSE story + niche demos": "8:13 AM / 3:13 PM / 8:13 PM ET"
   },
   "risks": [
    "Windsor trial ends ~Dec 17 (TRIAL plan, unpaid): Instagram posting stops unless Boris pays",
-   "IntelliStudy has no working task (no posts since Nov 24); new task needs Boris's approval",
    "Repo grows ~70 MB/day",
    "Season finales Dec 16-24 -> Season 2 rule in RUNBOOK 5r"
   ],
   "tiktok_first_post": "https://tiktok.com/@jessweddingglowup/video/7712294016464801038"
- }
+ },
+ "weekly_reviews": []
 }
