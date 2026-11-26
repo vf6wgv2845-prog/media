@@ -237,6 +237,32 @@ Jess doesn't change. Each shift below continues the running story: no "new serie
 - Daily mix on @intellistuddy: 2 Kai episodes/bonuses + 1 niche demo from 5l.4. Kai's subjects rotate through the IGCSE subjects the niche demos cover, so both formats feed each other.
 - Note: the @intellistuddy scheduled task wasn't visible from the main run's session (Nov 25). If it doesn't read this runbook, Boris has to add this to its prompt.
 
+## 5n. Nov 26 (Boris shared Jess's in-app Insights + a growth checklist): the bottleneck is shares, comments and follows, not the hook
+**Jess's Insights (from Boris, in-app; Windsor can't read these):** skip 31.9-35.6% (winning), avg watch 11-12 s on 25 s (~45-48% complete, a steady drop after 3 s), share rate 0.1-0.3%, comment rate 0-0.4%, **65 profile visits -> 0 follows**, 99.4% non-followers, ~72% aged 13-24. Instagram ranks skip rate first and share rate second, and our share rate is close to zero. So the 1.5K cap comes from sends, rewatches and follows.
+
+### 5n.1 Every page except Jess, from the next Reel (Jess gets these one at a time via 5n.2)
+1. **One "send this to..." gag per Reel**: a painfully specific, relatable moment for 13-24 year olds that someone sends to their group chat as "literally you" (the zipper, the hostage smile, 4 push-ups). Put it in s3 and match the send sticker to it ("SEND THIS TO THE FRIEND WHO...").
+2. **Aura-swing gag stickers**: absurd in-story aura hits as comedy stickers ("-5,000 AURA" when the zipper breaks, "+300 AURA" for the comeback), plus a caption question that starts a debate ("How much aura did he lose at the brow bar?"). They're clearly jokes. The HUD AURA tile stays REAL engagement (3b.2) and is never inflated.
+3. **One hidden detail per Reel**: a small background gag or a 0.5 s text flash in a corner (a sign, a phone lock screen, a name on a cup) that rewards a rewatch and gets "did anyone see...?" comments. Keep it out of the IG UI zones (5j).
+4. **A seamless loop**: the last frame and line lead back into the first (the last image = the hook image; the last voice line sets up the hook line).
+5. **An open loop at the end**: stop right before a reveal ("He's typing..." / "Then the door opened.") and say what's next ("Tomorrow: Thanksgiving, next to Ryan").
+6. **Every episode works alone**: a stranger seeing Day 14 first still gets a full mini-story (problem -> 3 attempts -> payoff) inside the bigger goal.
+7. **Bigger stakes every 5 days**: Days 10, 15, 20, 25 and 30 are major twist or "boss" episodes (plan them in state: Jess D10, Theo D10, Danny D10, Malik D10 = tourney week, Rosie D10).
+8. **Length test, morning bonus only**: cut the bonus to 12-15 s (one gag, one punchline, the loop). If its avg watch / length beats the page's last 3 bonuses, keep it short. Day episodes stay 22-26 s (5l).
+9. **Keywords**: say the niche words in the voice, show them on screen, and put them in caption line 1 ("glow up", "ex", "wedding", "basketball", "cook-off", "true story"), plus niche hashtags (5b).
+10. **Reply to every comment within the run** and end replies with a question. (The API can't comment on other accounts or post video replies; don't try.)
+
+### 5n.2 Jess test queue (replaces the 5i/5j order; one lever per morning bonus, keep rule from 5i)
+- **T1 (Nov 26 AM bonus): send gag + send prompt.** One group-chat-relatable beat, the sticker "SEND THIS TO THE FRIEND WHO..." matching it, and the same ask in caption line 2. Measures shares/reach.
+- **T2 (Nov 27): aura-swing stickers + an aura-debate caption question.** Measures comments.
+- **T3 (Nov 28): a 12-15 s bonus** (one gag + punchline + loop ending). Measures completion and rewatches.
+- **T4: seamless loop ending** (if T3 didn't already prove it).
+- **T5: vote wording without "1 or 2"**, then T6 `motion`, T7 captions at y ~1200, T8 a third daily Reel.
+Day episodes stay on the baseline until a test passes the 5i keep rule; then it moves onto the episodes.
+
+### 5n.3 Profile -> follow (Boris does these in the app; the API can't edit profiles or pin posts)
+Every Jess cover says "DAY N" huge (bonus covers: "DAY N.5" or "BONUS"). Bio proposal for Jess: "Her ex is the best man at her sister's wedding 💍 / Can she hit 100% glow-up in 30 days? / You pick the fix 👇 Day 1 pinned". Pin Day 1 + the best episode (D5) + the newest milestone. Same pattern for Theo. Check follows per profile visit in Boris's Insights when he shares them.
+
 ## 4. Render and check
 `KOKORO_MODEL=/tmp/tts/kokoro.onnx KOKORO_VOICES=/tmp/tts/voices.bin python3 -I pipeline/make_episode.py pipeline/episodes/X.json /tmp/X stills` -> look at `/tmp/X/contact.jpg` (text must not overflow the 1080px width; shorten lines if it does), then run again without `stills` for `final.mp4` + `cover.jpg`.
 
