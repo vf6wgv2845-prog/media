@@ -1754,11 +1754,13 @@
   "log": [
    "Nov 23 ~7:45 AM ET: Reel r001 18618003577064117 'still making flashcards by hand?' real capture of my chemistry notes -> 3 cards in 2.2 s (real measured), 15.3 s; also posted as story 18111297698368633. Earlier: Nov 22 12:37 PM ET Reel 18019531103956034 (not made by these runs): 113 views, 80% skip, 2.0 s avg watch.",
    "Nov 23 ~6:09 PM ET (main run, no IntelliStudy task exists yet): Reel r002 18104769407386151 'POV: history test tomorrow. 0 flashcards.' real capture of WW1 notes -> 3 cards in 2.2 s (measured), 16.3 s; also posted as story 18120323747105465. r001 at ~10 h: 46 views, 95% skip, 1.4 s avg watch.",
-   "Nov 24 ~6:17 PM ET (main run; IntelliStudy task still doesn't exist): Reel r003 18138985030731686 'My bio notes -> flashcards in 2.1 s' = payoff-first test (lesson Nov 23: open on the finished cards, cut typing in half): real capture of photosynthesis notes -> 3 cards in 2.09 s (measured), 17.2 s; also posted as story 17922787410530735. r002 at ~24 h: 52 views, 97.9% skip, 0.8 s avg; r001 49 views, 95.6%, 1.4 s."
+   "Nov 24 ~6:17 PM ET (main run; IntelliStudy task still doesn't exist): Reel r003 18138985030731686 'My bio notes -> flashcards in 2.1 s' = payoff-first test (lesson Nov 23: open on the finished cards, cut typing in half): real capture of photosynthesis notes -> 3 cards in 2.09 s (measured), 17.2 s; also posted as story 17922787410530735. r002 at ~24 h: 52 views, 97.9% skip, 0.8 s avg; r001 49 views, 95.6%, 1.4 s.",
+   "Nov 26 8:24 AM ET (IntelliStudy task, AM slot): Kai Day 1 Reel 18112397303221693 (intellistudy/kai_d01.mp4, 23.2 s). niche: IGCSE Chemistry (ionic bonding); format: Kai episode (Jess formula: hook 'predicted a 4 / sister all 9s' -> Jayden chat at 4.8 s -> 3 attempts, attempt 3 = real capture of the homepage demo, 3 cards in 2.17 s measured, shown 12.4-18.1 s -> vote 'Flashcards, or past papers?'). No comments on any earlier post, so no votes to count (Day 1)."
   ],
   "lessons": [
    "Nov 22 post (text over generic clip) skipped by 80% in 3 s: open on the real app moving + a big question hook on frame 1.",
-   "Nov 23: r001 (phone screen + 'Still making flashcards by hand?') got 95% skip / 1.4 s avg: the static landing-page frame on frame 1 reads as an ad. r002 tries a POV exam-panic hook; if skip stays >80%, open on the finished cards (the payoff) zoomed in, with the hook text over them, and cut the typing."
+   "Nov 23: r001 (phone screen + 'Still making flashcards by hand?') got 95% skip / 1.4 s avg: the static landing-page frame on frame 1 reads as an ad. r002 tries a POV exam-panic hook; if skip stays >80%, open on the finished cards (the payoff) zoomed in, with the hook text over them, and cut the typing.",
+   "Nov 26 (7-day check): all 4 earlier Reels were app-first demos: 114 / 52 / 49 / 9 views, 0 likes, 0 comments, 0 shares, 80-98% skip. Change made: open on a story stake (a character + his sister's grades) and hold the real app screen back as the payoff at ~12 s, instead of opening on the app. Compare Kai D1's skip rate and avg watch with r001-r003 at ~24 h."
   ],
   "plan_nov25_night": "Boris: make the videos more niche and different from each other (RUNBOOK 5l.4): one niche per video, rotating formats, a different first frame each time; log niche + format.",
   "series": {
@@ -1772,7 +1774,36 @@
     "PREDICTED GRADE",
     "FOCUS"
    ],
-   "rules": "RUNBOOK 5m: real app screen recording in every episode, animated-story label, no app result claims, real study techniques; 2 Kai posts + 1 niche demo per day."
+   "rules": "RUNBOOK 5m: real app screen recording in every episode, animated-story label, no app result claims, real study techniques; 2 Kai posts + 1 niche demo per day.",
+   "day": 1,
+   "last_media_id": "18112397303221693",
+   "last_post_date": "2026-11-26",
+   "exam_start": "2027-04-26 (Cambridge IGCSE June 2027 series: first paper Mon 26 Apr 2027, last Fri 11 Jun 2027; official zone 1 timetable v1 Nov 2026). DAYS TO EXAMS counts to 26 Apr.",
+   "stats": {
+    "days_to_exams": 151,
+    "predicted": 4,
+    "focus": "4/10"
+   },
+   "cast": {
+    "Kai": "15, IGCSE student, green hoodie (toon kai)",
+    "Mei": "older sister, straight 9s; Mum frames her results (running gag: the frame count, #10 incoming)",
+    "Mum": "texts comparisons ('Mei did 9 hours a day. just saying')",
+    "Dad": "'Mei never needed a phone.'",
+    "Jayden": "best mate: 'studying is for nerds', Fortnite"
+   },
+   "subject_log": [
+    "D1 IGCSE Chemistry: ionic bonding (homepage demo: notes -> 3 cards, 2.17 s measured)"
+   ],
+   "open_vote": {
+    "question": "Flashcards, or past papers? What should Kai do?",
+    "options": [
+     "Flashcards",
+     "Past papers"
+    ],
+    "on_media": "18112397303221693"
+   },
+   "callback_gag": "Mum framing Mei's results (frame #10 incoming)",
+   "tools": "intellistudy/kai/cap_d01.py (Playwright 360x640@3x capture of the live no-account demo) + intellistudy/kai/phone_overlay.py (overlays the capture as Kai's phone over the make_episode render from a given scene line; live measured timer) + toon specs in intellistudy/kai/specs/. Episode JSON pipeline/episodes/kai_d01.json (voice bm_lewis 1.15, s1->sc->s3->sv, motion, captions y 1200)."
   },
   "task": "trig_01AgSkiuGQnH7WbTogHmebtn: 'IntelliStudy: Kai's IGCSE story + niche demos' (8:13 AM / 3:13 PM / 8:13 PM ET), created Nov 26 with Boris's approval"
  },
