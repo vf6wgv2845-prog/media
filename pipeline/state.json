@@ -1785,5 +1785,20 @@
    "file": "jess/d01.mp4",
    "note": "first post (catch-up Day 1); status 'sending' at check"
   }
- ]
+ ],
+ "autonomy_audit_nov26": {
+  "tasks": {
+   "Daily Instagram episodes": "5:45 PM ET",
+   "Instagram extras": "7:37 AM + 1:37 PM ET",
+   "Cross-post Jess to TikTok + YouTube (Buffer)": "8:41 AM + 6:41 PM ET",
+   "Jess D5 24h review": "one-off Nov 26 6:45 PM ET (this chat)"
+  },
+  "risks": [
+   "Windsor trial ends ~Dec 17 (TRIAL plan, unpaid): Instagram posting stops unless Boris pays",
+   "IntelliStudy has no working task (no posts since Nov 24); new task needs Boris's approval",
+   "Repo grows ~70 MB/day",
+   "Season finales Dec 16-24 -> Season 2 rule in RUNBOOK 5r"
+  ],
+  "tiktok_first_post": "https://tiktok.com/@jessweddingglowup/video/7712294016464801038"
+ }
 }
