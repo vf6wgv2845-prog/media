@@ -1,0 +1,411 @@
+{
+ "image": "danny_d06_ask.jpg",
+ "cx": -0.12,
+ "voice": "am_adam",
+ "speed": 1.1,
+ "pill": "DAY 6 / 30",
+ "accent": [
+  90,
+  150,
+  240
+ ],
+ "hook": [
+  "Mile 1: he asked",
+  "his bully's sister",
+  "to run with him."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 6: Ask Tara.",
+ "sub_line": "You voted  •  ask Tara",
+ "stats": [
+  [
+   "Body",
+   5
+  ],
+  [
+   "Money",
+   5
+  ],
+  [
+   "Style",
+   3
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Reunion group chat",
+  "msg": "brock: who's paying the bar tab",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Lies true: 0.75/3."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "🌮",
+   "Take Tara on a real date"
+  ],
+  [
+   "💸",
+   "Side hustle for the bar tab"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted: ask Tara. Mile one, eyes full of hair gel, he asked his bully's sister to run with him."
+   ],
+   [
+    0.1,
+    "Tara said: only if you keep up."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Brock texted. Mid-race."
+   ],
+   [
+    0.1,
+    "Are you running with my sister?"
+   ],
+   [
+    0.1,
+    "Danny sent: the CEO is networking."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Mile two: he tried the power-up. He screamed. A kid handed him a juice box."
+   ],
+   [
+    0.1,
+    "Mile three: Tara slowed down. Run to the cone, then walk. His plan from Tuesday."
+   ],
+   [
+    0.1,
+    "Forty-one minutes. Brock finished twenty minutes earlier. Danny pays the whole reunion bar tab."
+   ],
+   [
+    0.1,
+    "Then Tara posted their finish line photo. My running buddy. Brock commented: absolutely not."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Take Tara on a real date, or a side hustle for the bar tab?"
+   ],
+   [
+    0.1,
+    "What should Danny do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "BODY",
+    "value": "5/10",
+    "from": "4/10",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "90/100",
+    "from": "46/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "tara",
+   "gel",
+   "sister",
+   "power-up",
+   "juice",
+   "box",
+   "cone",
+   "forty-one",
+   "twenty",
+   "bar",
+   "tab",
+   "buddy",
+   "brock",
+   "absolutely"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "99_vargas",
+   "text": "Ask the girl to fun it with him",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.5,
+   "user": "99_vargas",
+   "text": "Ask the girl to fun it with him",
+   "likes": 0,
+   "y": 1420,
+   "hold": 2.0
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.3,
+   "user": "h.nguy3n07",
+   "text": "He should turn into a super saiyan and win the race",
+   "likes": 2,
+   "y": 470,
+   "hold": 2.2
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "25",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 0.4,
+   "text": "+300 AURA",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 1420,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 3.0,
+   "text": "POWER-UP: FAILED",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 2.2,
+   "text": "BAR TAB: DANNY",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 4.4,
+   "text": "BODY +1",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": 3,
+   "size": 90,
+   "hold": 1.4
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR RUNNING BUDDY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 56,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 6",
+  "SHE SAID YES"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Brock",
+  "sub": "the bully (her brother)",
+  "msgs": [
+   [
+    "them",
+    "are you running with my SISTER"
+   ],
+   [
+    "me",
+    "the CEO is networking"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "A REAL DATE  or  SIDE HUSTLE"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "danny_d06_tara.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_d06_brock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_d06_saiyan.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 3.0,
+   "image": "danny_d06_juice.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "danny_d06_finish.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "danny_d06_post.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_d06_post.jpg"
+  }
+ ],
+ "motion": true,
+ "notif_y": 380,
+ "cover_image": "danny_d06_tara.jpg"
+}

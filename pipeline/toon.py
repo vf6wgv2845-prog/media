@@ -252,6 +252,12 @@ def scene(name):
 <rect x="0" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/><rect x="760" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/>
 {shelf}<rect x="390" y="90" width="300" height="130" rx="14" fill="#2f6fb3" stroke="{INK}" stroke-width="7"/><line x1="540" y1="0" x2="540" y2="90" stroke="{INK}" stroke-width="6"/>
 <text x="540" y="150" font-family="Inter" font-weight="900" font-size="52" text-anchor="middle" fill="#fff">AISLE 4</text><text x="540" y="198" font-family="Inter" font-weight="800" font-size="28" text-anchor="middle" fill="#ffd166">CANNED GOODS</text>'''
+    if name == "race":  # Nov 26 evening: outdoor turkey trot 5K (Danny Day 6)
+        return f'''<rect width="1080" height="1920" fill="#bfe3f5"/><circle cx="880" cy="200" r="80" fill="#ffe08a"/>
+<rect y="1100" width="1080" height="820" fill="#7fbf6a"/><path d="M380 1100 L700 1100 L1080 1920 L0 1920 Z" fill="#8d8f96"/><path d="M540 1100 L540 1920" stroke="#fff" stroke-width="10" stroke-dasharray="40 40"/>
+<g fill="#4f9a5a" stroke="{INK}" stroke-width="6"><circle cx="90" cy="980" r="110"/><circle cx="1000" cy="960" r="120"/></g><rect x="80" y="1060" width="22" height="80" fill="#7a5a3a"/><rect x="990" y="1060" width="22" height="80" fill="#7a5a3a"/>
+<rect x="160" y="300" width="760" height="150" rx="14" fill="#e76f3c" stroke="{INK}" stroke-width="8"/><text x="540" y="400" font-family="Inter" font-weight="900" font-size="80" text-anchor="middle" fill="#fff">TURKEY TROT 5K</text>
+<line x1="180" y1="450" x2="180" y2="1100" stroke="{INK}" stroke-width="10"/><line x1="900" y1="450" x2="900" y2="1100" stroke="{INK}" stroke-width="10"/>'''
     if name == "museum":  # Nov 25 night: History host Gus. Exhibit frame inner area = x 735-1025, y 255-605 (paste the archival image there)
         return f'''<rect width="1080" height="1920" fill="#3a4160"/><rect y="1380" width="1080" height="540" fill="#7a5a3a"/><rect y="1360" width="1080" height="30" fill="#5e452c"/>
 <rect x="710" y="230" width="340" height="400" fill="#b8893f" stroke="{INK}" stroke-width="10"/><rect x="735" y="255" width="290" height="350" fill="#6b7080"/>
