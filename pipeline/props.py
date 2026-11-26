@@ -88,3 +88,26 @@ def strip(paths, out, w=216):
     for i, pth in enumerate(paths):
         W.paste(Image.open(pth).convert("RGB").resize((w, h)), (i * w, 0))
     W.save(out); return out
+
+def overlay_many(items):
+    """Composite transparent SVG props over existing images (for Theo's 3D frames).
+    items = [{"base": "pipeline/assets/theo_teeth_drawnbrow.jpg", "svg": "<svg-elements>", "out": "pipeline/assets/x.jpg"}]"""
+    from playwright.sync_api import sync_playwright
+    from PIL import Image
+    with sync_playwright() as p:
+        b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
+        for it in items:
+            base = Image.open(it["base"]).convert("RGB").resize((1080, 1920))
+            pg.set_content(f'<html><body style="margin:0;background:transparent"><svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920">{it["svg"]}</svg></body></html>')
+            tmp = it["out"] + ".png"
+            pg.screenshot(path=tmp, clip={"x": 0, "y": 0, "width": 1080, "height": 1920}, omit_background=True)
+            ov = Image.open(tmp).convert("RGBA"); base = base.convert("RGBA"); base.alpha_composite(ov)
+            base.convert("RGB").save(it["out"], quality=92); os.remove(tmp); print(it["out"])
+        b.close()
+
+def footprints(x, y, s=1.0):
+    """Box-step diagram: 4 numbered footprints in a square."""
+    out = f'<g transform="translate({x} {y}) scale({s})"><rect x="-150" y="-150" width="300" height="300" rx="20" fill="#ffffff" stroke="{INK}" stroke-width="7" opacity=".95"/>'
+    for (fx, fy, n) in ((-60, 60, 1), (-60, -60, 2), (60, -60, 3), (60, 60, 4)):
+        out += f'<ellipse cx="{fx}" cy="{fy}" rx="30" ry="45" fill="#4a6cf7" stroke="{INK}" stroke-width="5"/><text x="{fx}" y="{fy + 14}" font-family="Inter" font-weight="900" font-size="40" text-anchor="middle" fill="#fff">{n}</text>'
+    return out + f'<text x="0" y="-165" font-family="Inter" font-weight="900" font-size="40" text-anchor="middle" fill="{INK}" stroke="#fff" stroke-width="8" paint-order="stroke">BOX STEP</text></g>'

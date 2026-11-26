@@ -1,0 +1,433 @@
+{
+ "image": "theo_d10_tutorial.jpg",
+ "cx": -0.12,
+ "voice": "am_michael",
+ "speed": 1.1,
+ "pill": "SEASON 1  •  DAY 10 / 30",
+ "accent": [
+  214,
+  48,
+  64
+ ],
+ "hook": [
+  "He took a dance",
+  "class. The teacher:",
+  "Maya's boyfriend."
+ ],
+ "hook_emoji": "",
+ "name_line": "Day 10: Learn to dance.",
+ "sub_line": "You voted  •  learn to dance",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   6
+  ],
+  [
+   "Fitness",
+   8
+  ],
+  [
+   "Confidence",
+   10
+  ]
+ ],
+ "notif": {
+  "from": "Mom (group chat)",
+  "msg": "why is jake holding theo's waist",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "22 days.",
+   "Smile: fixed."
+  ],
+  "Top comment = tomorrow's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment 1 or 2"
+ ],
+ "options": [
+  [
+   "🤵",
+   "Tell Maya who the suit is for"
+  ],
+  [
+   "✏️",
+   "Fix the eyebrow for real"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "You voted: learn to dance. His teacher? Maya's boyfriend."
+   ],
+   [
+    0.1,
+    "Attempt one: a YouTube tutorial. He stepped on Mom's foot. Six times."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Maya texted."
+   ],
+   [
+    0.1,
+    "Jake teaches a class tonight. You should go. Lol."
+   ],
+   [
+    0.1,
+    "He sent: I'm busy. He was not."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "The class: five couples. And Theo. So his partner was Jake."
+   ],
+   [
+    0.1,
+    "He stepped on Jake. Jake said: nice try, champ."
+   ],
+   [
+    0.1,
+    "Jake taught him the box step. Look up, not down."
+   ],
+   [
+    0.1,
+    "By song three, he had it. Glow-up plus four."
+   ],
+   [
+    0.1,
+    "Then Jake posted the video. Maya commented: so who's the suit for?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Tell Maya who the suit is for, or fix the eyebrow for real?"
+   ],
+   [
+    0.1,
+    "What should Theo do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "21",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "74%",
+    "from": "70%",
+    "at": [
+     "s3",
+     3
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "89/100",
+    "from": "67/100",
+    "at": [
+     "s1",
+     1
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1520,
+  "keywords": [
+   "jake",
+   "six",
+   "three",
+   "champ",
+   "box",
+   "step",
+   "small",
+   "look",
+   "song",
+   "plus",
+   "four",
+   "maya",
+   "suit"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "user": "ivannn_720",
+   "text": "Learn to dance",
+   "likes": 0,
+   "y": 470,
+   "hold": 2.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "delay": 0.5,
+   "user": "ivannn_720",
+   "text": "Learn to dance",
+   "likes": 0,
+   "y": 1420,
+   "hold": 2.0
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "kind": "calendar",
+   "text": "21",
+   "x": 540,
+   "y": 1450,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 1.0,
+   "text": "TUTORIAL: 5 MIN",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 420,
+   "angle": -4,
+   "size": 85,
+   "hold": 1.5
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 2.8,
+   "text": "OW! x6",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 420,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.2,
+   "text": "-2,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 1.4,
+   "text": "\"CHAMP\"",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "delay": 0.6,
+   "text": "GLOW-UP +4%",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR DANCE PARTNER",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 56,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 10",
+  "JAKE LED"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "jake teaches a beginner class tonight"
+   ],
+   [
+    "them",
+    "u should go lol"
+   ],
+   [
+    "me",
+    "i'm busy"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TELL MAYA  or  FIX THE BROW"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "theo_d10_tutorial.jpg"
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 2.6,
+   "image": "theo_d10_ow.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_d10_ow.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_d10_class.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.0,
+   "image": "theo_d10_partner.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "theo_d10_box.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 4,
+   "image": "theo_d10_suit.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "theo_d10_suit.jpg"
+  }
+ ],
+ "notif_y": 380,
+ "motion": true,
+ "cover_image": "theo_d10_partner.jpg"
+}
