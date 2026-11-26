@@ -1718,7 +1718,7 @@
   "log": [
    {
     "date": "2026-11-26",
-    "note": "Theo Day 1 upload attempt via Buffer was blocked by the session's permission check (not a Buffer error); scheduled runs will retry per RUNBOOK 5q once Buffer is attached to them."
+    "note": "Nov 26: a Theo Day 1 upload attempt was blocked by the chat's permission check; channel is now Jess's (Boris renaming), so no Theo posts there."
    }
   ]
  },
@@ -1765,16 +1765,17 @@
    },
    {
     "service": "youtube",
-    "name": "Youdecidewhatsnext",
-    "series": "theo",
+    "name": "(renaming from Youdecidewhatsnext to Jess)",
+    "series": "jess",
     "id": "6b07924c8541f09ecba7f889"
    }
   ],
   "note": "RUNBOOK 5q",
   "catchup": {
    "jess_tiktok_next": "d02",
-   "theo_youtube_next": "day01"
-  }
+   "jess_youtube_next": "d01"
+  },
+  "task": "trig_013qYYXnMSEeVQQ5pAjMEkZK (8:41 AM + 6:41 PM ET)"
  },
  "tiktok_log": [
   {
