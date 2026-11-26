@@ -1,0 +1,379 @@
+{
+ "image": "wes_d02_flyer.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  DAYS 2-3 / 30",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "His only backup:",
+  "a pie fork.",
+  "It's on their side."
+ ],
+ "hook_emoji": "",
+ "name_line": "Days 2-3: Backup.",
+ "sub_line": "Crowd's choice  •  find backup",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Ranger Cole",
+  "msg": "THAT'S MY HAT.",
+  "emoji": "",
+  "color": [
+   60,
+   110,
+   71
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "🤝",
+   "Let Brooke help"
+  ],
+  [
+   "🙅",
+   "Tell Brooke no"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Nobody voted, so the crowd's choice: find backup. He taped a flyer to bench four."
+   ],
+   [
+    0.1,
+    "Two nights. Zero people. One pie fork. It works for the Horde."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ranger Cole texted."
+   ],
+   [
+    0.1,
+    "Nobody is coming. Get gloves."
+   ],
+   [
+    0.1,
+    "Wes sent: they're four dollars. Cole sent: GET. GLOVES."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Day three: dollar store gloves and a grabber. First grab: Cole's hat."
+   ],
+   [
+    0.1,
+    "The cups stopped moving. The Butt Goblin didn't. Only real hauls hurt him."
+   ],
+   [
+    0.1,
+    "Then Brooke texted. Cole says you need backup. I'm coming Saturday."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "His ex, on litter duty, with her new boyfriend watching. Let Brooke help, or tell her no?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "28",
+    "from": "29",
+    "at": [
+     "s3",
+     0
+    ],
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "4%",
+    "from": "0%",
+    "at": [
+     "s3",
+     1
+    ],
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,400",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "backup",
+   "flyer",
+   "bench",
+   "four",
+   "zero",
+   "pie",
+   "fork",
+   "horde",
+   "gloves",
+   "grabber",
+   "hat",
+   "butt",
+   "goblin",
+   "real",
+   "hauls",
+   "brooke",
+   "saturday"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.4,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.6
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 0.6,
+   "text": "BACKUP: 0",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 1420,
+   "angle": 4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.6,
+   "text": "-500 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 95,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 1.4,
+   "text": "COMMENT YOUR HAUL + CITY = REAL DAMAGE",
+   "bg": [
+    140,
+    255,
+    90
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1420,
+   "angle": -3,
+   "size": 40,
+   "hold": 2.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.6,
+   "text": "SEND THIS TO YOUR BACKUP",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 60,
+   "hold": 3.0
+  }
+ ],
+ "cover_title": [
+  "DAY 3",
+  "BACKUP: 0"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "NOBODY IS COMING."
+   ],
+   [
+    "them",
+    "GET GLOVES."
+   ],
+   [
+    "me",
+    "they're $4"
+   ],
+   [
+    "them",
+    "GET. GLOVES."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "LET BROOKE HELP  or  TELL HER NO"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "wes_d02_fork.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_d02_cole.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_d03_gloves.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 2.4,
+   "image": "wes_d03_hat.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "wes_d03_brooke.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_d03_brooke.jpg"
+  }
+ ],
+ "motion": true,
+ "notif_y": 380,
+ "cover_image": "wes_d02_fork.jpg"
+}
