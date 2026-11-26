@@ -1715,7 +1715,12 @@
  "youtube": {
   "status": "Windsor youtube upload_video exists (verified Nov 26). Waiting for Boris to connect the channel in Windsor (pick the Brand Account). TikTok: only via the Buffer connector if he connects it. Boris can't upload by hand.",
   "scope": "Jess only to start (RUNBOOK 5k)",
-  "log": []
+  "log": [
+   {
+    "date": "2026-11-26",
+    "note": "Theo Day 1 upload attempt via Buffer was blocked by the session's permission check (not a Buffer error); scheduled runs will retry per RUNBOOK 5q once Buffer is attached to them."
+   }
+  ]
  },
  "intellistudy_log": [
   {
@@ -1751,8 +1756,33 @@
    "YouTube-Jess",
    "TikTok-Theo"
   ],
-  "channels_connected_nov26": [],
-  "note": "RUNBOOK 5q"
+  "channels_connected_nov26": [
+   {
+    "service": "tiktok",
+    "name": "jessweddingglowup",
+    "series": "jess",
+    "id": "6b0792328541f09ecba7f803"
+   },
+   {
+    "service": "youtube",
+    "name": "Youdecidewhatsnext",
+    "series": "theo",
+    "id": "6b07924c8541f09ecba7f889"
+   }
+  ],
+  "note": "RUNBOOK 5q",
+  "catchup": {
+   "jess_tiktok_next": "d02",
+   "theo_youtube_next": "day01"
+  }
  },
- "tiktok_log": []
+ "tiktok_log": [
+  {
+   "date": "2026-11-26",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b079290b8e2338b857eec3f",
+   "file": "jess/d01.mp4",
+   "note": "first post (catch-up Day 1); status 'sending' at check"
+  }
+ ]
 }
