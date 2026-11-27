@@ -33,3 +33,8 @@ Note: images.metmuseum.org and Wikimedia are blocked/rate-limited from the cloud
 - posada_automobile.jpg: José Guadalupe Posada, The Automobile (El Automóvil), n.d. (AIC 45949, public domain)
 - cezanne_basket_apples_1893.jpg: Paul Cézanne, The Basket of Apples, c. 1893 (AIC 111436, public domain)
 - gerome_chariot_race_1876.jpg: Jean-Léon Gérôme, Chariot Race, 1876 (AIC 100350, public domain) [a race painting, shown as art, not the 1904 race]
+## E7 Who named Black Friday (Nov 27)
+- caillebotte_paris_street_1877.jpg: Gustave Caillebotte, Paris Street; Rainy Day, 1877 (AIC 20684, public domain) [a crowded street painting, not Philadelphia]
+- whistler_policeman_1855.jpg: James McNeill Whistler, Policeman and Citizen, 1854/55 (AIC 50743, public domain) [a drawing, not a Philadelphia officer]
+- pennell_chestnut_st_philadelphia_1884.jpg: Joseph Pennell, Below Chestnut Street Bridge, Philadelphia, 1884 (AIC 104117, public domain) [downloaded, not used]
+- callot_football_1622.jpg reused [a 1622 Florence football game, shown as art, not Army-Navy]

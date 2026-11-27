@@ -252,6 +252,17 @@ def scene(name):
 <rect x="0" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/><rect x="760" y="300" width="320" height="1080" fill="#c9ced3" stroke="{INK}" stroke-width="7"/>
 {shelf}<rect x="390" y="90" width="300" height="130" rx="14" fill="#2f6fb3" stroke="{INK}" stroke-width="7"/><line x1="540" y1="0" x2="540" y2="90" stroke="{INK}" stroke-width="6"/>
 <text x="540" y="150" font-family="Inter" font-weight="900" font-size="52" text-anchor="middle" fill="#fff">AISLE 4</text><text x="540" y="198" font-family="Inter" font-weight="800" font-size="28" text-anchor="middle" fill="#ffd166">CANNED GOODS</text>'''
+    if name == "shoestore":  # Nov 27 midday: Black Friday sneaker store (Malik vs Dez, one pair of size 11s)
+        wall = ""
+        for row, y in enumerate((300, 470, 640, 810, 980, 1150)):
+            for side, x0 in ((0, 0), (1, 770)):
+                wall += f'<rect x="{x0}" y="{y + 120}" width="310" height="18" fill="#8a6a4a" stroke="{INK}" stroke-width="4"/>'
+                for k in range(3):
+                    col = ["#e5484d", "#2f6fb3", "#f2b134", "#2a9d8f"][(k + row + side) % 4]
+                    wall += f'<rect x="{x0 + 16 + k * 100}" y="{y + 40}" width="84" height="80" rx="6" fill="{col}" stroke="{INK}" stroke-width="4"/><rect x="{x0 + 16 + k * 100}" y="{y + 40}" width="84" height="18" fill="#fff" opacity=".7"/>'
+        return f'''<rect width="1080" height="1920" fill="#f3ece2"/><rect y="1380" width="1080" height="540" fill="#3c3f46"/><rect y="1360" width="1080" height="30" fill="#25272c"/>
+<rect x="0" y="300" width="310" height="1080" fill="#e3d5c3" stroke="{INK}" stroke-width="7"/><rect x="770" y="300" width="310" height="1080" fill="#e3d5c3" stroke="{INK}" stroke-width="7"/>{wall}
+<rect x="320" y="80" width="440" height="150" rx="14" fill="#1f1b2d" stroke="{INK}" stroke-width="7"/><text x="540" y="150" font-family="Inter" font-weight="900" font-size="56" text-anchor="middle" fill="#ffd166">BLACK FRIDAY</text><text x="540" y="205" font-family="Inter" font-weight="800" font-size="34" text-anchor="middle" fill="#fff">SNEAKERS -40%</text>'''
     if name == "race":  # Nov 26 evening: outdoor turkey trot 5K (Danny Day 6)
         return f'''<rect width="1080" height="1920" fill="#bfe3f5"/><circle cx="880" cy="200" r="80" fill="#ffe08a"/>
 <rect y="1100" width="1080" height="820" fill="#7fbf6a"/><path d="M380 1100 L700 1100 L1080 1920 L0 1920 Z" fill="#8d8f96"/><path d="M540 1100 L540 1920" stroke="#fff" stroke-width="10" stroke-dasharray="40 40"/>

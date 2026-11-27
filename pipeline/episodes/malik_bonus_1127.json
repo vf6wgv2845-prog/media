@@ -1,0 +1,431 @@
+{
+ "image": "malik_b1127_hook.jpg",
+ "cx": 0.0,
+ "voice": "am_michael",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  232,
+  120,
+  30
+ ],
+ "hook": [
+  "Black Friday.",
+  "Last size 11s.",
+  "Dez has the left."
+ ],
+ "hook_emoji": "👟",
+ "name_line": "Black Friday.",
+ "sub_line": "Bonus  •  Day 11 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Dez",
+  "msg": "my film's up. if u scared",
+  "emoji": "",
+  "color": [
+   235,
+   80,
+   95
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Black Friday. Last pair of size elevens. His rival Dez grabbed the left one."
+   ],
+   [
+    0.1,
+    "Malik got the right. He still can't go left."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then his ex texted. Are you and Dez fighting over one shoe?"
+   ],
+   [
+    0.1,
+    "I'm right behind you."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Tug of war. The shoe stretched."
+   ],
+   [
+    0.1,
+    "Round two. The lace snapped. Dez said: that's one."
+   ],
+   [
+    0.1,
+    "The manager split them. One shoe each. Full price."
+   ],
+   [
+    0.1,
+    "Then two texts. Jada: Sunday? Dez: my film's up, if you're scared."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Study with Jada on Sunday, or scout Dez's film? What should Malik do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAY",
+    "value": "10/30",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "OVR",
+    "value": "76",
+    "color": [
+     255,
+     150,
+     60
+    ]
+   },
+   {
+    "label": "HYPE",
+    "value": "36/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "black",
+   "friday",
+   "dez",
+   "left",
+   "right",
+   "jada",
+   "lace",
+   "snapped",
+   "one",
+   "full",
+   "price",
+   "sunday",
+   "film",
+   "scared",
+   "elevens"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "7",
+   "label": "TOURNEY IN",
+   "x": 230,
+   "y": 1480,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "STILL CAN'T GO LEFT",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": 4,
+   "size": 72,
+   "hold": 1.6,
+   "delay": 0.4
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "SHE'S RIGHT BEHIND HIM",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 640,
+   "angle": -4,
+   "size": 60,
+   "hold": 1.8,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "*STRRREEETCH*",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 600,
+   "angle": -5,
+   "size": 84,
+   "hold": 1.6,
+   "delay": 0.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-800 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": 5,
+   "size": 100,
+   "hold": 1.6,
+   "delay": 0.2
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "THAT'S ONE...",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 780,
+   "angle": -3,
+   "size": 64,
+   "hold": 1.6,
+   "delay": 1.4,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "$0 SAVED",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 640,
+   "angle": 3,
+   "size": 96,
+   "hold": 1.6,
+   "delay": 0.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1150,
+   "angle": -2,
+   "size": 56,
+   "hold": 3.0,
+   "delay": 0.2,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR BLACK FRIDAY BUDDY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1330,
+   "angle": -3,
+   "size": 46,
+   "hold": 3.0,
+   "delay": 1.2,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "ONE SHOE EACH"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Jada",
+  "sub": "his ex",
+  "msgs": [
+   [
+    "them",
+    "are u and dez fighting over ONE shoe"
+   ],
+   [
+    "them",
+    "i'm literally behind u"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "STUDY W/ JADA  or  DEZ'S FILM"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "malik_b1127_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "malik_b1127_tug.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "malik_b1127_lace.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "malik_b1127_two.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "malik_b1127_hook.jpg"
+  }
+ ],
+ "motion": true,
+ "notif_y": 380,
+ "cover_image": "malik_b1127_hook.jpg"
+}

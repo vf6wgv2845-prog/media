@@ -1,0 +1,333 @@
+{
+ "image": "wes_b1127m_rehearse.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "motion": true,
+ "pill": "THE TRASH HORDE  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "He practiced",
+  "saying no.",
+  "The trash can: no."
+ ],
+ "hook_emoji": "🗑️",
+ "name_line": "Friday, 6 AM.",
+ "sub_line": "Bonus  •  Day 4 tonight",
+ "stats": [
+  [
+   "Park",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Brooke",
+  "msg": "bringing snacks for the crew :)",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 0,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Park: 4%"
+  ],
+  "Top comment decides.",
+  [
+   "Start from Day 1,",
+   "it's on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "🤝",
+   "Let Brooke help"
+  ],
+  [
+   "✋",
+   "Tell her no"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Wes practiced telling his ex no. To a trash can."
+   ],
+   [
+    0.1,
+    "The trash can said: let her come."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ranger Cole: Who are you talking to? Is that the trash can?"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Then Brooke texted. Bringing snacks for the crew."
+   ],
+   [
+    0.1,
+    "The crew is him. And a trash can."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Let Brooke help, or tell her no? What should Wes do? And real litter you pick up hits the Horde."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "4%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,500",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "brooke",
+   "no",
+   "trash",
+   "can",
+   "cole",
+   "snacks",
+   "crew",
+   "him"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "HORDE: 1  WES: 0",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": 4,
+   "size": 84,
+   "hold": 1.6,
+   "delay": 0.4
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "text": "ALL CAPS AGAIN",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 640,
+   "angle": -4,
+   "size": 64,
+   "hold": 1.6,
+   "delay": 1.2,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-3,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 760,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.6,
+   "delay": 0.3
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "US ROADSIDE LITTER: DOWN 54% SINCE 2009 (KAB 2020)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1420,
+   "angle": 3,
+   "size": 34,
+   "hold": 2.2,
+   "delay": 0.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1110,
+   "angle": -3,
+   "size": 56,
+   "hold": 2.0,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND TO THE FRIEND WHO REHEARSES TEXTS OUT LOUD",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1260,
+   "angle": -3,
+   "size": 34,
+   "hold": 2.6,
+   "delay": 0.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE TRASH CAN SAID YES"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "WHO ARE YOU TALKING TO."
+   ],
+   [
+    "them",
+    "IS THAT THE TRASH CAN."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "LET BROOKE HELP  or  TELL HER NO"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "wes_b1127m_can.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_b1127m_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_b1127m_brooke.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_b1127m_rehearse.jpg"
+  }
+ ],
+ "cover_image": "wes_b1127m_can.jpg"
+}

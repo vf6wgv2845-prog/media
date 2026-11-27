@@ -1,0 +1,384 @@
+{
+ "image": "gus_e07_point_police.jpg",
+ "cx": 0.0,
+ "voice": "bm_george",
+ "speed": 1.08,
+ "pill": "THAT REALLY HAPPENED  •  STORY #7",
+ "accent": [
+  200,
+  160,
+  90
+ ],
+ "hook": [
+  "Black Friday",
+  "was named by",
+  "angry cops."
+ ],
+ "hook_emoji": "🚓",
+ "name_line": "Gus, night guard.",
+ "sub_line": "True story  •  sources in caption",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Museum Director",
+  "msg": "GUS. IT'S BLACK FRIDAY. GO SHOPPING.",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   180
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Black Friday wasn't named by stores. It was named by angry cops."
+   ],
+   [
+    0.1,
+    "Philadelphia. Day after Thanksgiving. Shoppers flood downtown."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "The director texted: Gus. Stop talking to the exhibits."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Then fans pour in for Saturday's Army Navy game."
+   ],
+   [
+    0.1,
+    "Traffic jams. Shoplifters. No cop gets the day off. They called it Black Friday."
+   ],
+   [
+    0.1,
+    "By 1961, stores tried Big Friday. Nobody said it."
+   ],
+   [
+    0.1,
+    "The in the black profit story? That came decades later."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "That really happened. Which true story should I tell tomorrow night?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "YEAR",
+    "value": "1961",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "DAYS OFF",
+    "value": "0",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "black",
+   "friday",
+   "cops",
+   "police",
+   "philadelphia",
+   "army",
+   "navy",
+   "football",
+   "shoplifters",
+   "1961",
+   "big",
+   "profit",
+   "historians",
+   "thanksgiving"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "PHILADELPHIA, 1950s-60s",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.6,
+   "delay": 0.4,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "ARMY vs NAVY, SATURDAY",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 70,
+   "hold": 1.6,
+   "delay": 0.4
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "DAYS OFF: 0",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 96,
+   "hold": 1.6,
+   "delay": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "REBRAND: FAILED",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 760,
+   "angle": 3,
+   "size": 84,
+   "hold": 1.6,
+   "delay": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "'IN THE BLACK' = A LATER STORY",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 760,
+   "angle": -3,
+   "size": 56,
+   "hold": 2.0,
+   "delay": 0.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO YOUR BLACK FRIDAY SHOPPER",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 46,
+   "hold": 3.0,
+   "delay": 1.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "1961",
+  "NAMED BY ANGRY COPS"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Museum Director",
+  "sub": "boss",
+  "msgs": [
+   [
+    "them",
+    "GUS."
+   ],
+   [
+    "them",
+    "STOP TALKING TO THE EXHIBITS."
+   ],
+   [
+    "me",
+    "it's black friday"
+   ],
+   [
+    "them",
+    "IT'S 2 AM. GO HOME."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "NEXT TRUE STORY?",
+  "hint": "NAME A STORY YOU WANT"
+ },
+ "beats": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "image": "gus_e07_ex_street.jpg"
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "gus_e07_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "gus_e07_ex_football.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "gus_e07_ex_police.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "gus_e07_bigfriday.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "gus_e07_shock_police.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "gus_e07_point_police.jpg"
+  }
+ ],
+ "motion": true,
+ "cover_image": "gus_e07_point_police.jpg",
+ "notif_y": 380
+}

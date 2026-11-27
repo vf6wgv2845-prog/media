@@ -1,0 +1,428 @@
+{
+ "image": "rosie_b1127_hook.jpg",
+ "cx": 0.0,
+ "voice": "af_heart",
+ "speed": 1.15,
+ "pill": "SEASON 1  •  BONUS",
+ "accent": [
+  214,
+  58,
+  58
+ ],
+ "hook": [
+  "She set a trap.",
+  "Secret: ketchup.",
+  "Julian knew. 4 min."
+ ],
+ "hook_emoji": "🍅",
+ "name_line": "Black Friday.",
+ "sub_line": "Bonus  •  Day 11 drops tonight",
+ "stats": [
+  [
+   "Shooting",
+   5
+  ],
+  [
+   "Handles",
+   7
+  ],
+  [
+   "Defense",
+   6
+  ],
+  [
+   "Basketball IQ",
+   9
+  ],
+  [
+   "Confidence",
+   9
+  ]
+ ],
+ "notif": {
+  "from": "Julian",
+  "msg": "2 hours max. then the fridge.",
+  "emoji": "",
+  "color": [
+   90,
+   150,
+   240
+  ]
+ },
+ "notif_line": 1,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "9 days.",
+   "OVR 72."
+  ],
+  "Top comment = tonight's move.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tomorrow's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "👕",
+   "New fit"
+  ],
+  [
+   "🪒",
+   "Fix the eyebrows"
+  ],
+  [
+   "💬",
+   "Reply to Maya"
+  ],
+  [
+   "🏋️",
+   "Gym, day 3"
+  ],
+  [
+   "😁",
+   "Fix the smile"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "She set a trap. Fake secret ingredient: ketchup. Said loud, by the dish pit."
+   ],
+   [
+    0.1,
+    "Four minutes later. Buzz."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Julian. Ketchup? In a cook-off? Rosie. No."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Trap two. She told the dish pit the leftover turkey stays out all day."
+   ],
+   [
+    0.1,
+    "Julian: two hours max, then the fridge. He's right."
+   ],
+   [
+    0.1,
+    "Chef Marco: how does Julian know about my turkey?"
+   ],
+   [
+    0.1,
+    "A phone lit up in the dish pit. Rosie took off her apron."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Study food science on IntelliStudy, or confront the dishwasher? What should Rosie do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "20",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "SKILL",
+    "value": "78%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "BUZZ",
+    "value": "35/100",
+    "color": [
+     236,
+     110,
+     180
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s1",
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "ketchup",
+   "trap",
+   "julian",
+   "dish",
+   "pit",
+   "four",
+   "two",
+   "hours",
+   "fridge",
+   "turkey",
+   "marco",
+   "apron"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 3.0,
+   "kind": "calendar",
+   "text": "20",
+   "label": "COOK-OFF IN",
+   "x": 230,
+   "y": 1480,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "*BZZT*",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 600,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.6,
+   "delay": 0.3
+  },
+  {
+   "scene": "sc",
+   "line": 0,
+   "text": "SHE NEVER TOLD HIM",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 640,
+   "angle": -4,
+   "size": 64,
+   "hold": 1.8,
+   "delay": 1.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "TRAP #2",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 600,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.6,
+   "delay": 0.2,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "THE TRICK: FRIDGE WITHIN 2 HOURS",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 760,
+   "angle": -3,
+   "size": 54,
+   "hold": 2.2,
+   "delay": 0.8,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "HOW DOES JULIAN KNOW? (x3)",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 600,
+   "angle": 4,
+   "size": 62,
+   "hold": 1.6,
+   "delay": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "-1,000 AURA (FOR THE DISHWASHER)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 780,
+   "angle": -3,
+   "size": 50,
+   "hold": 1.6,
+   "delay": 0.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 1150,
+   "angle": -2,
+   "size": 56,
+   "hold": 3.0,
+   "delay": 0.2,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND THIS TO THE FRIEND WHO CAN'T KEEP A SECRET",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1330,
+   "angle": -3,
+   "size": 40,
+   "hold": 3.0,
+   "delay": 1.2,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE KETCHUP TRAP"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Julian",
+  "sub": "her ex",
+  "msgs": [
+   [
+    "them",
+    "ketchup??"
+   ],
+   [
+    "them",
+    "in a cook-off??"
+   ],
+   [
+    "them",
+    "rosie. no."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "INTELLISTUDY  or  CONFRONT HIM"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "rosie_b1127_phone.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "rosie_b1127_turkey.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "rosie_b1127_marco.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "rosie_b1127_apron.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "rosie_b1127_hook.jpg"
+  }
+ ],
+ "motion": true,
+ "notif_y": 380,
+ "cover_image": "rosie_b1127_hook.jpg"
+}
