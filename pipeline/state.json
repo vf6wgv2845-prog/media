@@ -311,7 +311,7 @@
      "Study with Jada on Sunday",
      "Scout Dez's game film"
     ],
-    "note": "Day 11 vote: count comments on Day 10 (18083217362403618) + Fri midday bonus. Jada: 'i got an A. sunday?'. Bracket: Dec 4 round 1 Eagles vs Northside (Dez). Chem test Monday."
+    "note": "Day 11 vote: count comments on Day 10 (18083217362403618) + Fri midday bonus. Jada: 'i got an A. sunday?'. Bracket: Dec 4 round 1 Eagles vs Northside (Dez). Chem test Monday. Also count Fri midday bonus 18103914050413811."
    },
    "cast": {
     "Tyler": "best friend, made varsity (loyalty tension as Malik rises)",
@@ -443,6 +443,13 @@
      "video": "malik/bonus_1126.mp4",
      "config": "pipeline/episodes/malik_bonus_1126.json",
      "note": "Midday ~1:57 PM ET bonus (NOT Day 10). Thanksgiving dinner: Grandma asked 'how's Jada?'; Jada texted on the table 'happy thanksgiving' / 'u still going left?' (Grandma read it out loud); Mom slid his chem notes over (no C, no tourney); passed the gravy left-handed onto the chem notes ('-500 AURA' joke sticker, 'THAT'S ONE... (LEFT HAND)' callback); ends 'he started typing' (open loop, NOT sent). FIRST REAL MALIK VOTE: @104malkie 'study' (comment 18089761445313287, D9, 0 likes) shown as comment card at 0 s and ~13 s; 'VOTES SO FAR: STUDY 1 - JADA 0'; vote kept open (Text Jada vs Study chem). Replied to @104malkie. New toon scene 'dining' + looks malik_b1126_ask/phone/gravy/typing. 26.8 s, motion, captions y 1200, send sticker 'SEND THIS TO YOUR NOSY GRANDMA'. Day 10 votes: count this Reel too."
+    },
+    {
+     "date": "2026-11-27",
+     "media_id": "18103914050413811",
+     "video": "malik/bonus_1127.mp4",
+     "config": "pipeline/episodes/malik_bonus_1127.json",
+     "note": "Midday ~2:05 PM ET bonus (NOT Day 11). Black Friday sneaker store (new toon scene 'shoestore'): last pair of size 11s, Dez grabbed the left shoe, Malik got the right ('STILL CAN'T GO LEFT' callback to Jada's line); Jada chat 'are u and dez fighting over ONE shoe' / 'i'm literally behind u'; tug of war, lace snapped, Dez: 'that's one' (callback); manager split the pair, one each, full price; ends on two texts: Jada 'sunday?' + Dez notif 'my film's up. if u scared'. 0 comments on D10/Thu bonus -> 'VOTES SO FAR: 0', vote kept open (Study with Jada Sunday vs Scout Dez's film), natural question, send sticker 'SEND THIS TO YOUR BLACK FRIDAY BUDDY', '-800 AURA' joke. 30.3 s, motion, captions y 1200. Looks malik_b1127_hook/phone/tug/lace/two (pipeline/looks_1127_midday.py). Day 11 votes: count this Reel too."
     }
    ],
    "art_switch": {
@@ -495,7 +502,7 @@
      "Study food science on IntelliStudy",
      "Confront the dishwasher"
     ],
-    "note": "Day 11 vote: count comments on Day 10 (18106245791648473) + Fri midday bonus. If IntelliStudy wins, Day 11 genuinely shows Rosie on IntelliStudy (real capture of a food-science paragraph -> cards; e.g. why custard cracks / Maillard reaction) and the caption says 'IntelliStudy (our own study app) link in bio'. Twist: the dishwasher's lock screen says 'JULIAN (big bro)' = Julian's little brother = the leak."
+    "note": "Day 11 vote: count comments on Day 10 (18106245791648473) + Fri midday bonus. If IntelliStudy wins, Day 11 genuinely shows Rosie on IntelliStudy (real capture of a food-science paragraph -> cards; e.g. why custard cracks / Maillard reaction) and the caption says 'IntelliStudy (our own study app) link in bio'. Twist: the dishwasher's lock screen says 'JULIAN (big bro)' = Julian's little brother = the leak. Also count Fri midday bonus 18121805741089638."
    },
    "cast": {
     "Chef Marco": "her boss, doubts her",
@@ -626,6 +633,13 @@
      "video": "rosie/bonus_1126.mp4",
      "config": "pipeline/episodes/rosie_bonus_1126.json",
      "note": "Midday ~1:57 PM ET bonus (NOT Day 10). Staff Thanksgiving: the thawed turkey hit 165F in the thigh (perfect); Chef Marco carved it asking about Julian every slice ('SO... JULIAN?' x14); Julian texted 'heard the turkey came out good' / 'save me the wing' (she never told him); Marco dropped the knife: 'How does Julian know about my turkey?' (callback gag); Rosie spots the DISHWASHER texting and smiling, phone shows 'JULIAN' (open loop: the leak? NOT confirmed). 'THE TRICK: REST IT 20 MIN' sticker; USDA 165F + 3 thermometer spots + 20-min rest in caption (USDA blog 'Turkey Tips Step 3'). Comment card @dreamvilleafterdarkk '1st ! & pumpkin pie' (0 likes) at 0 s and ~16 s. Vote kept open: Ramen vs Pumpkin pie (pie leads 1-0). 26.4 s, motion, captions y 1200. Looks rosie_b1126_temp/carve/phone/side. Day 10 votes: count this Reel too."
+    },
+    {
+     "date": "2026-11-27",
+     "media_id": "18121805741089638",
+     "video": "rosie/bonus_1127.mp4",
+     "config": "pipeline/episodes/rosie_bonus_1127.json",
+     "note": "Midday ~2:06 PM ET bonus (NOT Day 11). The ketchup trap: Rosie told the dish pit a fake secret ingredient (ketchup); 4 min later Julian: 'ketchup??' / 'in a cook-off??' / 'rosie. no.'; trap two: 'leftover turkey stays out all day' -> Julian notif '2 hours max. then the fridge.' (real rule, 'THE TRICK: FRIDGE WITHIN 2 HOURS' sticker); Marco callback 'How does Julian know about my turkey?'; ends: phone lights up in the dish pit, Rosie takes off her apron (open loop, NOT a confrontation). Leak confirmed as a trap result, vote NOT decided: IntelliStudy vs Confront the dishwasher, 'VOTES SO FAR: 0'. Caption: leftovers rule (2 h, 3-4 days, reheat 165F; verified FoodSafety.gov + Illinois Extension, see state.facts) though the caption names 'USDA FSIS Leftovers and Food Safety' as source. Hashtags used #leftovers #foodsafety (off-pool, small deviation). 27.7 s. Looks rosie_b1127_*. Day 11 votes: count this Reel too."
     }
    ],
    "art_switch": {
@@ -686,7 +700,8 @@
     "18121825328088565",
     "18651459670042922",
     "18135279517689298",
-    "17979070025940150"
+    "17979070025940150",
+    "18113391590226114"
    ],
    "image": "trash_horde.jpg",
    "accent": [
@@ -751,7 +766,8 @@
     "Nov 26 ~7:57 AM ET (extras morning): read all 22 counted Horde posts (media_comments_count 0 on every one; comment pull Nov 24-26 had no Horde comments) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Applied midnight regen +100 -> Butt Goblin 2,400 HP. Posted story AM bonus 18651459670042922 ('HE GREW / +100 HP', 14.7 s).",
     "Nov 26 ~1:59 PM ET (extras midday): read all 23 counted Horde posts (media_comments_count 0 on every one; comment pulls Nov 24-26 and Nov 25-26 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,400 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday beat 18135279517689298 ('THE FORK STOOD UP', 17.6 s). If still 0 hits by midnight: +100 -> 2,500 (next run applies it).",
     "Nov 26 ~6:40 PM ET (main run): read comments on all 24 counted Horde posts (comment pull last 3 days: no Horde comments; media_comments_count 0 on every Horde post) -> 0 hauls; totals unchanged (Butt Goblin 2,400 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Wes Days 2-3 17979070025940150 (31.9 s, time jump) + it as a story + day card + teaser. If still 0 hits by midnight: +100 -> 2,500 (next run applies it).",
-    "Nov 27 ~7:54 AM ET (extras): read every comment on all Horde posts Nov 25-27 (Windsor comments query + media_comments_count = 0 on every Reel) -> 0 comments of any kind, 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,400 -> 2,500 (0 hits Nov 26). Posted Wes AM bonus (receipt snake) 18115960973169757."
+    "Nov 27 ~7:54 AM ET (extras): read every comment on all Horde posts Nov 25-27 (Windsor comments query + media_comments_count = 0 on every Reel) -> 0 comments of any kind, 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,400 -> 2,500 (0 hits Nov 26). Posted Wes AM bonus (receipt snake) 18115960973169757.",
+    "Nov 27 ~2:08 PM ET (extras midday): read every comment on all Horde posts Nov 26-27 (Windsor comments query returned no Horde comments; media_comments_count 0 on every Horde Reel incl. this morning's 18115960973169757) -> 0 hauls; totals unchanged (Butt Goblin 2,500 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Wes midday beat 18113391590226114 ('THE TRASH CAN SAID YES', 17.7 s). If still 0 hits by midnight: +100 -> 2,600 (next run applies it)."
    ],
    "format": {
     "tiles": [
@@ -795,7 +811,7 @@
       "Let Brooke help",
       "Tell Brooke no"
      ],
-     "note": "Day 4 vote: count comments on Days 2-3 (17979070025940150) + Fri bonuses. Brooke: 'cole says u need backup / i'm coming saturday'."
+     "note": "Day 4 vote: count comments on Days 2-3 (17979070025940150) + Fri bonuses. Brooke: 'cole says u need backup / i'm coming saturday'. Also count Fri midday 18113391590226114."
     },
     "cadence": "AM bonus beat, midday short beat (<=20 s chat or real-haul shout-out), evening Day N (RUNBOOK 5i). Tonight Nov 25: main run posts a bonus beat (not Day 2: Day 1 went up ~10 AM); Day 2 = Nov 26 evening.",
     "real_hauls": "5c counting/verification unchanged; every real haul = damage to HORDE HP + comment card + 'reinforcement @handle' in the story. Never invent hauls.",
@@ -834,6 +850,13 @@
       "video": "horde/story_bonus_1127.mp4",
       "config": "pipeline/episodes/horde_story_bonus_1127.json",
       "note": "Friday ~7:54 AM ET AM bonus (NOT Day 4): Black Friday, the mall's receipts blew into Lot B and stood up: a 12-ft receipt snake ('TOTAL $0.00'); Cole: 'WES. LOT B.' / 'THE RECEIPTS ARE MOVING.' / 'WHY ARE THEY MOVING TOWARD ME'; grabber got Cole's hat again (callback), second try bagged ('FINAL SALE'); Brooke: 'still on for saturday? i bought gloves'. Fact sticker '50 BILLION PIECES OF US LITTER (KAB 2020)' (state.facts KAB entry). HUD HORDE HP 2,500 (real regen), 'VOTES SO FAR: 0', send sticker. 25.8 s. Looks wes_b1127_snake/cole/hat/win/brooke. Vote kept open (Brooke help vs no, 0 votes). Count this Reel for Day 4."
+     },
+     {
+      "date": "2026-11-27",
+      "media_id": "18113391590226114",
+      "video": "horde/story_midday_1127.mp4",
+      "config": "pipeline/episodes/horde_story_midday_1127.json",
+      "note": "Midday short beat ~2:08 PM ET (17.7 s, <=20 s per 5i): Wes rehearsed telling Brooke no to a trash can, the can (Horde) said 'LET HER COME.'; Cole chat 'WHO ARE YOU TALKING TO.' / 'IS THAT THE TRASH CAN.'; Brooke notif 'bringing snacks for the crew :)' -> 'the crew is him and a trash can'. Fact sticker 'US roadside litter down 54% since 2009 (KAB 2020)' (state.facts). HUD HORDE HP 2,500, 0 real hits, 'VOTES SO FAR: 0'. Vote kept open (Brooke help vs no). Count this Reel for Day 4."
      }
     ],
     "episodes": [
@@ -1277,9 +1300,9 @@
      "#didyouknow"
     ]
    },
-   "day": 6,
-   "last_post_date": "2026-11-26",
-   "last_media_id": "18471115987143430",
+   "day": 7,
+   "last_post_date": "2026-11-27",
+   "last_media_id": "18395532967233775",
    "episodes": [
     {
      "n": 1,
@@ -1321,13 +1344,20 @@
      "media_id": "18471115987143430",
      "config": "pipeline/episodes/history_e06.json",
      "note": "Midday extras ~1:58 PM ET, 35.8 s. FIRST GUS EPISODE (toon host, museum scene, bm_george 1.08; caption said '(new host, same true stories)'). 0 comments on E5 (and E1-E4) -> we picked. Format: Jess formula (s1 hook -> sc director chat 'GUS. STOP TALKING TO THE EXHIBITS.' / 'IT'S 2 AM.' -> s3 -> sv). Facts kept to what IOC (olympics.com), Smithsonian and Olympedia agree on: Lorz quit ~mile 9, rode in a car (~11 mi per Smithsonian), entered first, DQ + ban later lifted; Hicks given strychnine in egg whites + brandy, 3:28:53, barely on his feet; Carvajal ate apples (rotten per Smithsonian / green per Olympedia), cramps, 4th; ~90F, one water stop (well at mile 12); 32 started, 14 finished. Disputed details (strychnine timing, dogs, Lorz's 3:13) not used. Art: AIC public domain Posada The Automobile, Gerome Chariot Race 1876 (labelled as a painting), Cezanne Basket of Apples (framed full-screen exhibit beats + in Gus's wall frame). Cover '1904 / HE TOOK A CAR'."
+    },
+    {
+     "n": 7,
+     "title": "Who named Black Friday (Philadelphia police)",
+     "media_id": "18395532967233775",
+     "config": "pipeline/episodes/history_e07.json",
+     "note": "Midday extras ~2:07 PM ET, 35.0 s, timely (Black Friday). 0 comments on E6 (and E1-E5) -> we picked. Second Gus episode. Facts kept to History.com + Britannica agreement: Philadelphia police used 'Black Friday' (History.com: 1950s; Britannica: early 1960s -> on screen '1950s-60s', caption notes both) for downtown chaos the day after Thanksgiving: suburban shoppers + tourists for Saturday's Army-Navy game, traffic jams, accidents, shoplifting, officers on extra-long shifts with no day off; merchants tried 'Big Friday' (by 1961, History.com), didn't stick; went national late 1980s when retailers spread the red-to-black story (called inaccurate by both). Extra: 1951 Factory Management and Maintenance use for sick-day absenteeism (ADS-L, Bonnie Taylor-Blake). Slavery myth not used. Art: AIC public domain Caillebotte Paris Street 1877, Callot Football Game c1622, Whistler Policeman and Citizen 1854/55 (all labelled as artworks). Cover '1961 / NAMED BY ANGRY COPS'. Hashtag #blackfriday used (off-pool, timely)."
     }
    ],
    "format": "Panel scenes p1..pN (pipeline/scenes2.py): one real public-domain artwork per beat, slow zoom, joke/fact stickers, word captions, HUD (YEAR + a counter), open vote 'top comment picks our next true story'. Facts double-checked (2 sources), uncertain claims labelled ('one chronicle says', 'some accounts'). Sources + art credits in the caption. Images: AIC open access (see assets/history/SOURCES.md).",
    "open_vote": {
     "question": "Which true story next?",
     "type": "top_comment",
-    "note": "Story #7: count comments on E6 18471115987143430 (top comment names the next true story)."
+    "note": "Story #8: count comments on E7 18395532967233775 (top comment names the next true story)."
    },
    "host": {
     "name": "Gus",
@@ -1829,7 +1859,8 @@
   "Nov 26 midday extras: relationship reveals are the only thing that has moved Malik/Rosie so far (Rosie D9 Julian-is-her-ex: 361 views / 10 likes / first comment vs ~120-170 before; Malik D9's IntelliStudy-vs-Jada vote got his first-ever comment). Applied: both midday bonuses put the ex in the frame (Jada's text read out by Grandma; Julian texting the kitchen) with the real leading comment card at 0 s and again mid-Reel, 'VOTES SO FAR' when there's a count. History: first Gus-hosted episode (toon host + framed archival art as full-screen beats + director chat at ~11 s) - compare its skip/avg watch with E3-E5 (52-60% skip) at the next run. Engine catch: vote-screen title over ~12 characters and send stickers over ~32 characters overflow 1080 px; cover line 1 over ~5 big characters clips (use 'BONUS').",
   "Nov 26 evening (24 h length-test verdict, RUNBOOK 5l exception): all four Nov 25 35-40 s test cuts beat their page's last 3 Day episodes on BOTH views and avg watch (Theo D9 1,305 views/12.3 s vs ~400/9.6; Danny D5 1,575/17.4 s vs 466/8.5; Rosie D9 434/14.3 s vs ~120/7.1; Malik D9 168/9.7 s vs 133/6.7) -> each ran one more 35-40 s test cut tonight (Theo D10 37.6 s, Danny D6 39.1, Malik D10 39.1, Rosie D10 35.4). Caveat: these episodes also had the strongest relationship beats; compare again at 24 h before making 35-40 s the default. Short 12-16 s bonuses (Nov 26 AM test) did worse than the long Day episodes on watch time and views (Theo 167/6.0 s, Danny 262/7.5 s) -> don't keep the short bonus format beyond the test. Engine: cover_image key added (cover = the fail frame, 5l.7); props.py (phones/signs/bursts/pie/footprints + overlay_many for Theo's 3D frames); toon scene 'race'. Props must sit at y ~1050-1250, x 300-780 to survive the camera push and clear the captions; notif_y 380 keeps notifications off the props.",
   "Nov 26 24 h review (scheduled): the 35-40 s sitcom-length cuts are the biggest lever found so far (Danny D5 3.4x, Theo D9 3.4x, Rosie D9 3.7x their previous Day episode, all with better watch time), so Jess's length test moves up to Sat Nov 28 (T3) and the 12-15 s short bonus is dropped. Thanksgiving depressed Nov 26 reach on every page; don't revert a test on holiday numbers alone.",
-  "Nov 27 AM extras: Thanksgiving numbers (Nov 26) were low on every page, including Jess D6 (403 views, 43% skip) which had no test lever, so the Jess T1 send-prompt bonus (829 views but her best-ever avg watch 15.4 s / 60%) is logged INCONCLUSIVE, not reverted on holiday data. Theo D10 had 61.7% skip with a 'Day 10: you voted...' opening line: 3c rule still holds, never open on the day/vote, open on the fail. Applied today: every bonus opens on the absurd beat in 3 short hook lines ('Black Friday. The bar tab he owes: $1,140.'), a real commenter's idea as the gag (h.nguy3n07 'double or nothing' -> Danny's push-up rematch), ~26-28 s length (short 12-15 s bonuses dropped), Jess T2 guest list as her only new lever. Black Friday may depress today's reach too: judge T2 against Saturday's numbers as well."
+  "Nov 27 AM extras: Thanksgiving numbers (Nov 26) were low on every page, including Jess D6 (403 views, 43% skip) which had no test lever, so the Jess T1 send-prompt bonus (829 views but her best-ever avg watch 15.4 s / 60%) is logged INCONCLUSIVE, not reverted on holiday data. Theo D10 had 61.7% skip with a 'Day 10: you voted...' opening line: 3c rule still holds, never open on the day/vote, open on the fail. Applied today: every bonus opens on the absurd beat in 3 short hook lines ('Black Friday. The bar tab he owes: $1,140.'), a real commenter's idea as the gag (h.nguy3n07 'double or nothing' -> Danny's push-up rematch), ~26-28 s length (short 12-15 s bonuses dropped), Jess T2 guest list as her only new lever. Black Friday may depress today's reach too: judge T2 against Saturday's numbers as well.",
+  "Nov 27 midday extras: Thursday's midday bonuses stayed in the ~130-200 range (Malik 135, Rosie 131, History E6 202, Wes 133), well below their Day episodes (Rosie D10 292, Malik D10 183) -> 5d says if an extra slot keeps underperforming the evening ones for 3 days, move/drop it; Nov 26 was a holiday, so judge Fri-Sat. Applied today: Black Friday as the shared hook on all four (timely search word in caption line 1), the ex/rival in the frame by ~6-8 s, one real 'trick' or verified fact per Reel (leftovers 2-hour rule, KAB 54%, Black Friday origin), natural-question votes with 'VOTES SO FAR: 0' (no real votes on any of the four pages since the last run). Contact-sheet fixes worth reusing: top-of-image signs get hidden by the HUD under the camera push (put prop signs in the lower-left body area), sv stickers at y 1150/1330 clear the vote hint, and 'WHAT SHOULD SHE DO?' overflows the vote title width (use 'WHAT NOW?')."
  ],
  "facts": [
   {
@@ -1926,6 +1957,18 @@
    "source": "USDA blog 'Turkey Tips Step 3: Let's Finally Get Cooking' (Nov 25, 2014)",
    "url": "https://www.usda.gov/about-usda/news/blog/turkey-tips-step-3-lets-finally-get-cooking",
    "used_in": "Rosie bonus 2026-11-26"
+  },
+  {
+   "fact": "'Black Friday' (day after Thanksgiving) was used by Philadelphia police (History.com: 1950s; Britannica: early 1960s) for downtown chaos: suburban shoppers and tourists before the Saturday Army-Navy game, traffic jams, accidents, shoplifting, officers on extra-long shifts with no day off. Merchants tried 'Big Friday' (by 1961, History.com), it failed. Nationwide only by the late 1980s, when retailers spread the 'red to black' profit story (inaccurate per both). A 1951 Factory Management and Maintenance column (M.J. Murphy) called the day after Thanksgiving 'Black Friday' for worker absenteeism (ADS-L, B. Taylor-Blake, Aug 2009). Slavery-origin claim: no basis (History.com).",
+   "source": "History.com 'The Real History of Black Friday' (Sarah Pruitt); Britannica 'Why Is It Called Black Friday?'; ADS-L 2009-08",
+   "url": "https://www.history.com/articles/black-friday-thanksgiving-origins-history",
+   "used_in": "history E7, 2026-11-27"
+  },
+  {
+   "fact": "Leftovers: refrigerate within 2 hours of cooking/serving; use refrigerated leftovers within 3-4 days (3-4 months frozen); reheat to 165F (74C) measured with a food thermometer.",
+   "source": "FoodSafety.gov 'Thanksgiving Leftovers for Safe Keeping, Weekend Grazing' (mod. 2026-10-29); University of Illinois Extension 'Leftovers'",
+   "url": "https://www.foodsafety.gov/blog/thanksgiving-leftovers-safe-keeping-weekend-grazing",
+   "used_in": "rosie bonus 2026-11-27"
   }
  ],
  "post_queue": [],
