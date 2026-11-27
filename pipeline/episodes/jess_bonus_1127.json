@@ -1,0 +1,381 @@
+{
+ "image": "jess_b1127_list.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 6 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Guest list day.",
+  "Her plus-one:",
+  "Walter. In pen."
+ ],
+ "hook_emoji": "💌",
+ "name_line": "Friday morning.",
+ "sub_line": "Bonus  •  Day 7 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "the blank lines are for your new friends",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Confidence: 8/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💄",
+   "Full glam"
+  ],
+  [
+   "💃",
+   "Dance lessons with Walter"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Mom handed her the guest list. Her plus-one was filled in. In pen."
+   ],
+   [
+    0.1,
+    "Walter. Eighty-one."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Then Ryan texted."
+   ],
+   [
+    0.1,
+    "Chloe showed me the list. Your plus-one is eighty-one?"
+   ],
+   [
+    0.1,
+    "She sent: ha. Ninth time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Eraser. It's pen."
+   ],
+   [
+    0.1,
+    "White-out. Now Grandma's gone too."
+   ],
+   [
+    0.1,
+    "Ryan's line? Mom wrote: table, far away."
+   ],
+   [
+    0.1,
+    "At the bottom: three blank lines. For new friends."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Want a seat at the wedding? Who are you bringing?"
+   ],
+   [
+    0.1,
+    "Tonight: full glam, or dance with Walter? One or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "62%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "eraser",
+   "pen",
+   "white-out",
+   "grandma's",
+   "ryan's",
+   "far",
+   "away",
+   "three",
+   "blank",
+   "friends"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "25",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "+1 = WALTER, 81",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 500,
+   "angle": -3,
+   "size": 74,
+   "hold": 1.8,
+   "delay": 0.2
+  },
+  {
+   "scene": "sc",
+   "line": 2,
+   "text": "HA #9",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "fg": [
+    20,
+    20,
+    20
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 0.8,
+   "text": "SORRY GRANDMA",
+   "bg": [
+    150,
+    110,
+    220
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 80,
+   "hold": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 1.2,
+   "text": "MOM: 10/10",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "text": "GUESTS 10/25",
+   "bg": [
+    236,
+    110,
+    160
+   ],
+   "y": 580,
+   "angle": -3,
+   "size": 70,
+   "hold": 1.8
+  },
+  {
+   "scene": "sv",
+   "line": 1,
+   "delay": 0.2,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 580,
+   "angle": 3,
+   "size": 66,
+   "hold": 2.0
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "HER +1 IS 81"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "chloe showed me the list"
+   ],
+   [
+    "them",
+    "ur plus one is 81??"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = FULL GLAM   2 = DANCE W/ WALTER"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_b1127_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_b1127_erase.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_b1127_far.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "jess_b1127_blank.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1127_blank.jpg"
+  }
+ ],
+ "notif_y": -600,
+ "cover_image": "jess_b1127_list.jpg"
+}

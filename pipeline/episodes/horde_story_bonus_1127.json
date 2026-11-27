@@ -1,0 +1,339 @@
+{
+ "image": "wes_b1127_snake.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "motion": true,
+ "pill": "THE TRASH HORDE  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "Black Friday.",
+  "The receipts",
+  "stood up."
+ ],
+ "hook_emoji": "",
+ "name_line": "Friday, 6 AM.",
+ "sub_line": "Bonus  •  Day 4 tonight",
+ "stats": [
+  [
+   "Park",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Brooke",
+  "msg": "still on for saturday? i bought gloves",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 3,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Park: 4%"
+  ],
+  "Top comment decides.",
+  [
+   "Start from Day 1,",
+   "it's on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "🤝",
+   "Let Brooke help"
+  ],
+  [
+   "✋",
+   "Tell her no"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Black Friday. The mall's receipts blew into his park. Then they stood up."
+   ],
+   [
+    0.1,
+    "One receipt. Twelve feet long."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ranger Cole: Wes. Lot B. The receipts are moving."
+   ],
+   [
+    0.1,
+    "Why are they moving toward me?"
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Wes grabbed the head with his new grabber."
+   ],
+   [
+    0.1,
+    "It was Cole's hat. Again."
+   ],
+   [
+    0.1,
+    "Second try: bagged. The snake said: final sale."
+   ],
+   [
+    0.1,
+    "Then Brooke texted. Still on for Saturday? I bought gloves."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Let Brooke help, or tell her no? What should Wes do?"
+   ],
+   [
+    0.1,
+    "And real litter you pick up hits the Horde. Comment your haul and city."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "4%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,500",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "grabber",
+   "cole's",
+   "hat",
+   "again",
+   "bagged",
+   "final",
+   "sale",
+   "brooke",
+   "saturday",
+   "gloves"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "delay": 0.1,
+   "text": "HORDE +1",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.5
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "delay": 0.5,
+   "text": "-2,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "delay": 0.4,
+   "text": "50 BILLION PIECES OF US LITTER (KAB 2020)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1420,
+   "angle": 3,
+   "size": 40,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 585,
+   "angle": -3,
+   "size": 66,
+   "hold": 2.0
+  },
+  {
+   "scene": "sv",
+   "line": 1,
+   "delay": 0.3,
+   "text": "SEND TO THE FRIEND WHO KEEPS EVERY RECEIPT",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "fg": [
+    15,
+    15,
+    15
+   ],
+   "y": 1250,
+   "angle": -3,
+   "size": 38,
+   "hold": 2.4
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE RECEIPT SNAKE"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "WES. LOT B."
+   ],
+   [
+    "them",
+    "THE RECEIPTS ARE MOVING."
+   ],
+   [
+    "them",
+    "WHY ARE THEY MOVING TOWARD ME"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "LET BROOKE HELP  or  TELL HER NO"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_b1127_cole.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "wes_b1127_hat.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "wes_b1127_win.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "wes_b1127_brooke.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_b1127_brooke.jpg"
+  }
+ ],
+ "cover_image": "wes_b1127_snake.jpg"
+}
