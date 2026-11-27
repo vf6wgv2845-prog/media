@@ -2070,6 +2070,22 @@
     "date": "2026-11-26",
     "channel": "youtube 6b07924c8541f09ecba7f889",
     "note": "evening cross-post run: skipped YouTube (2/day Buffer limit already used by D1, D2 this morning). Next: D3, D4 in the Nov 27 morning run."
+   },
+   {
+    "date": "2026-11-27",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "buffer_post_id": "6b09890b32c212878fd386a6",
+    "file": "jess/d03.mp4",
+    "day": 3,
+    "note": "catch-up; sent"
+   },
+   {
+    "date": "2026-11-27",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "buffer_post_id": "6b098999015034238d2d9783",
+    "file": "jess/d04.mp4",
+    "day": 4,
+    "note": "catch-up; sent. Nov 27 YouTube quota (2) used; evening run skips YouTube."
    }
   ]
  },
@@ -2135,10 +2151,10 @@
   ],
   "note": "RUNBOOK 5q",
   "catchup": {
-   "jess_tiktok_next": "caught up through d06 (next: new episodes/bonuses as they go live on IG: bonus_1127, d07...)",
-   "jess_youtube_next": "d03",
+   "jess_tiktok_next": "caught up through d06 + bonus_1127 (next: d07 tonight, then new episodes/bonuses as they go live on IG)",
+   "jess_youtube_next": "d05",
    "youtube_daily_limit": 2,
-   "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 26 YouTube quota used (D1, D2); Nov 27 AM: post D3 + D4.",
+   "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 27 quota used (D3, D4, AM run); Nov 28 AM: post D5 + D6.",
    "tiktok_bonus_backlog_skipped": [
     "jess/bonus_1123.mp4",
     "jess/bonus_1124.mp4",
@@ -2202,6 +2218,14 @@
    "file": "jess/d06.mp4",
    "day": 6,
    "note": "new (IG Day 6 tonight); sent, tiktok.com/@jessweddingglowup/video/7712631393477496094"
+  },
+  {
+   "date": "2026-11-27",
+   "channel": "jessweddingglowup",
+   "buffer_post_id": "6b09890d18c8c6749beaa313",
+   "file": "jess/bonus_1127.mp4",
+   "day": "bonus 11-27",
+   "note": "new (IG bonus this morning, T2 guest list); sent, tiktok.com/@jessweddingglowup/video/7712846014117416205"
   }
  ],
  "autonomy_audit_nov26": {
