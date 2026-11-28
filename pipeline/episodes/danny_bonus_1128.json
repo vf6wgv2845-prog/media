@@ -1,0 +1,420 @@
+{
+ "image": "danny_b1128_hook.jpg",
+ "cx": 0.0,
+ "voice": "am_adam",
+ "speed": 1.18,
+ "motion": true,
+ "pill": "DAY 6 / 30  •  BONUS",
+ "accent": [
+  47,
+  158,
+  143
+ ],
+ "hook": [
+  "100 push-ups",
+  "by tomorrow.",
+  "He did 11."
+ ],
+ "hook_emoji": "💪",
+ "name_line": "Friday morning.",
+ "sub_line": "Bonus  •  Day 7 drops tonight",
+ "stats": [
+  [
+   "Body",
+   5
+  ],
+  [
+   "Money",
+   5
+  ],
+  [
+   "Style",
+   3
+  ],
+  [
+   "Lies",
+   8
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "why is the CEO on the floor",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 4,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "24 days.",
+   "Money: 5/10."
+  ],
+  "Top comment = tonight.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "💌",
+   "Real date"
+  ],
+  [
+   "💸",
+   "Side hustle"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Tomorrow he owes his bully a hundred push-ups. If he loses, he pays the reunion bar tab twice."
+   ],
+   [
+    0.1,
+    "Today he did eleven."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Brock sent a video. His warm-up set. A hundred."
+   ],
+   [
+    0.1,
+    "See you Sunday, CEO."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "A commenter said he could do eighty-nine. New goal: eighty-nine."
+   ],
+   [
+    0.1,
+    "Set one: eleven. His arms filed a complaint."
+   ],
+   [
+    0.1,
+    "Set two: Tara FaceTimed on push-up three. He answered with his face."
+   ],
+   [
+    0.1,
+    "Tara: are you doing push-ups at me?"
+   ],
+   [
+    0.1,
+    "Total today: fourteen. The bar tab: still eleven hundred forty."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "A real date with Tara, or a side hustle for the bar tab? What should Danny do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "24",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "BODY",
+    "value": "5/10",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "90/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "eighty-nine",
+   "eleven",
+   "arms",
+   "complaint",
+   "tara",
+   "face",
+   "push-ups",
+   "fourteen",
+   "tab"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.15,
+   "user": "daniel_o0112",
+   "text": "Skip the date and continue to work on himself",
+   "likes": 0,
+   "y": 1450,
+   "hold": 2.6
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "delay": 0.2,
+   "user": "h.nguy3n07",
+   "text": "he could do 89",
+   "likes": 0,
+   "y": 1450,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "daniel_o0112",
+   "text": "Skip the date and continue to work on himself",
+   "likes": 0,
+   "y": 1650,
+   "hold": 2.6
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "11 / 100",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 110,
+   "hold": 1.4,
+   "delay": 0.1
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "+0 AURA",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.3,
+   "delay": 0.4,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-4,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 5,
+   "size": 90,
+   "hold": 1.3,
+   "delay": 0.9
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "FACE ID: ACCEPTED",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 68,
+   "hold": 1.4,
+   "delay": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "+300 AURA",
+   "bg": [
+    102,
+    200,
+    92
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.3,
+   "delay": 0.8
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SIDE HUSTLE LEADS 1-0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 585,
+   "angle": -3,
+   "size": 60,
+   "hold": 2.0,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND TO YOUR 11 PUSH-UP FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1290,
+   "angle": -3,
+   "size": 46,
+   "hold": 3.0,
+   "delay": 2.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "11 PUSH-UPS"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Brock",
+  "sub": "the bully",
+  "msgs": [
+   [
+    "them",
+    "[video] warm-up set"
+   ],
+   [
+    "them",
+    "100"
+   ],
+   [
+    "them",
+    "see u sunday ceo"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "A REAL DATE  or  A SIDE HUSTLE"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "danny_b1128_brock.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "danny_b1128_89.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "danny_b1128_floor.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "danny_b1128_tara.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 4,
+   "image": "danny_b1128_total.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "danny_b1128_hook.jpg"
+  }
+ ],
+ "cover_image": "danny_b1128_floor.jpg"
+}

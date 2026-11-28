@@ -1,0 +1,459 @@
+{
+ "image": "jess_b1128_replyall.jpg",
+ "cx": -0.12,
+ "voice": "af_bella",
+ "speed": 1.18,
+ "pill": "DAY 6 / 30  •  BONUS",
+ "accent": [
+  236,
+  110,
+  160
+ ],
+ "hook": [
+  "Grandma hit",
+  "reply-all.",
+  "Ryan's in the chat."
+ ],
+ "hook_emoji": "💬",
+ "name_line": "Saturday morning.",
+ "sub_line": "Bonus  •  Day 7 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   5
+  ],
+  [
+   "Fitness",
+   5
+  ],
+  [
+   "Confidence",
+   8
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "glam or dance shoes. decide by tonight",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 3,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "25 days.",
+   "Confidence: 8/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight's fix?",
+  "Comment the number"
+ ],
+ "options": [
+  [
+   "💄",
+   "Full glam"
+  ],
+  [
+   "💃",
+   "Dance lessons with Walter"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Grandma replied all in the wedding chat. Ryan is in the wedding chat."
+   ],
+   [
+    0.1,
+    "Ten minutes earlier."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ryan texted. Chloe added me to the wedding chat. What color is your dress? For my tie."
+   ],
+   [
+    0.1,
+    "She sent: ha. Tenth time."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Attempt one: she typed beige. Mom replied: it's blush, sweetie."
+   ],
+   [
+    0.1,
+    "Attempt two: delete for everyone. She hit delete for me."
+   ],
+   [
+    0.1,
+    "Attempt three: she left the chat. Chloe added her back. As maid of honor."
+   ],
+   [
+    0.1,
+    "Then Grandma replied all. A photo from the fitting. The pliers."
+   ],
+   [
+    0.1,
+    "Ryan: got the tie. Blush."
+   ],
+   [
+    0.1,
+    "Then Walter texted. Also bought blush. Shall we match?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Two dates in blush. Tonight: full glam, or dance lessons with Walter?"
+   ],
+   [
+    0.1,
+    "Comment one or two."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "25",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "62%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "100/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1500,
+  "keywords": [
+   "beige",
+   "blush",
+   "sweetie",
+   "delete",
+   "everyone",
+   "me",
+   "maid",
+   "honor",
+   "grandma",
+   "pliers",
+   "tie",
+   "walter",
+   "match"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.15,
+   "user": "kambri_133",
+   "text": "1",
+   "likes": 0,
+   "y": 1450,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "kambri_133",
+   "text": "1",
+   "likes": 0,
+   "y": 1650,
+   "hold": 2.6
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 2.6,
+   "kind": "calendar",
+   "text": "25",
+   "y": 1400,
+   "hold": 2.0
+  },
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "10 MIN EARLIER",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 520,
+   "angle": -3,
+   "size": 74,
+   "hold": 1.4,
+   "delay": 0.1,
+   "fg": [
+    255,
+    255,
+    255
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "HA #10",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.6,
+   "delay": 0.2,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "IT'S BLUSH.",
+   "bg": [
+    236,
+    110,
+    160
+   ],
+   "y": 540,
+   "angle": 4,
+   "size": 84,
+   "hold": 1.4,
+   "delay": 1.6
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "DELETED FOR: ME",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 540,
+   "angle": -4,
+   "size": 76,
+   "hold": 1.4,
+   "delay": 1.2
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "ADDED BACK",
+   "bg": [
+    90,
+    150,
+    240
+   ],
+   "y": 540,
+   "angle": 3,
+   "size": 84,
+   "hold": 1.4,
+   "delay": 0.9
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "THE PLIERS PHOTO",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 540,
+   "angle": -4,
+   "size": 74,
+   "hold": 1.6,
+   "delay": 1.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 5,
+   "text": "TWO TIES. ONE COLOR.",
+   "bg": [
+    236,
+    110,
+    160
+   ],
+   "y": 540,
+   "angle": 4,
+   "size": 66,
+   "hold": 1.6,
+   "delay": 1.6
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "GLAM LEADS 1-0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 580,
+   "angle": -3,
+   "size": 70,
+   "hold": 2.2,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "GRANDMA REPLIED ALL"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ryan",
+  "sub": "the ex · best man",
+  "msgs": [
+   [
+    "them",
+    "chloe added me to the wedding chat"
+   ],
+   [
+    "them",
+    "what color is ur dress"
+   ],
+   [
+    "them",
+    "for my tie"
+   ],
+   [
+    "me",
+    "ha"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "1 OR 2?",
+  "hint": "1 = FULL GLAM   2 = DANCE W/ WALTER"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "jess_b1128_ha.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "jess_b1128_beige.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "jess_b1128_delete.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "jess_b1128_added.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "jess_b1128_replyall.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 4,
+   "image": "jess_b1128_walter.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "jess_b1128_walter.jpg"
+  }
+ ],
+ "notif_y": -600,
+ "cover_image": "jess_b1128_replyall.jpg"
+}

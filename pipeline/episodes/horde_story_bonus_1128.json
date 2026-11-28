@@ -1,0 +1,389 @@
+{
+ "image": "wes_b1128_hook.jpg",
+ "cx": 0.0,
+ "voice": "am_fenrir",
+ "speed": 1.15,
+ "motion": true,
+ "pill": "THE TRASH HORDE  •  BONUS",
+ "accent": [
+  140,
+  255,
+  90
+ ],
+ "hook": [
+  "Brooke comes",
+  "at 9 AM.",
+  "Park: 4% clean."
+ ],
+ "hook_emoji": "🍩",
+ "name_line": "Friday, 6 AM.",
+ "sub_line": "Bonus  •  Day 4 tonight",
+ "stats": [
+  [
+   "Park",
+   4
+  ]
+ ],
+ "notif": {
+  "from": "Brooke",
+  "msg": "omw!! bringing donuts",
+  "emoji": "",
+  "color": [
+   236,
+   110,
+   160
+  ]
+ },
+ "notif_line": 3,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "27 days.",
+   "Park: 4%"
+  ],
+  "Top comment decides.",
+  [
+   "Start from Day 1,",
+   "it's on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "🤝",
+   "Let Brooke help"
+  ],
+  [
+   "✋",
+   "Tell her no"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "His ex Brooke is coming to help at nine A M. The park is four percent clean."
+   ],
+   [
+    0.1,
+    "He had one night to fake it."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Ranger Cole: Wes. She's bringing donuts."
+   ],
+   [
+    0.1,
+    "Do not let her pick up anything."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Plan one: shove everything under the slide. The slide filled up."
+   ],
+   [
+    0.1,
+    "Plan two: hide the bags behind a tree. The bags walked back."
+   ],
+   [
+    0.1,
+    "Then the Butt Goblin moved in. Two thousand six hundred HP."
+   ],
+   [
+    0.1,
+    "Eight fifty-nine. A car pulled in. Donuts on the dashboard."
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Let Brooke help, or tell her no? What should Wes do?"
+   ],
+   [
+    0.1,
+    "And real litter you pick up hits the Horde. Comment your haul and city."
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "27",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "PARK CLEAN",
+    "value": "4%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "HORDE HP",
+    "value": "2,600",
+    "from": "2,500",
+    "at": [
+     "s3",
+     2
+    ],
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1200,
+  "keywords": [
+   "slide",
+   "filled",
+   "bags",
+   "walked",
+   "back",
+   "butt",
+   "goblin",
+   "hp",
+   "donuts",
+   "dashboard"
+  ]
+ },
+ "comments": [],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "ONE NIGHT",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 100,
+   "hold": 1.4,
+   "delay": 0.1,
+   "fg": [
+    255,
+    214,
+    102
+   ]
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "ALL CAPS COLE",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.3,
+   "delay": 0.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "-2,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 90,
+   "hold": 1.3,
+   "delay": 1.0
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "HORDE +100 (0 HITS YESTERDAY)",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -3,
+   "size": 50,
+   "hold": 1.6,
+   "delay": 1.2
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "text": "FOOD WRAPPERS = #1 BEACH TRASH (ICC)",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1420,
+   "angle": 3,
+   "size": 40,
+   "hold": 2.2,
+   "delay": 0.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "VOTES SO FAR: 0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 585,
+   "angle": -3,
+   "size": 66,
+   "hold": 2.0,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 1,
+   "text": "SEND TO YOUR MESSY FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1290,
+   "angle": -3,
+   "size": 48,
+   "hold": 3.0,
+   "delay": 0.3,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "THE BAGS WALKED BACK"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Ranger Cole",
+  "sub": "his boss (her bf)",
+  "msgs": [
+   [
+    "them",
+    "WES."
+   ],
+   [
+    "them",
+    "SHE'S BRINGING DONUTS."
+   ],
+   [
+    "them",
+    "DO NOT LET HER PICK UP ANYTHING"
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "LET BROOKE HELP  or  TELL HER NO"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "wes_b1128_cole.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "wes_b1128_slide.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "wes_b1128_bags.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "wes_b1128_goblin.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "wes_b1128_car.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "wes_b1128_car.jpg"
+  }
+ ],
+ "cover_image": "wes_b1128_bags.jpg"
+}

@@ -1,0 +1,429 @@
+{
+ "image": "theo_b1128_drafts.jpg",
+ "cx": -0.06,
+ "voice": "am_michael",
+ "speed": 1.18,
+ "motion": true,
+ "pill": "SEASON 1  •  SATURDAY MORNING",
+ "accent": [
+  255,
+  190,
+  80
+ ],
+ "hook": [
+  "37 drafts",
+  "to Maya.",
+  "Sent: 0."
+ ],
+ "hook_emoji": "📱",
+ "name_line": "Friday morning.",
+ "sub_line": "Bonus  •  Day 11 drops tonight",
+ "stats": [
+  [
+   "Hair",
+   6
+  ],
+  [
+   "Skin",
+   7
+  ],
+  [
+   "Style",
+   6
+  ],
+  [
+   "Fitness",
+   8
+  ],
+  [
+   "Confidence",
+   10
+  ]
+ ],
+ "notif": {
+  "from": "Mom",
+  "msg": "DID YOU TELL HER YET",
+  "emoji": "",
+  "color": [
+   52,
+   199,
+   89
+  ]
+ },
+ "notif_line": 3,
+ "notif_y": 380,
+ "conflict": null,
+ "conflict_lines": [
+  3,
+  3
+ ],
+ "premise": [
+  [
+   "20 days.",
+   "Style: 6/10."
+  ],
+  "Top comment = tonight's fix.",
+  [
+   "Start from Day 1,",
+   "it's pinned on our profile."
+  ]
+ ],
+ "vote_q": [
+  "Tonight?",
+  "Tell us"
+ ],
+ "options": [
+  [
+   "💬",
+   "Tell Maya"
+  ],
+  [
+   "✏️",
+   "Fix the brow"
+  ]
+ ],
+ "script": {
+  "s1": [
+   [
+    0.1,
+    "Saturday. His ex Maya asked who the suit is for. He wrote thirty-seven drafts."
+   ],
+   [
+    0.1,
+    "He sent zero."
+   ]
+  ],
+  "s2": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s4": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "s5": [
+   [
+    0.1,
+    "x"
+   ]
+  ],
+  "sc": [
+   [
+    0.1,
+    "Maya: okay, so who is the suit for? You've been typing for twenty minutes."
+   ],
+   [
+    0.1,
+    "He sent: dot dot dot."
+   ]
+  ],
+  "s3": [
+   [
+    0.1,
+    "Draft one: it's for you. Deleted. Too much."
+   ],
+   [
+    0.1,
+    "Draft two: it's for a friend. Which friend? Deleted."
+   ],
+   [
+    0.1,
+    "Draft three: a voice memo. His voice cracked on the word suit."
+   ],
+   [
+    0.1,
+    "Then Mom yelled from downstairs: did you tell her yet?"
+   ],
+   [
+    0.1,
+    "Maya: tell me what?"
+   ]
+  ],
+  "sv": [
+   [
+    0.1,
+    "Tell Maya who the suit is for, or fix the eyebrow for real? What should Theo do?"
+   ]
+  ]
+ },
+ "hud": {
+  "tiles": [
+   {
+    "label": "DAYS LEFT",
+    "value": "20",
+    "color": [
+     255,
+     214,
+     102
+    ]
+   },
+   {
+    "label": "GLOW-UP",
+    "value": "74%",
+    "color": [
+     120,
+     225,
+     120
+    ]
+   },
+   {
+    "label": "AURA",
+    "value": "89/100",
+    "color": [
+     235,
+     80,
+     95
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "scenes": [
+   "s3"
+  ],
+  "y": 1180,
+  "keywords": [
+   "draft",
+   "one",
+   "two",
+   "three",
+   "for",
+   "you",
+   "friend",
+   "voice",
+   "cracked",
+   "suit",
+   "mom",
+   "tell",
+   "what"
+  ]
+ },
+ "comments": [
+  {
+   "scene": "s1",
+   "line": 0,
+   "delay": 0.15,
+   "user": "ivannn_720",
+   "text": "Tell maya",
+   "likes": 0,
+   "y": 1450,
+   "hold": 2.2
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "delay": 0.3,
+   "user": "ivannn_720",
+   "text": "Tell maya",
+   "likes": 0,
+   "y": 1650,
+   "hold": 2.6
+  }
+ ],
+ "stickers": [
+  {
+   "scene": "s1",
+   "line": 1,
+   "text": "SENT: 0",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -5,
+   "size": 110,
+   "hold": 1.4,
+   "delay": 0.1
+  },
+  {
+   "scene": "sc",
+   "line": 1,
+   "text": "...",
+   "bg": [
+    190,
+    195,
+    205
+   ],
+   "y": 1000,
+   "angle": 4,
+   "size": 120,
+   "hold": 1.4,
+   "delay": 0.6,
+   "fg": [
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "text": "WHICH FRIEND??",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 560,
+   "angle": 4,
+   "size": 80,
+   "hold": 1.3,
+   "delay": 1.0,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "text": "-2,000 AURA",
+   "bg": [
+    235,
+    80,
+    95
+   ],
+   "y": 560,
+   "angle": -4,
+   "size": 90,
+   "hold": 1.4,
+   "delay": 1.4
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "text": "BROW: STILL SHARPIE",
+   "bg": [
+    40,
+    40,
+    48
+   ],
+   "y": 560,
+   "angle": 3,
+   "size": 62,
+   "hold": 1.4,
+   "delay": 1.4,
+   "fg": [
+    255,
+    214,
+    102
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "TELL MAYA LEADS 1-0",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 585,
+   "angle": -3,
+   "size": 62,
+   "hold": 2.0,
+   "delay": 0.4,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "text": "SEND TO YOUR 37-DRAFT FRIEND",
+   "bg": [
+    255,
+    214,
+    102
+   ],
+   "y": 1290,
+   "angle": -3,
+   "size": 46,
+   "hold": 3.0,
+   "delay": 2.6,
+   "fg": [
+    15,
+    15,
+    15
+   ]
+  }
+ ],
+ "cover_title": [
+  "BONUS",
+  "37 DRAFTS. 0 SENT"
+ ],
+ "order": [
+  "s1",
+  "sc",
+  "s3",
+  "sv"
+ ],
+ "chat": {
+  "name": "Maya",
+  "sub": "",
+  "msgs": [
+   [
+    "them",
+    "ok so who is the suit for"
+   ],
+   [
+    "them",
+    "u've been typing for 20 min"
+   ],
+   [
+    "me",
+    "..."
+   ]
+  ]
+ },
+ "open_vote": {
+  "title": "WHAT NOW?",
+  "hint": "TELL MAYA  or  FIX THE BROW"
+ },
+ "beats": [
+  {
+   "scene": "sc",
+   "line": 0,
+   "image": "theo_b1128_base.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 0,
+   "image": "theo_b1128_you.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 1,
+   "image": "theo_b1128_friend.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 2,
+   "image": "theo_b1128_memo.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 3,
+   "image": "theo_b1128_mom.jpg"
+  },
+  {
+   "scene": "s3",
+   "line": 4,
+   "image": "theo_b1128_what.jpg"
+  },
+  {
+   "scene": "sv",
+   "line": 0,
+   "image": "theo_b1128_drafts.jpg"
+  }
+ ],
+ "cover_image": "theo_b1128_drafts.jpg"
+}
