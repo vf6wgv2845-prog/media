@@ -257,6 +257,13 @@
      "video": "theo/bonus_1127.mp4",
      "config": "pipeline/episodes/theo_bonus_1127.json",
      "note": "Friday ~7:52 AM ET bonus (NOT Day 11): Black Friday 6 AM in line for a tie, the eyeliner brow melted down his cheek (drips); Maya: 'jake's video has 2k views' / 'everyone's asking about the eyebrow guy' / Theo 'who' / Maya 'theo.'; fix one checkout pen (blue), fix two Sharpie sample (permanent); cashier 'nice tie. who's it for?' (callback), he didn't answer; Mom notif 'did u tell maya who the suit is for yet'. Card ivannn_720 'Fix the brow' at 0.15 s + vote screen, 'BROW LEADS 1-0'. 27.7 s (short-bonus format dropped). motion, captions y1180, natural question, send sticker. PIL props theo_b1127_melt/blue/sharpie/tie; chat beat theo_d10_class. Vote kept open (brow leads 1-0)."
+    },
+    {
+     "date": "2026-11-28",
+     "media_id": "18139028338793395",
+     "video": "theo/bonus_1128.mp4",
+     "config": "pipeline/episodes/theo_bonus_1128.json",
+     "note": "Saturday ~8:06 AM ET bonus (NOT Day 11), 30.7 s: Maya 'ok so who is the suit for' / 'u've been typing for 20 min'; 37 drafts, 0 sent; draft one 'it's for you' deleted, draft two 'it's for a friend' (which friend?) deleted, draft three voice memo cracked on 'suit'; Mom yelled 'did you tell her yet?'; Maya 'tell me what?' (open loop, NOT told). New clean base theo_b1128_base.jpg (Sharpie brow drawn as a thick black arc over theo_teeth_drawnbrow; the Nov 27 sharpie image had baked-in stickers). Card ivannn_720 'Tell maya' at 0.15 s + vote screen, 'TELL MAYA LEADS 1-0', send sticker '37-DRAFT FRIEND'. motion, captions y1180."
     }
    ],
    "follower_ladder": {
@@ -717,7 +724,7 @@
    "boss": {
     "name": "The Butt Goblin",
     "hp_max": 2000,
-    "hp": 2500,
+    "hp": 2600,
     "deadline": "2026-11-29 (Sunday)",
     "regen": "+100 HP per day with zero hits (announced in the Reel; apply from Nov 23 if no hits that day, cap 3,000)",
     "if_not_beaten": "the horde spreads again; next boss gets harder",
@@ -727,7 +734,8 @@
      "2026-11-24 00:00: +100 (0 hits on Nov 23) -> 2,200",
      "2026-11-25 00:00: +100 (0 hits on Nov 24) -> 2,300",
      "2026-11-26 00:00: +100 (0 hits on Nov 25) -> 2,400",
-     "2026-11-27 00:00: +100 (0 hits on Nov 26) -> 2,500"
+     "2026-11-27 00:00: +100 (0 hits on Nov 26) -> 2,500",
+     "2026-11-28 00:00: +100 (0 hits on Nov 27) -> 2,600"
     ]
    },
    "totals": {
@@ -767,7 +775,8 @@
     "Nov 26 ~1:59 PM ET (extras midday): read all 23 counted Horde posts (media_comments_count 0 on every one; comment pulls Nov 24-26 and Nov 25-26 for the account returned no comments) -> 0 hauls; totals unchanged (Butt Goblin 2,400 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted story midday beat 18135279517689298 ('THE FORK STOOD UP', 17.6 s). If still 0 hits by midnight: +100 -> 2,500 (next run applies it).",
     "Nov 26 ~6:40 PM ET (main run): read comments on all 24 counted Horde posts (comment pull last 3 days: no Horde comments; media_comments_count 0 on every Horde post) -> 0 hauls; totals unchanged (Butt Goblin 2,400 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Wes Days 2-3 17979070025940150 (31.9 s, time jump) + it as a story + day card + teaser. If still 0 hits by midnight: +100 -> 2,500 (next run applies it).",
     "Nov 27 ~7:54 AM ET (extras): read every comment on all Horde posts Nov 25-27 (Windsor comments query + media_comments_count = 0 on every Reel) -> 0 comments of any kind, 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Regen applied: 2,400 -> 2,500 (0 hits Nov 26). Posted Wes AM bonus (receipt snake) 18115960973169757.",
-    "Nov 27 ~2:08 PM ET (extras midday): read every comment on all Horde posts Nov 26-27 (Windsor comments query returned no Horde comments; media_comments_count 0 on every Horde Reel incl. this morning's 18115960973169757) -> 0 hauls; totals unchanged (Butt Goblin 2,500 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Wes midday beat 18113391590226114 ('THE TRASH CAN SAID YES', 17.7 s). If still 0 hits by midnight: +100 -> 2,600 (next run applies it)."
+    "Nov 27 ~2:08 PM ET (extras midday): read every comment on all Horde posts Nov 26-27 (Windsor comments query returned no Horde comments; media_comments_count 0 on every Horde Reel incl. this morning's 18115960973169757) -> 0 hauls; totals unchanged (Butt Goblin 2,500 HP, 0 dmg, 0 cleaners; community-reported and verified both 0). Posted Wes midday beat 18113391590226114 ('THE TRASH CAN SAID YES', 17.7 s). If still 0 hits by midnight: +100 -> 2,600 (next run applies it).",
+    "Nov 28 ~8:07 AM ET (extras morning): read every comment on all Horde posts Nov 26-28 (Windsor comments query: none; media_comments_count 0 on every Horde Reel) -> 0 hauls; totals unchanged (0 dmg, 0 cleaners; community-reported and verified both 0). Applied the Nov 28 regen (+100, 0 hits Nov 27): Butt Goblin 2,600 HP (deadline Sun Nov 29). Posted Wes bonus 18121862828092304 ('THE BAGS WALKED BACK', 30.1 s)."
    ],
    "format": {
     "tiles": [
@@ -857,6 +866,13 @@
       "video": "horde/story_midday_1127.mp4",
       "config": "pipeline/episodes/horde_story_midday_1127.json",
       "note": "Midday short beat ~2:08 PM ET (17.7 s, <=20 s per 5i): Wes rehearsed telling Brooke no to a trash can, the can (Horde) said 'LET HER COME.'; Cole chat 'WHO ARE YOU TALKING TO.' / 'IS THAT THE TRASH CAN.'; Brooke notif 'bringing snacks for the crew :)' -> 'the crew is him and a trash can'. Fact sticker 'US roadside litter down 54% since 2009 (KAB 2020)' (state.facts). HUD HORDE HP 2,500, 0 real hits, 'VOTES SO FAR: 0'. Vote kept open (Brooke help vs no). Count this Reel for Day 4."
+     },
+     {
+      "date": "2026-11-28",
+      "media_id": "18121862828092304",
+      "video": "horde/story_bonus_1128.mp4",
+      "config": "pipeline/episodes/horde_story_bonus_1128.json",
+      "note": "Saturday ~8:07 AM ET bonus (NOT Day 4), 30.1 s: the night before Brooke comes at 9 AM, park 4% clean; Cole 'WES.' / 'SHE'S BRINGING DONUTS.' / 'DO NOT LET HER PICK UP ANYTHING'; plan one: everything under the slide (slide filled up); plan two: bags behind a tree (the bags walked back); the Butt Goblin moved in (HORDE HP 2,500 -> 2,600 regen, 0 hits); 8:59 a car pulled in, donuts on the dashboard (open loop, vote NOT decided). Fact sticker: food wrappers #1 ICC item (Ocean Conservancy). 'VOTES SO FAR: 0'."
      }
     ],
     "episodes": [
@@ -1032,6 +1048,13 @@
      "video": "jess/bonus_1127.mp4",
      "config": "pipeline/episodes/jess_bonus_1127.json",
      "note": "Friday ~7:51 AM ET bonus (NOT Day 7), Jess test T2 (RSVP guest list + follower milestone, RUNBOOK 5o): Mom's guest list, her plus-one already filled in pen: 'Walter (81) + dance shoes'; Ryan: 'chloe showed me the list' / 'ur plus one is 81??'; Jess 'ha' (#9); eraser (pen), white-out took Grandma's name too; Ryan's line 'Ryan + Sienna / table: FAR. AWAY. - Mom'; three blank lines 'for your new friends'. sv: voice 'Want a seat at the wedding? Who are you bringing?' then the 1-or-2 vote (baseline). Stickers 'GUESTS 10/25' (real followers_count) + 'VOTES SO FAR: 0'; caption line 2 'Tag who you're bringing' (replaces T1's send sticker). Looks jess_b1127_list/ha/erase/far/blank (dining scene, guest-list prop). 25.6 s, baseline otherwise (af_bella 1.18, no motion, captions y1500 s3). Vote kept open (0 votes for D7)."
+    },
+    {
+     "date": "2026-11-28",
+     "media_id": "18161208052464172",
+     "video": "jess/bonus_1128.mp4",
+     "config": "pipeline/episodes/jess_bonus_1128.json",
+     "note": "Saturday ~8:05 AM ET bonus (NOT Day 7), Jess test T3 (35-40 s sitcom-length bonus, 36.6 s; baseline otherwise: af_bella 1.18, no motion, captions y1500 s3, 1-or-2 vote; no send sticker, no guest-list sticker since T2 wasn't adopted). Ryan (added to the wedding chat by Chloe): 'what color is ur dress' / 'for my tie'; ha #10; attempt one 'beige' -> Mom 'it's blush, sweetie'; two: delete for everyone -> hit delete for me; three: left the chat -> Chloe added her back as maid of honor; Grandma replied all with the fitting photo (the pliers, D5 callback); Ryan 'got the tie. blush.'; Walter (81) 'also bought blush. shall we match?'. Dress color = blush (matches the pink BRIDESMAID dress in the jess_bedroom scene). Card kambri_133 '1' at 0.15 s + vote screen; 'GLAM LEADS 1-0'. Looks jess_b1128_replyall/ha/beige/delete/added/walter (jess_bedroom). Vote kept open."
     }
    ],
    "image_prompt": "3D animated movie style (same style as Theo), 22-year-old woman, messy bun, choppy uneven bangs, tired eyes, wearing an oversized grey men's hoodie, sitting on an unmade bed in a small bedroom, bridesmaid dress in a garment bag hanging on the door behind her, phone in hand, sad-funny expression, soft warm lamp light, vertical 9:16, full upper body, centered",
@@ -1080,6 +1103,14 @@
       "media_id": "17872645017660940",
       "posted": "2026-11-27 ~07:51 ET",
       "review_due": "2026-11-28 ~08:30 ET (24 h): keep rule 5i (views >= 1,400 AND skip <= 38% AND avg watch >= 11 s) + comments vs baseline (0-2) and RSVP comments count; Black Friday may also depress reach",
+      "result": "24 h (Nov 28 12:40 UTC): 1,285 views, 1,057 reach, 14 likes, 0 comments, 0 shares, 0 saves, skip 31.5%, avg watch 13.0 s on 25.6 s; 0 RSVP comments (guest_list still empty), followers 10 (unchanged). Passes skip + watch, fails views (<1,400) and got no comment or follow lift. Black Friday confound. Verdict: NOT adopted on episodes; guest-list sticker/line dropped from the next bonus (T3 tested alone). The guest list stays a story prop; anyone who asks for a seat still gets added + a reply (5o)."
+     },
+     {
+      "test": "T3 35-40 s sitcom-length bonus",
+      "media_id": "18161208052464172",
+      "posted": "2026-11-28 ~08:05 ET",
+      "length_s": 36.6,
+      "review_due": "2026-11-29 ~08:00 ET (24 h): keep rule 5i (views >= 1,400 AND skip <= 38% AND avg watch >= 11 s); also compare avg watch % (vs her ~45-60%) and views vs T2 (1,285) / T1 (829). If kept, Jess Day episodes go 35-40 s.",
       "result": "pending"
      }
     ],
@@ -1264,6 +1295,13 @@
      "video": "danny/bonus_1127.mp4",
      "config": "pipeline/episodes/danny_bonus_1127.json",
      "note": "Friday ~7:53 AM ET bonus (NOT Day 7): Black Friday at his phone kiosk; Brock's bar tab $1,140, Danny has $11; Danny texted 'double or nothing' (commenter h.nguy3n07's idea, card at 0.15 s, credited); Brock: '100 push-ups. sunday' / 'loser pays double' (new thread: push-up rematch Sun Nov 29); push-up #4 face hit the counter; Tara with two coffees: 'date or business meeting?' CEO: 'yes'. Mom notif 'who is the coffee girl'. 'VOTES SO FAR: 0'. 27.0 s. Looks danny_b1127_tab/double/bonk/tara (store scene + kiosk). Vote kept open (0 votes)."
+    },
+    {
+     "date": "2026-11-28",
+     "media_id": "18120640433517507",
+     "video": "danny/bonus_1128.mp4",
+     "config": "pipeline/episodes/danny_bonus_1128.json",
+     "note": "Saturday ~8:06 AM ET bonus (NOT Day 7), 31.6 s: practice for Sunday's 100 push-up rematch (loser pays the $1,140 tab twice); Brock '[video] warm-up set' / '100' / 'see u sunday ceo'; new goal 89 (commenter h.nguy3n07's 'he could do 89', card credited); set one 11, 'arms filed a complaint'; Tara FaceTimed on push-up three, he answered with his face, 'are you doing push-ups AT me?' (callback to 'lunges AT you'); total 14. Cards daniel_o0112 (side-hustle vote) at 0.15 s + vote screen, h.nguy3n07 at s3. 'SIDE HUSTLE LEADS 1-0'. Rematch is Sunday Nov 29 (thread for the next episodes)."
     }
    ],
    "premise_note": "Changed Nov 21 to the 'lie becomes true' angle so it isn't a copy of @30daystofix (reunion + prom-queen ex). Different from Jess (rom-com wedding) and Theo (party, ex).",
@@ -1815,6 +1853,27 @@
    "date": "2026-11-27",
    "run": "AM extras",
    "note": "~24 h numbers (Windsor fetched 12:39 UTC Nov 27): Jess T1 bonus 829 views/609 reach/34.8% skip/15.4 s avg/2 comments/0 shares; Jess D6 403 views/43.2% skip/11.8 s (14 h); Theo bonus 1126 171/44.1%/6.1 s, Theo D10 209/61.7%/6.8 s (14 h, 37.6 s cut, hook opened '30-day glow up, Day 10: you voted...'); Danny bonus 1126 313/48%/8.8 s, Danny D6 699/39%/13.3 s (14 h); Wes bonus 1126 136/46.6%/7.2 s, midday 133/53.6%/5.7 s, Days 2-3 127/31.8%/6.9 s. Thanksgiving depressed every page. Followers: Jess 10, Theo 24, Danny 5, Horde 0."
+  },
+  {
+   "date": "2026-11-28",
+   "run": "extras morning",
+   "24h_numbers": {
+    "jess_bonus_1127 (T2)": "1,285 views / 1,057 reach / 14 likes / 0 comments / 0 shares / 31.5% skip / 13.0 s avg (25.6 s)",
+    "theo_bonus_1127": "130 / 118 reach / 1 like / 2 comments (1 viewer + our reply) / 46.6% / 6.2 s",
+    "danny_bonus_1127": "365 / 287 reach / 4 likes / 2 comments (1 viewer + reply) / 38.2% / 11.7 s",
+    "horde_story_bonus_1127": "143 / 123 reach / 1 like / 36.8% / 9.7 s",
+    "horde_story_midday_1127": "130 / 45.5% / 6.3 s",
+    "malik_bonus_1127": "124 / 49.1% / 9.3 s",
+    "rosie_bonus_1127": "146 / 41.0% / 10.3 s / 1 save",
+    "history_e7": "115 / 51.9% / 7.7 s"
+   },
+   "note": "No Day episodes were posted on Nov 27 evening (no posts after 19:08 UTC on any page, no main-run commit): every open vote is still the Day 10/Day 6/Day 3 vote. Followers: Theo 24, Jess 10, Danny 5, Rosie 2, Horde 1, Malik 0, History 0.",
+   "posted": {
+    "jess_bonus_1128": "18161208052464172 (36.6 s, T3)",
+    "theo_bonus_1128": "18139028338793395 (30.7 s)",
+    "danny_bonus_1128": "18120640433517507 (31.6 s)",
+    "horde_story_bonus_1128": "18121862828092304 (30.1 s)"
+   }
   }
  ],
  "lessons": [
@@ -1860,7 +1919,8 @@
   "Nov 26 evening (24 h length-test verdict, RUNBOOK 5l exception): all four Nov 25 35-40 s test cuts beat their page's last 3 Day episodes on BOTH views and avg watch (Theo D9 1,305 views/12.3 s vs ~400/9.6; Danny D5 1,575/17.4 s vs 466/8.5; Rosie D9 434/14.3 s vs ~120/7.1; Malik D9 168/9.7 s vs 133/6.7) -> each ran one more 35-40 s test cut tonight (Theo D10 37.6 s, Danny D6 39.1, Malik D10 39.1, Rosie D10 35.4). Caveat: these episodes also had the strongest relationship beats; compare again at 24 h before making 35-40 s the default. Short 12-16 s bonuses (Nov 26 AM test) did worse than the long Day episodes on watch time and views (Theo 167/6.0 s, Danny 262/7.5 s) -> don't keep the short bonus format beyond the test. Engine: cover_image key added (cover = the fail frame, 5l.7); props.py (phones/signs/bursts/pie/footprints + overlay_many for Theo's 3D frames); toon scene 'race'. Props must sit at y ~1050-1250, x 300-780 to survive the camera push and clear the captions; notif_y 380 keeps notifications off the props.",
   "Nov 26 24 h review (scheduled): the 35-40 s sitcom-length cuts are the biggest lever found so far (Danny D5 3.4x, Theo D9 3.4x, Rosie D9 3.7x their previous Day episode, all with better watch time), so Jess's length test moves up to Sat Nov 28 (T3) and the 12-15 s short bonus is dropped. Thanksgiving depressed Nov 26 reach on every page; don't revert a test on holiday numbers alone.",
   "Nov 27 AM extras: Thanksgiving numbers (Nov 26) were low on every page, including Jess D6 (403 views, 43% skip) which had no test lever, so the Jess T1 send-prompt bonus (829 views but her best-ever avg watch 15.4 s / 60%) is logged INCONCLUSIVE, not reverted on holiday data. Theo D10 had 61.7% skip with a 'Day 10: you voted...' opening line: 3c rule still holds, never open on the day/vote, open on the fail. Applied today: every bonus opens on the absurd beat in 3 short hook lines ('Black Friday. The bar tab he owes: $1,140.'), a real commenter's idea as the gag (h.nguy3n07 'double or nothing' -> Danny's push-up rematch), ~26-28 s length (short 12-15 s bonuses dropped), Jess T2 guest list as her only new lever. Black Friday may depress today's reach too: judge T2 against Saturday's numbers as well.",
-  "Nov 27 midday extras: Thursday's midday bonuses stayed in the ~130-200 range (Malik 135, Rosie 131, History E6 202, Wes 133), well below their Day episodes (Rosie D10 292, Malik D10 183) -> 5d says if an extra slot keeps underperforming the evening ones for 3 days, move/drop it; Nov 26 was a holiday, so judge Fri-Sat. Applied today: Black Friday as the shared hook on all four (timely search word in caption line 1), the ex/rival in the frame by ~6-8 s, one real 'trick' or verified fact per Reel (leftovers 2-hour rule, KAB 54%, Black Friday origin), natural-question votes with 'VOTES SO FAR: 0' (no real votes on any of the four pages since the last run). Contact-sheet fixes worth reusing: top-of-image signs get hidden by the HUD under the camera push (put prop signs in the lower-left body area), sv stickers at y 1150/1330 clear the vote hint, and 'WHAT SHOULD SHE DO?' overflows the vote title width (use 'WHAT NOW?')."
+  "Nov 27 midday extras: Thursday's midday bonuses stayed in the ~130-200 range (Malik 135, Rosie 131, History E6 202, Wes 133), well below their Day episodes (Rosie D10 292, Malik D10 183) -> 5d says if an extra slot keeps underperforming the evening ones for 3 days, move/drop it; Nov 26 was a holiday, so judge Fri-Sat. Applied today: Black Friday as the shared hook on all four (timely search word in caption line 1), the ex/rival in the frame by ~6-8 s, one real 'trick' or verified fact per Reel (leftovers 2-hour rule, KAB 54%, Black Friday origin), natural-question votes with 'VOTES SO FAR: 0' (no real votes on any of the four pages since the last run). Contact-sheet fixes worth reusing: top-of-image signs get hidden by the HUD under the camera push (put prop signs in the lower-left body area), sv stickers at y 1150/1330 clear the vote hint, and 'WHAT SHOULD SHE DO?' overflows the vote title width (use 'WHAT NOW?').",
+  "Nov 28 AM extras: Jess T2 (guest list + milestone sticker) got 0 RSVP comments and 0 follows at 1,285 views -> not adopted; her audience watches (31.5% skip, 13 s) but doesn't comment, so test levers one at a time and judge comments over several days. Danny's Black Friday bonus (365 views, 38% skip, 11.7 s) beat Theo's (130, 47%, 6.2 s) again: Danny's bonuses open on a concrete number + a commenter's idea; Theo's 3D bonuses open on him alone. Applied today: Theo's hook leads with a countable joke ('37 drafts to Maya. Sent: 0.'), all four bonuses ~30-37 s with 4-6 picture changes. Contact-sheet catch: on toon pages the camera push only shows original x ~230-850 and props below y ~1250 sit under the captions; centre props at x ~560, y ~1200-1250 (Jess) and keep them short; Theo's Nov 27 Sharpie image had baked-in stickers, so build Theo variants from theo_b1128_base.jpg (clean Sharpie brow)."
  ],
  "facts": [
   {
@@ -1969,6 +2029,12 @@
    "source": "FoodSafety.gov 'Thanksgiving Leftovers for Safe Keeping, Weekend Grazing' (mod. 2026-10-29); University of Illinois Extension 'Leftovers'",
    "url": "https://www.foodsafety.gov/blog/thanksgiving-leftovers-safe-keeping-weekend-grazing",
    "used_in": "rosie bonus 2026-11-27"
+  },
+  {
+   "fact": "2019 International Coastal Cleanup: for the first time in ICC history food wrappers were the #1 reported item on beaches and waterways worldwide (nearly 4.8 million food wrappers vs 4.2 million cigarette butts, which traditionally topped the list); 943,195 volunteers in 116 countries collected nearly 32.5 million pieces / 20.8 million lb.",
+   "source": "Ocean Conservancy blog 'Food Wrappers Now #1 Item Found by the ICC' (Sept 8, 2020, 2020 ICC report)",
+   "url": "https://oceanconservancy.org/blog/2020/09/08/food-wrappers-now-1-item-found-icc/",
+   "used_in": "horde story bonus 2026-11-28"
   }
  ],
  "post_queue": [],
