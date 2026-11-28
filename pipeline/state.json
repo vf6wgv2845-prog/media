@@ -2129,6 +2129,11 @@
     "file": "jess/d04.mp4",
     "day": 4,
     "note": "catch-up; sent. Nov 27 YouTube quota (2) used; evening run skips YouTube."
+   },
+   {
+    "date": "2026-11-27",
+    "channel": "youtube 6b07924c8541f09ecba7f889",
+    "note": "evening cross-post run: nothing posted (2/day quota used by D3, D4; D7 not live yet). Nov 28 AM: D5 + D6."
    }
   ]
  },
@@ -2194,7 +2199,7 @@
   ],
   "note": "RUNBOOK 5q",
   "catchup": {
-   "jess_tiktok_next": "caught up through d06 + bonus_1127 (next: d07 tonight, then new episodes/bonuses as they go live on IG)",
+   "jess_tiktok_next": "caught up through d06 + bonus_1127. d07 not built/posted on IG by 7:05 PM ET Nov 27 (evening run skipped it); next run: d07 as soon as it exists + bonus_1128",
    "jess_youtube_next": "d05",
    "youtube_daily_limit": 2,
    "youtube_rule": "YouTube takes only 2 posts/day: post Day episodes only there (oldest unposted first, max 2 per day across both runs), skip bonuses until all Days are up. Nov 27 quota used (D3, D4, AM run); Nov 28 AM: post D5 + D6.",
@@ -2269,6 +2274,11 @@
    "file": "jess/bonus_1127.mp4",
    "day": "bonus 11-27",
    "note": "new (IG bonus this morning, T2 guest list); sent, tiktok.com/@jessweddingglowup/video/7712846014117416205"
+  },
+  {
+   "date": "2026-11-27",
+   "channel": "jessweddingglowup",
+   "note": "evening cross-post run: nothing new (jess/d07.mp4 not in repo, not on IG as of 7:05 PM ET)."
   }
  ],
  "autonomy_audit_nov26": {
